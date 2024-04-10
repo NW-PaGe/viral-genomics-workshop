@@ -1,0 +1,18 @@
+# Genomic Specialists
+
+**A team of Genomic Specialists were assigned to investigate the mystery flu-like outbreak in Fuchsia City/Safari Zone:**
+
+Doctors were puzzled at the mystery flu-like illness that was spreading in Fuchsia City and Safari Zone. The doctors, specialists, researchers, and Local Health Epidemiologists worked together and decided to ask the Regional Health Department to investigate the outbreak to prevent the spread of the illness. A team of Genomics Specialists were assigned to investigate the city-wide and wildlife outbreak, including Microbiologists that specialized in laboratory methods and sequencing, Bioinformaticians that specialized in genome assembly and genomic analyses, and Molecular Epidemiologists that specialized in hypothesis testing, genomic analysis interpretation, and visualization. The Zoonotic Epidemiology Team and Local Health Epidemiologists were also assigned to work closely with the team to investigate the outbreak.
+
+# All isolates were sent to the regional lab for isolation and sequencing:
+
+The team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers. Host Number of Samples Humans 23 Felines 5 Canines 6 Ducklings 4
+
+In terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.
+
+| Host      | Number of Samples |
+|-----------|-------------------|
+| Humans    | 23                |
+| Felines   | 5                 |
+| Canines   | 6                 |
+| Ducklings | 4                 |

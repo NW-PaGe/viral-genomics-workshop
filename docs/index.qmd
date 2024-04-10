@@ -1,0 +1,14 @@
+---
+title: "Viral Genomics Workshop"
+description: Mystery Outbreak Exercise
+date: September 1, 2023
+date-modified: today
+author: 
+  - name: Steph Lunn
+    affiliations:
+      - Washington Department of Health
+knitr: false
+---
+
+This is a book!
+
