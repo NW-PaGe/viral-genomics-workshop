@@ -1,0 +1,111 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Viral Genomics Workshop",
+    "section": "",
+    "text": "This is a book!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Viral Genomics Workshop</span>"
+    ]
+  },
+  {
+    "objectID": "part1/index.html",
+    "href": "part1/index.html",
+    "title": "2  We begin…",
+    "section": "",
+    "text": "2.1 The newest attraction:\nThe Safari Zone is also home to many fruit bat species that you can find hanging about in the fruit trees and caves hidden within the mountains. The newest attraction of fruits bats includes the muubat, one of the friendliest and meek bat species to interact with. In December of 2030, Fuchsia City brought in a four muubats to be trained and then integrated into the Safari Zone. Many of the residents and tourists alike were very excited to meet the muubats. To garner attention to the newest attraction, Fuchsia City advertised that the muubats should be fully integrated into the Safari Zone by the summertime.",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>We begin...</span>"
+    ]
+  },
+  {
+    "objectID": "part1/index.html#standard-protocol",
+    "href": "part1/index.html#standard-protocol",
+    "title": "2  We begin…",
+    "section": "2.2 Standard Protocol:",
+    "text": "2.2 Standard Protocol:\nAny new animal that has been chosen to be integrated into the Safari Zone must undergo certain testing, training, and other procedures before being integrated into the wild. Unfortunately, the risks with muubats, like all bat species, is that they tend to harbor many different viral diseases that cause nasty infections in humans. It is protocol when introducing new bat species, as well as many other animal species, to test the animal for any known diseases, both bacterial and viral, that could cause spillover into humans and the other animals. Oftentimes the presence of a microorganism in an animal is confirmed by whole-genome sequencing, which detects the presence of different microbes that can cause disease. As the advent of whole-genome sequencing, bioinformatics, and its utility is very much new to the city’s surveillance methods, work is still ongoing to be able to detect novel pathogens which have not been previously encountered before.",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>We begin...</span>"
+    ]
+  },
+  {
+    "objectID": "part1/index.html#testing-the-muubats",
+    "href": "part1/index.html#testing-the-muubats",
+    "title": "2  We begin…",
+    "section": "2.3 Testing the muubats:",
+    "text": "2.3 Testing the muubats:\nAs soon as the muubats arrive to the facility they are physically examined and tested. Blood samples and swab samples are taken per individual bat, and are subjected to bacterial culture, and a pathogen-agnostic sequencing panel. Culture from blood samples generally takes 48 to 72 hours, and according to the results, none of the blood samples from any of the four bats produced viable colonies. Any leftover blood samples were stored for potential future uses. For the swab samples, genetic material is extracted from the swabs, and then prepped for sequencing. The turn-around time for sequencing to bioinformatics takes about a week and a half. The muubats are kept in an isolated environment interacting only with the trainers during their time in quarantine. It is protocol to obtain enough swab samples for which the extracts could be stored, so both additional and leftover extracts were stored in the -80 degrees Celsius freezer for potential future uses. After a week and a half, the taxonomic identification results from the pathogen-agnostic sequencing panel came back negative, indicating that none of the bats carried any known pathogens that caused infections in humans. With testing and sequencing indicating that the muubats appeared to be clear and healthy, the fruit bats were then relocated to another facility area to begin training.",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>We begin...</span>"
+    ]
+  },
+  {
+    "objectID": "part1/discussion.html",
+    "href": "part1/discussion.html",
+    "title": "3  Discussion One:",
+    "section": "",
+    "text": "Based on the information provided in the story thus far, give some examples of hypotheses that describe how the mystery illness appears to be spreading. Do you suspect that this pathogen is a virus or bacteria? Why?",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Discussion One:</span>"
+    ]
+  },
+  {
+    "objectID": "part2/index.html",
+    "href": "part2/index.html",
+    "title": "4  Fuchsia City begins collecting…",
+    "section": "",
+    "text": "Fuchsia City begins collecting swab samples from the animals, workers, and residents:\nUpon the closing of the Safari Zone, the city set up flu testing for the animals and the residents. Animals that exhibited symptoms of fever, lethargy, and lack of appetite, were immediately swabbed and tested for flu. Typically, the residents that were experiencing moderate to severe symptoms would drop by the clinics for testing to receive the proper treatment for their illness. While few people tested positive for flu, most individuals and animals tested negative for flu. Doctors and animal trainers speculated that there must be a new pathogen spreading around the city and wildlife that’s not easily able to be detected using their known testing and sequencing protocols. After meeting to discuss the next course of action, doctors and animal trainers decided to collect and keep as many swab samples as possible to see if the Regional Health Laboratory would have the capacity to identify the pathogen in the samples.",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Fuchsia City begins collecting...</span>"
+    ]
+  },
+  {
+    "objectID": "part2/discussion.html",
+    "href": "part2/discussion.html",
+    "title": "5  Discussion Two:",
+    "section": "",
+    "text": "Based on the population size and structure, describe a sampling scheme that you think would best fit this outbreak scenario.",
+    "crumbs": [
+      "Part 2",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Discussion Two:</span>"
+    ]
+  },
+  {
+    "objectID": "part3/index.html",
+    "href": "part3/index.html",
+    "title": "6  Genomic Specialists",
+    "section": "",
+    "text": "A team of Genomic Specialists were assigned to investigate the mystery flu-like outbreak in Fuchsia City/Safari Zone:\nDoctors were puzzled at the mystery flu-like illness that was spreading in Fuchsia City and Safari Zone. The doctors, specialists, researchers, and Local Health Epidemiologists worked together and decided to ask the Regional Health Department to investigate the outbreak to prevent the spread of the illness. A team of Genomics Specialists were assigned to investigate the city-wide and wildlife outbreak, including Microbiologists that specialized in laboratory methods and sequencing, Bioinformaticians that specialized in genome assembly and genomic analyses, and Molecular Epidemiologists that specialized in hypothesis testing, genomic analysis interpretation, and visualization. The Zoonotic Epidemiology Team and Local Health Epidemiologists were also assigned to work closely with the team to investigate the outbreak.\n\n7 All isolates were sent to the regional lab for isolation and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers. Host Number of Samples Humans 23 Felines 5 Canines 6 Ducklings 4\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.\n\n\n\nHost\nNumber of Samples\n\n\n\n\nHumans\n23\n\n\nFelines\n5\n\n\nCanines\n6\n\n\nDucklings\n4",
+    "crumbs": [
+      "Part 3",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Genomic Specialists</span>"
+    ]
+  },
+  {
+    "objectID": "part3/discussion.html",
+    "href": "part3/discussion.html",
+    "title": "7  Discussion Three:",
+    "section": "",
+    "text": "The Regional Health Lab has the ability to culture bacteria and viruses for sequencing. In terms of sequencing methods and protocol, if we are trying to identify a novel bacteria and virus, what kind of sequencing platforms and protocols would you try to use in the initial identification? Be sure to fully explain your answer.\n\n8 Discussion Four:\nUsing your answer in Discussion Three, what type of bioinformatics methods or analyses would be useful in identifying a novel pathogen?",
+    "crumbs": [
+      "Part 3",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Discussion Three:</span>"
+    ]
+  },
+  {
+    "objectID": "part4/index.html",
+    "href": "part4/index.html",
+    "title": "8  The molecular investigation begins:",
+    "section": "",
+    "text": "The Molecular Epidemiologists were tasked with working with the Zoonotic Epidemiology Team and Local Health Epidemiologists to develop hypotheses related to the underlying cause and source of the outbreak, as well as working with the Bioinformaticians to ensure the proper analyses were performed related to hypothesis testing and performing any additional analyses if necessary. To better understand the outbreak, the Genomics team met to discuss what it is that they understood about the outbreak and came up with a list of observations. The team also began constructing a series of interview questions for the outbreak investigation.\n\n9 Discussion Five:\nField epidemiology applications during outbreak investigations typically employ case interviews. Describe the types of questions that would be essential to ask cases to formulate hypotheses regarding the initial source of the outbreak.\n\n\n10 Who’s that pathogen?!\nAfter much discussion, the team of Genomic Specialists decided that since the bat trainers were the earliest known cases to exhibit flu-like symptoms but test negative for flu, these samples would be ideal to start with. The Bioinformaticians and Microbiologists decided to take a shotgun metagenomics approach and sequence everything in the samples collected from the bat trainers. The Microbiologists sequenced everything that could be present in the samples, and the Bioinformaticians utilized their metagenomic pipelines to infer the relative abundance of microorganisms in the samples.",
+    "crumbs": [
+      "Part 4",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>The molecular investigation begins:</span>"
+    ]
+  }
+]
