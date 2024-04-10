@@ -1,8 +1,10 @@
 on:
+  workflow_dispatch:
   push:
     branches: 
       - main
-  workflow-dispatch:
+    paths:
+      - docs/**
 
 name: Render and Publish
 
