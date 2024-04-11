@@ -69,7 +69,7 @@
     "href": "part3/index.html",
     "title": "5  Genomic Specialists",
     "section": "",
-    "text": "6 All isolates were sent to the regional lab for isolation and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers. Host Number of Samples Humans 23 Felines 5 Canines 6 Ducklings 4\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.",
+    "text": "6 All isolates were sent to the regional lab for isolation and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers.\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.",
     "crumbs": [
       "Part 3",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Genomic Specialists</span>"
@@ -164,6 +164,17 @@
     ]
   },
   {
+    "objectID": "part9/index.html#discussion-ten",
+    "href": "part9/index.html#discussion-ten",
+    "title": "11  QC Checks",
+    "section": "",
+    "text": "Multiple Sequence Alignment View of Sequences, Whole Genome\n\n\n\n\n\n\nMultiple Sequence Alignment View of Sequences, Spike",
+    "crumbs": [
+      "Part 9",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>QC Checks</span>"
+    ]
+  },
+  {
     "objectID": "part9/index.html#dicussion-eleven",
     "href": "part9/index.html#dicussion-eleven",
     "title": "11  QC Checks",
@@ -201,7 +212,7 @@
     "href": "part12/index.html",
     "title": "14  Conclusion:",
     "section": "",
-    "text": "Overtime the novel virus had come to be known as the Muutuvirus, aptly named for its initial identification in the muutubats. The Genomic Specialists Team, along with many Public Health Professionals around the region worked tirelessly to contain the epidemic as much as possible, and eventually the Muutuvirus became a mild and seasonal flu-like virus that caused no deaths in the population. The muubats at the Safari Zone appeared to be cleared of the muutuvirus after much testing and was able to be fully integrated into the wild. The following year, everything returned to normal as much as possible, and Fuchsia City Safari Zone finally opened its doors to tourists again. Many tourists were finally able to see the muubats in nature, and everyone lived peacefully ever after.\nFin!\nMany thanks to Pokemon, Nintendo, and GameFreaks for the inspiration of this story",
+    "text": "Overtime the novel virus had come to be known as the Muutuvirus, aptly named for its initial identification in the muutubats. The Genomic Specialists Team, along with many Public Health Professionals around the region worked tirelessly to contain the epidemic as much as possible, and eventually the Muutuvirus became a mild and seasonal flu-like virus that caused no deaths in the population. The muubats at the Safari Zone appeared to be cleared of the muutuvirus after much testing and was able to be fully integrated into the wild. The following year, everything returned to normal as much as possible, and Fuchsia City Safari Zone finally opened its doors to tourists again. Many tourists were finally able to see the muubats in nature, and everyone lived peacefully ever after.\nFin!\nMany thanks to Pokemon, Nintendo, and GameFreaks for the inspiration of this story!",
     "crumbs": [
       "Part 12",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Conclusion:</span>"
