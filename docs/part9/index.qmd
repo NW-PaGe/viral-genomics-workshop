@@ -12,8 +12,12 @@ Looking at the table above, what do you notice about the genetic identity shared
 
 
 ![Multiple Sequence Alignment View of Sequences, Whole Genome](../images/msa-wg.jpg)
+**Open alignment in new tab for full view**
+
 
 ![Multiple Sequence Alignment View of Sequences, Spike](../images/msa-spike.jpg)
+**Open alignment in new tab for full view**
+
 
 ## Dicussion Eleven:
 

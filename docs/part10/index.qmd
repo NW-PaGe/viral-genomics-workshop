@@ -2,7 +2,33 @@
 
 The team met to discuss what kind of genomic analyses could be performed to help visualize the sequencing data of the outbreak. Members suggested constructing a phylogenetic tree and pairwise distance matrix to understand the relationship between sequences. The team agreed that a tree and pairwise distance matrix would be helpful to get a sense of how related and similar the sequences were. The Molecular Epidemiologists set off to construct a phylogenetic tree and a pairwise distance matrix.
 
-![Line list of Trainers, Workers, and Residents](../images/linelist.jpg)
+| Sample ID         | Collection Date | Notes                                                                                  |
+|-------------------|-----------------|----------------------------------------------------------------------------------------|
+| Bat_Trainer_01    | 2031-01-08      | Worked with the muubats; attended conference                                           |
+| Bat_Trainer_02    | 2031-01-08      | Worked with the muubats; attended conference                                           |
+| Canine_Trainer_01 | 2031-03-04      | Works closely with workers 01 & 02; interacted with bat trainer 01; works with canines |
+| Duck_Trainer_01   | 2031-03-08      | Works closely with worker 06; works with ducks                                         |
+| Duck_Trainer_02   | 2031-03-09      | Works closely with worker 06; works with ducks                                         |
+| Duck_Trainer_03   | 2031-03-10      | Works closely with duck traienrs and works with ducks                                  |
+| Feline_Trainer_01 | 2031-03-04      | Married to bat trainer 02; works closely woth the felines                              |
+| Resident_01       | 2031-03-14      | Exposed to resident 03 that visited the Safari Park Canine areas                       |
+| Resident_02       | 2031-03-14      | Exposed to resident 03 that visited the Safari Park Canine areas                       |
+| Resident_03       | 2031-03-16      | Visited the Safari Park Canine areas                                                   |
+| Resident_04       | 2031-03-16      | Exposed to resident 03 that visited the Safari Park Canine areas                       |
+| Resident_05       | 2031-03-19      | Visited the Safari Park, interacted with workers and animals                           |
+| Resident_06       | 2031-03-19      | Could not reach                                                                        |
+| Resident_07       | 2031-03-19      | Could not reach                                                                        |
+| Resident_08       | 2031-03-19      | Visited the Safari Park, interacted with workers and animals                           |
+| Resident_09       | 2031-03-19      | Could not reach                                                                        |
+| Worker_01         | 2031-03-02      | Works closely with bat trainer 01 and canine trainer 01                                |
+| Worker_02         | 2031-03-03      | Works closely with bat trainer 01 and canine trainer 01                                |
+| Worker_03         | 2031-03-02      | Works with the bat trainers                                                            |
+| Worker_04         | 2031-03-03      | Works with the bat trainers                                                            |
+| Worker_05         | 2031-03-08      | Works with the bat trainers                                                            |
+| Worker_06         | 2031-03-07      | Works with the duck trainers                                                           |
+| Worker_07         | 2031-03-15      | Works with the duck trainers and the ducks                                             |
+**Line list of Cases Likely Linked to Outbreak**
+
 
 ![Phylogenetic Tree of Flu-Like Illness Outbreak, Fuchsia City, Safari Zone](../images/outbreak-tree.jpg)
 **Open tree in new tab for full view**
