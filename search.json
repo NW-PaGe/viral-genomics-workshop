@@ -58,109 +58,164 @@
     "href": "part2/index.html",
     "title": "4  Fuchsia City begins collecting…",
     "section": "",
-    "text": "Fuchsia City begins collecting swab samples from the animals, workers, and residents:\nUpon the closing of the Safari Zone, the city set up flu testing for the animals and the residents. Animals that exhibited symptoms of fever, lethargy, and lack of appetite, were immediately swabbed and tested for flu. Typically, the residents that were experiencing moderate to severe symptoms would drop by the clinics for testing to receive the proper treatment for their illness. While few people tested positive for flu, most individuals and animals tested negative for flu. Doctors and animal trainers speculated that there must be a new pathogen spreading around the city and wildlife that’s not easily able to be detected using their known testing and sequencing protocols. After meeting to discuss the next course of action, doctors and animal trainers decided to collect and keep as many swab samples as possible to see if the Regional Health Laboratory would have the capacity to identify the pathogen in the samples.",
+    "text": "4.1 Discussion Two:\nBased on the population size and structure, describe a sampling scheme that you think would best fit this outbreak scenario.",
     "crumbs": [
       "Part 2",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Fuchsia City begins collecting...</span>"
     ]
   },
   {
-    "objectID": "part2/discussion.html",
-    "href": "part2/discussion.html",
-    "title": "5  Discussion Two:",
-    "section": "",
-    "text": "Based on the population size and structure, describe a sampling scheme that you think would best fit this outbreak scenario.",
-    "crumbs": [
-      "Part 2",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Discussion Two:</span>"
-    ]
-  },
-  {
     "objectID": "part3/index.html",
     "href": "part3/index.html",
-    "title": "6  Genomic Specialists",
+    "title": "5  Genomic Specialists",
     "section": "",
-    "text": "A team of Genomic Specialists were assigned to investigate the mystery flu-like outbreak in Fuchsia City/Safari Zone:\nDoctors were puzzled at the mystery flu-like illness that was spreading in Fuchsia City and Safari Zone. The doctors, specialists, researchers, and Local Health Epidemiologists worked together and decided to ask the Regional Health Department to investigate the outbreak to prevent the spread of the illness. A team of Genomics Specialists were assigned to investigate the city-wide and wildlife outbreak, including Microbiologists that specialized in laboratory methods and sequencing, Bioinformaticians that specialized in genome assembly and genomic analyses, and Molecular Epidemiologists that specialized in hypothesis testing, genomic analysis interpretation, and visualization. The Zoonotic Epidemiology Team and Local Health Epidemiologists were also assigned to work closely with the team to investigate the outbreak.\n\n7 All isolates were sent to the regional lab for isolation and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers. Host Number of Samples Humans 23 Felines 5 Canines 6 Ducklings 4\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.\n\n\n\nHost\nNumber of Samples\n\n\n\n\nHumans\n23\n\n\nFelines\n5\n\n\nCanines\n6\n\n\nDucklings\n4",
+    "text": "6 All isolates were sent to the regional lab for isolation and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers. Host Number of Samples Humans 23 Felines 5 Canines 6 Ducklings 4\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.",
     "crumbs": [
       "Part 3",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Genomic Specialists</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Genomic Specialists</span>"
     ]
   },
   {
-    "objectID": "part3/discussion.html",
-    "href": "part3/discussion.html",
-    "title": "7  Discussion Three:",
-    "section": "",
-    "text": "The Regional Health Lab has the ability to culture bacteria and viruses for sequencing. In terms of sequencing methods and protocol, if we are trying to identify a novel bacteria and virus, what kind of sequencing platforms and protocols would you try to use in the initial identification? Be sure to fully explain your answer.\n\n8 Discussion Four:\nUsing your answer in Discussion Three, what type of bioinformatics methods or analyses would be useful in identifying a novel pathogen?",
+    "objectID": "part3/index.html#discussion-three",
+    "href": "part3/index.html#discussion-three",
+    "title": "5  Genomic Specialists",
+    "section": "6.1 Discussion Three:",
+    "text": "6.1 Discussion Three:\nThe Regional Health Lab has the ability to culture bacteria and viruses for sequencing. In terms of sequencing methods and protocol, if we are trying to identify a novel bacteria and virus, what kind of sequencing platforms and protocols would you try to use in the initial identification? Be sure to fully explain your answer.",
     "crumbs": [
       "Part 3",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Discussion Three:</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Genomic Specialists</span>"
+    ]
+  },
+  {
+    "objectID": "part3/index.html#discussion-four",
+    "href": "part3/index.html#discussion-four",
+    "title": "5  Genomic Specialists",
+    "section": "6.2 Discussion Four:",
+    "text": "6.2 Discussion Four:\nUsing your answer in Discussion Three, what type of bioinformatics methods or analyses would be useful in identifying a novel pathogen?",
+    "crumbs": [
+      "Part 3",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Genomic Specialists</span>"
     ]
   },
   {
     "objectID": "part4/index.html",
     "href": "part4/index.html",
-    "title": "8  The molecular investigation begins:",
+    "title": "6  The molecular investigation begins:",
     "section": "",
-    "text": "The Molecular Epidemiologists were tasked with working with the Zoonotic Epidemiology Team and Local Health Epidemiologists to develop hypotheses related to the underlying cause and source of the outbreak, as well as working with the Bioinformaticians to ensure the proper analyses were performed related to hypothesis testing and performing any additional analyses if necessary. To better understand the outbreak, the Genomics team met to discuss what it is that they understood about the outbreak and came up with a list of observations. The team also began constructing a series of interview questions for the outbreak investigation.",
+    "text": "6.1 Discussion Five:\nField epidemiology applications during outbreak investigations typically employ case interviews. Describe the types of questions that would be essential to ask cases to formulate hypotheses regarding the initial source of the outbreak.",
     "crumbs": [
       "Part 4",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>The molecular investigation begins:</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>The molecular investigation begins:</span>"
     ]
   },
   {
     "objectID": "part5/index.html",
     "href": "part5/index.html",
-    "title": "9  Who’s that pathogen?!",
+    "title": "7  Who’s that pathogen?!",
     "section": "",
-    "text": "After much discussion, the team of Genomic Specialists decided that since the bat trainers were the earliest known cases to exhibit flu-like symptoms but test negative for flu, these samples would be ideal to start with. The Bioinformaticians and Microbiologists decided to take a shotgun metagenomics approach and sequence everything in the samples collected from the bat trainers. The Microbiologists sequenced everything that could be present in the samples, and the Bioinformaticians utilized their metagenomic pipelines to infer the relative abundance of microorganisms in the samples.\n\n\n10 Discussion Six:\nLooking at the chart showing the relative abundance of microorganisms in the swab samples collected from the bat trainers, how would you interpret the figure?",
+    "text": "7.1 Discussion Six:\nLooking at the chart showing the relative abundance of microorganisms in the swab samples collected from the bat trainers, how would you interpret the figure?",
     "crumbs": [
       "Part 5",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Who’s that pathogen?!</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Who’s that pathogen?!</span>"
     ]
   },
   {
     "objectID": "part6/index.html",
     "href": "part6/index.html",
-    "title": "10  Isolating and identifying the novel pathogen",
+    "title": "8  The Novel Pathogen",
     "section": "",
-    "text": "In mid-May after the team identified an unknown microorganism in the sample, the Microbiologists began working with the specimens collected from the bat trainers to isolate the suspect pathogen. After several weeks of meticulous labor, the Microbiologists were successfully able to isolate the unknown pathogen from both samples. Using the raw sequencing data, the Bioinformaticians were able to utilize their pipelines to piece together a genome from the samples taken from one of the bat trainers. They ran the genome through the Public Genome Database to see if the sequences shared any homology or similarities with any known microorganisms. Fortunately, the results came back with a hit, demonstrating that the consensus genome belongs to a family of positive-sense RNA viruses called Pokeviridae. Additionally, the Bioinformaticians were able to identify a sequence in the Public Genome Database that appeared relatively similar to the genome they’ve assembled. Unfortunately, the metadata regarding this reference sequence is incomplete, as it is the only genome of its kind, and was assembled from genetic material taken from muutubats, a species of fruit bats that shared a very recent common ancestor with the muubats, and even live within the same geographic region. The sequence also has a specimen collection date of June 14th, 2029. The Bioinformaticians decided to use the muutubat consensus genome as a reference genome. The Bioinformaticians continued to work tirelessly to annotate the genome of the unknown virus, and fortunately were successful in mapping out most of the structural genes of the virus. It appeared that this virus contains 4 structural genes: a nucleocapsid, a spike protein, envelope, and matrix protein. However, much work was needed to be able to identify the non-structural proteins encoded within the four open reading frames.\n\n\n11 Discussion Seven\nGiven the information above, how would you interpret the genome? For example, what is the length of the genome? How many structural proteins does this genome appear to contain and what do the genes appear to code for? How many open reading frames do you notice? What are some examples of non-structural proteins that could be encoded within the open reading frames?",
+    "text": "8.1 Discussion Seven\nGiven the information above, how would you interpret the genome? For example, what is the length of the genome? How many structural proteins does this genome appear to contain and what do the genes appear to code for? How many open reading frames do you notice? What are some examples of non-structural proteins that could be encoded within the open reading frames?",
     "crumbs": [
       "Part 6",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Isolating and identifying the novel pathogen</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>The Novel Pathogen</span>"
     ]
   },
   {
     "objectID": "part7/index.html",
     "href": "part7/index.html",
-    "title": "11  The hidden source:",
+    "title": "9  The hidden source:",
     "section": "",
-    "text": "The team of Genomic Specialists met to discuss pathogen identification progress and updates on the outbreak investigation. Amid discussion, it was assumed that the mystery illness might have been picked up at the conference, but there’s no clear evidence that suggests that was, in fact, the case. Upon looking at the results of the case interviews, the specialists began to ask themselves, “What if the bat trainers were exposed prior to the conference? What could that exposure source be?” After a moment of silence, one of the team members finally spoke up. “Let’s test the bats” someone said. The team nodded in agreement, but one person was quick to speak up. “The bats did not appear to harbor any flu-like symptoms, and they appeared perfectly healthy according to the tests and physical examinations. “We should test the bats anyways!” exclaimed another team member.\nDiscussion Eight: Should you test the bats for the novel virus? If so, explain why. Additionally, if you decide to test the bats, should you use the older samples collected in December, new and recently collected samples, or both?",
+    "text": "9.1 Discussion Eight:\nShould you test the bats for the novel virus? If so, explain why. Additionally, if you decide to test the bats, should you use the older samples collected in December, new and recently collected samples, or both?",
     "crumbs": [
       "Part 7",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>The hidden source:</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>The hidden source:</span>"
     ]
   },
   {
     "objectID": "part8/index.html",
     "href": "part8/index.html",
-    "title": "12  Testing the muubats",
+    "title": "10  Testing the muubats",
     "section": "",
-    "text": "New swab samples were collected from the muubats, and samples were initially tested using PCR. However, and to everyone’s surprise, the PCR results for the novel virus S gene and N gene came back negative, suggesting that the muubats did not currently harbor the novel virus. Be that as it may, the team remained unconvinced considering new evidence, and continued to bounce hypotheses back and forth. Amid the discussion, someone asked, “isn’t it protocol when testing new animal species to keep a set of samples stored for potential future uses? I think we should test the first swab samples obtained from the muubats back in December”. With the whole team in agreement, the lab pushed forth on running a PCR test on the initial swab samples taken from the muubats. The PCR results came back positive for the S and N genes. The samples proceeded to RNA extraction and preparation for sequencing, and the samples were sequenced. After a week, the results finally came back indicating that the novel virus was identified in the muubat samples taken from December of the previous year. The Genomics Specialists Team met once again to deliberate.\n\n13 Discussion Nine:\nA. What do you think this new piece of evidence could mean?\nB. With the information presented before you, what would be a valid hypothesis regarding the source of the novel virus?\nC. What type of genomic analyses do you think would be helpful in testing your hypothesis?",
+    "text": "10.1 Discussion Nine:\nA. What do you think this new piece of evidence could mean?\nB. With the information presented before you, what would be a valid hypothesis regarding the source of the novel virus?\nC. What type of genomic analyses do you think would be helpful in testing your hypothesis?",
     "crumbs": [
       "Part 8",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Testing the muubats</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Testing the muubats</span>"
     ]
   },
   {
     "objectID": "part9/index.html",
     "href": "part9/index.html",
-    "title": "13  Sequence quality checks prior to genomic analysis:",
+    "title": "11  QC Checks",
     "section": "",
-    "text": "Prior to genomic analysis, the Bioinformaticians and Molecular Epidemiologists worked together to generate a multiple sequence alignment of all of the sequences they had obtained so far. Once the multiple sequence alignment was finished, the team visually inspected the quality of the sequences as well as noted any similarities or differences.\n\n\n\nAnalysis of Whole Genome Sequences from Outbreak\n\n\n\n14 Discussion Ten:\nLooking at the table above, what do you notice about the genetic identity shared among the sequences with each other, as well as the reference? Do these genomes look complete?",
+    "text": "11.1 Discussion Ten:\nLooking at the table above, what do you notice about the genetic identity shared among the sequences with each other, as well as the reference? Do these genomes look complete?",
     "crumbs": [
       "Part 9",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Sequence quality checks prior to genomic analysis:</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>QC Checks</span>"
+    ]
+  },
+  {
+    "objectID": "part9/index.html#discussion-ten",
+    "href": "part9/index.html#discussion-ten",
+    "title": "11  QC Checks",
+    "section": "",
+    "text": "Multiple Sequence Alignment View of Sequences, Whole Genome\n\n\n\n\n\nMultiple Sequence Alignment View of Sequences, Spike",
+    "crumbs": [
+      "Part 9",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>QC Checks</span>"
+    ]
+  },
+  {
+    "objectID": "part9/index.html#dicussion-eleven",
+    "href": "part9/index.html#dicussion-eleven",
+    "title": "11  QC Checks",
+    "section": "11.2 Dicussion Eleven:",
+    "text": "11.2 Dicussion Eleven:\nA. Looking at the multiple sequence alignment, what would you infer about the appearance of the mutations and where they are occurring?\nB. Are most mutations occurring within a specific region of the genome? If so, why do you think that might be the case?",
+    "crumbs": [
+      "Part 9",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>QC Checks</span>"
+    ]
+  },
+  {
+    "objectID": "part10/index.html",
+    "href": "part10/index.html",
+    "title": "12  Genomic Analysis",
+    "section": "",
+    "text": "12.1 Discussion Twelve:\nA. Looking at the phylogenetic tree, what inferences would you make regarding the placement of the samples on the tree?\nB. Is the phylogenetic tree in congruence with the exposure map?\nC. Looking at the heatmap, do you notice any clusters or patterns that match how the sequences are placed on the tree?\nD. What would you conclude from this analysis? Does this analysis support your hypothesis?",
+    "crumbs": [
+      "Part 10",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Genomic Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "part11/index.html",
+    "href": "part11/index.html",
+    "title": "13  Public Health Action",
+    "section": "",
+    "text": "13.1 Discussion Thirteen:\nHow would you construct a genomic surveillance system? Include in your discussion how you would obtain samples from laboratories. Would you use the sampling scheme discussed in Discussion One?",
+    "crumbs": [
+      "Part 11",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Public Health Action</span>"
+    ]
+  },
+  {
+    "objectID": "part12/index.html",
+    "href": "part12/index.html",
+    "title": "14  Conclusion:",
+    "section": "",
+    "text": "Overtime the novel virus had come to be known as the Muutuvirus, aptly named for its initial identification in the muutubats. The Genomic Specialists Team, along with many Public Health Professionals around the region worked tirelessly to contain the epidemic as much as possible, and eventually the Muutuvirus became a mild and seasonal flu-like virus that caused no deaths in the population. The muubats at the Safari Zone appeared to be cleared of the muutuvirus after much testing and was able to be fully integrated into the wild. The following year, everything returned to normal as much as possible, and Fuchsia City Safari Zone finally opened its doors to tourists again. Many tourists were finally able to see the muubats in nature, and everyone lived peacefully ever after.\nFin!\nMany thanks to Pokemon, Nintendo, and GameFreaks for the inspiration of this story",
+    "crumbs": [
+      "Part 12",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Conclusion:</span>"
     ]
   }
 ]
