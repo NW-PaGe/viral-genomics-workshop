@@ -13,4 +13,4 @@ This story is meant to help build capacity in Pathogen Genomics, whether you are
 [Have questions? Feel free to reach out!](mailto:stephanie.lunn@doh.wa.gov)
 
 
-[Contact WA DOH Molecular Epidemiology Program](mailto:wgsepi@doh.wa.gov)
+[Contact WA DOH Molecular Epidemiology Program](mailto:wgs-epi@doh.wa.gov)
