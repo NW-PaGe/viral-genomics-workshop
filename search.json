@@ -129,5 +129,38 @@
       "Part 6",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Isolating and identifying the novel pathogen</span>"
     ]
+  },
+  {
+    "objectID": "part7/index.html",
+    "href": "part7/index.html",
+    "title": "11  The hidden source:",
+    "section": "",
+    "text": "The team of Genomic Specialists met to discuss pathogen identification progress and updates on the outbreak investigation. Amid discussion, it was assumed that the mystery illness might have been picked up at the conference, but there’s no clear evidence that suggests that was, in fact, the case. Upon looking at the results of the case interviews, the specialists began to ask themselves, “What if the bat trainers were exposed prior to the conference? What could that exposure source be?” After a moment of silence, one of the team members finally spoke up. “Let’s test the bats” someone said. The team nodded in agreement, but one person was quick to speak up. “The bats did not appear to harbor any flu-like symptoms, and they appeared perfectly healthy according to the tests and physical examinations. “We should test the bats anyways!” exclaimed another team member.\nDiscussion Eight: Should you test the bats for the novel virus? If so, explain why. Additionally, if you decide to test the bats, should you use the older samples collected in December, new and recently collected samples, or both?",
+    "crumbs": [
+      "Part 7",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>The hidden source:</span>"
+    ]
+  },
+  {
+    "objectID": "part8/index.html",
+    "href": "part8/index.html",
+    "title": "12  Testing the muubats",
+    "section": "",
+    "text": "New swab samples were collected from the muubats, and samples were initially tested using PCR. However, and to everyone’s surprise, the PCR results for the novel virus S gene and N gene came back negative, suggesting that the muubats did not currently harbor the novel virus. Be that as it may, the team remained unconvinced considering new evidence, and continued to bounce hypotheses back and forth. Amid the discussion, someone asked, “isn’t it protocol when testing new animal species to keep a set of samples stored for potential future uses? I think we should test the first swab samples obtained from the muubats back in December”. With the whole team in agreement, the lab pushed forth on running a PCR test on the initial swab samples taken from the muubats. The PCR results came back positive for the S and N genes. The samples proceeded to RNA extraction and preparation for sequencing, and the samples were sequenced. After a week, the results finally came back indicating that the novel virus was identified in the muubat samples taken from December of the previous year. The Genomics Specialists Team met once again to deliberate.\n\n13 Discussion Nine:\nA. What do you think this new piece of evidence could mean?\nB. With the information presented before you, what would be a valid hypothesis regarding the source of the novel virus?\nC. What type of genomic analyses do you think would be helpful in testing your hypothesis?",
+    "crumbs": [
+      "Part 8",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Testing the muubats</span>"
+    ]
+  },
+  {
+    "objectID": "part9/index.html",
+    "href": "part9/index.html",
+    "title": "13  Sequence quality checks prior to genomic analysis:",
+    "section": "",
+    "text": "Prior to genomic analysis, the Bioinformaticians and Molecular Epidemiologists worked together to generate a multiple sequence alignment of all of the sequences they had obtained so far. Once the multiple sequence alignment was finished, the team visually inspected the quality of the sequences as well as noted any similarities or differences.\n\n\n\nAnalysis of Whole Genome Sequences from Outbreak\n\n\n\n14 Discussion Ten:\nLooking at the table above, what do you notice about the genetic identity shared among the sequences with each other, as well as the reference? Do these genomes look complete?",
+    "crumbs": [
+      "Part 9",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Sequence quality checks prior to genomic analysis:</span>"
+    ]
   }
 ]
