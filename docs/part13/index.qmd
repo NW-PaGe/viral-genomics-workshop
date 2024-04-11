@@ -9,5 +9,8 @@ In the future, once we are more established in this field, we can begin to build
 This story is meant to help build capacity in Pathogen Genomics, whether you are a laboratorian, epidemiologist, bioinformatician, infectious disease specialist, and the like. Furthermore, this mystery outbreak story is an ode to all of the public health professionals, researchers, scientists, and healthcare workers that worked tirelessly on the frontlines of the COVID-19 pandemic, and for the newcomers who are interested in this area. We seek to revolutionalize our surveillance systems and infrastructure, and you too, can be a part of this undertaking.
 
 - Steph M Lunn
-[Have questions? Feel free to reach out!](stephanie.lunn@doh.wa.gov)
-[Contact WA DOH Molecular Epidemiology Program](wgsepi@doh.wa.gov)
+
+[Have questions? Feel free to reach out!](mailto:stephanie.lunn@doh.wa.gov)
+
+
+[Contact WA DOH Molecular Epidemiology Program](mailto:wgsepi@doh.wa.gov)
