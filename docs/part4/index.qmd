@@ -1,13 +1,3 @@
 # The molecular investigation begins:
 
 The Molecular Epidemiologists were tasked with working with the Zoonotic Epidemiology Team and Local Health Epidemiologists to develop hypotheses related to the underlying cause and source of the outbreak, as well as working with the Bioinformaticians to ensure the proper analyses were performed related to hypothesis testing and performing any additional analyses if necessary. To better understand the outbreak, the Genomics team met to discuss what it is that they understood about the outbreak and came up with a list of observations. The team also began constructing a series of interview questions for the outbreak investigation.
-
-# Discussion Five:
-
-Field epidemiology applications during outbreak investigations typically employ case interviews. Describe the types of questions that would be essential to ask cases to formulate hypotheses regarding the initial source of the outbreak.
-
-# Who’s that pathogen?!
-
-After much discussion, the team of Genomic Specialists decided that since the bat trainers were the earliest known cases to exhibit flu-like symptoms but test negative for flu, these samples would be ideal to start with. The Bioinformaticians and Microbiologists decided to take a shotgun metagenomics approach and sequence everything in the samples collected from the bat trainers. The Microbiologists sequenced everything that could be present in the samples, and the Bioinformaticians utilized their metagenomic pipelines to infer the relative abundance of microorganisms in the samples.
-
-![](../images/relabundance_1.jpg)
