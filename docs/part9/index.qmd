@@ -4,18 +4,23 @@
 
 Prior to genomic analysis, the Bioinformaticians and Molecular Epidemiologists worked together to generate a multiple sequence alignment of all of the sequences they had obtained so far. Once the multiple sequence alignment was finished, the team visually inspected the quality of the sequences as well as noted any similarities or differences. 
 
-![Analysis of Whole Genome Sequences from Outbreak](../images/qc-metrics.jpg)
+![Analysis of Whole Genome Sequences from Outbreak, Alignment Viewer](../images/qc-metrics.jpg)
 
 ## Discussion Ten: 
 
 Looking at the table above, what do you notice about the genetic identity shared among the sequences with each other, as well as the reference? Do these genomes look complete?
 
 
+
+
+
 ![Multiple Sequence Alignment View of Sequences, Whole Genome](../images/msa-wg.jpg)
+
 **Open alignment in new tab for full view**
 
 
 ![Multiple Sequence Alignment View of Sequences, Spike](../images/msa-spike.jpg)
+
 **Open alignment in new tab for full view**
 
 

@@ -6,7 +6,7 @@ Doctors were puzzled at the mystery flu-like illness that was spreading in Fuchs
 
 # All isolates were sent to the regional lab for isolation and sequencing:
 
-The team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers. Host Number of Samples Humans 23 Felines 5 Canines 6 Ducklings 4
+The team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers. 
 
 In terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.
 
