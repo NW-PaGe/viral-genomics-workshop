@@ -1,4 +1,5 @@
 # Isolating and identifying the novel pathogen
+
 In mid-May after the team identified an unknown microorganism in the sample, the Microbiologists began working with the specimens collected from the bat trainers to isolate the suspect pathogen. After several weeks of meticulous labor, the Microbiologists were successfully able to isolate the unknown pathogen from both samples. 
 Using the raw sequencing data, the Bioinformaticians were able to utilize their pipelines to piece together a genome from the samples taken from one of the bat trainers. They ran the genome through the Public Genome Database to see if the sequences shared any homology or similarities with any known microorganisms. Fortunately, the results came back with a hit, demonstrating that the consensus genome belongs to a family of positive-sense RNA viruses called Pokeviridae. 
 Additionally, the Bioinformaticians were able to identify a sequence in the Public Genome Database that appeared relatively similar to the genome they’ve assembled. Unfortunately, the metadata regarding this reference sequence is incomplete, as it is the only genome of its kind, and was assembled from genetic material taken from muutubats, a species of fruit bats that shared a very recent common ancestor with the muubats, and even live within the same geographic region. The sequence also has a specimen collection date of June 14th, 2029. The Bioinformaticians decided to use the muutubat consensus genome as a reference genome.
@@ -7,4 +8,5 @@ The Bioinformaticians continued to work tirelessly to annotate the genome of the
 ![](../images/virus_genome.jpg)
 
 # Discussion Seven
+
 Given the information above, how would you interpret the genome? For example, what is the length of the genome? How many structural proteins does this genome appear to contain and what do the genes appear to code for? How many open reading frames do you notice? What are some examples of non-structural proteins that could be encoded within the open reading frames?
