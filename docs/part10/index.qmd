@@ -4,7 +4,7 @@ The team met to discuss what kind of genomic analyses could be performed to help
 
 ![Line list of Trainers, Workers, and Residents](../images/linelist.jpg)
 
-![Phylogenetic Tree of Flu-Like Illness Outbreak, Fuchsia City, Safari Zone](../images/outbreak-tree.jpg){width="1200"}
+![Phylogenetic Tree of Flu-Like Illness Outbreak, Fuchsia City, Safari Zone](../images/nextstrain_(1).svg)
 
 ![Exposure Map of Animals, Trainers, and Workers](../images/case_mapping.jpeg)
 
