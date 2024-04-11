@@ -1,6 +1,6 @@
 # We begin...
 
-![](docs/_book/images/fuchsia_city.jpg)
+![](../images/fuchsia_city.jpg)
 
 **We begin our outbreak mystery with the city's history:**
 
