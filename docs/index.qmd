@@ -1,12 +1,12 @@
 ---
 title: "Viral Genomics Workshop"
 description: Mystery Outbreak Exercise
-date: September 1, 2023
+date: April 10, 2024
 date-modified: today
 author: 
   - name: Steph Lunn
     affiliations:
-      - Washington Department of Health
+      - Washington state Department of Health
 knitr: false
 ---
 

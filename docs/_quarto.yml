@@ -3,7 +3,7 @@ project:
 
 book:
   title: "A Viral Genomics Outbreak Mystery"
-  author: "Steph Lunn"
+  author: "Steph Lunn, MPH, MS"
   date: "4/10/2024"
   cover-image: images/nwpage_tree_logo.png
   repo-url: https://github.com/NW-PaGe/viral-genomics-workshop
@@ -47,6 +47,9 @@ book:
   - part: "Part 12"
     chapters:
       - part12/index.qmd
+  - part: "Part 13"
+    chapters:
+      - part13/index.qmd
 
 bibliography: references.bib
 
