@@ -3,6 +3,7 @@
 The team met to discuss what kind of genomic analyses could be performed to help visualize the sequencing data of the outbreak. Members suggested constructing a phylogenetic tree and pairwise distance matrix to understand the relationship between sequences. The team agreed that a tree and pairwise distance matrix would be helpful to get a sense of how related and similar the sequences were. The Molecular Epidemiologists set off to construct a phylogenetic tree and a pairwise distance matrix.
 
 **Line list of cases likely linked to outbreak**
+
 | Sample ID         | Collection Date | Notes                                                                                  |
 |-------------------|-----------------|----------------------------------------------------------------------------------------|
 | Bat_Trainer_01    | 2031-01-08      | Worked with the muubats; attended conference                                           |
