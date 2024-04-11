@@ -25,6 +25,12 @@ book:
   - part: "Part 4"
     chapters:
       - part4/index.qmd
+  - part: "Part 5"
+    chapters:
+      - part5/index.qmd
+  - part: "Part 6"
+    chapters:
+      - part6/index.qmd
 
 bibliography: references.bib
 
