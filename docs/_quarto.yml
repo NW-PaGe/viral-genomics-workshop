@@ -31,6 +31,15 @@ book:
   - part: "Part 6"
     chapters:
       - part6/index.qmd
+  - part: "Part 7"
+    chapters:
+      - part7/index.qmd
+  - part: "Part 8"
+    chapters:
+      - part8/index.qmd
+  - part: "Part 9"
+    chapters:
+      - part9/index.qmd
 
 bibliography: references.bib
 
