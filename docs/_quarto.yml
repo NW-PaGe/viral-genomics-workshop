@@ -17,11 +17,9 @@ book:
   - part: "Part 2"
     chapters: 
       - part2/index.qmd
-      - part2/discussion.qmd
   - part: "Part 3"
     chapters:
       - part3/index.qmd
-      - part3/discussion.qmd
   - part: "Part 4"
     chapters:
       - part4/index.qmd
@@ -40,6 +38,15 @@ book:
   - part: "Part 9"
     chapters:
       - part9/index.qmd
+  - part: "Part 10"
+    chapters:
+      - part10/index.qmd
+  - part: "Part 11"
+    chapters:
+      - part11/index.qmd
+  - part: "Part 12"
+    chapters:
+      - part12/index.qmd
 
 bibliography: references.bib
 

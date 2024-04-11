@@ -1,9 +1,23 @@
-# Sequence quality checks prior to genomic analysis:
+# QC Checks 
+
+**Sequence quality checks prior to genomic analysis:**
 
 Prior to genomic analysis, the Bioinformaticians and Molecular Epidemiologists worked together to generate a multiple sequence alignment of all of the sequences they had obtained so far. Once the multiple sequence alignment was finished, the team visually inspected the quality of the sequences as well as noted any similarities or differences. 
 
 ![Analysis of Whole Genome Sequences from Outbreak](../images/qc-metrics.jpg)
 
-# Discussion Ten: 
+## Discussion Ten: 
 
 Looking at the table above, what do you notice about the genetic identity shared among the sequences with each other, as well as the reference? Do these genomes look complete?
+
+
+![Multiple Sequence Alignment View of Sequences, Whole Genome](../images/msa-wg.jpg)
+
+![Multiple Sequence Alignment View of Sequences, Spike](../images/msa-spike.jpg)
+
+## Dicussion Eleven:
+
+A. Looking at the multiple sequence alignment, what would you infer about the appearance of the mutations and where they are occurring? 
+
+
+B. Are most mutations occurring within a specific region of the genome? If so, why do you think that might be the case? 

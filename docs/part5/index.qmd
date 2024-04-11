@@ -4,6 +4,6 @@ After much discussion, the team of Genomic Specialists decided that since the ba
 
 ![](../images/relabundance_1.jpeg)
 
-# Discussion Six:
+## Discussion Six:
 
 Looking at the chart showing the relative abundance of microorganisms in the swab samples collected from the bat trainers, how would you interpret the figure?

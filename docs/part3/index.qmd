@@ -16,3 +16,12 @@ In terms of capacity, the lab has the capacity to perform short-read sequencing,
 | Felines   | 5                 |
 | Canines   | 6                 |
 | Ducklings | 4                 |
+
+
+
+## Discussion Three:
+The Regional Health Lab has the ability to culture bacteria and viruses for sequencing. In terms of sequencing methods and protocol, if we are trying to identify a novel bacteria and virus, what kind of sequencing platforms and protocols would you try to use in the initial identification? Be sure to fully explain your answer.
+
+
+## Discussion Four:
+Using your answer in Discussion Three, what type of bioinformatics methods or analyses would be useful in identifying a novel pathogen? 

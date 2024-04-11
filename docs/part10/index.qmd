@@ -1,0 +1,28 @@
+# Genomic Analysis
+
+The team met to discuss what kind of genomic analyses could be performed to help visualize the sequencing data of the outbreak. Members suggested constructing a phylogenetic tree and pairwise distance matrix to understand the relationship between sequences. The team agreed that a tree and pairwise distance matrix would be helpful to get a sense of how related and similar the sequences were. The Molecular Epidemiologists set off to construct a phylogenetic tree and a pairwise distance matrix.
+
+![Line list of Trainers, Workers, and Residents](../images/linelist.jpg)
+
+![Phylogenetic Tree of Flu-Like Illness Outbreak, Fuchsia City, Safari Zone](../images/outbreak-tree.jpg)
+
+![Exposure Map of Animals, Trainers, and Workers](../images/case_mapping.jpeg)
+
+![Heatmap of SNP Distances of Sequences in Outbreak](../images/heatmap14.jpeg)
+
+
+
+## Discussion Twelve:
+A. Looking at the phylogenetic tree, what inferences would you make regarding the placement of the samples on the tree?
+
+
+B. Is the phylogenetic tree in congruence with the exposure map?
+
+
+
+C. Looking at the heatmap, do you notice any clusters or patterns that match how the sequences are placed on the tree?
+
+
+
+D. What would you conclude from this analysis? Does this analysis support your hypothesis?
+
