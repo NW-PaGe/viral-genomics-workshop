@@ -157,18 +157,7 @@
     "href": "part9/index.html",
     "title": "11  QC Checks",
     "section": "",
-    "text": "11.1 Discussion Ten:\nLooking at the table above, what do you notice about the genetic identity shared among the sequences with each other, as well as the reference? Do these genomes look complete?",
-    "crumbs": [
-      "Part 9",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>QC Checks</span>"
-    ]
-  },
-  {
-    "objectID": "part9/index.html#discussion-ten",
-    "href": "part9/index.html#discussion-ten",
-    "title": "11  QC Checks",
-    "section": "",
-    "text": "Multiple Sequence Alignment View of Sequences, Whole Genome\n\n\n\n\n\nMultiple Sequence Alignment View of Sequences, Spike",
+    "text": "11.1 Discussion Ten:\nLooking at the table above, what do you notice about the genetic identity shared among the sequences with each other, as well as the reference? Do these genomes look complete?\nOpen alignment in new tab for full view\nOpen alignment in new tab for full view",
     "crumbs": [
       "Part 9",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>QC Checks</span>"
