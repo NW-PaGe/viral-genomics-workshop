@@ -54,7 +54,7 @@ The exposure map uses information from the case interview to piece together how 
 ![Heatmap of SNP Distances of Sequences in Outbreak](../images/heatmap14.jpeg)
 
 *Heatmap.*
-The heatmap shows the pairwise distance between two sequences. The pairwise distance is giving by the number of single nucleotide polymorphisms (SNPs), or single base difference. The range of SNP differences for the sequenced cases in the outbreak is 0 to 9. Sequences that are darker in color show fewer SNP differences between the two sequences, whereas lighter color indicates more SNP differences between the two cases. The pairwise distances were computed using the aligned sequences.
+The heatmap shows the pairwise distance between two sequences. The pairwise distance is given by the number of single nucleotide polymorphisms (SNPs), or single base difference between two sequences. The range of SNP differences for the sequenced cases in the outbreak is 0 to 9. Sequences that are darker in color indicate fewer SNP differences between the two sequences, whereas lighter color indicates more SNP differences between the two cases. The pairwise distances were computed using the aligned sequences.
 
 
 ## Discussion Twelve:
