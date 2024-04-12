@@ -33,7 +33,7 @@ The team met to discuss what kind of genomic analyses could be performed to help
 | Worker_07         | 2031-03-15      | Works with the duck trainers and the ducks                                             |
 
 
-*Line list of cases in outbreak*
+*Line list of cases in outbreak.*
 The line list shows the sample IDs of the sequenced cases in the outbreak. The second column shows the collection date of the samples collected from the case in year-month-day format. The third column shows the exposure notes collected from the case interviews conducted during the outbreak investigation. Unfortunately some of the cases, such as the residents, could not be reached. Some information remains incomplete for the workers as some workers tend to work in different areas, and are involved in different responsibilities when it comes to taking care of the animals and the park.
 
 
@@ -41,19 +41,19 @@ The line list shows the sample IDs of the sequenced cases in the outbreak. The s
 
 **Open tree in new tab for full view**
 
-*Phylogenetic Tree of Outbreak*
+*Phylogenetic Tree of Outbreak.*
 Phylogenetic trees shows the evolutionary relationships between sequences on the tree. The tips on the tree are colored by occupation, species, or residency in relation to the park. Sequences that are more closely related and perhaps genetically similar will be closer together on the tree. Sequences that are distant from each other the tree typically indicate that the sequences are less related to each other. 
 
 
 ![Exposure Map of Animals, Trainers, and Workers](../images/case_mapping.jpeg)
 
-*Exposure Map*
+*Exposure Map.*
 The exposure map uses information from the case interview to piece together how animals, trainers, and workers might be linked together in the outbreak. Lines indicate that the case was either *exposed to* or *had an interaction with* the other cases or animals. 
 
 
 ![Heatmap of SNP Distances of Sequences in Outbreak](../images/heatmap14.jpeg)
 
-*Heatmap*
+*Heatmap.*
 The heatmap shows the pairwise distance between two sequences. The pairwise distance is giving by the number of single nucleotide polymorphisms (SNPs), or single base difference. The range of SNP differences for the sequenced cases in the outbreak is 0 to 9. Sequences that are darker in color show fewer SNP differences between the two sequences, whereas lighter color indicates more SNP differences between the two cases. The pairwise distances were computed using the aligned sequences.
 
 

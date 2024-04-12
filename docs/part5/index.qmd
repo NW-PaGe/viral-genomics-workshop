@@ -5,7 +5,7 @@ After much discussion, the team of Genomic Specialists decided that since the ba
 ![](../images/relabundance_1.jpeg)
 
 *Relative Abundance of Microorganisms in Swab Samples of Bat Trainers Collected 31-01-08.*
-The relative abundance charge shows the proportions of species in the swab samples taken from the Bat Trainers. The relative abundance is plotted on the vertical axis, with the Bat Trainers on the horizontal axis. Species were identified using the Internal Sequencing Database maintained by the Regional Health Lab.
+The relative abundance chart shows the proportions of species in the swab samples taken from the Bat Trainers. The relative abundance is plotted on the vertical axis, with the Bat Trainers on the horizontal axis. Species were identified using the Internal Sequencing Database maintained by the Regional Health Lab.
 
 ## Discussion Six:
 
