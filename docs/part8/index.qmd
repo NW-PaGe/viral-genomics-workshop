@@ -1,6 +1,6 @@
 # Testing the muubats
 
-New swab samples were collected from the muubats, and samples were initially tested using PCR. However, and to everyone’s surprise, the PCR results for the novel virus S gene and N gene came back negative, suggesting that the muubats did not currently harbor the novel virus. Be that as it may, the team remained unconvinced considering new evidence, and continued to bounce hypotheses back and forth. 
+New swab samples were collected from the muubats, and samples were initially tested using PCR developed specifically for the novel virus by the Regional Health Lab. However, and to everyone’s surprise, the PCR results for the novel virus S gene and N gene came back negative, suggesting that the muubats did not currently harbor the novel virus. Be that as it may, the team remained unconvinced considering new evidence, and continued to bounce hypotheses back and forth. 
 
 Amid the discussion, someone asked, “isn’t it protocol when testing new animal species to keep a set of samples stored for potential future uses? I think we should test the first swab samples obtained from the muubats back in December”. With the whole team in agreement, the lab pushed forth on running a PCR test on the initial swab samples taken from the muubats. The PCR results came back positive for the S and N genes. The samples proceeded to RNA extraction and preparation for sequencing, and the samples were sequenced.
 
