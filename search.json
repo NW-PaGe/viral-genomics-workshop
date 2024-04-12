@@ -58,7 +58,7 @@
     "href": "part2/index.html",
     "title": "4  Fuchsia City begins collecting…",
     "section": "",
-    "text": "4.1 Discussion Two:\nBased on the population size and structure, describe a sampling scheme that you think would best fit this outbreak scenario.",
+    "text": "4.1 Discussion Two:\nBased on the population size and structure, describe a sampling scheme that you think would best fit this outbreak scenario. Some examples of sampling schemes include sequencing all samples or sequencing a set of random samples.",
     "crumbs": [
       "Part 2",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Fuchsia City begins collecting...</span>"
@@ -69,7 +69,7 @@
     "href": "part3/index.html",
     "title": "5  Genomic Specialists",
     "section": "",
-    "text": "6 All isolates were sent to the regional lab for isolation and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers.\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.\nTable showing number of swab samples collected, grouped by host species. There were 23 human samples, 5 feline samples, 6 canine samples, and 4 duck samples collected by the doctors and animal trainers and shipped over to the Regional Health Lab.",
+    "text": "6 All isolates were sent to the regional lab for isolation and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers.\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.\nTable showing number of swab samples collected, grouped by host species. There were 23 human samples, 5 feline samples, 6 canine samples, and 4 duck samples collected by the doctors and animal trainers and shipped over to the Regional Health Lab. Some swab samples obtained in March contained insufficient sample amount for sequencing, therefore not all cases that were tested were sent over to the lab for sequencing. Samples shipped to the Regional Health Lab contained only samples that were collected through March.",
     "crumbs": [
       "Part 3",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Genomic Specialists</span>"
