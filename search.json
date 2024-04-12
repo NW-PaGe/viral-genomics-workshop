@@ -69,7 +69,7 @@
     "href": "part3/index.html",
     "title": "5  Genomic Specialists",
     "section": "",
-    "text": "6 All isolates were sent to the regional lab for isolation and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers.\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.",
+    "text": "6 All isolates were sent to the regional lab for isolation and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers.\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.\nTable showing number of swab samples collected, grouped by host species. There were 23 human samples, 5 feline samples, 6 canine samples, and 4 duck samples collected by the doctors and animal trainers and shipped over to the Regional Health Lab.",
     "crumbs": [
       "Part 3",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Genomic Specialists</span>"
@@ -113,7 +113,7 @@
     "href": "part5/index.html",
     "title": "7  Who’s that pathogen?!",
     "section": "",
-    "text": "7.1 Discussion Six:\nLooking at the chart showing the relative abundance of microorganisms in the swab samples collected from the bat trainers, how would you interpret the figure?",
+    "text": "7.1 Discussion Six:\nLooking at the chart showing the relative abundance of microorganisms in the swab samples collected from the bat trainers, how would you interpret the figure? How many primary species were identified? Were there any species that were found in the sample that did not show any match to the Internal Sequencing Database?",
     "crumbs": [
       "Part 5",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Who’s that pathogen?!</span>"
@@ -157,7 +157,7 @@
     "href": "part9/index.html",
     "title": "11  QC Checks",
     "section": "",
-    "text": "11.1 Discussion Ten:\nLooking at the table above, what do you notice about the genetic identity shared among the sequences with each other, as well as the reference? Do these genomes look complete?\nOpen alignment in new tab for full view\nOpen alignment in new tab for full view",
+    "text": "11.1 Discussion Ten:\nLooking at the table above, what do you notice about the genetic identity shared among the sequences with each other, as well as the reference? Do these genomes look complete?\nMultiple Sequence Alignment View of the Sequences, NCBI Viewer\nOpen alignment in new tab for full view\nOpen alignment in new tab for full view\nThe MSA using NCBI Alignment Viewer are shown above. Part A shows the coverage and mutations across the genome, whereas part B shows coverage across the spike gene. Mutations at a base position is indicated by the red lines.",
     "crumbs": [
       "Part 9",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>QC Checks</span>"
@@ -168,7 +168,7 @@
     "href": "part9/index.html#discussion-ten",
     "title": "11  QC Checks",
     "section": "",
-    "text": "Multiple Sequence Alignment View of Sequences, Whole Genome\n\n\n\n\n\n\nMultiple Sequence Alignment View of Sequences, Spike",
+    "text": "A. Multiple Sequence Alignment View of Sequences, Whole Genome\n\n\n\n\n\n\nB. Multiple Sequence Alignment View of Sequences, Spike",
     "crumbs": [
       "Part 9",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>QC Checks</span>"
