@@ -6,6 +6,6 @@ In March, upon the closing of the Safari Zone, the city set up flu testing for t
 
 ## Discussion Two:
 
-Based on the population size and structure, describe a sampling scheme that you think would best fit this outbreak scenario. Some examples of sampling schemes include sequencing all samples or sequencing a set of random samples. 
+Based on the population size and structure, describe a sampling scheme that you think would best fit this outbreak scenario. What do we want to capture and how does your sampling scheme allow you to capture that? Some examples of sampling schemes include sequencing all samples,sequencing a set of random samples, or sequencing any sample that is available to you. 
 
 

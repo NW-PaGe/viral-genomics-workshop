@@ -1,6 +1,6 @@
 # Who’s that pathogen?!
 
-After much discussion, the team of Genomic Specialists decided that since the bat trainers were the earliest known cases to exhibit flu-like symptoms but test negative for flu, these samples would be ideal to start with. The Bioinformaticians and Microbiologists decided to take a shotgun metagenomics approach and sequence everything in the samples collected from the bat trainers. The Microbiologists sequenced everything that could be present in the samples, and the Bioinformaticians utilized their metagenomic pipelines to infer the relative abundance of microorganisms in the samples.
+After much discussion, the team of Genomic Specialists decided that since the bat trainers were the earliest known cases to exhibit flu-like symptoms but test negative for flu, these samples would be ideal to start with. The Bioinformaticians and Microbiologists decided to take a shotgun metagenomics approach and sequence everything in the samples collected from the bat trainers. Shotgun metagenomics sequencing allows microbiologists to sample all organisms in a mixed and complex sample to evaluate microbial diversity and detect the abundance of certain microbes in the sample. The Microbiologists sequenced everything that could be present in the samples, and the Bioinformaticians utilized their metagenomic pipelines to infer the relative abundance of microorganisms in the samples.
 
 ![](../images/relabundance_1.jpeg)
 
