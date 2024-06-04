@@ -4,11 +4,10 @@
 
 Prior to genomic analysis, the Bioinformaticians and Molecular Epidemiologists worked together to generate a multiple sequence alignment of all of the sequences they had obtained so far. Once the multiple sequence alignment was finished, the team visually inspected the quality of the sequences as well as noted any similarities or differences. 
 
-![Analysis of Whole Genome Sequences from Outbreak, Alignment Viewer](../images/qc-metrics.jpg)
+![Analysis of Whole Genome Sequences from Outbreak, Alignment Viewer](../images/docs/images/alignmentviewer.jpg)
 
 *Multiple Sequence Alignment (MSA) Metrics of Sequences in Alignment Viewer.*
-The alignment file containing sequences from the outbreak aligned to the reference genome was analyzed in Alignment Viewer. Alignment Viewer shows the percentage of gaps in the genome, representing any ambiguity or incomplete coverage across the genome. **ident1%** and **ident2%** compares the reference sequence with a sequence from the outbreak. Both metrics indicate degree of genetic similarity of the two sequences. **ident1%** is the fraction of reference sequence identical to the second sequence, whereas **ident2%** is the fraction of the second sequence identical to the reference sequence. 
-
+The alignment file containing sequences from the outbreak aligned to the reference genome was analyzed in Alignment Viewer. Alignment Viewer shows the percentage of gaps in the genome, representing any ambiguity or incomplete coverage across the genome. **ident1%** compares the reference sequence with a sequence from the outbreak, and is a metric that indicates the degree of genetic similarity of the two sequences. **ident1%**  is the fraction of reference sequence identical to the second sequence.
 
 ## Discussion Ten: 
 
