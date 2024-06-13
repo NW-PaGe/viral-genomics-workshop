@@ -135,7 +135,7 @@
     "href": "part1/quiz-test.html#quiz",
     "title": "4  Javascript Quiz Test",
     "section": "",
-    "text": "&lt; form id=“quiz”&gt; What is 2+2?  3  3  3",
+    "text": "What is 2+2?  3  4  5",
     "crumbs": [
       "Part 1",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Javascript Quiz Test</span>"
