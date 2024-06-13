@@ -14,6 +14,7 @@ book:
     chapters: 
       - part1/index.qmd
       - part1/discussion.qmd
+      - part1/quiz-test.qmd
   - part: "Part 2"
     chapters: 
       - part2/index.qmd
