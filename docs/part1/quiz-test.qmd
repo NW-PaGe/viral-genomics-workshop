@@ -5,7 +5,7 @@ format: html
 
 ## Quiz
 
-< form id="quiz">
+<form id="quiz">
     <label for="question1">What is 2+2?</label><br>
     <input type="radio" id="answer1" name="question1" value="3"> 3<br>
     <input type="radio" id="answer2" name="question1" value="4"> 3<br>
