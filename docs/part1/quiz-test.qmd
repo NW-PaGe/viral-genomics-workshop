@@ -1,0 +1,25 @@
+---
+title: "Javascript Quiz Test"
+format: html
+---
+
+## Quiz
+
+< form id="quiz">
+    <label for="question1">What is 2+2?</label><br>
+    <input type="radio" id="answer1" name="question1" value="3"> 3<br>
+    <input type="radio" id="answer2" name="question1" value="4"> 3<br>
+    <input type="radio" id="answer3" name="question1" value="5"> 3<br>
+    <br>
+    <input type="button" value="Submit" onclick="checkAnswers()">
+</form>
+
+<p id="result"></p>
+
+<script>
+    function checkAnswers() {
+        var correct = document.getElementById('answer2').checked;
+        var resultText = correct ? "Correct!" : "Incorrect.";
+        document.getElementById('result').innerText = resultText;
+    }
+</script>
