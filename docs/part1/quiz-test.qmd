@@ -1,15 +1,17 @@
 ---
-title: "Javascript Quiz Test"
+title: "Identifying Patterns in the Outbreak"
 format: html
 ---
 
 ## Quiz
 
 <form id="quiz">
-    <label for="question1">What is 2+2?</label><br>
-    <input type="radio" id="answer1" name="question1" value="3"> 3<br>
-    <input type="radio" id="answer2" name="question1" value="4"> 4<br>
-    <input type="radio" id="answer3" name="question1" value="5"> 5<br>
+    <label for="question1">What is unusual about how this illness is spreading?</label><br>
+    <input type="radio" id="answer1" name="question1" value="A"> A. The illness seems to be affecting only trainers who traveled to the conference.<br>
+    <input type="radio" id="answer2" name="question1" value="B"> B. The illness appears in people who were not in direct contact with the original sick trainers.<br>
+    <input type="radio" id="answer3" name="question1" value="C"> C. The illness follows a seasonal flu-like pattern, peaking in January and decreasing afterwards<br>
+    <br>
+    <input type="radio" id="answer3" name="question1" value="D"> D. The illness is only spreading between humans, with no evidence of animal involvement.<br>
     <br>
     <input type="button" value="Submit" onclick="checkAnswers()">
 </form>
@@ -19,7 +21,7 @@ format: html
 <script>
     function checkAnswers() {
         var correct = document.getElementById('answer2').checked;
-        var resultText = correct ? "Correct!" : "Incorrect.";
+        var resultText = correct ? "Correct! The illness is spreading beyond the trainers who attended the conference, meaning direct exposure at the event may not fully explain transmission. What do you think? Do you think this suggests another factor, possibly environmental exposure or an animal reservoir that may be playing a role?" : "Incorrect. Think carefully!";
         document.getElementById('result').innerText = resultText;
     }
 </script>
