@@ -10,7 +10,6 @@ format: html
     <input type="radio" id="answer1" name="question1" value="A"> A. Only people with severe symptoms who were hospitalized<br>
     <input type="radio" id="answer2" name="question1" value="B"> B. Only trainers and workers who have direct animal contact.<br>
     <input type="radio" id="answer3" name="question1" value="C"> C. A mix of symptomatic and asymptomatic individuals, including animals.<br>
-    <br>
     <input type="radio" id="answer4" name="question1" value="D"> D. Only people who tested negative for flu, to find other possible pathogens.<br>
     <br>
     <input type="button" value="Submit" onclick="checkAnswers()">

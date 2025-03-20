@@ -10,8 +10,8 @@ format: html
     <input type="radio" id="answer1" name="question1" value="A"> A. All human sequences would be identical.<br>
     <input type="radio" id="answer2" name="question1" value="B"> B. Human sequences would cluster closely together (or group closely together) but differ slightly.<br>
     <input type="radio" id="answer3" name="question1" value="C"> C. Human sequences would be widely dispersed (or scattered) throughout the tree.<br>
-    <br>
     <input type="radio" id="answer4" name="question1" value="D"> D. Human sequences would be more similar to environmental microbes than to each other.<br>
+    <br>
     <br>
     <input type="button" value="Submit" onclick="checkAnswers()">
 </form>

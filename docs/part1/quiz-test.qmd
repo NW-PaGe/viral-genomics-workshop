@@ -10,8 +10,8 @@ format: html
     <input type="radio" id="answer1" name="question1" value="A"> A. The illness seems to be affecting only trainers who traveled to the conference.<br>
     <input type="radio" id="answer2" name="question1" value="B"> B. The illness appears in people who were not in direct contact with the original sick trainers.<br>
     <input type="radio" id="answer3" name="question1" value="C"> C. The illness follows a seasonal flu-like pattern, peaking in January and decreasing afterwards<br>
-    <br>
     <input type="radio" id="answer4" name="question1" value="D"> D. The illness is only spreading between humans, with no evidence of animal involvement.<br>
+    <br>
     <br>
     <input type="button" value="Submit" onclick="checkAnswers()">
 </form>

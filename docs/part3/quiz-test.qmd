@@ -10,8 +10,8 @@ format: html
     <input type="radio" id="answer1" name="question1" value="A"> A. The species that appear in every sample.<br>
     <input type="radio" id="answer2" name="question1" value="B"> B. The species that only appear in sick individuals.<br>
     <input type="radio" id="answer3" name="question1" value="C"> C. The species that are entirely new to science.<br>
-    <br>
     <input type="radio" id="answer4" name="question1" value="D"> D. The species that match known respiratory pathogens.<br>
+    <br>
     <br>
     <input type="button" value="Submit" onclick="checkAnswers()">
 </form>
