@@ -19,7 +19,7 @@ In terms of capacity, the lab has the capacity to perform short-read sequencing,
 
 
 *Table showing number of swab samples collected, grouped by host species.*
-There were 23 human samples, 5 feline samples, 6 canine samples, and 4 duck samples collected by the doctors and animal trainers and shipped over to the Regional Health Lab. Some swab samples obtained in March contained insufficient sample amount for sequencing, therefore not all cases that were tested were sent over to the lab for sequencing. Samples shipped to the Regional Health Lab contained only samples that were collected through March.
+There were 23 human samples, 5 feline samples, 6 canine samples, and 4 duck samples collected by the doctors and animal trainers and shipped over to the Regional Health Lab. Some swab samples obtained in February contained insufficient sample amount for sequencing, therefore not all cases that were tested were sent over to the lab for sequencing. Samples shipped to the Regional Health Lab contained only samples that were collected through February.
 
 
 ## Discussion Three:
