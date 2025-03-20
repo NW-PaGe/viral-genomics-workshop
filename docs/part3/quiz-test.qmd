@@ -1,0 +1,27 @@
+---
+title: "Evaluating the First Sequencing Results"
+format: html
+---
+
+## Quiz
+
+<form id="quiz">
+    <label for="question1">The sequencing results from early human and animal samples return with multiple species detected. What should scientistis look for first?</label><br>
+    <input type="radio" id="answer1" name="question1" value="A"> A. The species that appear in every sample.<br>
+    <input type="radio" id="answer2" name="question1" value="B"> B. The species that only appear in sick individuals.<br>
+    <input type="radio" id="answer3" name="question1" value="C"> C. The species that are entirely new to science.<br>
+    <br>
+    <input type="radio" id="answer4" name="question1" value="D"> D. The species that match known respiratory pathogens.<br>
+    <br>
+    <input type="button" value="Submit" onclick="checkAnswers()">
+</form>
+
+<p id="result"></p>
+
+<script>
+    function checkAnswers() {
+        var correct = document.getElementById('answer2').checked;
+        var resultText = correct ? "Correct! Scientists should look for organisms found only in infected individuals but absent in healthy ones. What do you think? Do you think this could help distingush between normal background microbes and a potential pathogen?" : "Incorrect. Think carefully!";
+        document.getElementById('result').innerText = resultText;
+    }
+</script>
