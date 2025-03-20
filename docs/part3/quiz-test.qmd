@@ -6,7 +6,7 @@ format: html
 ## Quiz
 
 <form id="quiz">
-    <label for="question1">The sequencing results from early human and animal samples return with multiple species detected. What should scientistis look for first?</label><br>
+    <label for="question1">The sequencing results from early human and animal samples return with multiple species detected. What should scientists look for first?</label><br>
     <input type="radio" id="answer1" name="question1" value="A"> A. The species that appear in every sample.<br>
     <input type="radio" id="answer2" name="question1" value="B"> B. The species that only appear in sick individuals.<br>
     <input type="radio" id="answer3" name="question1" value="C"> C. The species that are entirely new to science.<br>

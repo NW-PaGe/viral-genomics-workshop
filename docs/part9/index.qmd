@@ -38,7 +38,7 @@ Before moving forward with phylogenetic analysis, the team conducted a quality c
 
 As they carefully reviewed the alignment, they specifically looked for high levels of ambiguity, specifically the amount of ambiguous or "N" bases, which could suggest potential sequencing errors. Sequences with high amounts of ambiguity, generally if greater than 10% of the whole genome, could require the samples to be re-examined and re-sequenced before being included in downstream analyses.
 
-![Analysis of Whole Genome Sequences from Outbreak, Alignment Viewer](../images/docs/images/qc-metrics.jpg)
+![Analysis of Whole Genome Sequences from Outbreak, Alignment Viewer](../images/qc-metrics.jpg)
 
 *Multiple Sequence Alignment (MSA) Metrics of Sequences in Alignment Viewer.*
 The alignment file containing sequences from the outbreak aligned to the reference genome was analyzed in Alignment Viewer. Alignment Viewer shows the percentage of gaps in the genome, representing any ambiguity or incomplete coverage across the genome. **ident1%** compares the reference sequence with a sequence from the outbreak, and is a metric that indicates the degree of genetic similarity of the two sequences. **ident1%**  is the fraction of reference sequence identical to the second sequence.
