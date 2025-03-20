@@ -69,7 +69,7 @@
     "href": "part1/quiz-test.html#quiz",
     "title": "4  Identifying Patterns in the Outbreak",
     "section": "",
-    "text": "What is unusual about how this illness is spreading?  A. The illness seems to be affecting only trainers who traveled to the conference.  B. The illness appears in people who were not in direct contact with the original sick trainers.  C. The illness follows a seasonal flu-like pattern, peaking in January and decreasing afterwards   D. The illness is only spreading between humans, with no evidence of animal involvement.",
+    "text": "What is unusual about how this illness is spreading?  A. The illness seems to be affecting only trainers who traveled to the conference.  B. The illness appears in people who were not in direct contact with the original sick trainers.  C. The illness follows a seasonal flu-like pattern, peaking in January and decreasing afterwards  D. The illness is only spreading between humans, with no evidence of animal involvement.",
     "crumbs": [
       "Part 1",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Identifying Patterns in the Outbreak</span>"
@@ -102,7 +102,7 @@
     "href": "part2/quiz-test.html#quiz",
     "title": "6  What Data Should We Collect?",
     "section": "",
-    "text": "Which group would be the most important to test early in the outbreak investigation?  A. Only people with severe symptoms who were hospitalized  B. Only trainers and workers who have direct animal contact.  C. A mix of symptomatic and asymptomatic individuals, including animals.   D. Only people who tested negative for flu, to find other possible pathogens.",
+    "text": "Which group would be the most important to test early in the outbreak investigation?  A. Only people with severe symptoms who were hospitalized  B. Only trainers and workers who have direct animal contact.  C. A mix of symptomatic and asymptomatic individuals, including animals.  D. Only people who tested negative for flu, to find other possible pathogens.",
     "crumbs": [
       "Part 2",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>What Data Should We Collect?</span>"
@@ -157,7 +157,7 @@
     "href": "part3/quiz-test.html#quiz",
     "title": "8  Evaluating the First Sequencing Results",
     "section": "",
-    "text": "The sequencing results from early human and animal samples return with multiple species detected. What should scientistis look for first?  A. The species that appear in every sample.  B. The species that only appear in sick individuals.  C. The species that are entirely new to science.   D. The species that match known respiratory pathogens.",
+    "text": "The sequencing results from early human and animal samples return with multiple species detected. What should scientistis look for first?  A. The species that appear in every sample.  B. The species that only appear in sick individuals.  C. The species that are entirely new to science.  D. The species that match known respiratory pathogens.",
     "crumbs": [
       "Part 3",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Evaluating the First Sequencing Results</span>"
@@ -300,7 +300,7 @@
     "href": "part9/quiz-test.html#quiz",
     "title": "15  Quality Control and Sequence Alignments",
     "section": "",
-    "text": "What is the primary reason scientists use multiple sequence alignments (MSA) in outbreak investigations?  A. To identify differences between sequences and formulate hypotheses on reconstructing transmission patterns.  B. To determine if a virus is more closely related to bacteria or fungi.  C. To verify that all samples contain complete genomes before analyses.   D. To directly confirm how a virus spreads between individuals.",
+    "text": "What is the primary reason scientists use multiple sequence alignments (MSA) in outbreak investigations?  A. To identify differences between sequences and formulate hypotheses on reconstructing transmission patterns.  B. To determine if a virus is more closely related to bacteria or fungi.  C. To verify that all samples contain complete genomes before analyses.  D. To directly confirm how a virus spreads between individuals.",
     "crumbs": [
       "Part 9",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Quality Control and Sequence Alignments</span>"
@@ -333,7 +333,7 @@
     "href": "part10/quiz-test.html#quiz",
     "title": "17  What Can the Phylogenetic Tree Tell Us?",
     "section": "",
-    "text": "Looking at the phylogenetic tree, what would you expect to see if he virus originated from a single introduction into humans?  A. All human sequences would be identical.  B. Human sequences would cluster closely together (or group closely together) but differ slightly.  C. Human sequences would be widely dispersed (or scattered) throughout the tree.   D. Human sequences would be more similar to environmental microbes than to each other.",
+    "text": "Looking at the phylogenetic tree, what would you expect to see if he virus originated from a single introduction into humans?  A. All human sequences would be identical.  B. Human sequences would cluster closely together (or group closely together) but differ slightly.  C. Human sequences would be widely dispersed (or scattered) throughout the tree.  D. Human sequences would be more similar to environmental microbes than to each other.",
     "crumbs": [
       "Part 10",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
