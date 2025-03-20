@@ -285,91 +285,113 @@
     ]
   },
   {
+    "objectID": "part9/quiz-test.html",
+    "href": "part9/quiz-test.html",
+    "title": "15  Quality Control and Sequence Alignements",
+    "section": "",
+    "text": "15.1 Quiz",
+    "crumbs": [
+      "Part 9",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Quality Control and Sequence Alignements</span>"
+    ]
+  },
+  {
+    "objectID": "part9/quiz-test.html#quiz",
+    "href": "part9/quiz-test.html#quiz",
+    "title": "15  Quality Control and Sequence Alignements",
+    "section": "",
+    "text": "What is the primary reason scientists use multiple sequence alignments (MSA) in outbreak investigations?  A. To identify differences between sequences and formulate hypotheses on reconstructing transmission patterns.  B. To determine if a virus is more closely related to bacteria or fungi.  C. To verify that all samples contain complete genomes before analyses.   D. To directly confirm how a virus spreads between individuals.",
+    "crumbs": [
+      "Part 9",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Quality Control and Sequence Alignements</span>"
+    ]
+  },
+  {
     "objectID": "part10/index.html",
     "href": "part10/index.html",
-    "title": "15  Genomic Analysis",
+    "title": "16  Genomic Analysis",
     "section": "",
-    "text": "15.1 Discussion Twelve:\nA. Looking at the phylogenetic tree, what inferences would you make regarding the placement of the samples on the tree?\nB. Is the phylogenetic tree in congruence with the exposure map?\nC. Looking at the heatmap, do you notice any clusters or patterns that match how the sequences are placed on the tree?\nD. What would you conclude from this analysis? Does this analysis support your hypothesis?",
+    "text": "16.1 Discussion Twelve:\nA. Looking at the phylogenetic tree, what inferences would you make regarding the placement of the samples on the tree?\nB. Is the phylogenetic tree in congruence with the exposure map?\nC. Looking at the heatmap, do you notice any clusters or patterns that match how the sequences are placed on the tree?\nD. What would you conclude from this analysis? Does this analysis support your hypothesis?",
     "crumbs": [
       "Part 10",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Genomic Analysis</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Genomic Analysis</span>"
     ]
   },
   {
     "objectID": "part10/quiz-test.html",
     "href": "part10/quiz-test.html",
-    "title": "16  What Can the Phylogenetic Tree Tell Us?",
+    "title": "17  What Can the Phylogenetic Tree Tell Us?",
     "section": "",
-    "text": "16.1 Quiz",
+    "text": "17.1 Quiz",
     "crumbs": [
       "Part 10",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
     ]
   },
   {
     "objectID": "part10/quiz-test.html#quiz",
     "href": "part10/quiz-test.html#quiz",
-    "title": "16  What Can the Phylogenetic Tree Tell Us?",
+    "title": "17  What Can the Phylogenetic Tree Tell Us?",
     "section": "",
     "text": "Looking at the phylogenetic tree, what would you expect to see if he virus originated from a single introduction into humans?  A. All human sequences would be identical.  B. Human sequences would cluster closely together (or group closely together) but differ slightly.  C. Human sequences would be widely dispersed (or scattered) throughout the tree.   D. Human sequences would be more similar to environmental microbes than to each other.",
     "crumbs": [
       "Part 10",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
     ]
   },
   {
     "objectID": "part11/index.html",
     "href": "part11/index.html",
-    "title": "17  Public Health Action",
+    "title": "18  Public Health Action",
     "section": "",
-    "text": "17.1 Discussion Thirteen:\nHow would you construct a genomic surveillance system? Include in your discussion how you would obtain samples from laboratories. Would you use the sampling scheme discussed in Discussion One?",
+    "text": "18.1 Discussion Thirteen:\nHow would you construct a genomic surveillance system? Include in your discussion how you would obtain samples from laboratories. Would you use the sampling scheme discussed in Discussion One?",
     "crumbs": [
       "Part 11",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Public Health Action</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Public Health Action</span>"
     ]
   },
   {
     "objectID": "part11/quiz-test.html",
     "href": "part11/quiz-test.html",
-    "title": "18  What Comes Next?",
+    "title": "19  What Comes Next?",
     "section": "",
-    "text": "18.1 Quiz",
+    "text": "19.1 Quiz",
     "crumbs": [
       "Part 11",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>What Comes Next?</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>What Comes Next?</span>"
     ]
   },
   {
     "objectID": "part11/quiz-test.html#quiz",
     "href": "part11/quiz-test.html#quiz",
-    "title": "18  What Comes Next?",
+    "title": "19  What Comes Next?",
     "section": "",
     "text": "Now that scientists have identified the novel virus, what additional steps should be taken to prevent future outbreaks?  A. Increase surveillance of wildlife for similar viruses.  B. Develop a rapid diagnostic test to detect new cases.  C. Monitor infected individuals to study long-term effects.   D. All of the above.",
     "crumbs": [
       "Part 11",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>What Comes Next?</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>What Comes Next?</span>"
     ]
   },
   {
     "objectID": "part12/index.html",
     "href": "part12/index.html",
-    "title": "19  Conclusion:",
+    "title": "20  Conclusion:",
     "section": "",
-    "text": "19.1 Discussion Fourteen:\nThe outbreak was eventually contained, but what if the virus had not been detected in time? What other steps could have been taken to prevent a spillover event like this in the future?",
+    "text": "20.1 Discussion Fourteen:\nThe outbreak was eventually contained, but what if the virus had not been detected in time? What other steps could have been taken to prevent a spillover event like this in the future?",
     "crumbs": [
       "Part 12",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Conclusion:</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Conclusion:</span>"
     ]
   },
   {
     "objectID": "part13/index.html",
     "href": "part13/index.html",
-    "title": "20  Author’s Notes",
+    "title": "21  Author’s Notes",
     "section": "",
     "text": "Pathogen Genomics is a new and revolutionary field in Public Health and it represents a new direction of infectious disease intelligence and surveillance. What we have accomplished during the COVID-19 pandemic reflects this.\nThe sequencing of SARS-CoV-2 during the COVID-19 pandemic has transformed surveillance and epidemiologic analyses. This learning experience has ushered us in a new direction of infectious disease intelligence and surveillance, where pathogen genomes can be used for more insightful analyses like phylodynamics, transmission dynamics, variant detection, estimating disease severity, among other things. From this experience, there’s ample opportunity and room to expand sequencing and genomics to other pathogens of notifiable conditions.\nIn the future, once we are more established in this field, we can begin to build a global warning system for future pandemics of emerging pathogens. In a sense, we do a lot of this kind of work right now with SARS-CoV-2. Therefore, all that we do now and the work that we invest in will serve as a model for the ways in which we can monitor, prevent, and control infectious diseases and it’s looking to be a very optimistic future direction.\nThis story is meant to help build capacity in Pathogen Genomics, whether you are a laboratorian, epidemiologist, bioinformatician, infectious disease specialist, and the like. Furthermore, this mystery outbreak story is an ode to all of the public health professionals, researchers, scientists, and healthcare workers that worked tirelessly on the frontlines of the COVID-19 pandemic, and for the newcomers who are interested in this area. We seek to revolutionalize our surveillance systems and infrastructure, and you too, can be a part of this undertaking.\n\nSteph M Lunn\n\nHave questions? Feel free to reach out!\nContact WA DOH Molecular Epidemiology Program\nThis story was inspired by Pokemon, but not affiliated with or sponsored by Pokemon, GameFreaks, or Nintendo.",
     "crumbs": [
       "Part 13",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Author's Notes</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Author's Notes</span>"
     ]
   }
 ]
