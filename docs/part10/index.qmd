@@ -39,7 +39,7 @@ The line list shows the sample IDs of the sequenced cases in the outbreak. The s
 
 ![Phylogenetic Tree of Flu-Like Illness Outbreak, Fuchsia City, Safari Zone](../images/outbreak-tree.jpg)
 
-**Open tree in new tab for full view**
+[Open tree in new tab for full view](../images/outbreak-tree.jpg)
 
 *Phylogenetic Tree of Outbreak.*
 Phylogenetic trees shows the evolutionary relationships between sequences on the tree. The tips on the tree are colored by occupation, species, or residency in relation to the park. Sequences that are more closely related and perhaps genetically similar will be closer together on the tree. Sequences that are distant from each other the tree typically indicate that the sequences are less related to each other. 

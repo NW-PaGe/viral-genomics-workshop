@@ -54,12 +54,13 @@ Looking at the table above, what do you notice about the genetic identity shared
 
 ![A. Multiple Sequence Alignment View of Sequences, Whole Genome](../images/msa-wg.jpg)
 
-**Open alignment in new tab for full view**
+[Open alignment in new tab for full view](../images/msa-wg.jpg)
+
 
 
 ![B. Multiple Sequence Alignment View of Sequences, Spike](../images/msa-spike.jpg)
 
-**Open alignment in new tab for full view**
+[Open alignment in new tab for full view](../images/msa-spike.jpg)
 
 The MSA using NCBI Alignment Viewer are shown above. Part A shows the coverage and mutations across the genome, whereas part B shows coverage across the spike gene. Mutations at a base position is indicated by the red lines.
 
