@@ -18,9 +18,11 @@ book:
   - part: "Part 2"
     chapters: 
       - part2/index.qmd
+      - part2/quiz-test.qmd
   - part: "Part 3"
     chapters:
       - part3/index.qmd
+      - part3/quiz-test.qmd
   - part: "Part 4"
     chapters:
       - part4/index.qmd
@@ -42,9 +44,11 @@ book:
   - part: "Part 10"
     chapters:
       - part10/index.qmd
+      - part10/quiz-test.qmd
   - part: "Part 11"
     chapters:
       - part11/index.qmd
+      - part11/quiz-test.qmd
   - part: "Part 12"
     chapters:
       - part12/index.qmd
