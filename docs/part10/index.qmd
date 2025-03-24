@@ -20,6 +20,7 @@ More distant sequences had longer branches, reflecting more mutations.
 The final tree would reveal key insights about the outbreak. "If sequences from the muubats and infected trainers clustered closely together, it would provide strong evidence of spillover from animals to humans" said one of the Molecular Epidemiologist. "Alternatively, if human sequences showed signs of divergence, it might suggest ongoing transmission within the human population", they continued. 
 
 **Example illustating a sequence alignment**
+```
 Sequences Aligned:
 
 Ref:   ATGCTGATCGTACGTTACG
@@ -28,8 +29,10 @@ Seq B: ATGCTGATCGTACGTCACG  (1 mutation at position 15: T → C)
 Seq C: ATGCTGATCGTTCGTTACG  (1 mutation at position 12: A → T)
 Seq D: ATGCTGATTGTACGTTACG  (1 mutation at position 9: C → T)
 Seq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)
+```
 
 **Example illustrating phylogenetic tree based on sequence alignment**
+```
         ┌── Seq A  (Identical to Ref)
         │
    ┌────┴── Seq B  (1 mutation)
@@ -38,6 +41,7 @@ Seq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)
    │
    │    ┌── Seq D  (1 mutation)
    └────┴── Seq E  (2 mutations)
+```
 
 
 ## Pairwise Distance Matrices
@@ -48,13 +52,14 @@ Each cell in the matrix represents the *number of SNP differences* between a pai
 Computing pairwise distance matrices is a relatively straightfoward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where *row = column* (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme. 
 
 **Example illustrating a Pairwise Distance Matrix** 
+```
 | Sample ID       | Seq A | Seq B | Seq C | Seq D |
 |----------------|------|------|------|------|
 | **Seq A**       | 0    | 2    | 5    | 7    |
 | **Seq B**       | 2    | 0    | 3    | 6    |
 | **Seq C**       | 5    | 3    | 0    | 4    |
 | **Seq D**       | 7    | 6    | 4    | 0    |
-
+```
 
 ## Results
 **Line list of cases likely linked to outbreak**
