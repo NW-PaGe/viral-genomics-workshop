@@ -2,8 +2,61 @@
 
 The team met to discuss what kind of genomic analyses could be performed to help visualize the sequencing data of the outbreak. Members suggested constructing a phylogenetic tree and pairwise distance matrix to understand the relationship between sequences. The team agreed that a tree and pairwise distance matrix would be helpful to get a sense of how related and similar the sequences were. The Molecular Epidemiologists set off to construct a phylogenetic tree and a pairwise distance matrix.
 
+## Phylogenetic Trees
+A phylogenetic tree is a hierarchical clustering or branching diagram that represents the evolutionary relationships between sequences based on genetic similarity. In this outbreak investigation, the tree helps determine how closely related viral genomes are across different individuals and species. Think of it as a family tree where we can trace the ancestry of a virus.
+
+Each *tip (or lead)* on the tree represents a sample's genome sequence of the virus. The branches connecting them indicate evolutionary relationships. with the branch length representing the amount of genetic difference between sequences. The shorter the branch, the fewer mutations separate two samples meaning they are closely related. 
+
+If two samples have identical genome sequences, they will appear at the exact sample position on the x-axis, but may be stacked vertically for visualization purposes. If sequences have accumulated mutations over time, they will appear further apart along the x-axis, indicating *genetic diverence*.
+
+### Generating Phylogenetic Trees
+Once the genome sequences were aligned and mutations identified, the next step was to construct a phylogenetic tree, a visual representation of their evolutionary relationships.
+
+The first step in building the tree was to calculate genetic distances—essentially counting how many nucleotide differences separated each sequence. Viral sequences that shared fewer mutations were likely part of the same transmission chain, while those with more mutations were more genetically distinct.
+
+To translate these genetic distances into a tree, the team used computational clustering algorithms that grouped sequences based on similarity. The general process followed these steps: First a sequence alignment in which all genome sequences were compared letter by letter to pinpoint mutations. Next was distance matrix calculation: in which the number of single nucleotide polymorphisms (SNPs) separating each pair of sequences was counted. This would generate a pairwise distance matrix that quantified genetic differences between samples. Afterwards, a tree would be constructed using a clustering algorithm. The algorithm grouped sequences that were genetically similar into clusters, forming a branching structure. Shorter branch lengths indicated samples with fewer mutations (closely related) and longer branches suggested more mutations (greater divergence over time). Lastly we would visualize the tree. The tree’s x-axis represented genetic distance—samples positioned close together had similar genomes. If two sequences were identical, they occupied the same x-axis position but might be stacked vertically for clarity.
+More distant sequences had longer branches, reflecting more mutations. 
+
+The final tree would reveal key insights about the outbreak. "If sequences from the muubats and infected trainers clustered closely together, it would provide strong evidence of spillover from animals to humans" said one of the Molecular Epidemiologist. "Alternatively, if human sequences showed signs of divergence, it might suggest ongoing transmission within the human population", they continued. 
+
+**Example illustating a sequence alignment**
+Sequences Aligned:
+
+Ref:   ATGCTGATCGTACGTTACG
+Seq A: ATGCTGATCGTACGTTACG  (No mutations)
+Seq B: ATGCTGATCGTACGTCACG  (1 mutation at position 15: T → C)
+Seq C: ATGCTGATCGTTCGTTACG  (1 mutation at position 12: A → T)
+Seq D: ATGCTGATTGTACGTTACG  (1 mutation at position 9: C → T)
+Seq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)
+
+**Example illustrating phylogenetic tree based on sequence alignment**
+        ┌── Seq A  (Identical to Ref)
+        │
+   ┌────┴── Seq B  (1 mutation)
+   │
+───┴──────── Seq C  (1 mutation)
+   │
+   │    ┌── Seq D  (1 mutation)
+   └────┴── Seq E  (2 mutations)
 
 
+## Pairwise Distance Matrices
+A pairwise distance matrix is a table that quantifies the *genetic differences between sequences* by counting single nucleotide polymorphisms (SNPs). SNPS are individual base differences at specific nucleotide posititions in the genome. It helps to determine how closely related two samples are and whether genetic clustering aligns with known epidemiological links.
+
+Each cell in the matrix represents the *number of SNP differences* between a pair of genome sequences. The smaller the number, the more similar the sequences are. A value of 0 means the sequences are identical.
+
+Computing pairwise distance matrices is a relatively straightfoward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where *row = column* (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme. 
+
+**Example illustrating a Pairwise Distance Matrix** 
+| Sample ID       | Seq A | Seq B | Seq C | Seq D |
+|----------------|------|------|------|------|
+| **Seq A**       | 0    | 2    | 5    | 7    |
+| **Seq B**       | 2    | 0    | 3    | 6    |
+| **Seq C**       | 5    | 3    | 0    | 4    |
+| **Seq D**       | 7    | 6    | 4    | 0    |
+
+
+## Results
 **Line list of cases likely linked to outbreak**
 
 | Sample ID         | Collection Date | Notes                                                                                  |
@@ -42,8 +95,11 @@ The line list shows the sample IDs of the sequenced cases in the outbreak. The s
 [Open tree in new tab for full view](../images/outbreak-tree.jpg)
 
 *Phylogenetic Tree of Outbreak.*
-Phylogenetic trees shows the evolutionary relationships between sequences on the tree. The tips on the tree are colored by occupation, species, or residency in relation to the park. Sequences that are more closely related and perhaps genetically similar will be closer together on the tree. Sequences that are distant from each other the tree typically indicate that the sequences are less related to each other. 
+This phylogenetic tree shows the evolutionary relationships between sequences from the outbreal. The tips on the tree represent individual genome sequences of the virus, which are color-coded by species in relation to the park.
 
+The x-axis represents genetic distance, with samples that are closer together along the x-axis being *more genetically similar*. Shorter branch lengths indicate *fewer genetic differences between sequences*, meaning they share a more recent common ancestor.
+
+It's important to note that if two or more sequences are *identical*, like those of muubat_02 through muubat_04, they will appear at the same x-axis position but may be stacked vertically for visualization purposes. This ensure that identical sequences are not mistakenly interpreted as being genetically distinct due to their vertical separation on the tree. 
 
 ![Exposure Map of Animals, Trainers, and Workers](../images/case_mapping.jpeg)
 
@@ -54,7 +110,7 @@ The exposure map uses information from the case interview to piece together how 
 ![Heatmap of SNP Distances of Sequences in Outbreak](../images/heatmap14.jpeg)
 
 *Heatmap.*
-The heatmap shows the pairwise distance between two sequences. The pairwise distance is given by the number of single nucleotide polymorphisms (SNPs), or single base difference between two sequences. The range of SNP differences for the sequenced cases in the outbreak is 0 to 9. Sequences that are darker in color indicate fewer SNP differences between the two sequences, whereas lighter color indicates more SNP differences between the two cases. The pairwise distances were computed using the aligned sequences.
+The heatmap shows the pairwise distance between two sequences. The pairwise distance is given by the number of single nucleotide polymorphisms (SNPs), or single base difference between two sequences. The range of SNP differences for the sequenced cases in the outbreak is 0 to 9. A SNP distnace of 0 (darkest color) means that two sequences are identical, while a higher SNP count (lighter color) indicates greater genetic divergence. Comparing this heatmap with the phylogenetic tree helps confirm whether clusters of closely related sequences correspond to expected epidemiological links. Sequences that are darker in color indicate fewer SNP differences between the two sequences, whereas lighter color indicates more SNP differences between the two cases. 
 
 The phylogenetic tree revealed patterns in the genetic relationship between the sequences generated from each sample. Some sequences clustered more closely together whereas others showed greated divergence. Meanwhile, the SNP heatmap highlighted key genetic differences, with certain sequences appearing more similar while others displayed increasing variation over time. The team deliberated: what might these patterns suggest about how the virus spread and changed throughout the outbreak?
 
