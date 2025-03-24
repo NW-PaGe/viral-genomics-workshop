@@ -7,6 +7,17 @@ Prior to genomic analysis, the Bioinformaticians and Molecular Epidemiologists w
 The team gathered around their screens as the alignment results came in. This was a crucial step - before moving forward with any genomic analysis, they needed to verify the quality of the sequencing data and ensure that all samples aligned properly to the reference genome.
 
 ## What is Sequencing Alignment and Why Does it Matter?
+**Example illustating a sequence alignment**
+```
+Sequences Aligned:
+
+Ref:   ATGCTGATCGTACGTTACG
+Seq A: ATGCTGATCGTACGTTACG  (No mutations)
+Seq B: ATGCTGATCGTACGTCACG  (1 mutation at position 15: T → C)
+Seq C: ATGCTGATCGTTCGTTACG  (1 mutation at position 12: A → T)
+Seq D: ATGCTGATTGTACGTTACG  (1 mutation at position 9: C → T)
+Seq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)
+```
 
 One of the most powerful tools in genomics is a sequence alignment, a process that allows scientists to compare genomic sequences and look for patterns that could provide clues about the outbreak. There are many different specialized software that can generate a sequence alignment as well as genome browsers that can provide an overview of an alignment. Using an in-house specialized alignment sofrware, the team aligned the viral sequences from infected humans, animals, and archived samples to look for similarities, differences, and possible mutations.
 
