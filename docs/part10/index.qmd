@@ -1,23 +1,6 @@
 # Genomic Analysis
 
-The team met to discuss what kind of genomic analyses could be performed to help visualize the sequencing data of the outbreak. Members suggested constructing a phylogenetic tree and pairwise distance matrix to understand the relationship between sequences. The team agreed that a tree and pairwise distance matrix would be helpful to get a sense of how related and similar the sequences were. The Molecular Epidemiologists set off to construct a phylogenetic tree and a pairwise distance matrix.
-
-## Phylogenetic Trees
-A phylogenetic tree is a hierarchical clustering or branching diagram that represents the evolutionary relationships between sequences based on genetic similarity. In this outbreak investigation, the tree helps determine how closely related viral genomes are across different individuals and species. Think of it as a family tree where we can trace the ancestry of a virus.
-
-Each *tip (or lead)* on the tree represents a sample's genome sequence of the virus. The branches connecting them indicate evolutionary relationships. with the branch length representing the amount of genetic difference between sequences. The shorter the branch, the fewer mutations separate two samples meaning they are closely related. 
-
-If two samples have identical genome sequences, they will appear at the exact sample position on the x-axis, but may be stacked vertically for visualization purposes. If sequences have accumulated mutations over time, they will appear further apart along the x-axis, indicating *genetic diverence*.
-
-### Generating Phylogenetic Trees
-Once the genome sequences were aligned and mutations identified, the next step was to construct a phylogenetic tree, a visual representation of their evolutionary relationships.
-
-The first step in building the tree was to calculate genetic distances—essentially counting how many nucleotide differences separated each sequence. Viral sequences that shared fewer mutations were likely part of the same transmission chain, while those with more mutations were more genetically distinct.
-
-To translate these genetic distances into a tree, the team used computational clustering algorithms that grouped sequences based on similarity. The general process followed these steps: First a sequence alignment in which all genome sequences were compared letter by letter to pinpoint mutations. Next was distance matrix calculation: in which the number of single nucleotide polymorphisms (SNPs) separating each pair of sequences was counted. This would generate a pairwise distance matrix that quantified genetic differences between samples. Afterwards, a tree would be constructed using a clustering algorithm. The algorithm grouped sequences that were genetically similar into clusters, forming a branching structure. Shorter branch lengths indicated samples with fewer mutations (closely related) and longer branches suggested more mutations (greater divergence over time). Lastly we would visualize the tree. The tree’s x-axis represented genetic distance—samples positioned close together had similar genomes. If two sequences were identical, they occupied the same x-axis position but might be stacked vertically for clarity.
-More distant sequences had longer branches, reflecting more mutations. 
-
-The final tree would reveal key insights about the outbreak. "If sequences from the muubats and infected trainers clustered closely together, it would provide strong evidence of spillover from animals to humans" said one of the Molecular Epidemiologist. "Alternatively, if human sequences showed signs of divergence, it might suggest ongoing transmission within the human population", they continued. 
+The team met to discuss what kind of genomic analyses could be performed to help visualize the sequencing data of the outbreak. They decided to construct a pairwise distance matrix and a phylogenetic tree using the sequencing alignment. The pairwise distance matrix and phylogenetic tree are examples of two essential tools in genomic epidemiology. These analyses would allow them to determine how closely related viral genomes were, whether the outbreak originated from an animal spillover event, and how the virus was evolving over time.
 
 **Example illustating a sequence alignment**
 ```
@@ -31,17 +14,9 @@ Seq D: ATGCTGATTGTACGTTACG  (1 mutation at position 9: C → T)
 Seq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)
 ```
 
-**Example illustrating phylogenetic tree based on sequence alignment**
+"Uhm", raised the hand of one of the Local Health Jurisdiction Epidemiologists. "I understand alignments after looking at the sequence alignment results the Bioinformaticians generated. But I am a bit rusty when it comes to pairwise distance matries and phylogenetic trees. Perhaps one of you could explain it to me?"
 
-        ┌── Seq A  (Identical to Ref)
-        │
-   ┌────┴── Seq B  (1 mutation)
-   │
-───┴──────── Seq C  (1 mutation)
-   │
-   │    ┌── Seq D  (1 mutation)
-   └────┴── Seq E  (2 mutations)
-
+"Sure thing", exclaimed one of the Molecular Epidemiologists. Let's start with pairwise distance matrices.
 
 ## Pairwise Distance Matrices
 A pairwise distance matrix is a table that quantifies the *genetic differences between sequences* by counting single nucleotide polymorphisms (SNPs). SNPS are individual base differences at specific nucleotide posititions in the genome. It helps to determine how closely related two samples are and whether genetic clustering aligns with known epidemiological links.
@@ -52,13 +27,48 @@ Computing pairwise distance matrices is a relatively straightfoward process with
 
 **Example illustrating a Pairwise Distance Matrix** 
 ```
-| Sample ID   | Seq A | Seq B | Seq C | Seq D |
-|-------------|-------|-------|-------|-------|
-| Seq A       |  0    |  2    |  5    |  7    |
-| Seq B       |  2    |  0    |  3    |  6    |
-| Seq C       |  5    |  3    |  0    |  4    |
-| Seq D       |  7    |  6    |  4    |  0    |
+| Sample ID   | Ref  | Seq A | Seq B | Seq C | Seq D | Seq E |
+|-------------|------|-------|-------|-------|-------|-------|
+| Ref         | 0    | 0     |  1    |  1    |  1    |  2    |
+| Seq A       | 0    | 0     |  1    |  1    |  1    |  2    |
+| Seq B       | 1    | 1     |  0    |  2    |  2    |  1    |
+| Seq C       | 1    | 1     |  2    |  0    |  2    |  3    |
+| Seq D       | 1    | 1     |  2    |  2    |  0    |  1    |
+| Seq E       | 2    | 1     |  1    |  3    |  1    |  0    |
 ```
+
+"I see now, thank you so much! That makes sense." Smiled the Local Health Jurisdiction Epidemiologist.
+
+Another Molecular Epidemiologist chimed in, "I am happy to explain phylogenetic trees!"
+
+## Phylogenetic Trees
+A phylogenetic tree is a hierarchical clustering or branching diagram that represents the evolutionary relationships between sequences based on genetic similarity. In this outbreak investigation, the tree helps determine how closely related viral genomes are across different individuals and species. Think of it as a family tree where we can trace the ancestry of a virus.
+
+Each *tip (or leaf)* on the tree represents a sample's genome sequence of the virus. The branches connecting them indicate evolutionary relationships, or the sharing of a common ancestor, and branch length represent the amount of genetic difference between sequences. 
+
+When interpreting trees, there's so much to consider! Yet, let's keep it simple and expand on the concept of a "family tree" with sequences being "closely related". Samples that are closer together along the x-axis being *more genetically similar* and *genetically related to each other*. Shorter branch lengths indicate *fewer genetic differences between sequences*, meaning that there's less mutations between the sequences and they share a more recent common ancestor. However, longer branches means an accumulation of more mutations. As such, this would mean that the sequences are less closely related or are distantly related. Identical sequences would occur along the same x-axis but would be stacked vertically on the y-axis for visibility.
+
+
+**Example illustrating phylogenetic tree based on sequence alignment**
+```
+        ┌── Seq A  (Identical to Ref)
+        │
+   ┌────┴── Seq B  (1 mutation)
+   │
+───┴──────── Seq C  (1 mutation)
+   │
+   │    ┌── Seq D  (1 mutation)
+   └────┴── Seq E  (2 mutations)
+```
+
+### Generating Phylogenetic Trees
+Once the genome sequences were aligned and mutations identified, the next step was to construct a phylogenetic tree, a visual representation of their evolutionary relationships.
+
+The first step in building the tree was to calculate genetic distances—essentially counting how many nucleotide differences separated each sequence. Viral sequences that shared fewer mutations were likely part of the same transmission chain, while those with more mutations were more genetically distinct.
+
+To translate these genetic distances into a tree, the team used computational clustering algorithms that grouped sequences based on similarity. The general process followed these steps: First a sequence alignment in which all genome sequences were compared letter by letter to pinpoint mutations. Next was distance matrix calculation: in which the number of single nucleotide polymorphisms (SNPs) separating each pair of sequences was counted. This would generate a pairwise distance matrix that quantified genetic differences between samples. Afterwards, a tree would be constructed using a clustering algorithm. The algorithm grouped sequences that were genetically similar into clusters, forming a branching structure. Shorter branch lengths indicated samples with fewer mutations (closely related) and longer branches suggested more mutations (greater divergence over time). More distant sequences had longer branches, reflecting more mations. Lastly we would visualize the tree. The tree’s x-axis represented genetic distance—samples positioned close together had similar genomes. If two sequences were identical, they occupied the same x-axis position but might be stacked vertically for clarity.
+
+The final tree would reveal key insights about the outbreak. "If sequences from the muubats and infected trainers clustered closely together, it would provide strong evidence of spillover from animals to humans" said one of the Molecular Epidemiologist. "Alternatively, if human sequences showed signs of divergence, it might suggest ongoing transmission within the human population", they continued. 
 
 ## Results
 **Line list of cases likely linked to outbreak**
@@ -99,11 +109,10 @@ The line list shows the sample IDs of the sequenced cases in the outbreak. The s
 [Open tree in new tab for full view](../images/outbreak-tree.jpg)
 
 *Phylogenetic Tree of Outbreak.*
-This phylogenetic tree shows the evolutionary relationships between sequences from the outbreal. The tips on the tree represent individual genome sequences of the virus, which are color-coded by species in relation to the park.
+This phylogenetic tree shows the evolutionary relationships between sequences from the outbreak. The tips on the tree represent individual genome sequences of the virus, which are color-coded by species in relation to the park.
+The x-axis represents divergence (also sometimes referred to as genetic distance, or the number of mutations from the reference genome). To give an example, the reference genome is 5000 bases long, so a divergence of 0.0006 would mean 3 mutations difference. (5000 * 0.0006).
 
-The x-axis represents genetic distance, with samples that are closer together along the x-axis being *more genetically similar*. Shorter branch lengths indicate *fewer genetic differences between sequences*, meaning they share a more recent common ancestor.
-
-It's important to note that if two or more sequences are *identical*, like those of muubat_02 through muubat_04, they will appear at the same x-axis position but may be stacked vertically for visualization purposes. This ensure that identical sequences are not mistakenly interpreted as being genetically distinct due to their vertical separation on the tree. 
+Note that identical sequences like muubat_02, muubat_03, and muubat_04 lie on the same x-axis and are stacked vertically. Comparing the muubat sequences with the sequences of the residents, the branch length of the resident is much longer indicating that the viruses that infected the muubats are less closely related to the residents.
 
 ![Exposure Map of Animals, Trainers, and Workers](../images/case_mapping.jpeg)
 
