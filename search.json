@@ -223,7 +223,18 @@
     "href": "part9/index.html",
     "title": "14  QC Checks",
     "section": "",
-    "text": "14.1 What is Sequencing Alignment and Why Does it Matter?\nOne of the most powerful tools in genomics is a sequence alignment, a process that allows scientists to compare genomic sequences and look for patterns that could provide clues about the outbreak. There are many different specialized software that can generate a sequence alignment as well as genome browsers that can provide an overview of an alignment. Using an in-house specialized alignment sofrware, the team aligned the viral sequences from infected humans, animals, and archived samples to look for similarities, differences, and possible mutations.\n“Think of this like assembling pages of a shredded document”, one of the Bioinformaticians explained. “Each sequence is a tiny fragment of a much larger picture. By aligning them properly, we can reconstruct a phylogenetic tree to see how these sequences are related.”\nAligning sequences wasn’t just about assembling data; it was about uncovering a hidden evolutionary history. Every mutation, every missing base, every small change can tell a story about how the virus was spreading an evolving.",
+    "text": "14.1 What is Sequencing Alignment and Why Does it Matter?\nExample illustating a sequence alignment\nOne of the most powerful tools in genomics is a sequence alignment, a process that allows scientists to compare genomic sequences and look for patterns that could provide clues about the outbreak. There are many different specialized software that can generate a sequence alignment as well as genome browsers that can provide an overview of an alignment. Using an in-house specialized alignment sofrware, the team aligned the viral sequences from infected humans, animals, and archived samples to look for similarities, differences, and possible mutations.\n“Think of this like assembling pages of a shredded document”, one of the Bioinformaticians explained. “Each sequence is a tiny fragment of a much larger picture. By aligning them properly, we can reconstruct a phylogenetic tree to see how these sequences are related.”\nAligning sequences wasn’t just about assembling data; it was about uncovering a hidden evolutionary history. Every mutation, every missing base, every small change can tell a story about how the virus was spreading an evolving.",
+    "crumbs": [
+      "Part 9",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>QC Checks</span>"
+    ]
+  },
+  {
+    "objectID": "part9/index.html#what-is-sequencing-alignment-and-why-does-it-matter",
+    "href": "part9/index.html#what-is-sequencing-alignment-and-why-does-it-matter",
+    "title": "14  QC Checks",
+    "section": "",
+    "text": "Sequences Aligned:\n\nRef:   ATGCTGATCGTACGTTACG\nSeq A: ATGCTGATCGTACGTTACG  (No mutations)\nSeq B: ATGCTGATCGTACGTCACG  (1 mutation at position 15: T → C)\nSeq C: ATGCTGATCGTTCGTTACG  (1 mutation at position 12: A → T)\nSeq D: ATGCTGATTGTACGTTACG  (1 mutation at position 9: C → T)\nSeq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)",
     "crumbs": [
       "Part 9",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>QC Checks</span>"

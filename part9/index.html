@@ -424,6 +424,15 @@ ul.task-list li input[type="checkbox"] {
 <p>The team gathered around their screens as the alignment results came in. This was a crucial step - before moving forward with any genomic analysis, they needed to verify the quality of the sequencing data and ensure that all samples aligned properly to the reference genome.</p>
 <section id="what-is-sequencing-alignment-and-why-does-it-matter" class="level2" data-number="14.1">
 <h2 data-number="14.1" class="anchored" data-anchor-id="what-is-sequencing-alignment-and-why-does-it-matter"><span class="header-section-number">14.1</span> What is Sequencing Alignment and Why Does it Matter?</h2>
+<p><strong>Example illustating a sequence alignment</strong></p>
+<pre><code>Sequences Aligned:
+
+Ref:   ATGCTGATCGTACGTTACG
+Seq A: ATGCTGATCGTACGTTACG  (No mutations)
+Seq B: ATGCTGATCGTACGTCACG  (1 mutation at position 15: T → C)
+Seq C: ATGCTGATCGTTCGTTACG  (1 mutation at position 12: A → T)
+Seq D: ATGCTGATTGTACGTTACG  (1 mutation at position 9: C → T)
+Seq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)</code></pre>
 <p>One of the most powerful tools in genomics is a sequence alignment, a process that allows scientists to compare genomic sequences and look for patterns that could provide clues about the outbreak. There are many different specialized software that can generate a sequence alignment as well as genome browsers that can provide an overview of an alignment. Using an in-house specialized alignment sofrware, the team aligned the viral sequences from infected humans, animals, and archived samples to look for similarities, differences, and possible mutations.</p>
 <p>“Think of this like assembling pages of a shredded document”, one of the Bioinformaticians explained. “Each sequence is a tiny fragment of a much larger picture. By aligning them properly, we can reconstruct a phylogenetic tree to see how these sequences are related.”</p>
 <p>Aligning sequences wasn’t just about assembling data; it was about uncovering a hidden evolutionary history. Every mutation, every missing base, every small change can tell a story about how the virus was spreading an evolving.</p>
