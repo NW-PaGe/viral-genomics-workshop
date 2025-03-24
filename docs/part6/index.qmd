@@ -10,14 +10,14 @@ Since the pathogen was unknown and did not immediately match any existing organi
 
 **Example illustrating an assembled contig**
 ```
-| Read #  | Position 1 | Position 2 | Position 3 | Position 4 | Position 5 |
-|---------|-----------|-----------|-----------|-----------|-----------|
-| Read 1  | A         | G         | C         | T         | -         |
-| Read 2  | A         | G         | C         | T         | -         |
-| Read 3  | A         | -         | C         | T         | G         |
-| Read 4  | A         | G         | C         | -         | -         |
-| Read 5  | A         | G         | -         | T         | G         |
-| **Assembled Contig** | A  | G  | C  | T  | G (gap filled) |
+| Read #           | Position 1 | Position 2 | Position 3 | Position 4 | Position 5      |
+|------------------|------------|------------|------------|------------|-----------------|
+| Read 1           |  A         |  G         |  C         |  T         |  -              |
+| Read 2           |  A         |  G         |  C         |  T         |  -              |
+| Read 3           |  A         |  -         |  C         |  T         |  G              |
+| Read 4           |  A         |  G         |  C         |  -         |  -              |
+| Read 5           |  A         |  G         |  -         |  T         |  G              |
+| Assembled Contig |  A         |  G         |  C         |  T         |  G (gap filled) |
 ```
 
 One assembled, the draft genome was analyzed against the Public Genome Database, a public repository of known microbial sequences. This process, known as *taxonomic identification*. compares the newly assembled genome against existing reference sequences to determine whether it shares homology or evolutionary similarity, with any known organisms. A match in the database suggests that the unknown pathogen may be related to a previously documented virus, providing clues about its classification and potential function. 
