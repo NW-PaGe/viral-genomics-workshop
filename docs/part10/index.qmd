@@ -48,7 +48,6 @@ Each *tip (or leaf)* on the tree represents a sample's genome sequence of the vi
 
 When interpreting trees, there's so much to consider! Yet, let's keep it simple and expand on the concept of a "family tree" with sequences being "closely related". Samples that are closer together along the x-axis being *more genetically similar* and *genetically related to each other*. Shorter branch lengths indicate *fewer genetic differences between sequences*, meaning that there's less mutations between the sequences and they share a more recent common ancestor. However, longer branches means an accumulation of more mutations. As such, this would mean that the sequences are less closely related or are distantly related. Identical sequences would occur along the same x-axis but would be stacked vertically on the y-axis for visibility.
 
-
 **Example illustrating phylogenetic tree based on sequence alignment**
 ```
         ┌── Seq A  (Identical to Ref)
@@ -61,14 +60,20 @@ When interpreting trees, there's so much to consider! Yet, let's keep it simple 
    └────┴── Seq E  (2 mutations)
 ```
 
+"I see now" said the Local Health Jursidiction Epidemiologist. "Thank you so much for explaining! I imagine the process to generate the trees requires some form of computation?"
+
+"Absolutely!" cheered the Molecular Epidemiologist. I'm happy to explain that as well.
+
 ### Generating Phylogenetic Trees
-Once the genome sequences were aligned and mutations identified, the next step was to construct a phylogenetic tree, a visual representation of their evolutionary relationships.
+Once the genome sequences are aligned and mutations identified, the next step is to construct a phylogenetic tree, a visual representation of their evolutionary relationships.
 
-The first step in building the tree was to calculate genetic distances—essentially counting how many nucleotide differences separated each sequence. Viral sequences that shared fewer mutations were likely part of the same transmission chain, while those with more mutations were more genetically distinct.
+The first step in building the tree is to calculate genetic distances—essentially counting how many nucleotide differences separated each sequence. Viral sequences that shared fewer mutations are likely part of the same transmission chain, while those with more mutations were more genetically distinct.
 
-To translate these genetic distances into a tree, the team used computational clustering algorithms that grouped sequences based on similarity. The general process followed these steps: First a sequence alignment in which all genome sequences were compared letter by letter to pinpoint mutations. Next was distance matrix calculation: in which the number of single nucleotide polymorphisms (SNPs) separating each pair of sequences was counted. This would generate a pairwise distance matrix that quantified genetic differences between samples. Afterwards, a tree would be constructed using a clustering algorithm. The algorithm grouped sequences that were genetically similar into clusters, forming a branching structure. Shorter branch lengths indicated samples with fewer mutations (closely related) and longer branches suggested more mutations (greater divergence over time). More distant sequences had longer branches, reflecting more mations. Lastly we would visualize the tree. The tree’s x-axis represented genetic distance—samples positioned close together had similar genomes. If two sequences were identical, they occupied the same x-axis position but might be stacked vertically for clarity.
+To translate these genetic distances into a tree, we can usecomputational clustering algorithms that groups sequences based on similarity. The general process follows these steps: First we generate our sequence alignment in which all genome sequences were compared letter by letter to pinpoint mutations. Next we compute our distance matrix in which the number of single nucleotide polymorphisms (SNPs) separating each pair of sequences is counted. This would generate a pairwise distance matrix that quantified genetic differences between samples. 
 
-The final tree would reveal key insights about the outbreak. "If sequences from the muubats and infected trainers clustered closely together, it would provide strong evidence of spillover from animals to humans" said one of the Molecular Epidemiologist. "Alternatively, if human sequences showed signs of divergence, it might suggest ongoing transmission within the human population", they continued. 
+Afterwards, a tree would be constructed using a clustering algorithm. There's quite a few different clustering algorithm, but what they do is group sequences that are genetically similar into clusters, forming a branching structure - a sort of *family tree*.
+
+The final tree would reveal key insights about the outbreak. "Given the outbreak, if sequences from the muubats and infected trainers clustered closely together, it would provide strong evidence of spillover from animals to humans" explained one of the Molecular Epidemiologist. "Alternatively, if human sequences showed signs of divergence, it might suggest ongoing transmission within the human population", they continued. 
 
 ## Results
 **Line list of cases likely linked to outbreak**
@@ -124,6 +129,9 @@ The exposure map uses information from the case interview to piece together how 
 
 *Heatmap.*
 The heatmap shows the pairwise distance between two sequences. The pairwise distance is given by the number of single nucleotide polymorphisms (SNPs), or single base difference between two sequences. The range of SNP differences for the sequenced cases in the outbreak is 0 to 9. A SNP distnace of 0 (darkest color) means that two sequences are identical, while a higher SNP count (lighter color) indicates greater genetic divergence. Comparing this heatmap with the phylogenetic tree helps confirm whether clusters of closely related sequences correspond to expected epidemiological links. Sequences that are darker in color indicate fewer SNP differences between the two sequences, whereas lighter color indicates more SNP differences between the two cases. 
+
+## Interpretating the Results
+"Let's take some time to review the results. We should each try to come up with our own interpretations and then compare to see what seems to be best explained by the data." 
 
 The phylogenetic tree revealed patterns in the genetic relationship between the sequences generated from each sample. Some sequences clustered more closely together whereas others showed greated divergence. Meanwhile, the SNP heatmap highlighted key genetic differences, with certain sequences appearing more similar while others displayed increasing variation over time. The team deliberated: what might these patterns suggest about how the virus spread and changed throughout the outbreak?
 
