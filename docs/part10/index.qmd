@@ -80,8 +80,8 @@ The final tree would reveal key insights about the outbreak. "Given the outbreak
 
 | Sample ID         | Collection Date | Notes                                                                                  |
 |-------------------|-----------------|----------------------------------------------------------------------------------------|
-| Bat_Trainer_01    | 2031-01-08      | Worked with the muubats; attended conference                                           |
-| Bat_Trainer_02    | 2031-01-08      | Worked with the muubats; attended conference                                           |
+| Bat_Trainer_01    | 2031-01-13      | Worked with the muubats; attended conference                                           |
+| Bat_Trainer_02    | 2031-01-13      | Worked with the muubats; attended conference                                           |
 | Canine_Trainer_01 | 2031-02-04      | Works closely with workers 01 & 02; interacted with bat trainer 01; works with canines |
 | Duck_Trainer_01   | 2031-02-08      | Works closely with worker 06; works with ducks                                         |
 | Duck_Trainer_02   | 2031-02-09      | Works closely with worker 06; works with ducks                                         |
@@ -96,11 +96,11 @@ The final tree would reveal key insights about the outbreak. "Given the outbreak
 | Resident_07       | 2031-02-19      | Could not reach                                                                        |
 | Resident_08       | 2031-02-19      | Visited the Safari Park, interacted with workers and animals                           |
 | Resident_09       | 2031-02-19      | Could not reach                                                                        |
-| Worker_01         | 2031-02-02      | Works closely with bat trainer 01 and canine trainer 01                                |
-| Worker_02         | 2031-02-03      | Works closely with bat trainer 01 and canine trainer 01                                |
-| Worker_03         | 2031-02-02      | Works with the bat trainers                                                            |
-| Worker_04         | 2031-02-03      | Works with the bat trainers                                                            |
-| Worker_05         | 2031-02-08      | Works with the bat trainers                                                            |
+| Worker_01         | 2031-01-22      | Works closely with bat trainer 01 and canine trainer 01                                |
+| Worker_02         | 2031-01-22      | Works closely with bat trainer 01 and canine trainer 01                                |
+| Worker_03         | 2031-01-20      | Works with the bat trainers                                                            |
+| Worker_04         | 2031-01-19      | Works with the bat trainers                                                            |
+| Worker_05         | 2031-01-20      | Works with the bat trainers                                                            |
 | Worker_06         | 2031-02-07      | Works with the duck trainers                                                           |
 | Worker_07         | 2031-02-15      | Works with the duck trainers and the ducks                                             |
 
