@@ -32,16 +32,16 @@ By aligning all sequencing reads from the bat trainer samples to the newly ident
 
 **Example illustrating a consensus sequence**
 Note that it looks similar to how a de novo assembled sequence would be generated; the tools and approaches are what distinguishes between the two.
-```
-| Read #  | Position 1 | Position 2 | Position 3 | Position 4 | Position 5 |
-|---------|-----------|-----------|-----------|-----------|-----------|
-| Read 1  | A         | G         | C         | T         | N         |
-| Read 2  | A         | G         | C         | T         | N         |
-| Read 3  | A         | A         | C         | T         | G         |
-| Read 4  | A         | G         | C         | N         | N         |
-| Read 5  | A         | G         | T         | T         | G         |
-| **Consensus Base** | A  | G  | C  | T  | G  |
-```
+
+| Read #         | Position 1 | Position 2 | Position 3 | Position 4 | Position 5 |
+|----------------|------------|------------|------------|------------|------------|
+| Read 1         |  A         |  G         |  C         |  T         |  N         |
+| Read 2         |  A         |  G         |  C         |  T         |  N         |
+| Read 3         |  A         |  A         |  C         |  T         |  G         |
+| Read 4         |  A         |  G         |  C         |  N         |  N         |
+| Read 5         |  A         |  G         |  T         |  T         |  G         |
+| Consensus Base |  A         |  G         |  C         |  T         |  G         |
+
 
 The Bioinformaticians continued to work tirelessly to annotate the genome of the unknown virus, and fortunately were successful in mapping out most of the structural genes of the virus. Genome annotation is the process of identifying functional elements within the genomic sequencing, including protein-coding genes, regulatory regions, and other functional motifs. In viral genomics, this step is essential for understanding how the virus interacts with its hosts, replicates, and evades the immune system. Think of it as mapping out the information that is encoded in a genome; each chapter could represent a gene or open reading frame that codes for a protein. 
 
