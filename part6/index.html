@@ -418,14 +418,14 @@ ul.task-list li input[type="checkbox"] {
 <p>In mid-May after the team identified an unknown microorganism in the sample, the Microbiologists began working with the specimens collected from the bat trainers to isolate the suspect pathogen. After several weeks of meticulous labor, the Microbiologists were successfully able to isolate the unknown pathogen from both samples. Using the raw sequencing data, the Bioinformaticians were able to utilize their pipelines to piece together a genome from the samples taken from one of the bat trainers.</p>
 <p>Since the pathogen was unknown and did not immediately match any existing organisms in the database, the team first performed de novo genome assembly, a process that constructs a genome without relying on a reference sequence. This involves stitching together overlapping sequencing reads to form a longer contiguous sequences (contigs), which are then organized into a draft genome.</p>
 <p><strong>Example illustrating an assembled contig</strong></p>
-<pre><code>| Read #  | Position 1 | Position 2 | Position 3 | Position 4 | Position 5 |
-|---------|-----------|-----------|-----------|-----------|-----------|
-| Read 1  | A         | G         | C         | T         | -         |
-| Read 2  | A         | G         | C         | T         | -         |
-| Read 3  | A         | -         | C         | T         | G         |
-| Read 4  | A         | G         | C         | -         | -         |
-| Read 5  | A         | G         | -         | T         | G         |
-| **Assembled Contig** | A  | G  | C  | T  | G (gap filled) |</code></pre>
+<pre><code>| Read #           | Position 1 | Position 2 | Position 3 | Position 4 | Position 5      |
+|------------------|------------|------------|------------|------------|-----------------|
+| Read 1           |  A         |  G         |  C         |  T         |  -              |
+| Read 2           |  A         |  G         |  C         |  T         |  -              |
+| Read 3           |  A         |  -         |  C         |  T         |  G              |
+| Read 4           |  A         |  G         |  C         |  -         |  -              |
+| Read 5           |  A         |  G         |  -         |  T         |  G              |
+| Assembled Contig |  A         |  G         |  C         |  T         |  G (gap filled) |</code></pre>
 <p>One assembled, the draft genome was analyzed against the Public Genome Database, a public repository of known microbial sequences. This process, known as <em>taxonomic identification</em>. compares the newly assembled genome against existing reference sequences to determine whether it shares homology or evolutionary similarity, with any known organisms. A match in the database suggests that the unknown pathogen may be related to a previously documented virus, providing clues about its classification and potential function.</p>
 <p>Fortunately, the results came back with a hit, demonstrating that the consensus genome belongs to a family of positive-sense RNA viruses called Pokeviridae.</p>
 <p>The Bioinformaticians were able to identify a sequence in the Public Genome Database that appeared relatively similar to the genome they’ve assembled. Unfortunately, the metadata regarding this reference sequence is incomplete, as it is the only genome of its kind, and was assembled from genetic material taken from muutubats on June 14th of 2029. The muutubats are a species of fruit bats that shared a very recent common ancestor with the muubats and even live within the same geographic region. The Bioinformaticians decided to use the consensus genome of the virus taken from the muutubat as a reference genome.</p>
