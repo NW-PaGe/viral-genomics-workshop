@@ -135,7 +135,7 @@
     "href": "part1/quiz-test.html#quiz",
     "title": "4  Identifying Patterns in the Outbreak",
     "section": "",
-    "text": "What is unusual about how this illness is spreading?  A. The illness seems to be affecting only trainers who traveled to the conference.  B. The illness appears in people who were not in direct contact with the original sick trainers.  C. The illness follows a seasonal flu-like pattern, peaking in January and decreasing afterwards   D. The illness is only spreading between humans, with no evidence of animal involvement.",
+    "text": "What is unusual about how this illness is spreading?  A. The illness seems to be affecting only trainers who traveled to the conference.  B. The illness appears in people who were not in direct contact with the original sick trainers.  C. The illness follows a seasonal flu-like pattern, peaking in January and decreasing afterwards  D. The illness is only spreading between humans, with no evidence of animal involvement.",
     "crumbs": [
       "Part 1",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Identifying Patterns in the Outbreak</span>"
@@ -234,7 +234,7 @@
     "href": "part10/index.html",
     "title": "16  Genomic Analysis",
     "section": "",
-    "text": "16.1 Discussion Twelve:\nA. Looking at the phylogenetic tree, what inferences would you make regarding the placement of the samples on the tree?\nB. Is the phylogenetic tree in congruence with the exposure map?\nC. Looking at the heatmap, do you notice any clusters or patterns that match how the sequences are placed on the tree?\nD. What would you conclude from this analysis? Does this analysis support your hypothesis?",
+    "text": "16.1 Phylogenetic Trees\nA phylogenetic tree is a hierarchical clustering or branching diagram that represents the evolutionary relationships between sequences based on genetic similarity. In this outbreak investigation, the tree helps determine how closely related viral genomes are across different individuals and species. Think of it as a family tree where we can trace the ancestry of a virus.\nEach tip (or lead) on the tree represents a sample’s genome sequence of the virus. The branches connecting them indicate evolutionary relationships. with the branch length representing the amount of genetic difference between sequences. The shorter the branch, the fewer mutations separate two samples meaning they are closely related.\nIf two samples have identical genome sequences, they will appear at the exact sample position on the x-axis, but may be stacked vertically for visualization purposes. If sequences have accumulated mutations over time, they will appear further apart along the x-axis, indicating genetic diverence.",
     "crumbs": [
       "Part 10",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Genomic Analysis</span>"
@@ -276,23 +276,23 @@
   {
     "objectID": "part9/quiz-test.html",
     "href": "part9/quiz-test.html",
-    "title": "15  Quality Control and Sequence Alignements",
+    "title": "15  Quality Control and Sequence Alignments",
     "section": "",
     "text": "15.1 Quiz",
     "crumbs": [
       "Part 9",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Quality Control and Sequence Alignements</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Quality Control and Sequence Alignments</span>"
     ]
   },
   {
     "objectID": "part9/quiz-test.html#quiz",
     "href": "part9/quiz-test.html#quiz",
-    "title": "15  Quality Control and Sequence Alignements",
+    "title": "15  Quality Control and Sequence Alignments",
     "section": "",
-    "text": "What is the primary reason scientists use multiple sequence alignments (MSA) in outbreak investigations?  A. To identify differences between sequences and formulate hypotheses on reconstructing transmission patterns.  B. To determine if a virus is more closely related to bacteria or fungi.  C. To verify that all samples contain complete genomes before analyses.   D. To directly confirm how a virus spreads between individuals.",
+    "text": "What is the primary reason scientists use multiple sequence alignments (MSA) in outbreak investigations?  A. To identify differences between sequences and formulate hypotheses on reconstructing transmission patterns.  B. To determine if a virus is more closely related to bacteria or fungi.  C. To verify that all samples contain complete genomes before analyses.  D. To directly confirm how a virus spreads between individuals.",
     "crumbs": [
       "Part 9",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Quality Control and Sequence Alignements</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Quality Control and Sequence Alignments</span>"
     ]
   },
   {
@@ -311,7 +311,7 @@
     "href": "part2/quiz-test.html#quiz",
     "title": "6  What Data Should We Collect?",
     "section": "",
-    "text": "Which group would be the most important to test early in the outbreak investigation?  A. Only people with severe symptoms who were hospitalized  B. Only trainers and workers who have direct animal contact.  C. A mix of symptomatic and asymptomatic individuals, including animals.   D. Only people who tested negative for flu, to find other possible pathogens.",
+    "text": "Which group would be the most important to test early in the outbreak investigation?  A. Only people with severe symptoms who were hospitalized  B. Only trainers and workers who have direct animal contact.  C. A mix of symptomatic and asymptomatic individuals, including animals.  D. Only people who tested negative for flu, to find other possible pathogens.",
     "crumbs": [
       "Part 2",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>What Data Should We Collect?</span>"
@@ -333,7 +333,7 @@
     "href": "part3/quiz-test.html#quiz",
     "title": "8  Evaluating the First Sequencing Results",
     "section": "",
-    "text": "The sequencing results from early human and animal samples return with multiple species detected. What should scientistis look for first?  A. The species that appear in every sample.  B. The species that only appear in sick individuals.  C. The species that are entirely new to science.   D. The species that match known respiratory pathogens.",
+    "text": "The sequencing results from early human and animal samples return with multiple species detected. What should scientists look for first?  A. The species that appear in every sample.  B. The species that only appear in sick individuals.  C. The species that are entirely new to science.  D. The species that match known respiratory pathogens.",
     "crumbs": [
       "Part 3",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Evaluating the First Sequencing Results</span>"
@@ -388,7 +388,7 @@
     "href": "part10/quiz-test.html#quiz",
     "title": "17  What Can the Phylogenetic Tree Tell Us?",
     "section": "",
-    "text": "Looking at the phylogenetic tree, what would you expect to see if he virus originated from a single introduction into humans?  A. All human sequences would be identical.  B. Human sequences would cluster closely together (or group closely together) but differ slightly.  C. Human sequences would be widely dispersed (or scattered) throughout the tree.   D. Human sequences would be more similar to environmental microbes than to each other.",
+    "text": "Looking at the phylogenetic tree, what would you expect to see if he virus originated from a single introduction into humans?  A. All human sequences would be identical.  B. Human sequences would cluster closely together (or group closely together) but differ slightly.  C. Human sequences would be widely dispersed (or scattered) throughout the tree.  D. Human sequences would be more similar to environmental microbes than to each other.",
     "crumbs": [
       "Part 10",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
@@ -414,6 +414,50 @@
     "crumbs": [
       "Part 11",
       "<span class='chapter-number'>19</span>  <span class='chapter-title'>What Comes Next?</span>"
+    ]
+  },
+  {
+    "objectID": "part10/index.html#phylogenetic-trees",
+    "href": "part10/index.html#phylogenetic-trees",
+    "title": "16  Genomic Analysis",
+    "section": "",
+    "text": "16.1.1 Generating Phylogenetic Trees\nOnce the genome sequences were aligned and mutations identified, the next step was to construct a phylogenetic tree, a visual representation of their evolutionary relationships.\nThe first step in building the tree was to calculate genetic distances—essentially counting how many nucleotide differences separated each sequence. Viral sequences that shared fewer mutations were likely part of the same transmission chain, while those with more mutations were more genetically distinct.\nTo translate these genetic distances into a tree, the team used computational clustering algorithms that grouped sequences based on similarity. The general process followed these steps: First a sequence alignment in which all genome sequences were compared letter by letter to pinpoint mutations. Next was distance matrix calculation: in which the number of single nucleotide polymorphisms (SNPs) separating each pair of sequences was counted. This would generate a pairwise distance matrix that quantified genetic differences between samples. Afterwards, a tree would be constructed using a clustering algorithm. The algorithm grouped sequences that were genetically similar into clusters, forming a branching structure. Shorter branch lengths indicated samples with fewer mutations (closely related) and longer branches suggested more mutations (greater divergence over time). Lastly we would visualize the tree. The tree’s x-axis represented genetic distance—samples positioned close together had similar genomes. If two sequences were identical, they occupied the same x-axis position but might be stacked vertically for clarity. More distant sequences had longer branches, reflecting more mutations.\nThe final tree would reveal key insights about the outbreak. “If sequences from the muubats and infected trainers clustered closely together, it would provide strong evidence of spillover from animals to humans” said one of the Molecular Epidemiologist. “Alternatively, if human sequences showed signs of divergence, it might suggest ongoing transmission within the human population”, they continued.\nExample illustating a sequence alignment\nSequences Aligned:\n\nRef:   ATGCTGATCGTACGTTACG\nSeq A: ATGCTGATCGTACGTTACG  (No mutations)\nSeq B: ATGCTGATCGTACGTCACG  (1 mutation at position 15: T → C)\nSeq C: ATGCTGATCGTTCGTTACG  (1 mutation at position 12: A → T)\nSeq D: ATGCTGATTGTACGTTACG  (1 mutation at position 9: C → T)\nSeq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)\nExample illustrating phylogenetic tree based on sequence alignment\n        ┌── Seq A  (Identical to Ref)\n        │\n   ┌────┴── Seq B  (1 mutation)\n   │\n───┴──────── Seq C  (1 mutation)\n   │\n   │    ┌── Seq D  (1 mutation)\n   └────┴── Seq E  (2 mutations)",
+    "crumbs": [
+      "Part 10",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Genomic Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "part10/index.html#pairwise-distance-matrices",
+    "href": "part10/index.html#pairwise-distance-matrices",
+    "title": "16  Genomic Analysis",
+    "section": "16.2 Pairwise Distance Matrices",
+    "text": "16.2 Pairwise Distance Matrices\nA pairwise distance matrix is a table that quantifies the genetic differences between sequences by counting single nucleotide polymorphisms (SNPs). SNPS are individual base differences at specific nucleotide posititions in the genome. It helps to determine how closely related two samples are and whether genetic clustering aligns with known epidemiological links.\nEach cell in the matrix represents the number of SNP differences between a pair of genome sequences. The smaller the number, the more similar the sequences are. A value of 0 means the sequences are identical.\nComputing pairwise distance matrices is a relatively straightfoward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where row = column (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme.\nExample illustrating a Pairwise Distance Matrix\n| Sample ID       | Seq A | Seq B | Seq C | Seq D |\n|----------------|------|------|------|------|\n| **Seq A**       | 0    | 2    | 5    | 7    |\n| **Seq B**       | 2    | 0    | 3    | 6    |\n| **Seq C**       | 5    | 3    | 0    | 4    |\n| **Seq D**       | 7    | 6    | 4    | 0    |",
+    "crumbs": [
+      "Part 10",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Genomic Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "part10/index.html#results",
+    "href": "part10/index.html#results",
+    "title": "16  Genomic Analysis",
+    "section": "16.3 Results",
+    "text": "16.3 Results\nLine list of cases likely linked to outbreak\n\n\n\n\n\n\n\n\nSample ID\nCollection Date\nNotes\n\n\n\n\nBat_Trainer_01\n2031-01-08\nWorked with the muubats; attended conference\n\n\nBat_Trainer_02\n2031-01-08\nWorked with the muubats; attended conference\n\n\nCanine_Trainer_01\n2031-02-04\nWorks closely with workers 01 & 02; interacted with bat trainer 01; works with canines\n\n\nDuck_Trainer_01\n2031-02-08\nWorks closely with worker 06; works with ducks\n\n\nDuck_Trainer_02\n2031-02-09\nWorks closely with worker 06; works with ducks\n\n\nDuck_Trainer_03\n2031-02-10\nWorks closely with duck trainers and works with ducks\n\n\nFeline_Trainer_01\n2031-02-04\nMarried to bat trainer 02; works closely with the felines\n\n\nResident_01\n2031-02-14\nExposed to resident 03 that visited the Safari Park Canine areas\n\n\nResident_02\n2031-02-14\nExposed to resident 03 that visited the Safari Park Canine areas\n\n\nResident_03\n2031-02-16\nVisited the Safari Park Canine areas\n\n\nResident_04\n2031-02-16\nExposed to resident 03 that visited the Safari Park Canine areas\n\n\nResident_05\n2031-02-19\nVisited the Safari Park, interacted with workers and animals\n\n\nResident_06\n2031-02-19\nCould not reach\n\n\nResident_07\n2031-02-19\nCould not reach\n\n\nResident_08\n2031-02-19\nVisited the Safari Park, interacted with workers and animals\n\n\nResident_09\n2031-02-19\nCould not reach\n\n\nWorker_01\n2031-02-02\nWorks closely with bat trainer 01 and canine trainer 01\n\n\nWorker_02\n2031-02-03\nWorks closely with bat trainer 01 and canine trainer 01\n\n\nWorker_03\n2031-02-02\nWorks with the bat trainers\n\n\nWorker_04\n2031-02-03\nWorks with the bat trainers\n\n\nWorker_05\n2031-02-08\nWorks with the bat trainers\n\n\nWorker_06\n2031-02-07\nWorks with the duck trainers\n\n\nWorker_07\n2031-02-15\nWorks with the duck trainers and the ducks\n\n\n\nLine list of cases in outbreak. The line list shows the sample IDs of the sequenced cases in the outbreak. The second column shows the collection date of the samples collected from the case in year-month-day format. The third column shows the exposure notes collected from the case interviews conducted during the outbreak investigation. Unfortunately some of the cases, such as the residents, could not be reached. Some information remains incomplete for the workers as some workers tend to work in different areas, and are involved in different responsibilities when it comes to taking care of the animals and the park.\n\n\n\nPhylogenetic Tree of Flu-Like Illness Outbreak, Fuchsia City, Safari Zone\n\n\nOpen tree in new tab for full view\nPhylogenetic Tree of Outbreak. This phylogenetic tree shows the evolutionary relationships between sequences from the outbreal. The tips on the tree represent individual genome sequences of the virus, which are color-coded by species in relation to the park.\nThe x-axis represents genetic distance, with samples that are closer together along the x-axis being more genetically similar. Shorter branch lengths indicate fewer genetic differences between sequences, meaning they share a more recent common ancestor.\nIt’s important to note that if two or more sequences are identical, like those of muubat_02 through muubat_04, they will appear at the same x-axis position but may be stacked vertically for visualization purposes. This ensure that identical sequences are not mistakenly interpreted as being genetically distinct due to their vertical separation on the tree.\n\n\n\nExposure Map of Animals, Trainers, and Workers\n\n\nExposure Map. The exposure map uses information from the case interview to piece together how animals, trainers, and workers might be linked together in the outbreak. Lines indicate that the case was either exposed to or had an interaction with the other cases or animals.\n\n\n\nHeatmap of SNP Distances of Sequences in Outbreak\n\n\nHeatmap. The heatmap shows the pairwise distance between two sequences. The pairwise distance is given by the number of single nucleotide polymorphisms (SNPs), or single base difference between two sequences. The range of SNP differences for the sequenced cases in the outbreak is 0 to 9. A SNP distnace of 0 (darkest color) means that two sequences are identical, while a higher SNP count (lighter color) indicates greater genetic divergence. Comparing this heatmap with the phylogenetic tree helps confirm whether clusters of closely related sequences correspond to expected epidemiological links. Sequences that are darker in color indicate fewer SNP differences between the two sequences, whereas lighter color indicates more SNP differences between the two cases.\nThe phylogenetic tree revealed patterns in the genetic relationship between the sequences generated from each sample. Some sequences clustered more closely together whereas others showed greated divergence. Meanwhile, the SNP heatmap highlighted key genetic differences, with certain sequences appearing more similar while others displayed increasing variation over time. The team deliberated: what might these patterns suggest about how the virus spread and changed throughout the outbreak?",
+    "crumbs": [
+      "Part 10",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Genomic Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "part10/index.html#discussion-twelve",
+    "href": "part10/index.html#discussion-twelve",
+    "title": "16  Genomic Analysis",
+    "section": "16.4 Discussion Twelve:",
+    "text": "16.4 Discussion Twelve:\nA. Looking at the phylogenetic tree, what inferences would you make regarding the placement of the samples on the tree?\nB. Is the phylogenetic tree in congruence with the exposure map?\nC. Looking at the heatmap, do you notice any clusters or patterns that match how the sequences are placed on the tree?\nD. What would you conclude from this analysis? Does this analysis support your hypothesis?",
+    "crumbs": [
+      "Part 10",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Genomic Analysis</span>"
     ]
   }
 ]
