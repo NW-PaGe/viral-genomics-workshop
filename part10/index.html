@@ -458,12 +458,12 @@ Seq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)</code></pre>
 <p>Each cell in the matrix represents the <em>number of SNP differences</em> between a pair of genome sequences. The smaller the number, the more similar the sequences are. A value of 0 means the sequences are identical.</p>
 <p>Computing pairwise distance matrices is a relatively straightfoward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where <em>row = column</em> (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme.</p>
 <p><strong>Example illustrating a Pairwise Distance Matrix</strong></p>
-<pre><code>| Sample ID       | Seq A | Seq B | Seq C | Seq D |
-|----------------|------|------|------|------|
-| **Seq A**       | 0    | 2    | 5    | 7    |
-| **Seq B**       | 2    | 0    | 3    | 6    |
-| **Seq C**       | 5    | 3    | 0    | 4    |
-| **Seq D**       | 7    | 6    | 4    | 0    |</code></pre>
+<pre><code>| Sample ID   | Seq A | Seq B | Seq C | Seq D |
+|-------------|-------|-------|-------|-------|
+| Seq A       |  0    |  2    |  5    |  7    |
+| Seq B       |  2    |  0    |  3    |  6    |
+| Seq C       |  5    |  3    |  0    |  4    |
+| Seq D       |  7    |  6    |  4    |  0    |</code></pre>
 </section>
 <section id="results" class="level2" data-number="16.3">
 <h2 data-number="16.3" class="anchored" data-anchor-id="results"><span class="header-section-number">16.3</span> Results</h2>
