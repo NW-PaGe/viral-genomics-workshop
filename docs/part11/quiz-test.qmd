@@ -10,7 +10,6 @@ format: html
     <input type="radio" id="answer1" name="question1" value="A"> A. Increase surveillance of wildlife for similar viruses.<br>
     <input type="radio" id="answer2" name="question1" value="B"> B. Develop a rapid diagnostic test to detect new cases.<br>
     <input type="radio" id="answer3" name="question1" value="C"> C. Monitor infected individuals to study long-term effects.<br>
-    <br>
     <input type="radio" id="answer4" name="question1" value="D"> D. All of the above.<br>
     <br>
     <input type="button" value="Submit" onclick="checkAnswers()">
