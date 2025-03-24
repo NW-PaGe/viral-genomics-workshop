@@ -32,7 +32,7 @@ Seq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)
 ```
 
 **Example illustrating phylogenetic tree based on sequence alignment**
-```
+
         ┌── Seq A  (Identical to Ref)
         │
    ┌────┴── Seq B  (1 mutation)
@@ -41,7 +41,6 @@ Seq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)
    │
    │    ┌── Seq D  (1 mutation)
    └────┴── Seq E  (2 mutations)
-```
 
 
 ## Pairwise Distance Matrices
