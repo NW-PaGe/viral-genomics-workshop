@@ -53,12 +53,12 @@ Computing pairwise distance matrices is a relatively straightfoward process with
 
 **Example illustrating a Pairwise Distance Matrix** 
 ```
-| Sample ID       | Seq A | Seq B | Seq C | Seq D |
-|----------------|------|------|------|------|
-| **Seq A**       | 0    | 2    | 5    | 7    |
-| **Seq B**       | 2    | 0    | 3    | 6    |
-| **Seq C**       | 5    | 3    | 0    | 4    |
-| **Seq D**       | 7    | 6    | 4    | 0    |
+| Sample ID   | Seq A | Seq B | Seq C | Seq D |
+|-------------|-------|-------|-------|-------|
+| Seq A       |  0    |  2    |  5    |  7    |
+| Seq B       |  2    |  0    |  3    |  6    |
+| Seq C       |  5    |  3    |  0    |  4    |
+| Seq D       |  7    |  6    |  4    |  0    |
 ```
 
 ## Results
