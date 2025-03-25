@@ -13,13 +13,14 @@ Sequences Aligned:
 
 Ref:   ATGCTGATCGTACGTTACG
 Seq A: ATGCTGATCGTACGTTACG  (No mutations)
-Seq B: ATGCTGATCGTACGTCACG  (1 mutation at position 15: T → C)
-Seq C: ATGCTGATCGTTCGTTACG  (1 mutation at position 12: A → T)
-Seq D: ATGCTGATTGTACGTTACG  (1 mutation at position 9: C → T)
-Seq E: ATGCTGATTGTACGTCACG  (2 mutations: 9: C → T, 15: T → C)
+Seq B: ATGCTGATCGTACGTCACG  (1 mutation at pos 16: T → C)
+Seq C: ATGCTGATCGTTCGTCACG  (2 mutations at pos 12: A → T, 16: T → C)
+Seq D: ATGCTGATTGTACGTCACG  (3 mutations at pos 9: C → T, 12: A → T, 16: T → C)
+Seq E: ATGCTGATTGTACGTTACG  (2 mutations at pos 9: C → T, 12: A → T)
+
 ```
 
-One of the most powerful tools in genomics is a sequence alignment, a process that allows scientists to compare genomic sequences and look for patterns that could provide clues about the outbreak. There are many different specialized software that can generate a sequence alignment as well as genome browsers that can provide an overview of an alignment. Using an in-house specialized alignment sofrware, the team aligned the viral sequences from infected humans, animals, and archived samples to look for similarities, differences, and possible mutations.
+One of the most powerful tools in genomics is a sequence alignment, a process that allows scientists to compare genomic sequences and look for patterns that could provide clues about the outbreak. There are many different specialized software that can generate a sequence alignment as well as genome browsers that can provide an overview of an alignment. Using an in-house specialized alignment software, the team aligned the viral sequences from infected humans, animals, and archived samples to look for similarities, differences, and possible mutations.
 
 "Think of this like assembling pages of a shredded document", one of the Bioinformaticians explained. "Each sequence is a tiny fragment of a much larger picture. By aligning them properly, we can reconstruct a phylogenetic tree to see how these sequences are related."
 
@@ -27,7 +28,7 @@ Aligning sequences wasn't just about assembling data; it was about uncovering a 
 
 ## What Can We Learn from an Alignment?
 
-As the team examined the alignment results, they noted key patterns. For instance, they looked for conserved regions, certain parts of the genome that were nearly identical across all samples, which can indicate genomic stablity. These regions might be essential for the virus' survival and any heritable change like a mutation could have a devastating effect if it occurred in these regions. The team also looked for mutations. Mutations present in a sample could often be referred to as a SNP - single nucleotide polymorphism. Some sequences can contain SNPs, which are tiny genetic changes that could indicate viral evolution or adaptation to different hosts. The team also looked for insertions and deletions, often referred to as "indels" in the alignments. Indels are small insertions ore missing bases which could suggest structural changes in the virus over time. Most importantly, the team looked for gaps in the alignment. Gaps could be missing data or low-quality sequencing reads that have appeared as gaps. These typically require further investigation to determine if gaps are true deletions or just artifacts from sequencing errors.
+As the team examined the alignment results, they noted key patterns. For instance, they looked for conserved regions, certain parts of the genome that were nearly identical across all samples, which can indicate genomic stablity. These regions might be essential for the virus' survival and any heritable change like a mutation could have a devastating effect if it occurred in these regions. The team also looked for mutations. Mutations present in a sample could often be referred to as a SNP - single nucleotide polymorphism. Some sequences can contain SNPs, which are tiny genetic changes that could indicate viral evolution or adaptation to different hosts. The team also looked for insertions and deletions, often referred to as "indels" in the alignments. Indels are small insertions or missing bases which could suggest structural changes in the virus over time. Most importantly, the team looked for gaps in the alignment. Gaps could be missing data or low-quality sequencing reads that have appeared as gaps. These typically require further investigation to determine if gaps are true deletions or just artifacts from sequencing errors.
 
 "Look at this!" one of the Molecular Epidemiologists pointed to the screen. "These human samples from February are clustering really close to the muubat sequences." After a moment of a silence, another Molecular Epidemiology asked "I wonder what the collection dates are for these sequences. Could the later sequences have more mutations than the earlier sequences?" It wouldn't be such a farfetch'd thought. "If so, it would mean that the sequences are slowly becoming more divergent over time, especially if there's a specific region where we see a bunch of mutations occurring" explained another Molecular Epidemiologist.
 
