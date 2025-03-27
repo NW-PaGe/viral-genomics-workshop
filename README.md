@@ -1,4 +1,4 @@
-# Viral Genomics Workshop 
+# Northwest Pathogen Genomics Center of Excellence Presents: Viral Genomics Workshop 
 Viral genomics is an emerging field in public health that leverages next-generation sequencing (NGS) to enhance traditional epidemiologic methods. By analyzing viral genomes, we gain deeper insight into outbreak dynamics and pathogen evolution—allowing us to ask critical questions such as:
 
 - How is this viral pathogen evolving?
@@ -37,3 +37,5 @@ Viral genome diversity: the diversity of viral genomes, sense of viral genomes, 
 
 ## Mystery Outbreak Story
 In the bustling city of Fuchsia, a mysterious illness began spreading in the late winter of 2031. What started as an isolated flu-like sickness among trainers soon spiraled into a full-blown outbreak, baffling doctors and scientists alike. But the real mystery? The source of the infection remained completely unknown. As scientists scrambled to sequence the pathogen’s genome, an unsettling possibility emerged: Could this virus have been silently lurking among the Safari Zone in the city long before anyone could have even gotten sick?
+
+Written by Steph M Lunn, MPH, MS
