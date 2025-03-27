@@ -144,23 +144,23 @@
   {
     "objectID": "part3/quiz-test.html",
     "href": "part3/quiz-test.html",
-    "title": "8  Samples Collected for Sequencing",
+    "title": "8  Samples Collected for Testing and Sequencing",
     "section": "",
     "text": "8.1 Quiz",
     "crumbs": [
       "Part 3",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Samples Collected for Sequencing</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Samples Collected for Testing and Sequencing</span>"
     ]
   },
   {
     "objectID": "part3/quiz-test.html#quiz",
     "href": "part3/quiz-test.html#quiz",
-    "title": "8  Samples Collected for Sequencing",
+    "title": "8  Samples Collected for Testing and Sequencing",
     "section": "",
-    "text": "What should scientists look for first when sequencing samples taken from humans and animals?  A. The species that appear in every sample.  B. The species that only appear in sick individuals.  C. The species that are entirely new to science.  D. The species that match known respiratory pathogens.",
+    "text": "What should scientists look for first when testing or sequencing samples taken from humans and animals?  A. The species that appear in every sample.  B. The species that only appear in sick individuals.  C. The species that are entirely new to science.  D. The species that match known respiratory pathogens.",
     "crumbs": [
       "Part 3",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Samples Collected for Sequencing</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Samples Collected for Testing and Sequencing</span>"
     ]
   },
   {
@@ -223,7 +223,7 @@
     "href": "part8/index.html#testing-and-sequencing-the-human-and-animal-samples",
     "title": "13  Uncovering the Source",
     "section": "13.2 Testing and Sequencing the human and animal samples",
-    "text": "13.2 Testing and Sequencing the human and animal samples\n“Now that we have a suspect pathogen,” a microbiologist stood up to speak, “We should run the same PCR assay on the human and animal samples. If the results return positive for the S and N genes of the novel virus, then we should sequence them for further analyses.”\nEveryone was in agreement and got to work quickly. Shortly afterwards, the PCR assay results came back and all samples were positive for the S and N genes. These results provided so much momentum to the team that they were beginning to feel that they were onto something.\nThe Microbiologist sequenced for the novel virus in the human and animal samples that they received from Fuchsia City. Upon receiving the raw data, the Bioinformaticians began to perform QC on the reads, and if all looked great, would proceed with consensus genome assembly for all of the sequenced cases using their in-house Bioinformatics pipeline.\n“I think this is it! We have our sequencing data!” Everyone cheered and celebrated the big win. However… the team still had their work cut out for them.",
+    "text": "13.2 Testing and Sequencing the human and animal samples\n“Now that we have a suspect pathogen,” a microbiologist stood up to speak, “We should run the same PCR assay on the human and animal samples. If the results return positive for the S and N genes of the novel virus, then we should sequence them for further analyses.”\nEveryone was in agreement and quickly got to work. Shortly afterwards, the PCR assay results came back and all samples were positive for the S and N genes. These results provided so much momentum to the team that they were beginning to feel that they were onto something.\nThe Microbiologists then performed sequencing for the novel virus on the human and animal samples that they received from Fuchsia City, which successfully returned raw read data. Upon receiving the raw data, the Bioinformaticians began to perform QC on the reads to check if the reads were of good quality. Consistent with the momentum the team was experiencing, the reads appeared of great quality. What was left was to generate a consensus genome for each of the sequenced cases, which also proved to be a fruitful and successful effort.\n“I think this is it! We have our sequencing data!” Everyone cheered and celebrated the big win.\nHowever… the team still had their work cut out for them.",
     "crumbs": [
       "Part 8",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Uncovering the Source</span>"
