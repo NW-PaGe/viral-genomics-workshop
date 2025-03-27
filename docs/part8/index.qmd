@@ -1,12 +1,23 @@
-# Testing the muubats
+# Uncovering the Source
 
-New swab samples were collected from the muubats, and samples were initially tested using a PCR assy developed specifically for the novel virus by the Regional Health Lab. The PCR assay targeted the S and N genes based on the consensus genome taken from one of the bat trainers. However, and to everyone’s surprise, the PCR results for the novel virus S gene and N gene came back negative, suggesting that the muubats did not currently harbor the novel virus. At first, this seemed like a dead end. If the muubats weren't carrying the virus now, how could they have been the source? But then someone remembered: All newly introduced animals had archived samples from their initial intake exams. Be that as it may, the team remained unconvinced considering new evidence, and continued to bounce hypotheses back and forth. 
+## Testing the muubats
+
+New swab samples were collected from the muubats, and samples were initially tested using a PCR assay developed specifically for the novel virus by the Regional Health Lab. The PCR assay targeted the S and N genes based on the consensus genome taken from one of the bat trainers. However, and to everyone’s surprise, the PCR results for the novel virus S gene and N gene came back negative, suggesting that the muubats did not currently harbor the novel virus. At first, this seemed like a dead end. If the muubats weren't carrying the virus now, how could they have been the source? But then someone remembered: All newly introduced animals had archived samples from their initial intake exams. Be that as it may, the team remained unconvinced considering new evidence, and continued to bounce hypotheses back and forth. 
 
 Amid the discussion, someone asked, “isn’t it protocol when testing new animal species to keep a set of samples stored for potential future uses? I think we should test the first swab samples obtained from the muubats back in December”. Given the uncertainty around the origins of the outbreak, the team decided to revisit earlier samples collected during routine testing and surveillance. Among them were the archived swabs from the muubats' intake exams. If any clues had been overlooked, these samples might fill in the gaps.
 
 With the whole team in agreement, the lab pushed forth on running a PCR test on the initial swab samples taken from the muubats. The PCR results came back positive for the S and N genes. The samples proceeded to RNA extraction and preparation for sequencing, and the samples were sequenced.
 
 After a week, the results finally came back indicating that the novel virus was identified in the muubat samples taken from December of the previous year. The discovery raised new questions. If traces of the virus had been present months earlier, why hadn't it been detected sooner? And more importantly, what had changed since then? The Genomics Specialists Team met once again to deliberate. 
+
+## Testing and Sequencing the human and animal samples
+"Now that we have a suspect pathogen," a microbiologist stood up to speak, "We should run the same PCR assay on the human and animal samples. If the results return positive for the S and N genes of the novel virus, then we should sequence them for further analyses."
+
+Everyone was in agreement and got to work quickly. Shortly afterwards, the PCR assay results came back and all samples were positive for the S and N genes. These results provided so much momentum to the team that they were beginning to feel that they were onto something. 
+
+The Microbiologist sequenced for the novel virus in the human and animal samples that they received from Fuchsia City. Upon receiving the raw data, the Bioinformaticians began to perform QC on the reads, and if all looked great, would proceed with consensus genome assembly for all of the sequenced cases using their in-house Bioinformatics pipeline. 
+
+"I think this is it! We have our sequencing data!" Everyone cheered and celebrated the big win. However... the team still had their work cut out for them. 
 
 ## Discussion Nine:
 A. What do you think this new piece of evidence could mean? 

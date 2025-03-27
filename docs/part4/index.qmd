@@ -4,4 +4,4 @@ The Molecular Epidemiologists were tasked with working with the Zoonotic Epidemi
 
 ## Discussion Five:
 
-Field epidemiology applications during outbreak investigations typically employ case interviews. Describe the types of questions that would be essential to ask cases to formulate hypotheses regarding the initial source of the outbreak.
+Field epidemiology applications during outbreak investigations typically employ case interviews to determine risk factors, transmission, source exposures. Describe the types of questions that would be essential to ask cases to formulate hypotheses regarding the initial source of the outbreak. What kind of information do you think we would need in order to get an idea of potential risk factors, transmissions, and source exposure?
