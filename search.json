@@ -113,7 +113,7 @@
     "href": "part3/index.html",
     "title": "7  Genomic Specialists",
     "section": "",
-    "text": "8 All isolates were sent to the regional lab for isolation and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers.\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses average nucleotide identity (ANI), pairwise distance matrices, and phylogenetic tree construction.\nTable showing number of swab samples collected, grouped by host species. There were 23 human samples, 5 feline samples, 6 canine samples, and 4 duck samples collected by the doctors and animal trainers and shipped over to the Regional Health Lab. Some swab samples obtained in February contained insufficient sample amount for sequencing, therefore not all cases that were tested were sent over to the lab for sequencing. Samples shipped to the Regional Health Lab contained only samples that were collected through February.",
+    "text": "8 All isolates were sent to the regional lab for isolation and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers.\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians have the necessary pipelines in place to be able to assemble genomes, perform metagenomic analyses, taxonomic identification, and genome annotation, along with the Molecular Epidemiologists, were able to run additional analyses such as alignments, pairwise distance matrices, and phylogenetic tree construction.\nTable showing number of swab samples collected, grouped by host species. There were 23 human samples, 5 feline samples, 6 canine samples, and 4 duck samples collected by the doctors and animal trainers and shipped over to the Regional Health Lab. Some swab samples obtained in February contained insufficient sample amount for sequencing, therefore not all cases that were tested were sent over to the lab for sequencing. Samples shipped to the Regional Health Lab contained only samples that were collected from January through February.",
     "crumbs": [
       "Part 3",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Genomic Specialists</span>"
@@ -144,23 +144,23 @@
   {
     "objectID": "part3/quiz-test.html",
     "href": "part3/quiz-test.html",
-    "title": "8  Evaluating the First Sequencing Results",
+    "title": "8  Samples Collected for Sequencing",
     "section": "",
     "text": "8.1 Quiz",
     "crumbs": [
       "Part 3",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Evaluating the First Sequencing Results</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Samples Collected for Sequencing</span>"
     ]
   },
   {
     "objectID": "part3/quiz-test.html#quiz",
     "href": "part3/quiz-test.html#quiz",
-    "title": "8  Evaluating the First Sequencing Results",
+    "title": "8  Samples Collected for Sequencing",
     "section": "",
-    "text": "The sequencing results from early human and animal samples return with multiple species detected. What should scientists look for first?  A. The species that appear in every sample.  B. The species that only appear in sick individuals.  C. The species that are entirely new to science.  D. The species that match known respiratory pathogens.",
+    "text": "What should scientists look for first when sequencing samples taken from humans and animals?  A. The species that appear in every sample.  B. The species that only appear in sick individuals.  C. The species that are entirely new to science.  D. The species that match known respiratory pathogens.",
     "crumbs": [
       "Part 3",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Evaluating the First Sequencing Results</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Samples Collected for Sequencing</span>"
     ]
   },
   {
@@ -168,7 +168,7 @@
     "href": "part4/index.html",
     "title": "9  The molecular investigation begins:",
     "section": "",
-    "text": "9.1 Discussion Five:\nField epidemiology applications during outbreak investigations typically employ case interviews. Describe the types of questions that would be essential to ask cases to formulate hypotheses regarding the initial source of the outbreak.",
+    "text": "9.1 Discussion Five:\nField epidemiology applications during outbreak investigations typically employ case interviews to determine risk factors, transmission, source exposures. Describe the types of questions that would be essential to ask cases to formulate hypotheses regarding the initial source of the outbreak. What kind of information do you think we would need in order to get an idea of potential risk factors, transmissions, and source exposure?",
     "crumbs": [
       "Part 4",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>The molecular investigation begins:</span>"
@@ -210,12 +210,34 @@
   {
     "objectID": "part8/index.html",
     "href": "part8/index.html",
-    "title": "13  Testing the muubats",
+    "title": "13  Uncovering the Source",
     "section": "",
-    "text": "13.1 Discussion Nine:\nA. What do you think this new piece of evidence could mean?\nB. With the information presented before you, what would be a valid hypothesis regarding the source of the novel virus?\nC. What type of genomic analyses do you think would be helpful in testing your hypothesis?",
+    "text": "13.1 Testing the muubats\nNew swab samples were collected from the muubats, and samples were initially tested using a PCR assay developed specifically for the novel virus by the Regional Health Lab. The PCR assay targeted the S and N genes based on the consensus genome taken from one of the bat trainers. However, and to everyone’s surprise, the PCR results for the novel virus S gene and N gene came back negative, suggesting that the muubats did not currently harbor the novel virus. At first, this seemed like a dead end. If the muubats weren’t carrying the virus now, how could they have been the source? But then someone remembered: All newly introduced animals had archived samples from their initial intake exams. Be that as it may, the team remained unconvinced considering new evidence, and continued to bounce hypotheses back and forth.\nAmid the discussion, someone asked, “isn’t it protocol when testing new animal species to keep a set of samples stored for potential future uses? I think we should test the first swab samples obtained from the muubats back in December”. Given the uncertainty around the origins of the outbreak, the team decided to revisit earlier samples collected during routine testing and surveillance. Among them were the archived swabs from the muubats’ intake exams. If any clues had been overlooked, these samples might fill in the gaps.\nWith the whole team in agreement, the lab pushed forth on running a PCR test on the initial swab samples taken from the muubats. The PCR results came back positive for the S and N genes. The samples proceeded to RNA extraction and preparation for sequencing, and the samples were sequenced.\nAfter a week, the results finally came back indicating that the novel virus was identified in the muubat samples taken from December of the previous year. The discovery raised new questions. If traces of the virus had been present months earlier, why hadn’t it been detected sooner? And more importantly, what had changed since then? The Genomics Specialists Team met once again to deliberate.",
     "crumbs": [
       "Part 8",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Testing the muubats</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Uncovering the Source</span>"
+    ]
+  },
+  {
+    "objectID": "part8/index.html#testing-and-sequencing-the-human-and-animal-samples",
+    "href": "part8/index.html#testing-and-sequencing-the-human-and-animal-samples",
+    "title": "13  Uncovering the Source",
+    "section": "13.2 Testing and Sequencing the human and animal samples",
+    "text": "13.2 Testing and Sequencing the human and animal samples\n“Now that we have a suspect pathogen,” a microbiologist stood up to speak, “We should run the same PCR assay on the human and animal samples. If the results return positive for the S and N genes of the novel virus, then we should sequence them for further analyses.”\nEveryone was in agreement and got to work quickly. Shortly afterwards, the PCR assay results came back and all samples were positive for the S and N genes. These results provided so much momentum to the team that they were beginning to feel that they were onto something.\nThe Microbiologist sequenced for the novel virus in the human and animal samples that they received from Fuchsia City. Upon receiving the raw data, the Bioinformaticians began to perform QC on the reads, and if all looked great, would proceed with consensus genome assembly for all of the sequenced cases using their in-house Bioinformatics pipeline.\n“I think this is it! We have our sequencing data!” Everyone cheered and celebrated the big win. However… the team still had their work cut out for them.",
+    "crumbs": [
+      "Part 8",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Uncovering the Source</span>"
+    ]
+  },
+  {
+    "objectID": "part8/index.html#discussion-nine",
+    "href": "part8/index.html#discussion-nine",
+    "title": "13  Uncovering the Source",
+    "section": "13.3 Discussion Nine:",
+    "text": "13.3 Discussion Nine:\nA. What do you think this new piece of evidence could mean?\nB. With the information presented before you, what would be a valid hypothesis regarding the source of the novel virus?\nC. What type of genomic analyses do you think would be helpful in testing your hypothesis?",
+    "crumbs": [
+      "Part 8",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Uncovering the Source</span>"
     ]
   },
   {
@@ -245,7 +267,7 @@
     "href": "part9/index.html#what-can-we-learn-from-an-alignment",
     "title": "14  QC Checks",
     "section": "14.2 What Can We Learn from an Alignment?",
-    "text": "14.2 What Can We Learn from an Alignment?\nAs the team examined the alignment results, they noted key patterns. For instance, they looked for conserved regions, certain parts of the genome that were nearly identical across all samples, which can indicate genomic stablity. These regions might be essential for the virus’ survival and any heritable change like a mutation could have a devastating effect if it occurred in these regions. The team also looked for mutations. Mutations present in a sample could often be referred to as a SNP - single nucleotide polymorphism. Some sequences can contain SNPs, which are tiny genetic changes that could indicate viral evolution or adaptation to different hosts. The team also looked for insertions and deletions, often referred to as “indels” in the alignments. Indels are small insertions or missing bases which could suggest structural changes in the virus over time. Most importantly, the team looked for gaps in the alignment. Gaps could be missing data or low-quality sequencing reads that have appeared as gaps. These typically require further investigation to determine if gaps are true deletions or just artifacts from sequencing errors.\n“Look at this!” one of the Molecular Epidemiologists pointed to the screen. “These human samples from February are clustering really close to the muubat sequences.” After a moment of a silence, another Molecular Epidemiology asked “I wonder what the collection dates are for these sequences. Could the later sequences have more mutations than the earlier sequences?” It wouldn’t be such a farfetch’d thought. “If so, it would mean that the sequences are slowly becoming more divergent over time, especially if there’s a specific region where we see a bunch of mutations occurring” explained another Molecular Epidemiologist.",
+    "text": "14.2 What Can We Learn from an Alignment?\nAs the team examined the alignment results, they noted key patterns. For instance, they looked for conserved regions, certain parts of the genome that were nearly identical across all samples, which can indicate genomic stablity. These regions might be essential for the virus’ survival and any heritable change like a mutation could have a devastating effect if it occurred in these regions. The team also looked for mutations. Mutations present in a sample could often be referred to as a SNP - single nucleotide polymorphism. Some sequences can contain SNPs, which are tiny genetic changes that could indicate viral evolution or adaptation to different hosts. The team also looked for insertions and deletions, often referred to as “indels” in the alignments. Indels are small insertions or missing bases which could suggest structural changes in the virus over time. Most importantly, the team looked for gaps in the alignment. Gaps could be missing data or low-quality sequencing reads that have appeared as gaps. These typically require further investigation to determine if gaps are true deletions or just artifacts from sequencing errors.\n“Look at this!” one of the Molecular Epidemiologists pointed to the screen. “These human samples from February are similar to the muubat sequences, but with a few mutations.” After a moment of a silence, another Molecular Epidemiology asked “I wonder what the collection dates are for these sequences. Could the later sequences have more mutations than the earlier sequences?” It wouldn’t be such a farfetch’d thought. “If so, it would mean that the sequences are slowly becoming more divergent over time, especially if there’s a specific region where we see a bunch of mutations occurring” explained another Molecular Epidemiologist.",
     "crumbs": [
       "Part 9",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>QC Checks</span>"
