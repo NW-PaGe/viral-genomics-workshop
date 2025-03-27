@@ -1,20 +1,20 @@
 # Viral Genomics Workshop 
 Viral genomics is an emerging field in public health that leverages next-generation sequencing (NGS) to enhance traditional epidemiologic methods. By analyzing viral genomes, we gain deeper insight into outbreak dynamics and pathogen evolution—allowing us to ask critical questions such as:
 
-    - How is this viral pathogen evolving?
-    - What variants are circulating in our population?
-    - How is the virus spreading within our communities?
+- How is this viral pathogen evolving?
+- What variants are circulating in our population?
+- How is the virus spreading within our communities?
+
 
 Rather than relying solely on case counts, genomic epidemiology invites us to view outbreaks from the virus’s perspective.
 
 This workshop is designed for public health professionals, including microbiologists, bioinformaticians, and epidemiologists, or anyone interested in applying viral genomics in a real-world context.
 What’s Included:
 
-    - A series of lectures covering the foundational concepts of viral genomics
+- A series of lectures covering the foundational concepts of viral genomics  
+- A hands-on *mystery outbreak story*, where you'll apply what you’ve learned to solve a fictional—but realistic—outbreak scenario  
+- *(Coming soon!)* A primer featuring recorded presentations that explore the real-world application of viral genomics in outbreak investigations — highlighting the challenges, limitations, and benefits of these tools in public health.
 
-    - A hands-on mystery outbreak story, where you'll apply what you’ve learned to solve a fictional—but realistic—outbreak scenario
-
-    - (Coming soon!) A video primer featuring recorded presentations that explore the real-world application of viral genomics in outbreak investigations—highlighting the challenges, limitations, and benefits of these tools in public health.
 
 Whether you're new to the field or looking to sharpen your skills, this workshop offers a practical, engaging way to explore how viral genomics is transforming modern epidemiology.
 
