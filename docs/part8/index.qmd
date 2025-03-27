@@ -10,16 +10,20 @@ With the whole team in agreement, the lab pushed forth on running a PCR test on 
 
 After a week, the results finally came back indicating that the novel virus was identified in the muubat samples taken from December of the previous year. The discovery raised new questions. If traces of the virus had been present months earlier, why hadn't it been detected sooner? And more importantly, what had changed since then? The Genomics Specialists Team met once again to deliberate. 
 
-## Testing and Sequencing the human and animal samples
+## Testing and Sequencing of Human and Animal Samples
 "Now that we have a suspect pathogen," a microbiologist stood up to speak, "We should run the same PCR assay on the human and animal samples. If the results return positive for the S and N genes of the novel virus, then we should sequence them for further analyses."
 
-Everyone was in agreement and quickly got to work. Shortly afterwards, the PCR assay results came back and all samples were positive for the S and N genes. These results provided so much momentum to the team that they were beginning to feel that they were onto something. 
+Everyone was in agreement and quickly got to work. The Microbiologists ran the PCR assays on all samples, with plans to proceed to sequencing if the results were positive. If the sequencing run yielded high-quality raw reads, the Bioinformaticians would perform quality control and process the data using their in-house genome assembly pipeline.
 
-The Microbiologists then performed sequencing for the novel virus on the human and animal samples that they received from Fuchsia City, which successfully returned raw read data. Upon receiving the raw data, the Bioinformaticians began to perform QC on the reads to check if the reads were of good quality. Consistent with the momentum the team was experiencing, the reads appeared of great quality. What was left was to generate a consensus genome for each of the sequenced cases, which also proved to be a fruitful and successful effort. 
+Shortly afterwards, the PCR assay results came back and all samples were positive for the S and N genes. The results were decisive, and the team felt the momentum shift — they were onto something.
 
-"I think this is it! We have our sequencing data!" Everyone cheered and celebrated the big win. 
+The Microbiologists then sequenced the samples, and the sequencing run proved successful, yielding high quality raw sequencing data. Upon receiving the raw data, the Bioinformaticians performed QC and determined there were no issues of concern with the sequencing data. What was left was to generate a consensus genome for each of the sequenced cases, which also proved to be a fruitful and successful effort. The team was ready to meet once more for deliberation. 
 
-However... the team still had their work cut out for them. 
+“This is it! We got our sequencing data!” one of the Bioinformaticians exclaimed.
+
+"Great work you guys! I can't believe how smoothly everything went, it's almost unnatural!" applauded the Molecular Epidemiologist.
+
+The team cheered — it felt like their first real win. Excitement rippled through the room, and the momentum was palpable. They had cleared the first major hurdle. But they all knew: the hardest questions were still ahead.
 
 ## Discussion Nine:
 A. What do you think this new piece of evidence could mean? 
