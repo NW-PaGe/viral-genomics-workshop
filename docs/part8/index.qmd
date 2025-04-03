@@ -15,7 +15,7 @@ After a week, the results finally came back indicating that the novel virus was 
 
 Everyone was in agreement and quickly got to work. The Microbiologists ran the PCR assays on all samples, with plans to proceed to sequencing if the results were positive. If the sequencing run yielded high-quality raw reads, the Bioinformaticians would perform quality control and process the data using their in-house genome assembly pipeline.
 
-Shortly afterwards, the PCR assay results came back and all samples were positive for the S and N genes. The results were decisive, and the team felt the momentum shift — they were onto something.
+Shortly after, the PCR assay results came back and all samples were positive for the S and N genes. The results were decisive, and the team felt the momentum shift — they were onto something.
 
 The Microbiologists then sequenced the samples, and the sequencing run proved successful, yielding high quality raw sequencing data. Upon receiving the raw data, the Bioinformaticians performed QC and determined there were no issues of concern with the sequencing data. What was left was to generate a consensus genome for each of the sequenced cases, which also proved to be a fruitful and successful effort. The team was ready to meet once more for deliberation. 
 
