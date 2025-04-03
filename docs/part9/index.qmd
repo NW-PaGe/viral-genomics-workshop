@@ -7,8 +7,8 @@ Prior to genomic analysis, the Bioinformaticians and Molecular Epidemiologists w
 The team gathered around their screens as the alignment results came in. This was a crucial step - before moving forward with any genomic analysis, they needed to verify the quality of the sequencing data and ensure that all samples aligned properly to the reference genome.
 
 ## What is Sequencing Alignment and Why Does it Matter?
-**Example illustating a sequence alignment**
-* Mutations are called against the reference sequence. For example sequence A has no mutations when compared to the reference, however sequence B has one mutation at base position 16 that changes a thymine to a cytosine.*
+**Example illustrating a sequence alignment**
+*Mutations are called against the reference sequence. For example sequence A has no mutations when compared to the reference, however sequence B has one mutation at base position 16 that changes a thymine to a cytosine.*
 ```
 Sequences Aligned:
 
@@ -65,13 +65,13 @@ Looking at the table above, what do you notice about the genetic identity shared
 **Multiple Sequence Alignment View of the Sequences, NCBI Viewer**
 
 ![A. Multiple Sequence Alignment View of Sequences, Whole Genome](../images/msa-wg.jpg)
-* This alignment shows the whole genome of the virus from beginning to end, for all sequenced cases in the outbreak. Mutations are highlighted in red. Sequences were of high quality with no ambiguous bases or N's.*
+*This alignment shows the whole genome of the virus from beginning to end, for all sequenced cases in the outbreak. Mutations are highlighted in red. Sequences were of high quality with no ambiguous bases or N's.*
 [Open alignment in new tab for full view](../images/msa-wg.jpg)
 
 
 
 ![B. Multiple Sequence Alignment View of Sequences, Spike](../images/msa-spike.jpg)
-* This alignment shows the spike coding region of the genome, spanning base positions 3000 to 3500, for all sequenced cases in the outbreak. Mutations are highlighted in red. Sequences were of high quality with no ambiguous bases or N's.*
+*This alignment shows the spike coding region of the genome, spanning base positions 3000 to 3500, for all sequenced cases in the outbreak. Mutations are highlighted in red. Sequences were of high quality with no ambiguous bases or N's.*
 [Open alignment in new tab for full view](../images/msa-spike.jpg)
 
 The MSA using NCBI Alignment Viewer are shown above. Part A shows the coverage and mutations across the genome, whereas part B shows coverage across the spike gene. Mutations at a base position is indicated by the red lines.
