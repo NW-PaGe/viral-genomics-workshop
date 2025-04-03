@@ -68,6 +68,7 @@ Looking at the table above, what do you notice about the genetic identity shared
 ![A. Multiple Sequence Alignment View of Sequences, Whole Genome](../images/msa-wg.jpg)
 *This alignment shows the whole genome of the virus from beginning to end, for all sequenced cases in the outbreak. Mutations are highlighted in red. Sequences were of high quality with no ambiguous bases or N's.*
 
+
 [Open alignment in new tab for full view](../images/msa-wg.jpg)
 
 
@@ -75,6 +76,7 @@ Looking at the table above, what do you notice about the genetic identity shared
 ![B. Multiple Sequence Alignment View of Sequences, Spike](../images/msa-spike.jpg)
 
 *This alignment shows the spike coding region of the genome, spanning base positions 3000 to 3500, for all sequenced cases in the outbreak. Mutations are highlighted in red. Sequences were of high quality with no ambiguous bases or N's.*
+
 
 [Open alignment in new tab for full view](../images/msa-spike.jpg)
 
