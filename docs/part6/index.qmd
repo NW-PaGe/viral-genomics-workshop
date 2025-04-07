@@ -20,9 +20,9 @@ Since the pathogen was unknown and did not immediately match any existing organi
 | Assembled Contig |  A         |  G         |  C         |  T         |  G (gap filled) |
 ```
 
-One assembled, the draft genome was analyzed against the Public Genome Database, a public repository of known microbial sequences. This process, known as *taxonomic identification*. compares the newly assembled genome against existing reference sequences to determine whether it shares homology or evolutionary similarity, with any known organisms. A match in the database suggests that the unknown pathogen may be related to a previously documented virus, providing clues about its classification and potential function. 
+One assembled, the draft genome was analyzed against the Public Genome Database, a public repository of known microbial sequences. This process, known as *taxonomic identification*, compares the newly assembled genome against existing reference sequences to determine whether it shares homology or evolutionary similarity, with any known organisms. A match in the database suggests that the unknown pathogen may be related to a previously documented virus, providing clues about its classification and potential function. 
 
-Fortunately, the results came back with a hit, demonstrating that the consensus genome belongs to a family of positive-sense RNA viruses called Pokeviridae. 
+Fortunately, the results came back with a hit, demonstrating that the genome belongs to a family of positive-sense RNA viruses called Pokeviridae. 
 
 The Bioinformaticians were able to identify a sequence in the Public Genome Database that appeared relatively similar to the genome they’ve assembled. Unfortunately, the metadata regarding this reference sequence is incomplete, as it is the only genome of its kind, and was assembled from genetic material taken from muutubats on June 14th of 2029. The muutubats are a species of fruit bats that shared a very recent common ancestor with the muubats and even live within the same geographic region. The Bioinformaticians decided to use the consensus genome of the virus taken from the muutubat as a reference genome.
 
