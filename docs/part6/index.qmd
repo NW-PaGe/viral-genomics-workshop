@@ -47,7 +47,7 @@ Note that it looks similar to how a de novo assembled sequence would be generate
 The Bioinformaticians continued to work tirelessly to annotate the genome of the unknown virus, and fortunately were successful in mapping out most of the structural genes of the virus. Genome annotation is the process of identifying functional elements within the genomic sequencing, including protein-coding genes, regulatory regions, and other functional motifs. In viral genomics, this step is essential for understanding how the virus interacts with its hosts, replicates, and evades the immune system. Think of it as mapping out the information that is encoded in a genome; each chapter could represent a gene or open reading frame that codes for a protein. 
 
 To annotate the genome, the team used *comparative genomics tools* that compare the newly assembled viral genome to known sequences in public databases. By analyzing sequencing homology, they identified genes encoding four key structural proteins:
-1. Nucleocapside (N): responsible for packaging the viral RNA genome.
+1. Nucleocapsid (N): responsible for packaging the viral RNA genome.
 2. Spike (S): mediates viral entry into host cells. Due to its interaction with the host cell, the spike protein is often a frequent site of mutation or an evolutionary hotspot.
 3. Envelope (E): involved in virus assembly and budding (the processes of putting the viral particles together to form a virus which would then leave the cell).
 4. Matrix (M): maintains the structural integrity of the virus. 
