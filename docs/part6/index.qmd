@@ -26,7 +26,7 @@ Fortunately, the results came back with a hit, demonstrating that the genome bel
 
 The Bioinformaticians were able to identify a sequence in the Public Genome Database that appeared relatively similar to the genome they’ve assembled. Unfortunately, the metadata regarding this reference sequence is incomplete, as it is the only genome of its kind, and was assembled from genetic material taken from muutubats on June 14th of 2029. The muutubats are a species of fruit bats that shared a very recent common ancestor with the muubats and even live within the same geographic region. The Bioinformaticians decided to use the consensus genome of the virus taken from the muutubat as a reference genome.
 
-With this reference in hand, the team needed to refine the assembled genome to ensure accuracy and reduce sequencing errors. To do this, they constructed a *consensus genome*, which uses a reference genome to provide mapping of the sequence. A consensus genome represents the most common nucleotide at each position across multiple sequencing reads. This approach is particularly useful in viral genomics, where individual sequencing reads may contain minor variations or technical errors.
+With this reference in hand, the team needed to refine the assembled genome to ensure accuracy and reduce sequencing errors. To do this, they constructed a *consensus genome*, which uses a reference genome to provide mapping of the sequence. A consensus genome represents the most common nucleotide at each position across multiple sequencing reads. This approach is particularly useful in viral genomics, where individual sequencing reads may contain minor variations or technical errors.    
 
 By aligning all sequencing reads from the bat trainer samples to the newly identified reference genome, the Bioinformaticians were able to reconstruct a high-confidence sequence. This consensus genome provided a cleaner, more reliable representation of the viral genome, which would be crucial for downstream analyses, such as identifying mutations, inferring transmission patterns, and understanding functional differences in viral proteins.
 
@@ -35,6 +35,7 @@ Note that it looks similar to how a de novo assembled sequence would be generate
 ```
 | Read #         | Position 1 | Position 2 | Position 3 | Position 4 | Position 5 |
 |----------------|------------|------------|------------|------------|------------|
+| Reference      |  A         |  G         |  C         |  T         |  G         |
 | Read 1         |  A         |  G         |  C         |  T         |  N         |
 | Read 2         |  A         |  G         |  C         |  T         |  N         |
 | Read 3         |  A         |  A         |  C         |  T         |  G         |
