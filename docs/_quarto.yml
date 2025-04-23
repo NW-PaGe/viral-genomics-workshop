@@ -12,6 +12,7 @@ book:
   - index.qmd
   - part: "Part 1"
     chapters: 
+      - part1/intro.qmd
       - part1/index.qmd
       - part1/discussion.qmd
       - part1/quiz-test.qmd
