@@ -4,7 +4,7 @@ description: Mystery Outbreak Exercise
 date: April 10, 2024
 date-modified: today
 author: 
-  - name: Steph Lunn
+  - name: Steph M. Lunn, MPH, MS
     affiliations:
       - Washington state Department of Health
 knitr: false
