@@ -1,5 +1,44 @@
-# Introduction
+# Welcome to the Mystery Outbreak Workshop!
 
-This is a book created from markdown and executable code.
+Warm greetings! Traditionally, epidemics and outbreaks tend to feel like a good mystery waiting to be solved – and that will be our approach for our Viral Genomics Fundamentals Workshop! For this workshop, you will be reading through a short mystery story centered on a hypothetical outbreak scenario in the fictional city of Fuchsia City.
 
-See @knuth84 for additional discussion of literate programming.
+
+## Intended Audience
+
+This module is designed for public health professionals, laboratorians, bioinformaticians, and epidemiologists who are interested in the real-world applications of viral genomics and genomic epidemiology. Whether you work in a public health lab, manage outbreak response, analyze sequencing data, or coordinate epidemiological investigations, this workshop will provide practical, scenario-based learning relevant to your work.
+
+## Workshop Format
+
+You will explore a fictional scenario that unfolds like a detective story. As you progress, you will encounter:
+
+&nbsp;&nbsp;&nbsp; - Multiple choice questions to test your understanding of key concepts.
+
+&nbsp;&nbsp;&nbsp; - Discussion prompts designed to be open-ended, mirroring real-world ambiguity and complexity.
+
+&nbsp;&nbsp;&nbsp; - Opportunities for creative thinking — often, there is no single “right” answer in genomic epidemiology, only more or less appropriate approaches depending on circumstances.
+
+Points and feedback in this workshop emphasize thoughtful reasoning and creative problem-solving rather than strict accuracy. In practice, effective outbreak response is about adapting to uncertainty and making the best possible decisions with incomplete information.
+
+
+## Learning Objectives
+
+By the end of this workshop, participants will be able to:
+
+ &nbsp;&nbsp;&nbsp; - **Interpret genomic data** to identify and characterize viral pathogens involved in an outbreak scenario.
+
+ &nbsp;&nbsp;&nbsp; - **Apply bioinformatics tools** to analyze sequencing data, including genome assembly and variant identification.
+
+ &nbsp;&nbsp;&nbsp; - **Integrate epidemiological information** with genomic findings to trace transmission pathways and outbreak sources.
+
+ &nbsp;&nbsp;&nbsp; - **Evaluate the effectiveness** of different public health interventions based on genomic and epidemiological evidence.
+
+ &nbsp;&nbsp;&nbsp; - **Communicate findings** effectively to stakeholders, considering the uncertainties and limitations inherent in outbreak investigations.
+
+
+##  How to Get the Most Out of This Workshop
+
+Engage with the material as if you are part of the outbreak investigation team. There are no trick questions; your insights, creativity, and logic are what matter most. Don’t hesitate to propose alternative solutions or discuss real-world limitations you’ve experienced in your own work. We encourage discussion and debate, as these are the hallmarks of strong outbreak response teams.
+
+Let’s begin the investigation!
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Steph M. Lunn
