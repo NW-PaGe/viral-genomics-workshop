@@ -14,7 +14,18 @@
     "href": "part1/intro.html",
     "title": "2  Welcome to the Mystery Outbreak Workshop!",
     "section": "",
-    "text": "2.1 Intended Audience\nThis module is designed for public health professionals, laboratorians, bioinformaticians, and epidemiologists who are interested in the real-world applications of viral genomics and genomic epidemiology. Whether you work in a public health lab, manage outbreak response, analyze sequencing data, or coordinate epidemiological investigations, this workshop will provide practical, scenario-based learning relevant to your work. Workshop Format\nYou will explore a fictional scenario that unfolds like a detective story. As you progress, you will encounter:\n- Multiple choice questions to test your understanding of key concepts.\n- Discussion prompts designed to be open-ended, mirroring real-world ambiguity and complexity.\n- Opportunities for creative thinking — often, there is no single “right” answer in genomic epidemiology, only more or less appropriate approaches depending on circumstances.\nPoints and feedback in this workshop emphasize thoughtful reasoning and creative problem-solving rather than strict accuracy. In practice, effective outbreak response is about adapting to uncertainty and making the best possible decisions with incomplete information.",
+    "text": "2.1 Intended Audience\nThis module is designed for public health professionals, laboratorians, bioinformaticians, and epidemiologists who are interested in the real-world applications of viral genomics and genomic epidemiology. Whether you work in a public health lab, manage outbreak response, analyze sequencing data, or coordinate epidemiological investigations, this workshop will provide practical, scenario-based learning relevant to your work.",
+    "crumbs": [
+      "Part 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to the Mystery Outbreak Workshop!</span>"
+    ]
+  },
+  {
+    "objectID": "part1/intro.html#workshop-format",
+    "href": "part1/intro.html#workshop-format",
+    "title": "2  Welcome to the Mystery Outbreak Workshop!",
+    "section": "2.2 Workshop Format",
+    "text": "2.2 Workshop Format\nYou will explore a fictional scenario that unfolds like a detective story. As you progress, you will encounter:\n    - Multiple choice questions to test your understanding of key concepts.\n    - Discussion prompts designed to be open-ended, mirroring real-world ambiguity and complexity.\n    - Opportunities for creative thinking — often, there is no single “right” answer in genomic epidemiology, only more or less appropriate approaches depending on circumstances.\nPoints and feedback in this workshop emphasize thoughtful reasoning and creative problem-solving rather than strict accuracy. In practice, effective outbreak response is about adapting to uncertainty and making the best possible decisions with incomplete information.",
     "crumbs": [
       "Part 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to the Mystery Outbreak Workshop!</span>"
@@ -24,8 +35,8 @@
     "objectID": "part1/intro.html#learning-objectives",
     "href": "part1/intro.html#learning-objectives",
     "title": "2  Welcome to the Mystery Outbreak Workshop!",
-    "section": "2.2 Learning Objectives",
-    "text": "2.2 Learning Objectives\nBy the end of this workshop, participants will be able to:\n    - Interpret genomic data to identify and characterize viral pathogens involved in an outbreak scenario.\n    - Apply bioinformatics tools to analyze sequencing data, including genome assembly and variant identification.\n    - Integrate epidemiological information with genomic findings to trace transmission pathways and outbreak sources.\n    - Evaluate the effectiveness of different public health interventions based on genomic and epidemiological evidence.\n    - Communicate findings effectively to stakeholders, considering the uncertainties and limitations inherent in outbreak investigations.",
+    "section": "2.3 Learning Objectives",
+    "text": "2.3 Learning Objectives\nBy the end of this workshop, participants will be able to:\n    - Interpret genomic data to identify and characterize viral pathogens involved in an outbreak scenario.\n    - Apply bioinformatics tools to analyze sequencing data, including genome assembly and variant identification.\n    - Integrate epidemiological information with genomic findings to trace transmission pathways and outbreak sources.\n    - Evaluate the effectiveness of different public health interventions based on genomic and epidemiological evidence.\n    - Communicate findings effectively to stakeholders, considering the uncertainties and limitations inherent in outbreak investigations.",
     "crumbs": [
       "Part 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to the Mystery Outbreak Workshop!</span>"
@@ -35,8 +46,8 @@
     "objectID": "part1/intro.html#how-to-get-the-most-out-of-this-workshop",
     "href": "part1/intro.html#how-to-get-the-most-out-of-this-workshop",
     "title": "2  Welcome to the Mystery Outbreak Workshop!",
-    "section": "2.3 How to Get the Most Out of This Workshop",
-    "text": "2.3 How to Get the Most Out of This Workshop\nEngage with the material as if you are part of the outbreak investigation team. There are no trick questions; your insights, creativity, and logic are what matter most. Don’t hesitate to propose alternative solutions or discuss real-world limitations you’ve experienced in your own work. We encourage discussion and debate, as these are the hallmarks of strong outbreak response teams.\nLet’s begin the investigation!\n       - Steph M. Lunn",
+    "section": "2.4 How to Get the Most Out of This Workshop",
+    "text": "2.4 How to Get the Most Out of This Workshop\nEngage with the material as if you are part of the outbreak investigation team. There are no trick questions; your insights, creativity, and logic are what matter most. Don’t hesitate to propose alternative solutions or discuss real-world limitations you’ve experienced in your own work. We encourage discussion and debate, as these are the hallmarks of strong outbreak response teams.\nLet’s begin the investigation!\n       - Steph M. Lunn",
     "crumbs": [
       "Part 1",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to the Mystery Outbreak Workshop!</span>"
