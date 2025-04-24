@@ -41,7 +41,7 @@ When interpreting trees, there's so much to consider! Yet, let's keep it simple 
 *It's important to keep in mind caveats and limitations when interpreting phylogenetic trees. For example, while this tree reflects patterns of similarity rather than explicit evolutionary history, its structure can still offer insights into possible transmission relationships, particularly if sequences that are genetically similar were also sampled close together in time and space. However, because Neighbor-Joining does not reconstruct mutation order or directionality, it cannot by itself establish who infected whom or infer precise chains of transmission without incorporating additional epidemiological data.*
 
 **Example illustrating a phylogenetic tree**
-![Example illustrating a phylogenetic tree](../images/ex_tree.svg)
+![Example illustrating a phylogenetic tree](../images/ex_tree.jpeg)
 
 "I see now" said the Local Health Jursidiction Epidemiologist. "Thank you so much for explaining! I imagine the process to generate the trees requires some form of computation?"
 
