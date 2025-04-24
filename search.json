@@ -296,7 +296,7 @@
     "href": "part9/index.html#what-is-sequencing-alignment-and-why-does-it-matter",
     "title": "15  QC Checks",
     "section": "",
-    "text": "Sequences Aligned:\n\nRef:   ATGCTGATCGTACGTTACG\nSeq A: ATGCTGATCGTACGTTACG  (No mutations)\nSeq B: ATGCTGATCGTACGTCACG  (1 mutation at pos 16: T → C)\nSeq C: ATGCTGATCGTTCGTCACG  (2 mutations at pos 12: A → T, 16: T → C)\nSeq D: ATGCTGATTGTACGTCACG  (3 mutations at pos 9: C → T, 12: A → T, 16: T → C)\nSeq E: ATGCTGATTGTACGTTACG  (2 mutations at pos 9: C → T, 12: A → T)",
+    "text": "Example illustrating a sequence alignment",
     "crumbs": [
       "Part 9",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>QC Checks</span>"
