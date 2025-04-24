@@ -445,14 +445,13 @@ Seq E: ATGCTGATTGTACGTTACG  (2 mutations at pos 9: C → T, 12: A → T)</code><
 <p>Each cell in the matrix represents the <em>number of SNP differences</em> between a pair of genome sequences. The smaller the number, the more similar the sequences are. A value of 0 means the sequences are identical.</p>
 <p>Computing pairwise distance matrices is a relatively straightfoward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where <em>row = column</em> (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme.</p>
 <p><strong>Example illustrating a Pairwise Distance Matrix</strong> <em>This pairwise distance compares the number of mutation differences between two sequences. For example, the number of mutation difference, also known as the genetic distance, between Sequence A and the reference sequence is 0, meaning that the sequences are identical and possess no differences in mutations. However, Sequence D has a genetic distance of 3 when compared to the reference sequence, meaning that there are 3 mutations not shared between the two sequences. As such, Sequence A is more closely related to the reference than Sequence D. In terms of tracing how the virus spreads or its transmission, it is likely that the reference and Sequence A belong to the same transmission chain than that of the reference and Sequence D.</em></p>
-<pre><code>| Sample ID   | Ref  | Seq A | Seq B | Seq C | Seq D | Seq E |
-|-------------|------|-------|-------|-------|-------|-------|
-| Ref         | 0    | 0     |  1    |  2    |  3    |  2    |
-| Seq A       | 0    | 0     |  1    |  2    |  3    |  2    |
-| Seq B       | 1    | 1     |  0    |  1    |  2    |  3    |
-| Seq C       | 2    | 2     |  1    |  0    |  1    |  2    |
-| Seq D       | 3    | 3     |  2    |  1    |  0    |  1    |
-| Seq E       | 2    | 2     |  3    |  2    |  1    |  0    |</code></pre>
+<p><strong>Example illustrating a heatmap of a pairwise distance matrix</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/sequences_heatmap.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Example illustrating a heatmap of a pairwise distane matrix</figcaption>
+</figure>
+</div>
 <p>“I see now, thank you so much! That makes sense.” Smiled the Local Health Jurisdiction Epidemiologist.</p>
 <p>Another Molecular Epidemiologist chimed in, “I am happy to explain phylogenetic trees!”</p>
 </section>
@@ -463,23 +462,17 @@ Seq E: ATGCTGATTGTACGTTACG  (2 mutations at pos 9: C → T, 12: A → T)</code><
 <p>When interpreting trees, there’s so much to consider! Yet, let’s keep it simple and expand on the concept of a “family tree” with sequences being “closely related”. Samples that are closer together along the x-axis being <em>more genetically similar</em> and <em>genetically related to each other</em>. Shorter branch lengths indicate <em>fewer genetic differences between sequences</em>, meaning that there’s less mutations between the sequences and they share a more recent common ancestor. However, longer branches means an accumulation of more mutations. As such, this would mean that the sequences are less closely related or are distantly related. Identical sequences would occur along the same x-axis but would be stacked vertically on the y-axis for visibility.</p>
 <p><strong>Example illustrating phylogenetic tree based on sequence alignment</strong> <em>Imagine this tree to represent viral sequences of pathogen X. This phylogenetic tree uses a type of algorithm called “Neighbor-Joining” to cluster the sequences based on genetic similarities. In other words, this Neighbor-Joining tree illustrates the similarity among sequences based on their nucleotide differences, with Seq A serving as a stand-in for the reference since it is identical to it. Starting from Seq A, the tree shows that Seq B is the most similar sequence, differing by only one mutation, suggesting it was the earliest to diverge from the reference. Seq E branches off next; although it has two mutations relative to the reference, it shares key differences with the more diverged sequences. The most closely related pair in the dataset is Seq C and Seq D, which differ from each other by just a single mutation and share additional differences not found in the other sequences. This pattern suggests they share a recent common ancestor and in terms of epidemiological context this may represent part of a localized transmission cluster.</em></p>
 <p><em>It’s important to keep in mind caveats and limitations when interpreting phylogenetic trees. For example, while this tree reflects patterns of similarity rather than explicit evolutionary history, its structure can still offer insights into possible transmission relationships, particularly if sequences that are genetically similar were also sampled close together in time and space. However, because Neighbor-Joining does not reconstruct mutation order or directionality, it cannot by itself establish who infected whom or infer precise chains of transmission without incorporating additional epidemiological data.</em></p>
-<pre><code>          ┌── Seq D
-      ┌───┤
-      │   └── Seq C
-  ┌───┤
-  │   └── Seq E
-──┤
-│ └── Seq B
-└──── Seq A
-</code></pre>
+<p><strong>Example illustrating a phylogenetic tree</strong> <img src="../images/ex_tree.svg" class="img-fluid" alt="Example illustrating a phylogenetic tree"></p>
 <p>“I see now” said the Local Health Jursidiction Epidemiologist. “Thank you so much for explaining! I imagine the process to generate the trees requires some form of computation?”</p>
 <p>“Absolutely!” cheered the Molecular Epidemiologist. I’m happy to explain that as well.</p>
 <section id="generating-phylogenetic-trees" class="level3" data-number="17.2.1">
 <h3 data-number="17.2.1" class="anchored" data-anchor-id="generating-phylogenetic-trees"><span class="header-section-number">17.2.1</span> Generating Phylogenetic Trees</h3>
-<p>Once the genome sequences are aligned and mutations identified, the next step is to construct a phylogenetic tree, a visual representation of their evolutionary relationships.</p>
-<p>The first step in building the tree is to calculate genetic distances—essentially counting how many nucleotide differences separated each sequence. Viral sequences that shared fewer mutations are likely part of the same transmission chain, while those with more mutations were more genetically distinct.</p>
-<p>To translate these genetic distances into a tree, we can use computational clustering algorithms that groups sequences based on similarity. The general process follows these steps: First we generate our sequence alignment in which all genome sequences were compared letter by letter to pinpoint mutations. Next we compute our distance matrix in which the number of single nucleotide polymorphisms (SNPs) separating each pair of sequences is counted. This would generate a pairwise distance matrix that quantified genetic differences between samples.</p>
-<p>Afterwards, a tree would be constructed using a clustering algorithm. There’s quite a few different clustering algorithm, but what they do is group sequences that are genetically similar into clusters, forming a branching structure - a sort of <em>family tree</em>.</p>
+<p>Once genome sequences are aligned and mutations are identified, the next step is to construct a phylogenetic tree—a visual representation of their evolutionary relationships.</p>
+<p>Phylogenetic trees can be constructed using two broad approaches: distance-based and character-based methods.&amp;</p>
+<p>&nbsp;&nbsp;&nbsp; - Distance-based methods (such as Neighbor-Joining or UPGMA) calculate a pairwise distance matrix, often using the number of single nucleotide polymorphisms (SNPs) separating each sequence pair. These methods then use clustering algorithms to build the tree, grouping together sequences with the smallest genetic distances.</p>
+<p>&nbsp;&nbsp;&nbsp; - Character-based methods (such as Maximum Parsimony or Maximum Likelihood) work directly from the multiple sequence alignment. Instead of summarizing overall similarity, these approaches analyze site-by-site changes across the alignment to infer the tree that best explains the observed pattern of mutations.</p>
+<p>In general, the process begins by generating a multiple sequence alignment, in which all genome sequences are compared nucleotide by nucleotide to pinpoint mutations. For distance-based methods, a distance matrix is calculated to quantify genetic differences between all pairs of sequences, and this matrix is then used to build the tree. For character-based methods, the sequence alignment itself is used directly in the tree-building algorithm—no distance matrix is required.</p>
+<p>Regardless of the approach, the resulting phylogenetic tree is a branching structure, or “family tree,” that depicts how the sequences are evolutionarily related.</p>
 <p>The final tree would reveal key insights about the outbreak. “Given the outbreak, if sequences from the muubats and infected trainers clustered closely together, it would provide strong evidence of spillover from animals to humans” explained one of the Molecular Epidemiologist. “Alternatively, if human sequences showed signs of divergence, it might suggest ongoing transmission within the human population”, they continued.</p>
 </section>
 </section>
