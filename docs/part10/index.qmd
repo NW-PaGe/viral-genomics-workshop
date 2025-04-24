@@ -3,16 +3,8 @@
 The team met to discuss what kind of genomic analyses could be performed to help visualize the sequencing data of the outbreak. While the MSA shows us exactly where genetic differences occur in the sequences, a phylogenetic tree summarizes those differences into a branching diagram that helps us trace the virus’s evolutionary history and how it may have spread from host to host. They decided to construct a pairwise distance matrix and a phylogenetic tree using the sequencing alignment. The pairwise distance matrix and phylogenetic tree are examples of two essential tools in genomic epidemiology. These analyses would allow them to determine how closely related viral genomes were, whether the outbreak originated from an animal spillover event, and how the virus was evolving over time.
 
 **Example illustating a sequence alignment**
-```
-Sequences Aligned:
 
-Ref:   ATGCTGATCGTACGTTACG
-Seq A: ATGCTGATCGTACGTTACG  (No mutations)
-Seq B: ATGCTGATCGTACGTCACG  (1 mutation at pos 16: T → C)
-Seq C: ATGCTGATCGTTCGTCACG  (2 mutations at pos 12: A → T, 16: T → C)
-Seq D: ATGCTGATTGTACGTCACG  (3 mutations at pos 9: C → T, 12: A → T, 16: T → C)
-Seq E: ATGCTGATTGTACGTTACG  (2 mutations at pos 9: C → T, 12: A → T)
-```
+![Example illustrating a sequence alignment](../images/sequences_alignment.jpeg)
 
 "Uhm", raised the hand of one of the Local Health Jurisdiction Epidemiologists. "I understand alignments after looking at the sequence alignment results the Bioinformaticians generated. But I am a bit rusty when it comes to pairwise distance matries and phylogenetic trees. Perhaps one of you could explain it to me?"
 
