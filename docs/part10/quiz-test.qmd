@@ -18,15 +18,13 @@ format: html
 ⬜ Public Health Implementation
 </div>
 
-
 <form id="quiz">
-    <label for="question1">Looking at the phylogenetic tree, what would you expect to see if he virus originated from a single introduction into humans?</label><br>
+    <label for="question1">Looking at the phylogenetic tree, what would you expect to see if the virus originated from a single introduction into humans?</label><br>
     <input type="radio" id="answer1" name="question1" value="A"> A. All human sequences would be identical.<br>
     <input type="radio" id="answer2" name="question1" value="B"> B. Human sequences would cluster closely together (or group closely together) but differ slightly.<br>
     <input type="radio" id="answer3" name="question1" value="C"> C. Human sequences would be widely dispersed (or scattered) throughout the tree.<br>
     <input type="radio" id="answer4" name="question1" value="D"> D. Human sequences would be more similar to environmental microbes than to each other.<br>
-    <br>
-    <br>
+    <br><br>
     <input type="button" value="Submit" onclick="checkAnswers()">
 </form>
 
@@ -34,8 +32,20 @@ format: html
 
 <script>
     function checkAnswers() {
-        var correct = document.getElementById('answer2').checked;
-        var resultText = correct ? "Correct! If all human cases came from a single spillover event, their sequences would be similar but not identical -- small genetic differences or mutations would accumulate as the virus spreads. What do you think? Does this match what the tree shows?" : "Incorrect. Think carefully!";
+        let resultText = "";
+
+        if (document.getElementById('answer2').checked) {
+            resultText = "✅ Correct! A single spillover event would lead to a cluster of closely related sequences — with small differences accumulating as the virus spreads between people.";
+        } else if (document.getElementById('answer1').checked) {
+            resultText = "❌ Not quite. Identical sequences might happen *very* early on, but mutations accumulate quickly — so small differences are expected even within a single introduction.";
+        } else if (document.getElementById('answer3').checked) {
+            resultText = "❌ That would suggest multiple introductions or unrelated infections, not a single spillover event.";
+        } else if (document.getElementById('answer4').checked) {
+            resultText = "❌ That would imply environmental origin or contamination — not what you'd expect if transmission is occurring human-to-human after a spillover.";
+        } else {
+            resultText = "Please select an answer before submitting.";
+        }
+
         document.getElementById('result').innerText = resultText;
     }
 </script>

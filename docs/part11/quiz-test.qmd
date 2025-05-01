@@ -11,8 +11,7 @@ format: html
     <input type="radio" id="answer2" name="question1" value="B"> B. Develop a rapid diagnostic test to detect new cases.<br>
     <input type="radio" id="answer3" name="question1" value="C"> C. Monitor infected individuals to study long-term effects.<br>
     <input type="radio" id="answer4" name="question1" value="D"> D. All of the above.<br>
-    <br>
-    <br>
+    <br><br>
     <input type="button" value="Submit" onclick="checkAnswers()">
 </form>
 
@@ -20,8 +19,20 @@ format: html
 
 <script>
     function checkAnswers() {
-        var correct = document.getElementById('answer4').checked;
-        var resultText = correct ? "Correct! A comprehensive response requires multiple approaches. What do you think? What other approaches could be used in addition to surveillance to detect future threats, rapid testing for public health control, and studying long-term effects to understand the virus impact? How could we bring routine sequencing for genomic surveillance into the picture?" : "Incorrect. Think carefully!";
+        let resultText = "";
+
+        if (document.getElementById('answer4').checked) {
+            resultText = "✅ Correct! Comprehensive outbreak prevention includes surveillance of potential reservoirs, early detection tools, and monitoring for long-term impacts — all critical for understanding and controlling emerging threats.";
+        } else if (document.getElementById('answer1').checked) {
+            resultText = "❌ Important, but not sufficient on its own. Surveillance helps detect future threats, but we also need diagnostics and clinical follow-up.";
+        } else if (document.getElementById('answer2').checked) {
+            resultText = "❌ Rapid testing is essential for outbreak response, but it's just one part of a larger strategy.";
+        } else if (document.getElementById('answer3').checked) {
+            resultText = "❌ Monitoring long-term effects is crucial for understanding impact, but it doesn’t help with early detection or prevention.";
+        } else {
+            resultText = "Please select an answer before submitting.";
+        }
+
         document.getElementById('result').innerText = resultText;
     }
 </script>
