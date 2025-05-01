@@ -30,7 +30,7 @@ book:
   - part: "Pathogen Identification"
     chapters:
       - part5/index.qmd
-  - part: "Pathogen Isolatoion"
+  - part: "Pathogen Isolation"
     chapters:
       - part6/index.qmd
   - part: "Source Tracing"
@@ -43,7 +43,7 @@ book:
     chapters:
       - part9/index.qmd
       - part9/quiz-test.qmd
-  - part: "Analyses"
+  - part: "Genomic Epidemiology"
     chapters:
       - part10/index.qmd
       - part10/quiz-test.qmd
