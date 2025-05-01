@@ -217,23 +217,34 @@
   {
     "objectID": "part4/form.html",
     "href": "part4/form.html",
-    "title": "11  The molecular investigation begins:",
+    "title": "11  Example Forms for Field Investigation:",
     "section": "",
-    "text": "11.1 Case Interview Form",
+    "text": "11.1 Case Interview Form\n1. Case Information\n2. Demographics\n3. Vaccination History\nClinical and Symptom History\nExposure and Travel History\nProtective Measures and Behavior\nAdditional Notes",
     "crumbs": [
       "Beginning the Investigation",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>The molecular investigation begins:</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Example Forms for Field Investigation:</span>"
     ]
   },
   {
     "objectID": "part4/form.html#case-interview-form",
     "href": "part4/form.html#case-interview-form",
-    "title": "11  The molecular investigation begins:",
+    "title": "11  Example Forms for Field Investigation:",
     "section": "",
-    "text": "11.1.1 1. Case Information\n\n\n\nField\nResponse\n\n\n\n\nCase ID\n\n\n\nInterview Date\n\n\n\nInterviewer Name\n\n\n\nDate of Symptom Onset\n\n\n\nDate of Testing\n\n\n\nTest Type\n\n\n\nTest Result\n\n\n\n\n\n\n\n11.1.2 2. Demographics\n\n\n\nField\nResponse\n\n\n\n\nFull Name\n\n\n\nDate of Birth\n\n\n\nAge\n\n\n\nSex/Gender\n\n\n\nAddress\n\n\n\nCity\n\n\n\nCounty/Region\n\n\n\nPhone Number (Optional)\n\n\n\n\n\n\n\n11.1.3 3. Vaccination History\n\n\n\n\n\n\n\n\nVaccine\nReceived? (Y/N)\nDate (if known)\n\n\n\n\nInfluenza\n\n\n\n\nCOVID-19\n\n\n\n\nOther (specify)\n\n\n\n\n\n\n\n\n11.1.4 4. Clinical and Symptom History\n\n\n\n\n\n\n\n\nSymptom\nPresent? (Y/N)\nOnset Date (if known)\n\n\n\n\nFever\n\n\n\n\nCough\n\n\n\n\nFatigue\n\n\n\n\nSore Throat\n\n\n\n\nMuscle/Body Aches\n\n\n\n\nDiarrhea\n\n\n\n\nOther (specify)\n\n\n\n\n\n\n\n\n11.1.5 5. Exposure and Travel History\n\n\n\nField\nResponse\n\n\n\n\nTravel in last 14 days?\n\n\n\nLocations visited\n\n\n\nDate of Safari Zone Visit\n\n\n\nAnimal Contact? (Y/N)\n\n\n\nSpecies Contacted\n\n\n\nOccupation/Work Role\n\n\n\nContact with sick individuals?\n\n\n\nHousehold illness reported?\n\n\n\n\n\n\n\n11.1.6 6. Protective Measures and Behavior\n\n\n\nField\nResponse\n\n\n\n\nMask Use (Y/N)\n\n\n\nHand Hygiene Frequency\n\n\n\nIsolation Practiced?\n\n\n\nPPE Used at Work?\n\n\n\nOther Preventive Measures\n\n\n\n\n\n\n\n11.1.7 7. Additional Notes\n\n\n\n\n\n\n\nNotes",
+    "text": "Field\nResponse\n\n\n\n\nCase ID\n\n\n\nInterview Date\n\n\n\nInterviewer Name\n\n\n\nDate of Symptom Onset\n\n\n\nDate of Testing\n\n\n\nTest Type\n\n\n\nTest Result\n\n\n\n\n\n\n\n\n\nField\nResponse\n\n\n\n\nFull Name\n\n\n\nDate of Birth\n\n\n\nAge\n\n\n\nSex/Gender\n\n\n\nAddress\n\n\n\nCity\n\n\n\nCounty/Region\n\n\n\nPhone Number (Optional)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVaccine\nReceived? (Y/N)\nDate (if known)\n\n\n\n\nInfluenza\n\n\n\n\nCOVID-19\n\n\n\n\nOther (specify)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSymptom\nPresent? (Y/N)\nOnset Date (if known)\n\n\n\n\nFever\n\n\n\n\nCough\n\n\n\n\nFatigue\n\n\n\n\nSore Throat\n\n\n\n\nMuscle/Body Aches\n\n\n\n\nDiarrhea\n\n\n\n\nOther (specify)\n\n\n\n\n\n\n\n\n\n\nField\nResponse\n\n\n\n\nTravel in last 14 days?\n\n\n\nLocations visited\n\n\n\nDate of Safari Zone Visit\n\n\n\nAnimal Contact? (Y/N)\n\n\n\nSpecies Contacted\n\n\n\nOccupation/Work Role\n\n\n\nContact with sick individuals?\n\n\n\nHousehold illness reported?\n\n\n\n\n\n\n\n\n\nField\nResponse\n\n\n\n\nMask Use (Y/N)\n\n\n\nHand Hygiene Frequency\n\n\n\nIsolation Practiced?\n\n\n\nPPE Used at Work?\n\n\n\nOther Preventive Measures\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotes",
     "crumbs": [
       "Beginning the Investigation",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>The molecular investigation begins:</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Example Forms for Field Investigation:</span>"
+    ]
+  },
+  {
+    "objectID": "part4/form.html#animal-case-surveillance-form",
+    "href": "part4/form.html#animal-case-surveillance-form",
+    "title": "11  Example Forms for Field Investigation:",
+    "section": "11.2 Animal Case Surveillance Form",
+    "text": "11.2 Animal Case Surveillance Form\n\nAnimal Identification\n\n\n\nField\nResponse\n\n\n\n\nAnimal ID / Tag Number\n\n\n\nSpecies\n\n\n\nBreed (if applicable)\n\n\n\nAge Estimate (Years/Months)\n\n\n\nSex\n\n\n\nUnique Markings or Features\n\n\n\n\n\nLocation & Housing\n\n\n\nField\nResponse\n\n\n\n\nLocation / Zone Name\n\n\n\nEnclosure Number or Area\n\n\n\nFacility or Safari Section\n\n\n\nContact with Other Species?\n\n\n\nContact with Trainers / Staff?\n\n\n\n\n\nClinical Observations\n\n\n\n\n\n\n\n\nSymptom\nPresent? (Y/N)\nOnset Date (if known)\n\n\n\n\nLethargy\n\n\n\n\nRespiratory symptoms\n\n\n\n\nNasal discharge\n\n\n\n\nFever\n\n\n\n\nDecreased appetite\n\n\n\n\nGastrointestinal symptoms\n\n\n\n\nNeurological symptoms\n\n\n\n\nOther (specify)\n\n\n\n\n\n\nExposure History\n\n\n\nField\nResponse\n\n\n\n\nContact with New Animals?\n\n\n\nKnown Contact with Sick Humans?\n\n\n\nRecently Moved or Transferred?\n\n\n\nPart of a Group Showing Symptoms?\n\n\n\nAny Medical Procedures Recently?\n\n\n\n\n\nSample Collection\n\n\n\n\n\n\n\n\n\nSample Type\nCollected? (Y/N)\nDate Collected\nNotes\n\n\n\n\nNasal swab\n\n\n\n\n\nOral swab\n\n\n\n\n\nRectal swab\n\n\n\n\n\nBlood sample\n\n\n\n\n\nFecal sample\n\n\n\n\n\nOther (specify)\n\n\n\n\n\n\n\nMedical & Vaccination History\n\n\n\nField\nResponse\n\n\n\n\nVaccinated?\n\n\n\nType of Vaccines\n\n\n\nDate of Last Vaccination\n\n\n\nMedical Conditions Noted\n\n\n\nPrevious Illness Episodes\n\n\n\n\n\nAdditional Notes\n\n\n\n\n\n\n\nNotes",
+    "crumbs": [
+      "Beginning the Investigation",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Example Forms for Field Investigation:</span>"
     ]
   },
   {
