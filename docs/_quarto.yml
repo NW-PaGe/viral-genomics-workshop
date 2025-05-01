@@ -8,6 +8,8 @@ book:
   cover-image: images/nwpage_tree_logo.png
   repo-url: https://github.com/NW-PaGe/viral-genomics-workshop
   repo-actions: [edit, issue]
+  sidebar:
+    style: floating
   chapters:
   - index.qmd
   - intro.qmd
