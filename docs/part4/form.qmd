@@ -1,0 +1,102 @@
+# The molecular investigation begins:
+
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+⬜ Developing Hypotheses<br>
+⬜ Sample Collection<br>
+🟩 <strong>Outbreak Investigation</strong><br>
+⬜ Sequencing<br>
+⬜ Bioinformatics<br>
+⬜ Genomic Epidemiology <br>
+⬜ Public Health Implementation
+</div>
+
+## Case Interview Form
+
+---
+
+### 1. Case Information
+
+| Field                         | Response                             |
+|------------------------------|--------------------------------------|
+| Case ID                      |                                      |
+| Interview Date               |                                      |
+| Interviewer Name             |                                      |
+| Date of Symptom Onset        |                                      |
+| Date of Testing              |                                      |
+| Test Type                    |                                      |
+| Test Result                  |                                      |
+
+---
+
+### 2. Demographics
+
+| Field                         | Response                             |
+|------------------------------|--------------------------------------|
+| Full Name                    |                                      |
+| Date of Birth                |                                      |
+| Age                          |                                      |
+| Sex/Gender                   |                                      |
+| Address                      |                                      |
+| City                         |                                      |
+| County/Region                |                                      |
+| Phone Number (Optional)      |                                      |
+
+---
+
+### 3. Vaccination History
+
+| Vaccine                      | Received? (Y/N) | Date (if known)      |
+|-----------------------------|----------------|----------------------|
+| Influenza                   |                |                      |
+| COVID-19                    |                |                      |
+| Other (specify)             |                |                      |
+
+---
+
+### 4. Clinical and Symptom History
+
+| Symptom                      | Present? (Y/N) | Onset Date (if known) |
+|-----------------------------|----------------|------------------------|
+| Fever                       |                |                        |
+| Cough                       |                |                        |
+| Fatigue                     |                |                        |
+| Sore Throat                 |                |                        |
+| Muscle/Body Aches           |                |                        |
+| Diarrhea                    |                |                        |
+| Other (specify)             |                |                        |
+
+---
+
+### 5. Exposure and Travel History
+
+| Field                         | Response                             |
+|------------------------------|--------------------------------------|
+| Travel in last 14 days?      |                                      |
+| Locations visited            |                                      |
+| Date of Safari Zone Visit    |                                      |
+| Animal Contact? (Y/N)        |                                      |
+| Species Contacted            |                                      |
+| Occupation/Work Role         |                                      |
+| Contact with sick individuals? |                                    |
+| Household illness reported?  |                                      |
+
+---
+
+### 6. Protective Measures and Behavior
+
+| Field                         | Response                             |
+|------------------------------|--------------------------------------|
+| Mask Use (Y/N)               |                                      |
+| Hand Hygiene Frequency       |                                      |
+| Isolation Practiced?         |                                      |
+| PPE Used at Work?            |                                      |
+| Other Preventive Measures    |                                      |
+
+---
+
+### 7. Additional Notes
+
+| Notes                        |                                        |
+|-----------------------------|----------------------------------------|
+|                              |                                        |

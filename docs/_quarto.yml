@@ -27,6 +27,8 @@ book:
   - part: "Beginning the Investigation"
     chapters:
       - part4/index.qmd
+      - part4/form.qmd
+      - part4/index-2.qmd
   - part: "Pathogen Identification"
     chapters:
       - part5/index.qmd
