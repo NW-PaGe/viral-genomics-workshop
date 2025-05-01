@@ -39,7 +39,7 @@ book:
   - part: "Sequencing and Bioinformatics"
     chapters:
       - part8/index.qmd
-  - part: "Quality Control Bioinformatics"
+  - part: "Genome Assembly QC"
     chapters:
       - part9/index.qmd
       - part9/quiz-test.qmd
