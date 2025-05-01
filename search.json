@@ -56,7 +56,7 @@
     "section": "",
     "text": "3.1 The newest attraction:\nThe Safari Zone is also home to many fruit bat species that you can find hanging about in the fruit trees and caves hidden within the mountains. The newest attraction of fruits bats includes the muubat, one of the friendliest and meek bat species to interact with. In December of 2030, Fuchsia City brought in a four muubats to be trained and then integrated into the Safari Zone. Many of the residents and tourists alike were very excited to meet the muubats. To garner attention to the newest attraction, Fuchsia City advertised that the muubats should be fully integrated into the Safari Zone by the summertime.",
     "crumbs": [
-      "Part 1",
+      "Background",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>We begin...</span>"
     ]
   },
@@ -67,7 +67,7 @@
     "section": "3.2 Standard Protocol:",
     "text": "3.2 Standard Protocol:\nAny new animal that has been chosen to be integrated into the Safari Zone must undergo certain testing, training, and other procedures before being integrated into the wild. Unfortunately, the risks with muubats, like all bat species, is that they tend to harbor many different viral diseases that cause nasty infections in humans. It is protocol when introducing new bat species, as well as many other animal species, to test the animal for any known diseases, both bacterial and viral, that could cause spillover into humans and the other animals. Oftentimes the presence of a microorganism in an animal is confirmed by whole-genome sequencing, which detects the presence of different microbes that can cause disease. Since the advent of whole-genome sequencing, bioinformatics, and its utility is very much new to the city’s surveillance methods, work is still ongoing to be able to detect novel pathogens. Next-generation sequencing could miss a pathogen for a variety of reasons, including database limitations or not having any data for the pathogen; pathogens at low abundance could be missed; and some sequencing protocols may only be designed to detect a certain pathogen.",
     "crumbs": [
-      "Part 1",
+      "Background",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>We begin...</span>"
     ]
   },
@@ -78,19 +78,19 @@
     "section": "3.3 Testing the muubats:",
     "text": "3.3 Testing the muubats:\nAs soon as the muubats arrive to the facility they are physically examined and tested. Blood samples and swab samples are taken per individual bat, and are subjected to bacterial culture, and a pathogen-agnostic sequencing panel. Culture from blood samples generally takes 48 to 72 hours, and according to the results, none of the blood samples from any of the four bats produced viable colonies. Any leftover blood samples were stored for potential future uses. For the swab samples, genetic material is extracted from the swabs, and then prepped for sequencing. The turn-around time for sequencing to bioinformatics takes about a week and a half. The muubats are kept in an isolated environment interacting only with the trainers during their time in quarantine. It is protocol to obtain enough swab samples for which the extracts could be stored, so both additional and leftover extracts were stored in the -80 degrees Celsius freezer for potential future uses. After a week and a half, the taxonomic identification results from the pathogen-agnostic sequencing panel came back negative, indicating that none of the bats carried any known pathogens that caused infections in humans. With testing and sequencing indicating that the muubats appeared to be clear and healthy, the fruit bats were then relocated to another facility area to begin training.",
     "crumbs": [
-      "Part 1",
+      "Background",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>We begin...</span>"
     ]
   },
   {
     "objectID": "part1/discussion.html",
     "href": "part1/discussion.html",
-    "title": "4  Sample Collection",
+    "title": "4  Discussion One:",
     "section": "",
-    "text": "5 Discussion One:\nBased on the information provided in the story thus far, give some examples of hypotheses that describe how the mystery illness appears to be spreading. Do you suspect that this pathogen is a virus or bacteria? Why?",
+    "text": "🟩 Developing Hypotheses ⬜ Sample Collection ⬜ Outbreak Investigation ⬜ Sequencing ⬜ Bioinformatics ⬜ Genomic Epidemiology  ⬜ Public Health Implementation\n\nBased on the information provided in the story thus far, give some examples of hypotheses that describe how the mystery illness appears to be spreading. Do you suspect that this pathogen is a virus or bacteria? Why?",
     "crumbs": [
-      "Part 1",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Sample Collection</span>"
+      "Background",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Discussion One:</span>"
     ]
   },
   {
@@ -100,7 +100,7 @@
     "section": "",
     "text": "5.1 Quiz",
     "crumbs": [
-      "Part 1",
+      "Background",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Identifying Patterns in the Outbreak</span>"
     ]
   },
@@ -111,7 +111,7 @@
     "section": "",
     "text": "What is unusual about how this illness is spreading?  A. The illness seems to be affecting only trainers who traveled to the conference.  B. The illness appears in people who were not in direct contact with the original sick trainers.  C. The illness follows a seasonal flu-like pattern, peaking in January and decreasing afterwards  D. The illness is only spreading between humans, with no evidence of animal involvement.",
     "crumbs": [
-      "Part 1",
+      "Background",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Identifying Patterns in the Outbreak</span>"
     ]
   },
@@ -122,7 +122,7 @@
     "section": "",
     "text": "6.1 Discussion Two:\nBased on the population size and structure, describe a sampling scheme that you think would best fit this outbreak scenario. What do we want to capture and how does your sampling scheme allow you to capture that? Some examples of sampling schemes include sequencing all samples,sequencing a set of random samples, or sequencing any sample that is available to you.",
     "crumbs": [
-      "Part 2",
+      "Sample Collection Part I",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Fuchsia City begins collecting...</span>"
     ]
   },
@@ -133,7 +133,7 @@
     "section": "",
     "text": "7.1 Quiz",
     "crumbs": [
-      "Part 2",
+      "Sample Collection Part I",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>What Data Should We Collect?</span>"
     ]
   },
@@ -142,9 +142,9 @@
     "href": "part2/quiz-test.html#quiz",
     "title": "7  What Data Should We Collect?",
     "section": "",
-    "text": "Which group would be the most important to test early in the outbreak investigation?  A. Only people with severe symptoms who were hospitalized  B. Only trainers and workers who have direct animal contact.  C. A mix of symptomatic and asymptomatic individuals, including animals.  D. Only people who tested negative for flu, to find other possible pathogens.",
+    "text": "⬜ Developing Hypotheses 🟩 Sample Collection ⬜ Outbreak Investigation ⬜ Sequencing ⬜ Bioinformatics ⬜ Genomic Epidemiology  ⬜ Public Health Implementation\n\n\nWhich group would be the most important to test early in the outbreak investigation?  A. Only people with severe symptoms who were hospitalized  B. Only trainers and workers who have direct animal contact.  C. A mix of symptomatic and asymptomatic individuals, including animals.  D. Only people who tested negative for flu, to find other possible pathogens.",
     "crumbs": [
-      "Part 2",
+      "Sample Collection Part I",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>What Data Should We Collect?</span>"
     ]
   },
@@ -155,7 +155,7 @@
     "section": "",
     "text": "9 All isolates were sent to the regional lab for isolation, testing, and sequencing:\nThe team of Genomic Specialists worked with the doctors and animal trainers to have the swab samples shipped over to the Regional Health Lab for further testing and sequencing. These include samples that were collected from Safari Zone workers, trainers, residents, felines, canines, ducklings, and even the two bat trainers.\nIn terms of capacity, the lab has the capacity to perform short-read sequencing, long-read sequencing, and shotgun metagenomics on the samples. The Bioinformaticians had pipelines in place for genome assembly, metagenomic analyses, taxonomic identification, and annotation. Molecular Epidemiologists complemented this work by performing sequence alignments, pairwise distance analyses, and phylogenetic tree construction.\nTable showing number of swab samples collected, grouped by host species. There were 23 human samples, 5 feline samples, 6 canine samples, and 4 duck samples collected by the doctors and animal trainers and shipped over to the Regional Health Lab. Some swab samples collected in February yielded insufficient material for sequencing. As a result, only well-preserved samples from January through early February were sent to the Regional Health Lab for further analysis.",
     "crumbs": [
-      "Part 3",
+      "Sample Collection Part II",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Genomic Specialists</span>"
     ]
   },
@@ -166,7 +166,7 @@
     "section": "9.1 Discussion Three:",
     "text": "9.1 Discussion Three:\nThe Regional Health Lab has the ability to culture bacteria and viruses for sequencing. In terms of sequencing methods and protocol, if we are trying to identify a novel bacteria and virus, what kind of sequencing platforms and protocols would you try to use in the initial identification? Be sure to fully explain your answer.",
     "crumbs": [
-      "Part 3",
+      "Sample Collection Part II",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Genomic Specialists</span>"
     ]
   },
@@ -177,7 +177,7 @@
     "section": "9.2 Discussion Four:",
     "text": "9.2 Discussion Four:\nUsing your answer in Discussion Three, what type of bioinformatics methods or analyses would be useful in identifying a novel pathogen?",
     "crumbs": [
-      "Part 3",
+      "Sample Collection Part II",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Genomic Specialists</span>"
     ]
   },
@@ -188,7 +188,7 @@
     "section": "",
     "text": "9.1 Quiz",
     "crumbs": [
-      "Part 3",
+      "Sample Collection Part II",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Samples Collected for Testing and Sequencing</span>"
     ]
   },
@@ -197,9 +197,9 @@
     "href": "part3/quiz-test.html#quiz",
     "title": "9  Samples Collected for Testing and Sequencing",
     "section": "",
-    "text": "What should scientists look for first when testing or sequencing samples taken from humans and animals?  A. The species that appear in every sample.  B. The species that only appear in sick individuals.  C. The species that are entirely new to science.  D. The species that match known respiratory pathogens.",
+    "text": "⬜ Developing Hypotheses ⬜ Sample Collection 🟩 Outbreak Investigation ⬜ Sequencing ⬜ Bioinformatics ⬜ Genomic Epidemiology  ⬜ Public Health Implementation\n\n\nWhat should scientists look for first when testing or sequencing samples taken from humans and animals?  A. The species that appear in every sample.  B. The species that only appear in sick individuals.  C. The species that are entirely new to science.  D. The species that match known respiratory pathogens.",
     "crumbs": [
-      "Part 3",
+      "Sample Collection Part II",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Samples Collected for Testing and Sequencing</span>"
     ]
   },
@@ -210,7 +210,7 @@
     "section": "",
     "text": "10.1 Discussion Five:\nField epidemiology applications during outbreak investigations typically employ case interviews to determine risk factors, transmission, source exposures. Describe the types of questions that would be essential to ask cases to formulate hypotheses regarding the initial source of the outbreak. What kind of information do you think we would need in order to get an idea of potential risk factors, transmissions, and source exposure?",
     "crumbs": [
-      "Part 4",
+      "Beginning the Investigation",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>The molecular investigation begins:</span>"
     ]
   },
@@ -221,7 +221,7 @@
     "section": "",
     "text": "11.1 Discussion Six:\nLooking at the chart showing the relative abundance of microorganisms in the swab samples collected from the bat trainers, how would you interpret the figure? For example, how many primary species were identified? Were there any species that were found in the sample that did not show any match to the Internal Sequencing Database? What do you think that might mean?",
     "crumbs": [
-      "Part 5",
+      "Pathogen Identification",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Who’s that pathogen?!</span>"
     ]
   },
@@ -232,7 +232,7 @@
     "section": "",
     "text": "12.1 Discussion Seven\nGiven the information above, how would you interpret the genome? For example, what is the length of the genome? How many structural proteins does this genome appear to contain and what do the genes appear to code for? How many open reading frames do you notice? What are some examples of non-structural proteins that could be encoded within the open reading frames?",
     "crumbs": [
-      "Part 6",
+      "Pathogen Isolatoion",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>The Novel Pathogen</span>"
     ]
   },
@@ -243,7 +243,7 @@
     "section": "",
     "text": "13.1 Discussion Eight:\nShould you test the bats for the novel virus? If so, explain why. Additionally, if you decide to test the bats, should you use the older samples collected in December, new and recently collected samples, or both?",
     "crumbs": [
-      "Part 7",
+      "Source Tracing",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>The hidden source:</span>"
     ]
   },
@@ -254,7 +254,7 @@
     "section": "",
     "text": "14.1 Testing the muubats\nNew swab samples were collected from the muubats, and samples were initially tested using a PCR assay developed specifically for the novel virus by the Regional Health Lab. The PCR assay targeted the S and N genes based on the consensus genome taken from one of the bat trainers. However, and to everyone’s surprise, the PCR results for the novel virus S gene and N gene came back negative, suggesting that the muubats did not currently harbor the novel virus. At first, this seemed like a dead end. If the muubats weren’t carrying the virus now, how could they have been the source? But then someone remembered: All newly introduced animals had archived samples from their initial intake exams. Be that as it may, the team remained unconvinced considering new evidence, and continued to bounce hypotheses back and forth.\nAmid the discussion, someone asked, “isn’t it protocol when testing new animal species to keep a set of samples stored for potential future uses? I think we should test the first swab samples obtained from the muubats back in December”. Given the uncertainty around the origins of the outbreak, the team decided to revisit earlier samples collected during routine testing and surveillance. Among them were the archived swabs from the muubats’ intake exams. If any clues had been overlooked, these samples might fill in the gaps.\nWith the whole team in agreement, the lab pushed forth on running a PCR test on the initial swab samples taken from the muubats. The PCR results came back positive for the S and N genes. The samples proceeded to RNA extraction and preparation for sequencing, and the samples were sequenced.\nAfter a week, the results finally came back indicating that the novel virus was identified in the muubat samples taken from December of the previous year. The discovery raised new questions. If traces of the virus had been present months earlier, why hadn’t it been detected sooner? And more importantly, what had changed since then? The Genomics Specialists Team met once again to deliberate.",
     "crumbs": [
-      "Part 8",
+      "Sequencing and Bioinformatics",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Uncovering the Source</span>"
     ]
   },
@@ -265,7 +265,7 @@
     "section": "14.2 Testing and Sequencing of Human and Animal Samples",
     "text": "14.2 Testing and Sequencing of Human and Animal Samples\n“Now that we have a suspect pathogen,” a microbiologist stood up to speak, “We should run the same PCR assay on the human and animal samples. If the results return positive for the S and N genes of the novel virus, then we should sequence them for further analyses.”\nEveryone was in agreement and quickly got to work. The Microbiologists ran the PCR assays on all samples, with plans to proceed to sequencing if the results were positive. If the sequencing run yielded high-quality raw reads, the Bioinformaticians would perform quality control and process the data using their in-house genome assembly pipeline.\nShortly after, the PCR assay results came back and all samples were positive for the S and N genes. The results were decisive, and the team felt the momentum shift — they were onto something.\nThe Microbiologists then sequenced the samples, and the sequencing run proved successful, yielding high quality raw sequencing data. Upon receiving the raw data, the Bioinformaticians performed QC and determined there were no issues of concern with the sequencing data. What was left was to generate a consensus genome for each of the sequenced cases, which also proved to be a fruitful and successful effort. The team was ready to meet once more for deliberation.\n“This is it! We got our sequencing data!” one of the Bioinformaticians exclaimed.\n“Great work you guys! I can’t believe how smoothly everything went, it’s almost unnatural!” applauded the Molecular Epidemiologist.\nThe team cheered — it felt like their first real win. Excitement rippled through the room, and the momentum was palpable. They had cleared the first major hurdle. But they all knew: the hardest questions were still ahead.",
     "crumbs": [
-      "Part 8",
+      "Sequencing and Bioinformatics",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Uncovering the Source</span>"
     ]
   },
@@ -276,7 +276,7 @@
     "section": "14.3 Discussion Nine:",
     "text": "14.3 Discussion Nine:\nA. What do you think this new piece of evidence could mean?\nB. With the information presented before you, what would be a valid hypothesis regarding the source of the novel virus?\nC. What type of genomic analyses do you think would be helpful in testing your hypothesis?",
     "crumbs": [
-      "Part 8",
+      "Sequencing and Bioinformatics",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Uncovering the Source</span>"
     ]
   },
@@ -287,7 +287,7 @@
     "section": "",
     "text": "15.1 What is Sequencing Alignment and Why Does it Matter?\nExample illustrating a sequence alignment Mutations are called against the reference sequence. For example sequence A has no mutations when compared to the reference, however sequence B has one mutation at base position 16 that changes a thymine to a cytosine.\nOne of the most powerful tools in genomics is a sequence alignment, a process that allows scientists to compare genomic sequences and look for patterns that could provide clues about the outbreak. There are many different specialized software that can generate a sequence alignment as well as genome browsers that can provide an overview of an alignment. Using an in-house specialized alignment software, the team aligned the viral sequences from infected humans, animals, and archived samples to look for similarities, differences, and possible mutations.\n“Think of this like assembling pages of a shredded document”, one of the Bioinformaticians explained. “Each sequence is a tiny fragment of a much larger picture. By aligning them properly, we can reconstruct a phylogenetic tree to see how these sequences are related.”\nAligning sequences wasn’t just about assembling data; it was about uncovering a hidden evolutionary history. Every mutation, every missing base, every small change can tell a story about how the virus was spreading an evolving.",
     "crumbs": [
-      "Part 9",
+      "Quality Control Bioinformatics",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>QC Checks</span>"
     ]
   },
@@ -298,7 +298,7 @@
     "section": "",
     "text": "Example illustrating a sequence alignment",
     "crumbs": [
-      "Part 9",
+      "Quality Control Bioinformatics",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>QC Checks</span>"
     ]
   },
@@ -309,7 +309,7 @@
     "section": "15.2 What Can We Learn from an Alignment?",
     "text": "15.2 What Can We Learn from an Alignment?\nAs the team examined the alignment results, they noted key patterns. For instance, they looked for conserved regions, certain parts of the genome that were nearly identical across all samples, which can indicate genomic stablity. These regions might be essential for the virus’ survival and any heritable change like a mutation could have a devastating effect if it occurred in these regions. The team also looked for mutations. Mutations present in a sample could often be referred to as a SNP - single nucleotide polymorphism. Some sequences can contain SNPs, which are tiny genetic changes that could indicate viral evolution or adaptation to different hosts. The team also looked for insertions and deletions, often referred to as “indels” in the alignments. Indels are small insertions or missing bases which could suggest structural changes in the virus over time. Most importantly, the team looked for gaps in the alignment. Gaps could be missing data or low-quality sequencing reads that have appeared as gaps. These typically require further investigation to determine if gaps are true deletions or just artifacts from sequencing errors.\n“Look at this!” one of the Molecular Epidemiologists pointed to the screen. “These human samples from February are similar to the muubat sequences, but with a few mutations.” After a moment of a silence, another Molecular Epidemiology asked “I wonder what the collection dates are for these sequences. Could the later sequences have more mutations than the earlier sequences?” It wouldn’t be such a farfetch’d thought. “If so, it would mean that the sequences are slowly becoming more divergent over time, especially if there’s a specific region where we see a bunch of mutations occurring” explained another Molecular Epidemiologist.",
     "crumbs": [
-      "Part 9",
+      "Quality Control Bioinformatics",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>QC Checks</span>"
     ]
   },
@@ -320,7 +320,7 @@
     "section": "15.3 Hidden Clues in the Virus’ Evolution",
     "text": "15.3 Hidden Clues in the Virus’ Evolution\nThe team examined the alignment more thoroughly. They looked to see if the earlier samples, particularly those from the Bat Trainers and even Safari Zone Workers shared high sequence similarity or a high degree of resemblance with the muubat samples from December. If the virus were to continue spreading, it’s likely that mutations will begin to accumulate in the later samples suggesting human-to-human transmission had allowed the virus to evolve further.\n“It would be expected that the sequences with more mutations might be the later samples,” said one of the Bioinformaticians. “Once a virus moves into a new host, it undergoes small changes. But the key question is, is this a spillover event? Are there multiple spillover events, or did this virus jump from animals to humans just once and then spread onwards from there?”\nThat question led them back to the multiple sequence alignment (MSA), where they could visually inspect how each genome differed. The team noticed another critical detail: it appeared that there were some mutations concentrated in a specific region. What protein that gene region could code for could have implications for viral infectivity. Additionally, they noticed that some sequences shared a very high degree of similarity with the muubat samples.\n“Are you all seeing this?” One of the Molecular Epidemiologists asked, pointing to the mutations and the similar sequences. “It’s possible to infer a single spillover event followed by onward transmission in humans,” one of the Zoonotic Epidemiologists noted.\n“We should generate a pairwise distance matrix and a phylogenetic tree to see if this confirms what we are seeing in the alignment.”",
     "crumbs": [
-      "Part 9",
+      "Quality Control Bioinformatics",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>QC Checks</span>"
     ]
   },
@@ -331,7 +331,7 @@
     "section": "15.4 Ensuring the Data is Ready for Phylogenetics",
     "text": "15.4 Ensuring the Data is Ready for Phylogenetics\nBefore moving forward with phylogenetic analysis, the team conducted a quality control check on the alignment. Any low-quality sequences, ambiguous regions, or problematic reads had to be identified and removed. “It’s good that we are doing QC on the alignment” one of the Bioinformatician mentioned. “If the alignment isn’t clean, the entire phylogenetic tree could be misleading”.\nAs they carefully reviewed the alignment, they specifically looked for high levels of ambiguity, specifically the amount of ambiguous or “N” bases, which could suggest potential sequencing errors. Sequences with high amounts of ambiguity, generally if greater than 10% of the whole genome, could require the samples to be re-examined and re-sequenced before being included in downstream analyses.\n\n\n\nAnalysis of Whole Genome Sequences from Outbreak, Alignment Viewer\n\n\nMultiple Sequence Alignment (MSA) Metrics of Sequences in Alignment Viewer.\nThe alignment file containing sequences from the outbreak aligned to the reference genome was analyzed in Alignment Viewer. Alignment Viewer shows the percentage of gaps in the genome, representing any ambiguity or incomplete coverage across the genome. ident1% compares the reference sequence with a sequence from the outbreak, and is a metric that indicates the degree of genetic similarity of the two sequences. ident1% is the fraction of reference sequence identical to the second sequence.",
     "crumbs": [
-      "Part 9",
+      "Quality Control Bioinformatics",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>QC Checks</span>"
     ]
   },
@@ -342,7 +342,7 @@
     "section": "15.5 Discussion Ten:",
     "text": "15.5 Discussion Ten:\nLooking at the table above, what do you notice about the genetic identity shared among the sequences with each other, as well as the reference? Do these genomes look complete?\nMultiple Sequence Alignment View of the Sequences, NCBI Viewer\n This alignment shows the whole genome of the virus from beginning to end, for all sequenced cases in the outbreak. Mutations are highlighted in red. Sequences were of high quality with no ambiguous bases or N’s.\nOpen alignment in new tab for full view\n\n\n\nB. Multiple Sequence Alignment View of Sequences, Spike\n\n\nThis alignment shows the spike coding region of the genome, spanning base positions 3000 to 3500, for all sequenced cases in the outbreak. Mutations are highlighted in red. Sequences were of high quality with no ambiguous bases or N’s.\nOpen alignment in new tab for full view\nThe MSA using NCBI Alignment Viewer are shown above. Part A shows the coverage and mutations across the genome, whereas part B shows coverage across the spike gene. Mutations at a base position is indicated by the red lines.",
     "crumbs": [
-      "Part 9",
+      "Quality Control Bioinformatics",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>QC Checks</span>"
     ]
   },
@@ -353,7 +353,7 @@
     "section": "15.6 Dicussion Eleven:",
     "text": "15.6 Dicussion Eleven:\nA. Looking at the multiple sequence alignment, what would you infer about the appearance of the mutations and where they are occurring?\nB. Are most mutations occurring within a specific region of the genome? If so, why do you think that might be the case?",
     "crumbs": [
-      "Part 9",
+      "Quality Control Bioinformatics",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>QC Checks</span>"
     ]
   },
@@ -364,7 +364,7 @@
     "section": "",
     "text": "16.1 Quiz",
     "crumbs": [
-      "Part 9",
+      "Quality Control Bioinformatics",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quality Control and Sequence Alignments</span>"
     ]
   },
@@ -373,9 +373,9 @@
     "href": "part9/quiz-test.html#quiz",
     "title": "16  Quality Control and Sequence Alignments",
     "section": "",
-    "text": "What is the primary reason scientists use multiple sequence alignments (MSA) in outbreak investigations?  A. To identify differences between sequences and formulate hypotheses on reconstructing transmission patterns.  B. To determine if a virus is more closely related to bacteria or fungi.  C. To verify that all samples contain complete genomes before analyses.  D. To directly confirm how a virus spreads between individuals.",
+    "text": "⬜ Developing Hypotheses ⬜ Sample Collection ⬜ Outbreak Investigation ⬜ Sequencing 🟩 Bioinformatics ⬜ Genomic Epidemiology  ⬜ Public Health Implementation\n\n\nWhat is the primary reason scientists use multiple sequence alignments (MSA) in outbreak investigations?  A. To identify differences between sequences and formulate hypotheses on reconstructing transmission patterns.  B. To determine if a virus is more closely related to bacteria or fungi.  C. To verify that all samples contain complete genomes before analyses.  D. To directly confirm how a virus spreads between individuals.",
     "crumbs": [
-      "Part 9",
+      "Quality Control Bioinformatics",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Quality Control and Sequence Alignments</span>"
     ]
   },
@@ -386,7 +386,7 @@
     "section": "",
     "text": "17.1 Pairwise Distance Matrices\nA pairwise distance matrix is a table that quantifies the genetic differences between sequences by counting single nucleotide polymorphisms (SNPs). SNPS are individual base differences at specific nucleotide posititions in the genome. It helps to determine how closely related two samples are and whether genetic clustering aligns with known epidemiological links.\nEach cell in the matrix represents the number of SNP differences between a pair of genome sequences. The smaller the number, the more similar the sequences are. A value of 0 means the sequences are identical.\nComputing pairwise distance matrices is a relatively straightfoward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where row = column (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme.\nExample illustrating a Pairwise Distance Matrix This pairwise distance compares the number of mutation differences between two sequences. For example, the number of mutation difference, also known as the genetic distance, between Sequence A and the reference sequence is 0, meaning that the sequences are identical and possess no differences in mutations. However, Sequence D has a genetic distance of 2 when compared to the reference sequence, meaning that there are 2 mutations not shared between the two sequences. As such, Sequence A is more closely related to the reference than Sequence D. In terms of tracing how the virus spreads or its transmission, it is likely that the reference and Sequence A belong to the same transmission chain than that of the reference and Sequence D.\nExample illustrating a heatmap of a pairwise distance matrix\n“I see now, thank you so much! That makes sense.” Smiled the Local Health Jurisdiction Epidemiologist.\nAnother Molecular Epidemiologist chimed in, “I am happy to explain phylogenetic trees!”",
     "crumbs": [
-      "Part 10",
+      "Analyses",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Genomic Analysis</span>"
     ]
   },
@@ -397,7 +397,7 @@
     "section": "",
     "text": "Example illustrating a heatmap of a pairwise distane matrix",
     "crumbs": [
-      "Part 10",
+      "Analyses",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Genomic Analysis</span>"
     ]
   },
@@ -408,7 +408,7 @@
     "section": "17.2 Phylogenetic Trees",
     "text": "17.2 Phylogenetic Trees\nA phylogenetic tree is a hierarchical clustering or branching diagram that represents the evolutionary relationships between sequences based on genetic similarity. In this outbreak investigation, the tree helps determine how closely related viral genomes are across different individuals and species. Think of it as a family tree where we can trace the ancestry of a virus.\nEach tip (or leaf) on the tree represents a sample’s genome sequence of the virus. The branches connecting them indicate evolutionary relationships, or the sharing of a common ancestor, and branch length represent the amount of genetic difference between sequences.\nWhen interpreting trees, there’s so much to consider! Yet, let’s keep it simple and expand on the concept of a “family tree” with sequences being “closely related”. Samples that are closer together along the x-axis being more genetically similar and genetically related to each other. Shorter branch lengths indicate fewer genetic differences between sequences, meaning that there’s less mutations between the sequences and they share a more recent common ancestor. However, longer branches means an accumulation of more mutations. As such, this would mean that the sequences are less closely related or are distantly related. Identical sequences would occur along the same x-axis but would be stacked vertically on the y-axis for visibility.\nExample illustrating phylogenetic tree based on sequence alignment Imagine this tree to represent viral sequences of pathogen X. This phylogenetic tree uses a a character-based approach to phylogenetic construction called Maximum Likelihood. In other words, this Maximum Likelihood tree represents a tree that best explains the observed patterns of mutations. In the tree, we see that SeqA and the Reference sequence are on the same branch and stacked vertically, indicating that the sequences are genetic identical. Starting from Seq A, the tree shows that Seq B is the sequence that branches off, but is on the same node that SeqC and SeqD branch off from. SeqB shows a divergence of approximately 0.052, indicating 1 mutation difference from the reference (sequence length: 19 x divergence: 0.052 = ~1). Seq D branches off next; although it has two mutations relative to the reference, it shares key differences with SeqE. The most closely related pairs in the dataset is the Ref and SeqA,which differ by zero mutations and are genetically identical; as well as Seq D and SeqE, which differ from each other by just a single mutation and share additional differences not found in the other sequences. This pattern suggests they may share a recent common ancestor and in terms of epidemiological context this may represent part of a localized transmission cluster.\nIt’s important to keep in mind caveats and limitations when interpreting phylogenetic trees. For example, while this tree reflects the sequencing data and the underlying mutations observed in the sequence, its structure can offer insights into possible transmission relationships, particularly if sequences that are genetically similar were also sampled close together in time and space. However, because the Maximum Likelihood approach does not reconstruct mutation order or directionality, it cannot by itself establish who infected whom or infer precise chains of transmission without incorporating additional epidemiological data.\nExample illustrating a phylogenetic tree \n“I see now” said the Local Health Jursidiction Epidemiologist. “Thank you so much for explaining! I imagine the process to generate the trees requires some form of computation?”\n“Absolutely!” cheered the Molecular Epidemiologist. I’m happy to explain that as well.\n\n17.2.1 Generating Phylogenetic Trees\nOnce genome sequences are aligned and mutations are identified, the next step is to construct a phylogenetic tree—a visual representation of their evolutionary relationships.\nPhylogenetic trees can be constructed using two broad approaches: distance-based and character-based methods.&\n    - Distance-based methods (such as Neighbor-Joining or UPGMA) calculate a pairwise distance matrix, often using the number of single nucleotide polymorphisms (SNPs) separating each sequence pair. These methods then use clustering algorithms to build the tree, grouping together sequences with the smallest genetic distances.\n    - Character-based methods (such as Maximum Parsimony or Maximum Likelihood) work directly from the multiple sequence alignment. Instead of summarizing overall similarity, these approaches analyze site-by-site changes across the alignment to infer the tree that best explains the observed pattern of mutations.\nIn general, the process begins by generating a multiple sequence alignment, in which all genome sequences are compared nucleotide by nucleotide to pinpoint mutations. For distance-based methods, a distance matrix is calculated to quantify genetic differences between all pairs of sequences, and this matrix is then used to build the tree. For character-based methods, the sequence alignment itself is used directly in the tree-building algorithm—no distance matrix is required.\nRegardless of the approach, the resulting phylogenetic tree is a branching structure, or “family tree,” that depicts how the sequences are evolutionarily related.\nThe final tree would reveal key insights about the outbreak. “Given the outbreak, if sequences from the muubats and infected trainers clustered closely together, it would provide strong evidence of spillover from animals to humans” explained one of the Molecular Epidemiologist. “Alternatively, if human sequences showed signs of divergence, it might suggest ongoing transmission within the human population”, they continued.",
     "crumbs": [
-      "Part 10",
+      "Analyses",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Genomic Analysis</span>"
     ]
   },
@@ -419,7 +419,7 @@
     "section": "17.3 Results",
     "text": "17.3 Results\nLine list of cases likely linked to outbreak\n\n\n\n\n\n\n\n\nSample ID\nCollection Date\nNotes\n\n\n\n\nBat_Trainer_01\n2031-01-13\nWorked with the muubats; attended conference\n\n\nBat_Trainer_02\n2031-01-13\nWorked with the muubats; attended conference\n\n\nCanine_Trainer_01\n2031-02-01\nWorks closely with workers 01 & 02; interacted with bat trainer 01; works with canines\n\n\nDuck_Trainer_01\n2031-02-04\nWorks closely with worker 06; works with ducks\n\n\nDuck_Trainer_02\n2031-02-05\nWorks closely with worker 06; works with ducks\n\n\nDuck_Trainer_03\n2031-02-06\nWorks closely with duck trainers and works with ducks\n\n\nFeline_Trainer_01\n2031-01-21\nMarried to bat trainer 02; works closely with the felines\n\n\nResident_01\n2031-02-10\nExposed to resident 03 that visited the Safari Park Canine areas\n\n\nResident_02\n2031-02-10\nExposed to resident 03 that visited the Safari Park Canine areas\n\n\nResident_03\n2031-02-11\nVisited the Safari Park Canine areas\n\n\nResident_04\n2031-02-11\nExposed to resident 03 that visited the Safari Park Canine areas\n\n\nResident_05\n2031-02-13\nVisited the Safari Park, interacted with workers and animals\n\n\nResident_06\n2031-02-13\nCould not reach\n\n\nResident_07\n2031-02-13\nCould not reach\n\n\nResident_08\n2031-02-13\nVisited the Safari Park, interacted with workers and animals\n\n\nResident_09\n2031-02-13\nCould not reach\n\n\nWorker_01\n2031-01-22\nWorks closely with bat trainer 01 and canine trainer 01\n\n\nWorker_02\n2031-01-22\nWorks closely with bat trainer 01 and canine trainer 01\n\n\nWorker_03\n2031-01-20\nWorks with the bat trainers\n\n\nWorker_04\n2031-01-19\nWorks with the bat trainers\n\n\nWorker_05\n2031-01-20\nWorks with the bat trainers\n\n\nWorker_06\n2031-02-08\nWorks with the duck trainers\n\n\nWorker_07\n2031-02-09\nWorks with the duck trainers and the ducks\n\n\n\nLine list of cases in outbreak. The line list shows the sample IDs of the sequenced cases in the outbreak. The second column shows the collection date of the samples collected from the case in year-month-day format. The third column shows the exposure notes collected from the case interviews conducted during the outbreak investigation. Unfortunately some of the cases, such as the residents, could not be reached. Some information remains incomplete for the workers as some workers tend to work in different areas, and are involved in different responsibilities when it comes to taking care of the animals and the park.\n\n\n\nPhylogenetic Tree of Flu-Like Illness Outbreak, Fuchsia City, Safari Zone\n\n\nOpen tree in new tab for full view\nPhylogenetic Tree of Outbreak. This phylogenetic tree shows the evolutionary relationships between sequences from the outbreak. The tips on the tree represent individual genome sequences of the virus, which are color-coded by species in relation to the park. The x-axis represents divergence (also sometimes referred to as genetic distance, or the number of mutations from the reference genome). To give an example, the reference genome is 5000 bases long, so a divergence of 0.0006 would mean 3 mutations difference. (5000 * 0.0006).\nNote that identical sequences like muubat_02, muubat_03, and muubat_04 lie on the same x-axis and are stacked vertically. Comparing the muubat sequences with the sequences of the residents, the branch length of the resident is much longer indicating that the viruses that infected the muubats are less closely related to the residents.\n\n\n\nExposure Map of Animals, Trainers, and Workers\n\n\nExposure Map. The exposure map uses information from the case interview to piece together how animals, trainers, and workers might be linked together in the outbreak. Lines indicate that the case was either exposed to or had an interaction with the other cases or animals.\n\n\n\nHeatmap of SNP Distances of Sequences in Outbreak\n\n\nHeatmap. The heatmap shows the pairwise distance between two sequences. The pairwise distance is given by the number of single nucleotide polymorphisms (SNPs), or single base difference between two sequences. The range of SNP differences for the sequenced cases in the outbreak is 0 to 9. A SNP distnace of 0 (darkest color) means that two sequences are identical, while a higher SNP count (lighter color) indicates greater genetic divergence. Comparing this heatmap with the phylogenetic tree helps confirm whether clusters of closely related sequences correspond to expected epidemiological links. Sequences that are darker in color indicate fewer SNP differences between the two sequences, whereas lighter color indicates more SNP differences between the two cases.",
     "crumbs": [
-      "Part 10",
+      "Analyses",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Genomic Analysis</span>"
     ]
   },
@@ -430,7 +430,7 @@
     "section": "17.4 Interpretating the Results",
     "text": "17.4 Interpretating the Results\n“Let’s take some time to review the results. We should each try to come up with our own interpretations and then compare to see what seems to be best explained by the data.”\nThe phylogenetic tree revealed patterns in the genetic relationship between the sequences generated from each sample. Some sequences clustered more closely together whereas others showed greated divergence. Meanwhile, the SNP heatmap highlighted key genetic differences, with certain sequences appearing more similar while others displayed increasing variation over time. The team deliberated: what might these patterns suggest about how the virus spread and changed throughout the outbreak?",
     "crumbs": [
-      "Part 10",
+      "Analyses",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Genomic Analysis</span>"
     ]
   },
@@ -441,7 +441,7 @@
     "section": "17.5 Discussion Twelve:",
     "text": "17.5 Discussion Twelve:\nA. Looking at the phylogenetic tree, what inferences would you make regarding the placement of the samples on the tree?\nB. Is the phylogenetic tree in congruence with the exposure map?\nC. Looking at the heatmap, do you notice any clusters or patterns that match how the sequences are placed on the tree?\nD. What would you conclude from this analysis? Does this analysis support your hypothesis?",
     "crumbs": [
-      "Part 10",
+      "Analyses",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Genomic Analysis</span>"
     ]
   },
@@ -452,7 +452,7 @@
     "section": "",
     "text": "18.1 Quiz",
     "crumbs": [
-      "Part 10",
+      "Analyses",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
     ]
   },
@@ -461,9 +461,9 @@
     "href": "part10/quiz-test.html#quiz",
     "title": "18  What Can the Phylogenetic Tree Tell Us?",
     "section": "",
-    "text": "Looking at the phylogenetic tree, what would you expect to see if he virus originated from a single introduction into humans?  A. All human sequences would be identical.  B. Human sequences would cluster closely together (or group closely together) but differ slightly.  C. Human sequences would be widely dispersed (or scattered) throughout the tree.  D. Human sequences would be more similar to environmental microbes than to each other.",
+    "text": "⬜ Developing Hypotheses ⬜ Sample Collection ⬜ Outbreak Investigation ⬜ Sequencing ⬜ Bioinformatics 🟩 Genomic Epidemiology ⬜ Public Health Implementation\n\n\nLooking at the phylogenetic tree, what would you expect to see if he virus originated from a single introduction into humans?  A. All human sequences would be identical.  B. Human sequences would cluster closely together (or group closely together) but differ slightly.  C. Human sequences would be widely dispersed (or scattered) throughout the tree.  D. Human sequences would be more similar to environmental microbes than to each other.",
     "crumbs": [
-      "Part 10",
+      "Analyses",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
     ]
   },
@@ -474,7 +474,7 @@
     "section": "",
     "text": "19.1 Discussion Thirteen:\nHow would you construct a genomic surveillance system? Include in your discussion how you would obtain samples from laboratories. Would you use the sampling scheme discussed in Discussion One?",
     "crumbs": [
-      "Part 11",
+      "Public Health Implementation",
       "<span class='chapter-number'>19</span>  <span class='chapter-title'>Public Health Action</span>"
     ]
   },
@@ -485,7 +485,7 @@
     "section": "",
     "text": "20.1 Quiz",
     "crumbs": [
-      "Part 11",
+      "Public Health Implementation",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>What Comes Next?</span>"
     ]
   },
@@ -496,7 +496,7 @@
     "section": "",
     "text": "Now that scientists have identified the novel virus, what additional steps should be taken to prevent future outbreaks?  A. Increase surveillance of wildlife for similar viruses.  B. Develop a rapid diagnostic test to detect new cases.  C. Monitor infected individuals to study long-term effects.  D. All of the above.",
     "crumbs": [
-      "Part 11",
+      "Public Health Implementation",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>What Comes Next?</span>"
     ]
   },
@@ -507,7 +507,7 @@
     "section": "",
     "text": "21.1 Discussion Fourteen:\nThe outbreak was eventually contained, but what if the virus had not been detected in time? What other steps could have been taken to prevent a spillover event like this in the future?",
     "crumbs": [
-      "Part 12",
+      "Containing the Epidemic",
       "<span class='chapter-number'>21</span>  <span class='chapter-title'>Conclusion:</span>"
     ]
   },
@@ -518,7 +518,7 @@
     "section": "",
     "text": "Pathogen Genomics is a new and revolutionary field in Public Health and it represents a new direction of infectious disease intelligence and surveillance. What we have accomplished during the COVID-19 pandemic reflects this.\nThe sequencing of SARS-CoV-2 during the COVID-19 pandemic has transformed surveillance and epidemiologic analyses. This learning experience has ushered us in a new direction of infectious disease intelligence and surveillance, where pathogen genomes can be used for more insightful analyses like phylodynamics, transmission dynamics, variant detection, estimating disease severity, among other things. From this experience, there’s ample opportunity and room to expand sequencing and genomics to other pathogens of notifiable conditions.\nIn the future, once we are more established in this field, we can begin to build a global warning system for future pandemics of emerging pathogens. In a sense, we do a lot of this kind of work right now with SARS-CoV-2. Therefore, all that we do now and the work that we invest in will serve as a model for the ways in which we can monitor, prevent, and control infectious diseases and it’s looking to be a very optimistic future direction.\nThis story is meant to help build capacity in Pathogen Genomics, whether you are a laboratorian, epidemiologist, bioinformatician, infectious disease specialist, and the like. Furthermore, this mystery outbreak story is an ode to all of the public health professionals, researchers, scientists, and healthcare workers that worked tirelessly on the frontlines of the COVID-19 pandemic, and for the newcomers who are interested in this area. We seek to revolutionize our surveillance systems and infrastructure, and you too, can be a part of this undertaking.\n\nSteph M Lunn\n\nHave questions? Feel free to reach out!\nContact WA DOH Molecular Epidemiology Program\nThis story was inspired by Pokemon, but not affiliated with or sponsored by Pokemon, GameFreaks, or Nintendo.",
     "crumbs": [
-      "Part 13",
+      "To the readers",
       "<span class='chapter-number'>22</span>  <span class='chapter-title'>Author's Notes</span>"
     ]
   }
