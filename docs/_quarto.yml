@@ -8,55 +8,53 @@ book:
   cover-image: images/nwpage_tree_logo.png
   repo-url: https://github.com/NW-PaGe/viral-genomics-workshop
   repo-actions: [edit, issue]
-  sidebar:
-    style: floating
   chapters:
   - index.qmd
   - intro.qmd
-  - part: "Part 1"
+  - part: "Background"
     chapters: 
       - part1/index.qmd
       - part1/discussion.qmd
       - part1/quiz-test.qmd
-  - part: "Part 2"
+  - part: "Sample Collection Part I"
     chapters: 
       - part2/index.qmd
       - part2/quiz-test.qmd
-  - part: "Part 3"
+  - part: "Sample Collection Part II"
     chapters:
       - part3/index.qmd
       - part3/quiz-test.qmd
-  - part: "Part 4"
+  - part: "Beginning the Investigation"
     chapters:
       - part4/index.qmd
-  - part: "Part 5"
+  - part: "Pathogen Identification"
     chapters:
       - part5/index.qmd
-  - part: "Part 6"
+  - part: "Pathogen Isolatoion"
     chapters:
       - part6/index.qmd
-  - part: "Part 7"
+  - part: "Source Tracing"
     chapters:
       - part7/index.qmd
-  - part: "Part 8"
+  - part: "Sequencing and Bioinformatics"
     chapters:
       - part8/index.qmd
-  - part: "Part 9"
+  - part: "Quality Control Bioinformatics"
     chapters:
       - part9/index.qmd
       - part9/quiz-test.qmd
-  - part: "Part 10"
+  - part: "Analyses"
     chapters:
       - part10/index.qmd
       - part10/quiz-test.qmd
-  - part: "Part 11"
+  - part: "Public Health Implementation"
     chapters:
       - part11/index.qmd
       - part11/quiz-test.qmd
-  - part: "Part 12"
+  - part: "Containing the Epidemic"
     chapters:
       - part12/index.qmd
-  - part: "Part 13"
+  - part: "To the readers"
     chapters:
       - part13/index.qmd
 

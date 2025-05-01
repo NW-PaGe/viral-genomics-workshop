@@ -5,6 +5,18 @@ format: html
 
 ## Quiz
 
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+⬜ Developing Hypotheses<br>
+⬜ Sample Collection<br>
+⬜ Outbreak Investigation<br>
+⬜ Sequencing<br>
+🟩 <strong>Bioinformatics</strong><br>
+⬜ Genomic Epidemiology <br>
+⬜ Public Health Implementation
+</div>
+
+
 <form id="quiz">
     <label for="question1">What is the primary reason scientists use multiple sequence alignments (MSA) in outbreak investigations?</label><br>
     <input type="radio" id="answer1" name="question1" value="A"> A. To identify differences between sequences and formulate hypotheses on reconstructing transmission patterns.<br>

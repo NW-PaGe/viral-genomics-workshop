@@ -1,5 +1,17 @@
 # Genomic Analysis
 
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+⬜ Developing Hypotheses<br>
+⬜ Sample Collection<br>
+⬜ Outbreak Investigation<br>
+⬜ Sequencing<br>
+⬜ Bioinformatics<br>
+🟩 <strong>Genomic Epidemiology</strong><br>
+⬜ Public Health Implementation
+</div>
+
+
 The team met to discuss what kind of genomic analyses could be performed to help visualize the sequencing data of the outbreak. While the MSA shows us exactly where genetic differences occur in the sequences, a phylogenetic tree summarizes those differences into a branching diagram that helps us trace the virus’s evolutionary history and how it may have spread from host to host. They decided to construct a pairwise distance matrix and a phylogenetic tree using the sequencing alignment. The pairwise distance matrix and phylogenetic tree are examples of two essential tools in genomic epidemiology. These analyses would allow them to determine how closely related viral genomes were, whether the outbreak originated from an animal spillover event, and how the virus was evolving over time.
 
 **Example illustating a sequence alignment**

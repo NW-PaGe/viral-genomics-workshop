@@ -1,5 +1,17 @@
 # Fuchsia City begins collecting...
 
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+⬜ Developing Hypotheses<br>
+🟩 <strong>Sample Collection</strong><br>
+⬜ Outbreak Investigation<br>
+⬜ Sequencing<br>
+⬜ Bioinformatics<br>
+⬜ Genomic Epidemiology <br>
+⬜ Public Health Implementation
+</div>
+
+
 **Fuchsia City begins collecting swab samples from the animals, workers, and residents:**
 
 Towards the end of January, upon the closing of the Safari Zone, hospitals began seeing a large increase of cases that exceeded their capacity for testing and treatment. All cases were tested for flu, but a large proportion of cases returned negative. The most doctors could do was send patients home with treatment unless it was a severe case that required hospitalization. Although it was difficult to ascertain the number of true cases in January, hospitals were now reporting cases in the thousands. 

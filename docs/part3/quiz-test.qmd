@@ -5,6 +5,18 @@ format: html
 
 ## Quiz
 
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+⬜ Developing Hypotheses<br>
+⬜ Sample Collection<br>
+🟩 <strong>Outbreak Investigation</strong><br>
+⬜ Sequencing<br>
+⬜ Bioinformatics<br>
+⬜ Genomic Epidemiology <br>
+⬜ Public Health Implementation
+</div>
+
+
 <form id="quiz">
     <label for="question1">What should scientists look for first when testing or sequencing samples taken from humans and animals?</label><br>
     <input type="radio" id="answer1" name="question1" value="A"> A. The species that appear in every sample.<br>

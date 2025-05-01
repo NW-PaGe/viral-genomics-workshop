@@ -12,6 +12,7 @@ format: html
     <input type="radio" id="answer3" name="question1" value="C"> C. Monitor infected individuals to study long-term effects.<br>
     <input type="radio" id="answer4" name="question1" value="D"> D. All of the above.<br>
     <br>
+    <br>
     <input type="button" value="Submit" onclick="checkAnswers()">
 </form>
 

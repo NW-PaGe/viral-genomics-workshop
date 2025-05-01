@@ -1,5 +1,17 @@
 # Uncovering the Source
 
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+⬜ Developing Hypotheses<br>
+⬜ Sample Collection<br>
+⬜ Outbreak Investigation<br>
+🟩 <strong>Sequencing</strong><br>
+⬜ Bioinformatics<br>
+⬜ Genomic Epidemiology <br>
+⬜ Public Health Implementation
+</div>
+
+
 ## Testing the muubats
 
 New swab samples were collected from the muubats, and samples were initially tested using a PCR assay developed specifically for the novel virus by the Regional Health Lab. The PCR assay targeted the S and N genes based on the consensus genome taken from one of the bat trainers. However, and to everyone’s surprise, the PCR results for the novel virus S gene and N gene came back negative, suggesting that the muubats did not currently harbor the novel virus. At first, this seemed like a dead end. If the muubats weren't carrying the virus now, how could they have been the source? But then someone remembered: All newly introduced animals had archived samples from their initial intake exams. Be that as it may, the team remained unconvinced considering new evidence, and continued to bounce hypotheses back and forth. 

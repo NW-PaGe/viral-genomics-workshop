@@ -1,5 +1,17 @@
 # The molecular investigation begins:
 
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+⬜ Developing Hypotheses<br>
+⬜ Sample Collection<br>
+🟩 <strong>Outbreak Investigation</strong><br>
+⬜ Sequencing<br>
+⬜ Bioinformatics<br>
+⬜ Genomic Epidemiology <br>
+⬜ Public Health Implementation
+</div>
+
+
 The Molecular Epidemiologists were tasked with working with the Zoonotic Epidemiology Team and Local Health Epidemiologists to develop hypotheses related to the underlying cause and source of the outbreak, as well as working with the Bioinformaticians to ensure the proper analyses were performed related to hypothesis testing and performing any additional analyses if necessary. To better understand the outbreak, the Genomics team met to discuss what it is that they understood about the outbreak and came up with a list of observations. The team also began constructing a series of interview questions for the outbreak investigation.
 
 ## Discussion Five:

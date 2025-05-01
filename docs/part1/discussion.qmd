@@ -1,20 +1,17 @@
----
-title: "Sample Collection"
-sidebar: 
-  title: "Investigation Roadmap"
-  contents: |
-    ```{=html}
-    <div style="font-family:monospace; font-size: 0.9em;">
-    🟩 <strong>Developing Hypotheses</strong><br>
-    ⬜ Sample Collection<br>
-    ⬜ Sequencing<br>
-    ⬜ Bioinformatics<br>
-    ⬜ Genomic Epidemiology
-    </div>
-    ```
----
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+🟩 <strong>Developing Hypotheses</strong><br>
+⬜ Sample Collection<br>
+⬜ Outbreak Investigation<br>
+⬜ Sequencing<br>
+⬜ Bioinformatics<br>
+⬜ Genomic Epidemiology <br>
+⬜ Public Health Implementation
+</div>
+
 
 
 # Discussion One:
+
 
 Based on the information provided in the story thus far, give some examples of hypotheses that describe how the mystery illness appears to be spreading. Do you suspect that this pathogen is a virus or bacteria? Why?

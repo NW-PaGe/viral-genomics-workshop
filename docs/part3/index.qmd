@@ -1,5 +1,17 @@
 # Genomic Specialists
 
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+⬜ Developing Hypotheses<br>
+⬜ Sample Collection<br>
+🟩 <strong>Outbreak Investigation</strong><br>
+⬜ Sequencing<br>
+⬜ Bioinformatics<br>
+⬜ Genomic Epidemiology <br>
+⬜ Public Health Implementation
+</div>
+
+
 **A team of Genomic Specialists were assigned to investigate the mystery flu-like outbreak in Fuchsia City/Safari Zone:**
 
 Doctors were puzzled at the mystery flu-like illness that was spreading in Fuchsia City and Safari Zone. The doctors, specialists, researchers, and Local Health Epidemiologists worked together and decided to ask the Regional Health Department to investigate the outbreak to prevent the spread of the illness. A team of Genomics Specialists were assigned to investigate the city-wide and wildlife outbreak, including Microbiologists that specialized in laboratory methods and sequencing, Bioinformaticians that specialized in genome assembly and genomic analyses, and Molecular Epidemiologists that specialized in hypothesis testing, genomic analysis interpretation, and visualization. The Zoonotic Epidemiology Team and Local Health Epidemiologists were also assigned to work closely with the team to investigate the outbreak.

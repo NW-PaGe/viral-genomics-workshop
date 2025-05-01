@@ -1,5 +1,17 @@
 # The Novel Pathogen
 
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+⬜ Developing Hypotheses<br>
+⬜ Sample Collection<br>
+⬜ Outbreak Investigation<br>
+⬜ Sequencing<br>
+🟩 <strong>Bioinformatics</strong><br>
+⬜ Genomic Epidemiology <br>
+⬜ Public Health Implementation
+</div>
+
+
 **Isolating and identifying the novel pathogen:**
 
 In mid-May after the team identified an unknown microorganism in the sample, the Microbiologists began working with the specimens collected from the bat trainers to isolate the suspect pathogen. After several weeks of meticulous labor, the Microbiologists were successfully able to isolate the unknown pathogen from both samples. 

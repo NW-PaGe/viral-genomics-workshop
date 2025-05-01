@@ -5,6 +5,20 @@ format: html
 
 ## Quiz
 
+
+
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+⬜ Developing Hypotheses<br>
+⬜ Sample Collection<br>
+⬜ Outbreak Investigation<br>
+⬜ Sequencing<br>
+⬜ Bioinformatics<br>
+🟩 <strong>Genomic Epidemiology</strong><br>
+⬜ Public Health Implementation
+</div>
+
+
 <form id="quiz">
     <label for="question1">Looking at the phylogenetic tree, what would you expect to see if he virus originated from a single introduction into humans?</label><br>
     <input type="radio" id="answer1" name="question1" value="A"> A. All human sequences would be identical.<br>
