@@ -109,7 +109,7 @@
     "href": "part1/quiz-test.html#quiz",
     "title": "5  Identifying Patterns in the Outbreak",
     "section": "",
-    "text": "What is unusual about how this illness is spreading?  A. The illness seems to be affecting only trainers who traveled to the conference.  B. The illness appears in people who were not in direct contact with the original sick trainers.  C. The illness follows a seasonal flu-like pattern, peaking in January and decreasing afterwards  D. The illness is only spreading between humans, with no evidence of animal involvement.",
+    "text": "What is unusual about how this illness is spreading?  A. The illness seems to be affecting only trainers who traveled to the conference.  B. The illness appears in people who were not in direct contact with the original sick trainers.  C. The illness follows a seasonal flu-like pattern, peaking in January and decreasing afterwards.  D. The illness is only spreading between humans, with no evidence of animal involvement.",
     "crumbs": [
       "Background",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Identifying Patterns in the Outbreak</span>"
@@ -197,7 +197,7 @@
     "href": "part3/quiz-test.html#quiz",
     "title": "9  Samples Collected for Testing and Sequencing",
     "section": "",
-    "text": "⬜ Developing Hypotheses ⬜ Sample Collection 🟩 Outbreak Investigation ⬜ Sequencing ⬜ Bioinformatics ⬜ Genomic Epidemiology  ⬜ Public Health Implementation\n\n\nWhat should scientists look for first when testing or sequencing samples taken from humans and animals?  A. The species that appear in every sample.  B. The species that only appear in sick individuals.  C. The species that are entirely new to science.  D. The species that match known respiratory pathogens.",
+    "text": "⬜ Developing Hypotheses ⬜ Sample Collection 🟩 Outbreak Investigation ⬜ Sequencing ⬜ Bioinformatics ⬜ Genomic Epidemiology  ⬜ Public Health Implementation\n\n\nWhy is proper shipping and storage of samples critical in outbreak investigations involving sequencing?  A. It ensures the samples are free of contamination from other samples.  B. It guarantees the identification of known pathogens.  C. It prevents degradation of nucleic acids required for sequencing.  D. It allows labs to skip bioinformatics quality control steps.",
     "crumbs": [
       "Sample Collection Part II",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Samples Collected for Testing and Sequencing</span>"
@@ -461,7 +461,7 @@
     "href": "part10/quiz-test.html#quiz",
     "title": "18  What Can the Phylogenetic Tree Tell Us?",
     "section": "",
-    "text": "⬜ Developing Hypotheses ⬜ Sample Collection ⬜ Outbreak Investigation ⬜ Sequencing ⬜ Bioinformatics 🟩 Genomic Epidemiology ⬜ Public Health Implementation\n\n\nLooking at the phylogenetic tree, what would you expect to see if he virus originated from a single introduction into humans?  A. All human sequences would be identical.  B. Human sequences would cluster closely together (or group closely together) but differ slightly.  C. Human sequences would be widely dispersed (or scattered) throughout the tree.  D. Human sequences would be more similar to environmental microbes than to each other.",
+    "text": "⬜ Developing Hypotheses ⬜ Sample Collection ⬜ Outbreak Investigation ⬜ Sequencing ⬜ Bioinformatics 🟩 Genomic Epidemiology ⬜ Public Health Implementation\n\n\nLooking at the phylogenetic tree, what would you expect to see if the virus originated from a single introduction into humans?  A. All human sequences would be identical.  B. Human sequences would cluster closely together (or group closely together) but differ slightly.  C. Human sequences would be widely dispersed (or scattered) throughout the tree.  D. Human sequences would be more similar to environmental microbes than to each other.",
     "crumbs": [
       "Genomic Epidemiology",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
@@ -505,7 +505,7 @@
     "href": "part12/index.html",
     "title": "21  Conclusion:",
     "section": "",
-    "text": "21.1 Discussion Fourteen:\nThe outbreak was eventually contained, but what if the virus had not been detected in time? What other steps could have been taken to prevent a spillover event like this in the future?",
+    "text": "21.1 Discussion Fourteen:\nThe outbreak was eventually contained, but what if the virus had not been detected in a timely manner? What other steps could have been taken to prevent a spillover event like this in the future?",
     "crumbs": [
       "Containing the Epidemic",
       "<span class='chapter-number'>21</span>  <span class='chapter-title'>Conclusion:</span>"

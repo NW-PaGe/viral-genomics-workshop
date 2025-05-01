@@ -426,14 +426,26 @@ ul.task-list li input[type="checkbox"] {
 <section id="quiz" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="quiz"><span class="header-section-number">5.1</span> Quiz</h2>
 <form id="quiz">
-<label for="question1">What is unusual about how this illness is spreading?</label><br> <input type="radio" id="answer1" name="question1" value="A"> A. The illness seems to be affecting only trainers who traveled to the conference.<br> <input type="radio" id="answer2" name="question1" value="B"> B. The illness appears in people who were not in direct contact with the original sick trainers.<br> <input type="radio" id="answer3" name="question1" value="C"> C. The illness follows a seasonal flu-like pattern, peaking in January and decreasing afterwards<br> <input type="radio" id="answer4" name="question1" value="D"> D. The illness is only spreading between humans, with no evidence of animal involvement.<br> <br> <br> <input type="button" value="Submit" onclick="checkAnswers()">
+<label for="question1">What is unusual about how this illness is spreading?</label><br> <input type="radio" id="answer1" name="question1" value="A"> A. The illness seems to be affecting only trainers who traveled to the conference.<br> <input type="radio" id="answer2" name="question1" value="B"> B. The illness appears in people who were not in direct contact with the original sick trainers.<br> <input type="radio" id="answer3" name="question1" value="C"> C. The illness follows a seasonal flu-like pattern, peaking in January and decreasing afterwards.<br> <input type="radio" id="answer4" name="question1" value="D"> D. The illness is only spreading between humans, with no evidence of animal involvement.<br> <br><br> <input type="button" value="Submit" onclick="checkAnswers()">
 </form>
 <p id="result">
 </p>
 <script>
     function checkAnswers() {
-        var correct = document.getElementById('answer2').checked;
-        var resultText = correct ? "Correct! The illness is spreading beyond the trainers who attended the conference, meaning direct exposure at the event may not fully explain transmission. What do you think? Do you think this suggests another factor, possibly environmental exposure or an animal reservoir that may be playing a role?" : "Incorrect. Think carefully!";
+        var resultText = "";
+
+        if (document.getElementById('answer2').checked) {
+            resultText = "✅ Correct! The illness is spreading beyond the trainers who attended the conference, which suggests that direct contact isn’t the only route. This hints at another exposure — perhaps environmental or zoonotic.";
+        } else if (document.getElementById('answer1').checked) {
+            resultText = "❌ Not quite. While the trainers were early cases, the illness spread to others not at the conference, which makes this explanation incomplete.";
+        } else if (document.getElementById('answer3').checked) {
+            resultText = "❌ Close, but not unusual. Many respiratory illnesses follow seasonal patterns, so this alone doesn’t explain what’s unusual.";
+        } else if (document.getElementById('answer4').checked) {
+            resultText = "❌ Actually, animal illness was reported too. That suggests interspecies transmission, which is important in zoonotic investigations.";
+        } else {
+            resultText = "Please select an answer before submitting.";
+        }
+
         document.getElementById('result').innerText = resultText;
     }
 </script>

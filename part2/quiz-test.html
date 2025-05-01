@@ -432,8 +432,20 @@ ul.task-list li input[type="checkbox"] {
 </p>
 <script>
     function checkAnswers() {
-        var correct = document.getElementById('answer3').checked;
-        var resultText = correct ? "Correct! Testing both symptomatic and asymptomatic individuals, as well as animals, provides the best chance of identifying the virus and its transmission routes. What do you think? Do you think this approach can help to capture a broader picture of the outbreak, rather than focusing on those already severely ill?" : "Incorrect. Think carefully!";
+        var resultText = "";
+
+        if (document.getElementById('answer3').checked) {
+            resultText = "✅ Correct! Including both symptomatic and asymptomatic individuals, as well as animals, increases the chance of detecting early transmission and uncovering hidden reservoirs.";
+        } else if (document.getElementById('answer1').checked) {
+            resultText = "❌ Not quite. Focusing only on severe cases may bias results and miss early or mild infections — which are often key in understanding how a pathogen spreads.";
+        } else if (document.getElementById('answer2').checked) {
+            resultText = "❌ Good thought — animal contact is important — but testing only those with animal exposure risks overlooking other transmission pathways.";
+        } else if (document.getElementById('answer4').checked) {
+            resultText = "❌ Interesting approach, but testing only flu-negative individuals misses the broader population and might exclude important asymptomatic carriers or coinfections.";
+        } else {
+            resultText = "Please select an answer before submitting.";
+        }
+
         document.getElementById('result').innerText = resultText;
     }
 </script>

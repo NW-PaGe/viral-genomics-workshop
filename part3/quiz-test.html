@@ -426,14 +426,26 @@ ul.task-list li input[type="checkbox"] {
 <p>⬜ Developing Hypotheses<br> ⬜ Sample Collection<br> 🟩 <strong>Outbreak Investigation</strong><br> ⬜ Sequencing<br> ⬜ Bioinformatics<br> ⬜ Genomic Epidemiology <br> ⬜ Public Health Implementation</p>
 </div>
 <form id="quiz">
-<label for="question1">What should scientists look for first when testing or sequencing samples taken from humans and animals?</label><br> <input type="radio" id="answer1" name="question1" value="A"> A. The species that appear in every sample.<br> <input type="radio" id="answer2" name="question1" value="B"> B. The species that only appear in sick individuals.<br> <input type="radio" id="answer3" name="question1" value="C"> C. The species that are entirely new to science.<br> <input type="radio" id="answer4" name="question1" value="D"> D. The species that match known respiratory pathogens.<br> <br> <br> <input type="button" value="Submit" onclick="checkAnswers()">
+<label for="question1">Why is proper shipping and storage of samples critical in outbreak investigations involving sequencing?</label><br> <input type="radio" id="answer1" name="question1" value="A"> A. It ensures the samples are free of contamination from other samples.<br> <input type="radio" id="answer2" name="question1" value="B"> B. It guarantees the identification of known pathogens.<br> <input type="radio" id="answer3" name="question1" value="C"> C. It prevents degradation of nucleic acids required for sequencing.<br> <input type="radio" id="answer4" name="question1" value="D"> D. It allows labs to skip bioinformatics quality control steps.<br> <br><br> <input type="button" value="Submit" onclick="checkAnswers()">
 </form>
 <p id="result">
 </p>
 <script>
     function checkAnswers() {
-        var correct = document.getElementById('answer2').checked;
-        var resultText = correct ? "Correct! Scientists should look for organisms found only in infected individuals but absent in healthy ones. What do you think? Do you think this could help distingush between normal background microbes and a potential pathogen?" : "Incorrect. Think carefully!";
+        var resultText = "";
+
+        if (document.getElementById('answer3').checked) {
+            resultText = "✅ Correct! Poor shipping and storage conditions can degrade RNA and DNA, leading to failed or poor-quality sequencing runs.";
+        } else if (document.getElementById('answer1').checked) {
+            resultText = "❌ Not quite. While contamination is a concern, proper storage is mainly about preserving the integrity of nucleic acids, not just avoiding cross-contamination.";
+        } else if (document.getElementById('answer2').checked) {
+            resultText = "❌ Incorrect. Proper storage doesn’t guarantee identification — it just helps ensure you’re working with intact, high-quality material.";
+        } else if (document.getElementById('answer4').checked) {
+            resultText = "❌ Definitely not. Bioinformatics QC is still required even if samples are well preserved — there’s no skipping that step!";
+        } else {
+            resultText = "Please select an answer before submitting.";
+        }
+
         document.getElementById('result').innerText = resultText;
     }
 </script>
