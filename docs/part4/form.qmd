@@ -1,4 +1,4 @@
-# The molecular investigation begins:
+# Example Forms for Field Investigation:
 
 ```{=html}
 <div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
@@ -15,7 +15,7 @@
 
 ---
 
-### 1. Case Information
+**1. Case Information**
 
 | Field                         | Response                             |
 |------------------------------|--------------------------------------|
@@ -29,7 +29,7 @@
 
 ---
 
-### 2. Demographics
+**2. Demographics**
 
 | Field                         | Response                             |
 |------------------------------|--------------------------------------|
@@ -44,7 +44,7 @@
 
 ---
 
-### 3. Vaccination History
+**3. Vaccination History**
 
 | Vaccine                      | Received? (Y/N) | Date (if known)      |
 |-----------------------------|----------------|----------------------|
@@ -54,7 +54,7 @@
 
 ---
 
-### 4. Clinical and Symptom History
+**Clinical and Symptom History**
 
 | Symptom                      | Present? (Y/N) | Onset Date (if known) |
 |-----------------------------|----------------|------------------------|
@@ -68,7 +68,7 @@
 
 ---
 
-### 5. Exposure and Travel History
+**Exposure and Travel History**
 
 | Field                         | Response                             |
 |------------------------------|--------------------------------------|
@@ -83,7 +83,7 @@
 
 ---
 
-### 6. Protective Measures and Behavior
+**Protective Measures and Behavior**
 
 | Field                         | Response                             |
 |------------------------------|--------------------------------------|
@@ -95,8 +95,97 @@
 
 ---
 
-### 7. Additional Notes
+**Additional Notes**
 
 | Notes                        |                                        |
 |-----------------------------|----------------------------------------|
 |                              |                                        |
+---
+
+## Animal Case Surveillance Form
+
+---
+
+**Animal Identification**
+
+| Field                         | Response                             |
+|------------------------------|--------------------------------------|
+| Animal ID / Tag Number       |                                      |
+| Species                      |                                      |
+| Breed (if applicable)        |                                      |
+| Age Estimate (Years/Months)  |                                      |
+| Sex                          |                                      |
+| Unique Markings or Features  |                                      |
+
+---
+
+**Location & Housing**
+
+| Field                         | Response                             |
+|------------------------------|--------------------------------------|
+| Location / Zone Name         |                                      |
+| Enclosure Number or Area     |                                      |
+| Facility or Safari Section   |                                      |
+| Contact with Other Species?  |                                      |
+| Contact with Trainers / Staff?|                                     |
+
+---
+
+**Clinical Observations**
+
+| Symptom                      | Present? (Y/N) | Onset Date (if known) |
+|-----------------------------|----------------|------------------------|
+| Lethargy                    |                |                        |
+| Respiratory symptoms        |                |                        |
+| Nasal discharge             |                |                        |
+| Fever                       |                |                        |
+| Decreased appetite          |                |                        |
+| Gastrointestinal symptoms   |                |                        |
+| Neurological symptoms       |                |                        |
+| Other (specify)             |                |                        |
+
+---
+
+**Exposure History**
+
+| Field                             | Response                         |
+|----------------------------------|----------------------------------|
+| Contact with New Animals?        |                                  |
+| Known Contact with Sick Humans?  |                                  |
+| Recently Moved or Transferred?   |                                  |
+| Part of a Group Showing Symptoms?|                                  |
+| Any Medical Procedures Recently? |                                  |
+
+---
+
+**Sample Collection**
+
+| Sample Type              | Collected? (Y/N) | Date Collected | Notes                   |
+|--------------------------|------------------|----------------|-------------------------|
+| Nasal swab               |                  |                |                         |
+| Oral swab                |                  |                |                         |
+| Rectal swab              |                  |                |                         |
+| Blood sample             |                  |                |                         |
+| Fecal sample             |                  |                |                         |
+| Other (specify)          |                  |                |                         |
+
+---
+
+**Medical & Vaccination History**
+
+| Field                         | Response                             |
+|------------------------------|--------------------------------------|
+| Vaccinated?                  |                                      |
+| Type of Vaccines             |                                      |
+| Date of Last Vaccination     |                                      |
+| Medical Conditions Noted     |                                      |
+| Previous Illness Episodes    |                                      |
+
+---
+
+**Additional Notes**
+
+| Notes                        |                                        |
+|-----------------------------|----------------------------------------|
+|                             |                                        |
+---
