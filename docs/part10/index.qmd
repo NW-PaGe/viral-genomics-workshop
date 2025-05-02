@@ -23,6 +23,7 @@ The team met to discuss what kind of genomic analyses could be performed to help
 "Sure thing", exclaimed one of the Molecular Epidemiologists. Let's start with pairwise distance matrices.
 
 ## Pairwise Distance Matrices
+
 A pairwise distance matrix is a table that quantifies the *genetic differences between sequences* by counting single nucleotide polymorphisms (SNPs). SNPS are individual base differences at specific nucleotide posititions in the genome. It helps to determine how closely related two samples are and whether genetic clustering aligns with known epidemiological links.
 
 Each cell in the matrix represents the *number of SNP differences* between a pair of genome sequences. The smaller the number, the more similar the sequences are. A value of 0 means the sequences are identical.
@@ -41,18 +42,25 @@ This pairwise distance compares the number of mutation differences between two s
 Another Molecular Epidemiologist chimed in, "I am happy to explain phylogenetic trees!"
 
 ## Phylogenetic Trees
-A phylogenetic tree is a hierarchical clustering or branching diagram that represents the evolutionary relationships between sequences based on genetic similarity. In this outbreak investigation, the tree helps determine how closely related viral genomes are across different individuals and species. Think of it as a family tree where we can trace the ancestry of a virus.
 
-Each *tip (or leaf)* on the tree represents a sample's genome sequence of the virus. The branches connecting them indicate evolutionary relationships, or the sharing of a common ancestor, and branch length represent the amount of genetic difference between sequences. 
+A phylogenetic tree is a hierarchical clustering or branching diagram that, depending on the methods used to create the tree, can represent genetic similarity based on clustering, or the evolutionary relationships between sequences based on patterns observed in the underlying sequencing data. In this outbreak investigation, a tree that reflects evolutionary history can help determine how closely related viral genomes are across different individuals and species. Think of it as a family tree where we can trace the ancestry of a virus.
 
-When interpreting trees, there's so much to consider! Yet, let's keep it simple and expand on the concept of a "family tree" with sequences being "closely related". Samples that are closer together along the x-axis being *more genetically similar* and *genetically related to each other*. Shorter branch lengths indicate *fewer genetic differences between sequences*, meaning that there's less mutations between the sequences and they share a more recent common ancestor. However, longer branches means an accumulation of more mutations. As such, this would mean that the sequences are less closely related or are distantly related. Identical sequences would occur along the same x-axis but would be stacked vertically on the y-axis for visibility.
+Using an evolutionary tree, each *tip (or leaf)* represents a genome sequence from a sampled virus. The branches connecting them indicate inferred evolutionary relationships, specifically, that the sequences share common ancestors. The branch lengths typically reflect the amount of genetic change, which may be measured either as the number of observed mutations or as model-based estimates of evolutionary divergence, depending on how the tree was constructed.
+
+When interpreting trees, there's so much to consider! Yet, let's keep it simple and expand on the concept of a "family tree" with sequences being "closely related". Samples that share a more recent common ancestor are considered more closely related. Shorter branches between tips imply fewer genetic differences, for example, fewer mutations. Longer branches indicate a greater degree of divergence. If two sequences are identical, they are typically shown along the same horizontal position (x-axis), but vertically separated for visibility.
 
 **Example illustrating phylogenetic tree based on sequence alignment**
-Imagine this tree to represent viral sequences of pathogen X. This phylogenetic tree was constructed using a character-based method called Maximum Likelihood. Rather than simply counting differences between sequences, this approach infers the tree that best explains the observed pattern of mutations across the entire alignment. The tree is rooted using the reference genome (Ref). Rooting trees can help give directionality to the **topology** of the tree. The Ref and SeqA are genetically identical, and both appear stacked on the same branch, indicating no differences between them.
+Imagine this tree to represent an evolutionary tree of viral sequences of pathogen X, using a character-based method called Maximum Likelihood. Rather than simply counting differences between sequences, this approach infers the tree that best explains the observed pattern of mutations across the entire alignment. 
+
+In this tree, the reference genome (Ref) is used to root the tree, which gives direction to the branches and helps orient ancestral relationships. The Ref and SeqA are genetically identical, and both appear stacked on the same branch, indicating no differences between them.
 
 From that **basal position**, SeqE is the first to branch off and forms an **outgroup** relative to Seqs B through D. This suggests that SeqE diverged earlier in the outbreak or represents a more distinct lineage. Further up the tree, SeqD branches from an **internal node** that also gives rise to Seqs B and C. Within that cluster, SeqB remains on the internal node, while SeqC is on a longer branch, indicating it has acquired additional mutations. It appears that SeqB and SeqC are genetically similar, with SeqC possessing more mutations that SeqB does not share. When we look at the sequence alignment above and the heatmap of the pairwise distance matrix, we see that SeqC possess one extra mutation than SeqB. Additional epidemiologic information could be helpful to determine if these two cases are epidemiologically related in space and time, with SeqC indicating possible onward transmission.
 
-In this tree, the horizontal axis represents **divergence**, or the degree of evolutionary difference from the root. Divergence reflects the expected amount of change across the genome based on a model of nucleotide substitution. While it generally correlates with mutation accumulation, it's not a direct count of observed differences. Instead, it accounts for factors like multiple changes at the same site or underlying mutation probabilities. Because of this, divergence values help us compare relative relationships, but should not be interpreted as exact mutation counts.
+## Divergence
+
+In this tree, the horizontal axis represents **divergence**, or the degree of evolutionary difference from the root. Divergence reflects an estimate of total change across the genome based on a model of nucleotide substitution. While it generally correlates with mutation accumulation, it's not a direct count of observed differences. Instead, it accounts for factors like multiple changes at the same site or underlying mutation probabilities. Because of this, divergence values help us compare relative relationships, but should not be interpreted as exact mutation counts.
+
+## Caveats and limitations
 
 It's important to keep in mind caveats and limitations when interpreting phylogenetic trees. For example, while this tree reflects the sequencing data and the underlying mutations observed in the sequence, its structure can offer insights into possible transmission relationships, particularly if sequences that are genetically similar were also sampled close together in time and space. However, because the Maximum Likelihood approach does not reconstruct mutation order or directionality, it cannot by itself establish who infected whom or infer precise chains of transmission without incorporating additional epidemiological data.
 
@@ -64,6 +72,7 @@ It's important to keep in mind caveats and limitations when interpreting phyloge
 "Absolutely!" cheered the Molecular Epidemiologist. I'm happy to explain that as well.
 
 ### Generating Phylogenetic Trees
+
 Once genome sequences are aligned and mutations are identified, the next step is to construct a phylogenetic tree, a visual representation of their evolutionary relationships.
 
 Phylogenetic trees can be constructed using two broad approaches: **distance-based** and **character-based** methods, each with its own strengths and limitations depending on the data and goals of the analysis.
@@ -77,86 +86,25 @@ In general, the process begins by generating a multiple sequence alignment, wher
 Choosing between these methods depends on several factors:
 
 &nbsp;&nbsp;&nbsp; - **Speed vs. accuracy**: Distance-based trees are faster, while character-based methods are more accurate for closely related sequences.  
+
 &nbsp;&nbsp;&nbsp; - **Data quality and length**: Character-based approaches perform better with full genomes and datasets that include homoplasy or recurrent mutations.  
-&nbsp;&nbsp;&nbsp; - **Evolutionary modeling**: Character-based trees incorporate substitution models (like GTR) to estimate mutation rates and account for multiple changes at the same site.  
+
+&nbsp;&nbsp;&nbsp; - **Evolutionary modeling**: Character-based trees incorporate substitution models to estimate mutation rates and account for multiple changes at the same site.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs. transversions [an exchange between A/G to T/C]),  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Unequal base frequencies,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The possibility of multiple substitutions at the same site,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - And reversible mutations (as modeled in the General Time Reversible, or GTR, model).  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree.
+
 &nbsp;&nbsp;&nbsp; - **Time-resolved inference**: Character-based methods integrate easily with molecular clocks, allowing estimates of divergence timing and outbreak dynamics.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread.
 
-Regardless of the method, the final tree depicts the relationship between sequences. A distanced-based tree might reflect degree of genetic similarity, whereas a character-based tree might reflect evolutionary relationship between the sequences and evolutionary history. In this analysis, we are particularly interested in whether sequences from the muubats and infected trainers cluster closely together, which would support a zoonotic spillover event from animals to humans. Alternatively, if human sequences form a separate, branching cluster that diverges over time, it may indicate ongoing human-to-human transmission following the initial spillover.
+Regardless of the method, the final tree depicts the relationship between sequences. A distanced-based tree might reflect degree of genetic similarity, whereas a character-based tree might reflect evolutionary relationship between the sequences and evolutionary history. 
 
----
+"That's a lot of information" exclaimed the Local Health Jurisdiction Epidemiologist. They furthered continued, "it seems that the tree construction approach that we choose depends on what we are interested in knowing for this outbreak?"
 
-## Results
-**Line list of cases likely linked to outbreak**
+The Molecular Epidemiologist smiled. "That's correct! In this analysis, an evolutionary tree like a maximum likelihood tree would be most useful. We are particularly interested in whether sequences from the muubats and infected trainers cluster closely together, which would support a zoonotic spillover event from animals to humans. Alternatively, if human sequences form a separate, branching cluster that diverges over time, it may indicate ongoing human-to-human transmission following the initial spillover."
 
-| Sample ID         | Collection Date | Notes                                                                                  |
-|-------------------|-----------------|----------------------------------------------------------------------------------------|
-| Bat_Trainer_01    | 2031-01-13      | Worked with the muubats; attended conference                                           |
-| Bat_Trainer_02    | 2031-01-13      | Worked with the muubats; attended conference                                           |
-| Canine_Trainer_01 | 2031-02-01      | Works closely with workers 01 & 02; interacted with bat trainer 01; works with canines |
-| Duck_Trainer_01   | 2031-02-04      | Works closely with worker 06; works with ducks                                         |
-| Duck_Trainer_02   | 2031-02-05      | Works closely with worker 06; works with ducks                                         |
-| Duck_Trainer_03   | 2031-02-06      | Works closely with duck trainers and works with ducks                                  |
-| Feline_Trainer_01 | 2031-01-21      | Married to bat trainer 02; works closely with the felines                              |
-| Resident_01       | 2031-02-10      | Exposed to resident 03 that visited the Safari Park Canine areas                       |
-| Resident_02       | 2031-02-10      | Exposed to resident 03 that visited the Safari Park Canine areas                       |
-| Resident_03       | 2031-02-11      | Visited the Safari Park Canine areas                                                   |
-| Resident_04       | 2031-02-11      | Exposed to resident 03 that visited the Safari Park Canine areas                       |
-| Resident_05       | 2031-02-13      | Visited the Safari Park, interacted with workers and animals                           |
-| Resident_06       | 2031-02-13      | Could not reach                                                                        |
-| Resident_07       | 2031-02-13      | Could not reach                                                                        |
-| Resident_08       | 2031-02-13      | Visited the Safari Park, interacted with workers and animals                           |
-| Resident_09       | 2031-02-13      | Could not reach                                                                        |
-| Worker_01         | 2031-01-22      | Works closely with bat trainer 01 and canine trainer 01                                |
-| Worker_02         | 2031-01-22      | Works closely with bat trainer 01 and canine trainer 01                                |
-| Worker_03         | 2031-01-20      | Works with the bat trainers                                                            |
-| Worker_04         | 2031-01-19      | Works with the bat trainers                                                            |
-| Worker_05         | 2031-01-20      | Works with the bat trainers                                                            |
-| Worker_06         | 2031-02-08      | Works with the duck trainers                                                           |
-| Worker_07         | 2031-02-09      | Works with the duck trainers and the ducks                                             |
-
-
-*Line list of cases in outbreak.*
-The line list shows the sample IDs of the sequenced cases in the outbreak. The second column shows the collection date of the samples collected from the case in year-month-day format. The third column shows the exposure notes collected from the case interviews conducted during the outbreak investigation. Unfortunately some of the cases, such as the residents, could not be reached. Some information remains incomplete for the workers as some workers tend to work in different areas, and are involved in different responsibilities when it comes to taking care of the animals and the park.
-
-
-![Phylogenetic Tree of Flu-Like Illness Outbreak, Fuchsia City, Safari Zone](../images/outbreak-tree.jpg)
-
-[Open tree in new tab for full view](../images/outbreak-tree.jpg)
-
-*Phylogenetic Tree of Outbreak.*
-This phylogenetic tree shows the evolutionary relationships between sequences from the outbreak. The tips on the tree represent individual genome sequences of the virus, which are color-coded by species in relation to the park.
-The x-axis represents divergence (also sometimes referred to as genetic distance, or the number of mutations from the reference genome). To give an example, the reference genome is 5000 bases long, so a divergence of 0.0006 would mean 3 mutations difference. (5000 * 0.0006).
-
-Note that identical sequences like muubat_02, muubat_03, and muubat_04 lie on the same x-axis and are stacked vertically. Comparing the muubat sequences with the sequences of the residents, the branch length of the resident is much longer indicating that the viruses that infected the muubats are less closely related to the residents.
-
-![Exposure Map of Animals, Trainers, and Workers](../images/case_mapping.jpeg)
-
-*Exposure Map.*
-The exposure map uses information from the case interview to piece together how animals, trainers, and workers might be linked together in the outbreak. Lines indicate that the case was either *exposed to* or *had an interaction with* the other cases or animals. 
-
-
-![Heatmap of SNP Distances of Sequences in Outbreak](../images/heatmap14.jpeg)
-
-*Heatmap.*
-The heatmap shows the pairwise distance between two sequences. The pairwise distance is given by the number of single nucleotide polymorphisms (SNPs), or single base difference between two sequences. The range of SNP differences for the sequenced cases in the outbreak is 0 to 9. A SNP distnace of 0 (darkest color) means that two sequences are identical, while a higher SNP count (lighter color) indicates greater genetic divergence. Comparing this heatmap with the phylogenetic tree helps confirm whether clusters of closely related sequences correspond to expected epidemiological links. Sequences that are darker in color indicate fewer SNP differences between the two sequences, whereas lighter color indicates more SNP differences between the two cases. 
-
-## Interpretating the Results
-"Let's take some time to review the results. We should each try to come up with our own interpretations and then compare to see what seems to be best explained by the data." 
-
-The phylogenetic tree revealed patterns in the genetic relationship between the sequences generated from each sample. Some sequences clustered more closely together whereas others showed greated divergence. Meanwhile, the SNP heatmap highlighted key genetic differences, with certain sequences appearing more similar while others displayed increasing variation over time. The team deliberated: what might these patterns suggest about how the virus spread and changed throughout the outbreak?
-
-## Discussion Twelve: Interpreting Phylogenetic Trees
-
-A. Looking at the phylogenetic tree, what inferences would you make regarding the placement of the samples on the tree?
-
-
-B. Is the phylogenetic tree in congruence with the exposure map?
-
-
-
-C. Looking at the heatmap, do you notice any clusters or patterns that match how the sequences are placed on the tree?
-
-
-
-D. What would you conclude from this analysis? Does this analysis support your hypothesis?
+Now that the group was on the same page, they are now ready to analyze the results. One of the Molecular Epidemiologist nudged towards the group. "Shall we get started? We have a lot of results to look over!" 
 
