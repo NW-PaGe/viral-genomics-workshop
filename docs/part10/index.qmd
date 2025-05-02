@@ -1,4 +1,4 @@
-# Genomic Analysis
+# Understanding the Technical Concepts Underlying Genomic Analysis
 
 ```{=html}
 <div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
@@ -166,12 +166,12 @@ Distance-based trees are faster. Character-based methods are slower but more acc
 2. **Data quality and complexity**  <br>
 Character-based methods work better with full genomes and datasets that may include complex mutation patterns like *homoplasy* or *recurrent mutations*. <br>
 
-**Homoplasy** is when the same mutation appears in different sequences independently—not due to shared ancestry. This can happen through: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Homoplasy** is when the same mutation appears in different sequences independently—not due to shared ancestry. This can happen through: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Convergent evolution* (same mutation arises in different lineages) <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Reversions* (mutation changes back to original state) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Parallel mutations* (same mutation arises multiple times) <br>
 
-**Recurrent mutations** are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Recurrent mutations** are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky. <br>
 
 3. **Evolutionary modeling**  
 Character-based trees use substitution models to account for the likelihood and direction of changes between nucleotides. Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for: <br>
@@ -179,7 +179,7 @@ Character-based trees use substitution models to account for the likelihood and 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs. transversions [an exchange between A/G to T/C]) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - And reversible mutations (as modeled in the General Time Reversible, or GTR, model). <br>  
 
-These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree. <br>
 
 4. **Time-resolved analysis**  <br>
 Some character-based trees incorporate a **molecular clock**, which assumes that mutations accumulate at a steady rate over time. <br>
