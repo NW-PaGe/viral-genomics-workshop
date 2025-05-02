@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>A Viral Genomics Outbreak Mystery – 19&nbsp; Genomic Analysis</title>
+<title>A Viral Genomics Outbreak Mystery – 19&nbsp; Understanding the Technical Concepts Underlying Genomic Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../part10/index.html">Genomic Epidemiology</a></li><li class="breadcrumb-item"><a href="../part10/index.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Genomic Analysis</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../part10/index.html">Genomic Epidemiology</a></li><li class="breadcrumb-item"><a href="../part10/index.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Understanding the Technical Concepts Underlying Genomic Analysis</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -328,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../part10/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Genomic Analysis</span></span></a>
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Understanding the Technical Concepts Underlying Genomic Analysis</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -431,9 +431,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../part10/index.html">Genomic Epidemiology</a></li><li class="breadcrumb-item"><a href="../part10/index.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Genomic Analysis</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../part10/index.html">Genomic Epidemiology</a></li><li class="breadcrumb-item"><a href="../part10/index.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Understanding the Technical Concepts Underlying Genomic Analysis</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Genomic Analysis</span></h1>
+<h1 class="title"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Understanding the Technical Concepts Underlying Genomic Analysis</span></h1>
 </div>
 
 
@@ -586,14 +586,14 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Speed vs.&nbsp;accuracy</strong> <br> Distance-based trees are faster. Character-based methods are slower but more accurate for closely related sequences. <br></p></li>
 <li><p><strong>Data quality and complexity</strong> <br> Character-based methods work better with full genomes and datasets that may include complex mutation patterns like <em>homoplasy</em> or <em>recurrent mutations</em>. <br></p></li>
 </ol>
-<p><strong>Homoplasy</strong> is when the same mutation appears in different sequences independently—not due to shared ancestry. This can happen through: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Convergent evolution</em> (same mutation arises in different lineages) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Reversions</em> (mutation changes back to original state) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Parallel mutations</em> (same mutation arises multiple times) <br></p>
-<p><strong>Recurrent mutations</strong> are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky. <br></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Homoplasy</strong> is when the same mutation appears in different sequences independently—not due to shared ancestry. This can happen through: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Convergent evolution</em> (same mutation arises in different lineages) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Reversions</em> (mutation changes back to original state) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Parallel mutations</em> (same mutation arises multiple times) <br></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Recurrent mutations</strong> are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky. <br></p>
 <ol start="3" type="1">
 <li><strong>Evolutionary modeling</strong><br>
 Character-based trees use substitution models to account for the likelihood and direction of changes between nucleotides. Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for: <br></li>
 </ol>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs.&nbsp;transversions [an exchange between A/G to T/C]) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - And reversible mutations (as modeled in the General Time Reversible, or GTR, model). <br></p>
-<p>These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree. <br></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree. <br></p>
 <ol start="4" type="1">
 <li><strong>Time-resolved analysis</strong> <br> Some character-based trees incorporate a <strong>molecular clock</strong>, which assumes that mutations accumulate at a steady rate over time. <br></li>
 </ol>
