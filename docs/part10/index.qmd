@@ -84,14 +84,14 @@ The tree’s structure helps us visualize how the virus may have evolved and spr
 
 In this tree, the horizontal axis represents **divergence**, the estimated amount of genetic change that has occurred from the root (ancestral sequence) to each sample. This tells us how much each sequence has evolved over time.
 
-Divergence is measured as the **number of substitutions per site**, a model-based estimate that accounts for:
+Divergence is measured as the **number of substitutions per site**, a model-based estimate that accounts for: <br>
 &nbsp;&nbsp;&nbsp; - The chance that a single site may mutate more than once  
 &nbsp;&nbsp;&nbsp; - The likelihood of different types of mutations  
 &nbsp;&nbsp;&nbsp; - Unequal mutation rates across the genome
 
 Although divergence is technically a proportion (like 0.06 substitutions per site), the values on the tree are often **scaled** by genome length to approximate **mutation counts**, making them easier to interpret.
 
-For example:
+For example: <br>
 - Ref and SeqA = 0.00 → no differences  
 - SeqB = 0.06 → about 6% of positions differ from the reference (roughly 1 mutation out of 19 bases)  
 - SeqE = 0.16 → the most divergent sequence, meaning about 16% of its genome differs from the reference in this simplified example (around 3 mutations out of 19 bases)
@@ -110,19 +110,21 @@ So why does the tree show **SeqE farther away**?
 This highlights an important difference between **distance matrices** and **evolutionary trees**.
 
 - A **distance matrix** simply counts how many differences there are between sequences. It tells us how similar two sequences are overall, but **not how they got that way**.
-- A **phylogenetic tree**, especially one built using a **character-based method** like Maximum Likelihood, goes deeper. It doesn't just count mutations—it tries to reconstruct the **most likely evolutionary history** that could have produced the observed sequences. This includes modeling:
+- A **phylogenetic tree**, especially one built using a **character-based method** like Maximum Likelihood, goes deeper. It doesn't just count mutations, it tries to reconstruct the **most likely evolutionary history** that could have produced the observed sequences. This includes modeling:
   - Shared ancestors
   - Mutation probabilities
   - Events like **reversions**, where a site mutates back to its original state
 
-In our example:
-- **SeqE** and **Ref** both have a **T** at a particular site (position 9), while several other sequences (like **SeqD**) have a **C** at that same position.
-- The model likely inferred that **SeqE descended from a C-containing ancestor** (like SeqD), and then **mutated back to T**, a reversion.
-- That means even though SeqE looks close to Ref, the tree **accounts for two mutation events** at that site: first **T to C**, then **C back to T**.
+![Example illustrating a sequence alignment](../images/sequences_alignment.jpeg)
 
-So, the **matrix shows similarity**, while the **tree shows inferred evolutionary change**. Both are useful, but they answer different questions:
-- The matrix asks: *How different do these sequences look from each other?*
-- The tree asks: *What is the most likely way these sequences evolved from a shared ancestor?*
+In our example: <br>
+- **SeqE** and **Ref** both have a **T** at a particular site (position 9), while several other sequences (like **SeqD**) have a **C** at that same position. <br>
+- The model likely inferred that **SeqE descended from a C-containing ancestor** (like SeqD), and then **mutated back to T**, a reversion. <br>
+- That means even though SeqE looks close to Ref, the tree **accounts for two mutation events** at that site: first **T to C**, then **C back to T**. <br>
+
+So, the **matrix shows similarity**, while the **tree shows inferred evolutionary change**. Both are useful, but they answer different questions: <br>
+- The matrix asks: *How different do these sequences look from each other?* <br>
+- The tree asks: *What is the most likely way these sequences evolved from a shared ancestor?* <br>
 
 This is why SeqE can be **one mutation away** from Ref in the matrix, but **farther away** in the tree.
 
@@ -164,27 +166,27 @@ Distance-based trees are faster. Character-based methods are slower but more acc
 2. **Data quality and complexity**  <br>
 Character-based methods work better with full genomes and datasets that may include complex mutation patterns like *homoplasy* or *recurrent mutations*. <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;- **Homoplasy** is when the same mutation appears in different sequences independently—not due to shared ancestry. This can happen through: <br>
+**Homoplasy** is when the same mutation appears in different sequences independently—not due to shared ancestry. This can happen through: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Convergent evolution* (same mutation arises in different lineages) <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Reversions* (mutation changes back to original state) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Parallel mutations* (same mutation arises multiple times) <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;- **Recurrent mutations** are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky. <br>
+**Recurrent mutations** are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky. <br>
 
 3. **Evolutionary modeling**  
 Character-based trees use substitution models to account for the likelihood and direction of changes between nucleotides. Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for: <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;- Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs. transversions [an exchange between A/G to T/C]) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;- And reversible mutations (as modeled in the General Time Reversible, or GTR, model). <br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs. transversions [an exchange between A/G to T/C]) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - And reversible mutations (as modeled in the General Time Reversible, or GTR, model). <br>  
 
 These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree. <br>
 
 4. **Time-resolved analysis**  <br>
 Some character-based trees incorporate a **molecular clock**, which assumes that mutations accumulate at a steady rate over time. <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp; - The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread. 
 
-&nbsp;&nbsp;&nbsp;&nbsp; - This allows you to estimate **when** key divergence or transmission events occurred.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - This allows you to estimate **when** key divergence or transmission events occurred.
 
 ---
 
