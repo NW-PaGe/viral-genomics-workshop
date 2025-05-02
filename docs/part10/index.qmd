@@ -91,6 +91,7 @@ Choosing between these methods depends on several factors:
 
 &nbsp;&nbsp;&nbsp; - **Evolutionary modeling**: Character-based trees incorporate substitution models to estimate mutation rates and account for multiple changes at the same site.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs. transversions [an exchange between A/G to T/C]),  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Unequal base frequencies,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The possibility of multiple substitutions at the same site,  
