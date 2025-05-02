@@ -499,7 +499,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>This tree represents the evolutionary relationships between viral genome sequences of pathogen X, inferred using a character-based method such as Maximum Likelihood. Rather than just counting mutations, this method analyzes patterns of change across the entire alignment to infer the tree that best explains the data.</p>
-<p>The tree is <strong>rooted at the reference genome (Ref)</strong>, meaning all other sequences are interpreted relative to it. <strong>SeqA</strong> is genetically identical to <strong>Ref</strong>, indicated by both appearing at a divergence of 0.00.</p>
+<p>The tree is <strong>rooted at the reference genome (Ref)</strong>, which gives direction to the branches and helps orient ancestral relationships. This means all other sequences are interpreted relative to it. <strong>SeqA</strong> is genetically identical to <strong>Ref</strong>, indicated by both appearing at a divergence of 0.00.</p>
 <p>From that shared point, <strong>SeqB</strong> branches off next, with a divergence of about 0.06, suggesting it has accumulated some genetic differences since splitting from the reference.</p>
 <p><strong>SeqC</strong> and <strong>SeqD</strong> form a small cluster—they share a common ancestor and branch from the same internal node. SeqC diverges to ~0.10, and SeqD slightly further to ~0.12, indicating it has acquired more mutations than SeqC.</p>
 <p><strong>SeqE</strong> is the most divergent sequence, branching farthest to the right at ~0.16. This suggests it has accumulated the most genetic change from the reference and may represent an early offshoot or a more distinct lineage.</p>
@@ -535,7 +535,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="comparing-the-tree-and-the-distance-matrix" class="level3" data-number="19.2.4">
 <h3 data-number="19.2.4" class="anchored" data-anchor-id="comparing-the-tree-and-the-distance-matrix"><span class="header-section-number">19.2.4</span> Comparing the Tree and the Distance Matrix</h3>
-<p>Looking at the phylogenetic tree alone, it might be surprising to see <strong>SeqE</strong> placed as the most divergent sequence—especially because the <strong>pairwise distance matrix</strong> shows that <strong>SeqE differs from the reference by only one mutation</strong>. In fact, the matrix shows that <strong>SeqE is just as similar to Ref as SeqB is</strong>.</p>
+<p>Looking at the phylogenetic tree alone, it might be surprising to see <strong>SeqE</strong> placed as the most divergent sequence, especially because the <strong>pairwise distance matrix</strong> shows that <strong>SeqE differs from the reference by only one mutation</strong>. In fact, the matrix shows that <strong>SeqE is just as similar to Ref as SeqB is</strong>.</p>
 <p>So why does the tree show <strong>SeqE farther away</strong>?</p>
 <p>This highlights an important difference between <strong>distance matrices</strong> and <strong>evolutionary trees</strong>.</p>
 <ul>
@@ -604,6 +604,7 @@ ul.task-list li input[type="checkbox"] {
 <p>“That’s exactly right,” smiled the Molecular Epidemiologist. “In this case, a character-based method like Maximum Likelihood is most appropriate. We’re especially interested in whether the viral sequences from the muubats and the infected trainers cluster together—which would suggest a <strong>zoonotic spillover</strong>—or if the human sequences branch off further, indicating <strong>ongoing human-to-human transmission</strong>.”</p>
 <p>Now that the team was on the same page, they turned their attention to the data.</p>
 <p>“Shall we get started?” one of the Molecular Epidemiologists nudged. “We’ve got a lot of results to dig into.”</p>
+<hr>
 <blockquote class="blockquote">
 <p>** Side Note: Why Tree Interpretation Can Be Tricky**</p>
 <p>If you found any of this confusing, you’re not alone. Phylogenetic trees may look simple, but they carry a lot of meaning packed into a single diagram. Branches show ancestry, distances reflect genetic change, and the whole tree is built using models that estimate, rather than directly count, mutations.</p>
