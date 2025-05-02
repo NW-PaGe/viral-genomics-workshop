@@ -589,11 +589,15 @@ ul.task-list li input[type="checkbox"] {
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Parallel mutations</em> (same mutation arises multiple times)</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <strong>Recurrent mutations</strong> are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky.</p>
 <ol start="3" type="1">
-<li><p><strong>Evolutionary modeling</strong><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Character-based trees use substitution models (like GTR) to account for the likelihood and direction of changes between nucleotides.</p></li>
-<li><p><strong>Time-resolved analysis</strong><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Some character-based trees incorporate a <strong>molecular clock</strong>, which assumes that mutations accumulate at a steady rate over time.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This allows you to estimate <strong>when</strong> key divergence or transmission events occurred.</p></li>
+<li><strong>Evolutionary modeling</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Character-based trees use substitution models to account for the likelihood and direction of changes between nucleotides. Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for:</li>
+</ol>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs.&nbsp;transversions [an exchange between A/G to T/C]),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - And reversible mutations (as modeled in the General Time Reversible, or GTR, model).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree.</p>
+<ol start="4" type="1">
+<li><strong>Time-resolved analysis</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Some character-based trees incorporate a <strong>molecular clock</strong>, which assumes that mutations accumulate at a steady rate over time. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - This allows you to estimate <strong>when</strong> key divergence or transmission events occurred.</li>
 </ol>
 <hr>
 <p>“That’s a lot of information!” exclaimed the Local Health Jurisdiction Epidemiologist. “It seems that the tree construction method we choose depends on both our sequencing data as well as what we want to learn from the outbreak?”</p>
