@@ -101,6 +101,33 @@ So while divergence isn't a raw count of mutations, it **closely approximates** 
 
 ---
 
+### Comparing the Tree and the Distance Matrix
+
+Looking at the phylogenetic tree alone, it might be surprising to see **SeqE** placed as the most divergent sequence—especially because the **pairwise distance matrix** shows that **SeqE differs from the reference by only one mutation**. In fact, the matrix shows that **SeqE is just as similar to Ref as SeqB is**.
+
+So why does the tree show **SeqE farther away**?
+
+This highlights an important difference between **distance matrices** and **evolutionary trees**.
+
+- A **distance matrix** simply counts how many differences there are between sequences. It tells us how similar two sequences are overall, but **not how they got that way**.
+- A **phylogenetic tree**, especially one built using a **character-based method** like Maximum Likelihood, goes deeper. It doesn't just count mutations—it tries to reconstruct the **most likely evolutionary history** that could have produced the observed sequences. This includes modeling:
+  - Shared ancestors
+  - Mutation probabilities
+  - Events like **reversions**, where a site mutates back to its original state
+
+In our example:
+- **SeqE** and **Ref** both have a **T** at a particular site (position 9), while several other sequences (like **SeqD**) have a **C** at that same position.
+- The model likely inferred that **SeqE descended from a C-containing ancestor** (like SeqD), and then **mutated back to T**—a reversion.
+- That means even though SeqE looks close to Ref, the tree **accounts for two mutation events** at that site: first **T to C**, then **C back to T**.
+
+So, the **matrix shows similarity**, while the **tree shows inferred evolutionary change**. Both are useful, but they answer different questions:
+- The matrix asks: *How different do these sequences look from each other?*
+- The tree asks: *What is the most likely way these sequences evolved from a shared ancestor?*
+
+This is why SeqE can be **one mutation away** from Ref in the matrix, but **farther away** in the tree.
+
+---
+
 ### Caveats and Limitations
 
 Phylogenetic trees are powerful tools, but they have limits.
@@ -139,6 +166,7 @@ The method depends on your goals and data:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Homoplasy** is when the same mutation appears in different sequences independently—not due to shared ancestry.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This can happen through:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Convergent evolution* (same mutation arises in different lineages)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Reversions* (mutation changes back to original state)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Parallel mutations* (same mutation arises multiple times)
