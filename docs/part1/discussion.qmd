@@ -5,13 +5,12 @@
 ⬜ Outbreak Investigation<br>
 ⬜ Sequencing<br>
 ⬜ Bioinformatics<br>
-⬜ Genomic Epidemiology <br>
+⬜ Molecular Epidemiology <br>
 ⬜ Public Health Implementation
 </div>
 
 
 
-# Discussion One:
-
+# Discussion One: What kind of pathogen are we dealing with?
 
 Based on the information provided in the story thus far, give some examples of hypotheses that describe how the mystery illness appears to be spreading. Do you suspect that this pathogen is a virus or bacteria? Why?

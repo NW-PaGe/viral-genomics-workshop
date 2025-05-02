@@ -7,7 +7,7 @@
 🟩 <strong>Outbreak Investigation</strong><br>
 ⬜ Sequencing<br>
 ⬜ Bioinformatics<br>
-⬜ Genomic Epidemiology <br>
+⬜ Molecular Epidemiology <br>
 ⬜ Public Health Implementation
 </div>
 
@@ -31,7 +31,7 @@ Each of these roles adds a layer of insight. Together, they help uncover not onl
 
 ---
 
-## Regional Lab Capacity and Sample Selection
+## Regional Lab Capacity 
 
 The Regional Health Lab was equipped to perform a range of sequencing strategies. These included:
 
@@ -47,7 +47,6 @@ In addition to sequencing platforms, the lab maintained a suite of **bioinformat
 &nbsp;&nbsp;&nbsp; - **Read alignment or de novo assembly**, to reconstruct genomes by either mapping reads to a known reference or assembling them from scratch.  
 &nbsp;&nbsp;&nbsp; - **Taxonomic classification**, which uses reference databases to identify the organism or organisms present.  
 &nbsp;&nbsp;&nbsp; - **Mutation detection and annotation**, which catalogs genetic differences and assesses their potential biological or epidemiological significance.  
-&nbsp;&nbsp;&nbsp; - **Data formatting and visualization**, which prepares outputs such as sequence alignments, distance matrices, and trees that can be analyzed by epidemiologists.
 
 These outputs are then used by Molecular Epidemiologists to investigate whether certain sequences are closely related, how the virus may have spread between hosts, and whether transmission clusters or spillover events can be inferred from the genetic data. While they typically rely on genome assemblies or other processed sequencing outputs prepared by Bioinformaticians, Molecular Epidemiologists are also capable of performing genomic analyses themselves. These may include generating pairwise distance matrices, constructing phylogenetic trees, or conducting other comparative analyses that help link genetic variation to patterns of transmission and exposure.
 
@@ -70,7 +69,7 @@ Most of the samples came from symptomatic individuals and visibly ill animals, t
 
 ## Discussion:
 
-This stage of the investigation marks a critical shift in the outbreak response. Earlier phases focused on observing symptoms, collecting samples, and forming initial hypotheses. With the involvement of the Regional Health Lab, the investigation now moves into testing, sequencing, bioinformatics, and genomic epidemiology. These steps are foundational to understanding the genetic characteristics of the pathogen and informing a targeted public health response.
+This stage of the investigation marks a critical shift in the outbreak response. Earlier phases focused on observing symptoms, collecting samples, and forming initial hypotheses. With the involvement of the Regional Health Lab, the investigation now moves into testing, sequencing, bioinformatics, and molecular epidemiology. These steps are foundational to understanding the genetic characteristics of the pathogen and informing a targeted public health response.
 
 ## Discussion Three
 

@@ -14,7 +14,7 @@ format: html
 ⬜ Outbreak Investigation<br>
 ⬜ Sequencing<br>
 ⬜ Bioinformatics<br>
-🟩 <strong>Genomic Epidemiology</strong><br>
+🟩 <strong>Molecular Epidemiology</strong><br>
 ⬜ Public Health Implementation
 </div>
 

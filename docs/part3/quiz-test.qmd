@@ -12,7 +12,7 @@ format: html
 🟩 <strong>Outbreak Investigation</strong><br>
 ⬜ Sequencing<br>
 ⬜ Bioinformatics<br>
-⬜ Genomic Epidemiology <br>
+⬜ Molecular Epidemiology <br>
 ⬜ Public Health Implementation
 </div>
 

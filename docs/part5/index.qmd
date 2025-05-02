@@ -7,7 +7,7 @@
 ⬜ Outbreak Investigation<br>
 🟩 <strong>Sequencing</strong><br>
 ⬜ Bioinformatics<br>
-⬜ Genomic Epidemiology <br>
+⬜ Molecular Epidemiology <br>
 ⬜ Public Health Implementation
 </div>
 

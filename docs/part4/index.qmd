@@ -1,4 +1,4 @@
-# The  investigation begins:
+# The investigation begins:
 
 ```{=html}
 <div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
@@ -7,7 +7,7 @@
 🟩 <strong>Outbreak Investigation</strong><br>
 ⬜ Sequencing<br>
 ⬜ Bioinformatics<br>
-⬜ Genomic Epidemiology <br>
+⬜ Molecular Epidemiology <br>
 ⬜ Public Health Implementation
 </div>
 

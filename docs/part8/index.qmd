@@ -7,7 +7,7 @@
 ⬜ Outbreak Investigation<br>
 🟩 <strong>Sequencing</strong><br>
 🟩 <Strong> Bioinformatics</strong><br>
-⬜ Genomic Epidemiology <br>
+⬜ Molecular Epidemiology <br>
 ⬜ Public Health Implementation
 </div>
 
@@ -53,8 +53,6 @@ After passing all of these checks, the data was considered high quality. With co
 | Duplicate Read Removal        | Reduces artificial inflation of coverage caused by PCR duplicates.             | Identical or highly similar reads are collapsed into single representative instances.       |
 | GC Content Assessment         | Flags contamination or poor amplification based on sequence composition.       | GC content is compared to expected profiles for the target organism.                       |
 | Contaminant Screening         | Ensures non-target DNA (e.g., human or lab contaminants) is excluded.          | Reads are mapped against reference genomes to filter out known contaminant sequences.       |
-
-
 
 “This is it! We got our sequencing data!” one of the Bioinformaticians exclaimed.
 
