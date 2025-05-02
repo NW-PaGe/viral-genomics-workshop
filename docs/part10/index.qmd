@@ -103,6 +103,8 @@ Choosing between these methods depends on several factors:
 
 Regardless of the method, the final tree depicts the relationship between sequences. A distanced-based tree might reflect degree of genetic similarity, whereas a character-based tree might reflect evolutionary relationship between the sequences and evolutionary history. 
 
+---
+
 "That's a lot of information" exclaimed the Local Health Jurisdiction Epidemiologist. They furthered continued, "it seems that the tree construction approach that we choose depends on what we are interested in knowing for this outbreak?"
 
 The Molecular Epidemiologist smiled. "That's correct! In this analysis, an evolutionary tree like a maximum likelihood tree would be most useful. We are particularly interested in whether sequences from the muubats and infected trainers cluster closely together, which would support a zoonotic spillover event from animals to humans. Alternatively, if human sequences form a separate, branching cluster that diverges over time, it may indicate ongoing human-to-human transmission following the initial spillover."
