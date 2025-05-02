@@ -418,7 +418,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#interpreting-trees" id="toc-interpreting-trees" class="nav-link" data-scroll-target="#interpreting-trees"><span class="header-section-number">19.2.1</span> Interpreting Trees</a></li>
   <li><a href="#example-interpreting-a-phylogenetic-tree" id="toc-example-interpreting-a-phylogenetic-tree" class="nav-link" data-scroll-target="#example-interpreting-a-phylogenetic-tree"><span class="header-section-number">19.2.2</span> Example: Interpreting a Phylogenetic Tree</a></li>
   <li><a href="#divergence" id="toc-divergence" class="nav-link" data-scroll-target="#divergence"><span class="header-section-number">19.2.3</span> Divergence</a></li>
-  <li><a href="#caveats-and-limitations" id="toc-caveats-and-limitations" class="nav-link" data-scroll-target="#caveats-and-limitations"><span class="header-section-number">19.2.4</span> Caveats and Limitations</a></li>
+  <li><a href="#comparing-the-tree-and-the-distance-matrix" id="toc-comparing-the-tree-and-the-distance-matrix" class="nav-link" data-scroll-target="#comparing-the-tree-and-the-distance-matrix"><span class="header-section-number">19.2.4</span> Comparing the Tree and the Distance Matrix</a></li>
+  <li><a href="#caveats-and-limitations" id="toc-caveats-and-limitations" class="nav-link" data-scroll-target="#caveats-and-limitations"><span class="header-section-number">19.2.5</span> Caveats and Limitations</a></li>
   </ul></li>
   <li><a href="#generating-phylogenetic-trees" id="toc-generating-phylogenetic-trees" class="nav-link" data-scroll-target="#generating-phylogenetic-trees"><span class="header-section-number">19.3</span> Generating Phylogenetic Trees</a>
   <ul class="collapse">
@@ -532,8 +533,27 @@ ul.task-list li input[type="checkbox"] {
 <p>So while divergence isn’t a raw count of mutations, it <strong>closely approximates</strong> mutation accumulation when scaled and can help us compare sequences in terms of evolutionary distance.</p>
 <hr>
 </section>
-<section id="caveats-and-limitations" class="level3" data-number="19.2.4">
-<h3 data-number="19.2.4" class="anchored" data-anchor-id="caveats-and-limitations"><span class="header-section-number">19.2.4</span> Caveats and Limitations</h3>
+<section id="comparing-the-tree-and-the-distance-matrix" class="level3" data-number="19.2.4">
+<h3 data-number="19.2.4" class="anchored" data-anchor-id="comparing-the-tree-and-the-distance-matrix"><span class="header-section-number">19.2.4</span> Comparing the Tree and the Distance Matrix</h3>
+<p>Looking at the phylogenetic tree alone, it might be surprising to see <strong>SeqE</strong> placed as the most divergent sequence—especially because the <strong>pairwise distance matrix</strong> shows that <strong>SeqE differs from the reference by only one mutation</strong>. In fact, the matrix shows that <strong>SeqE is just as similar to Ref as SeqB is</strong>.</p>
+<p>So why does the tree show <strong>SeqE farther away</strong>?</p>
+<p>This highlights an important difference between <strong>distance matrices</strong> and <strong>evolutionary trees</strong>.</p>
+<ul>
+<li>A <strong>distance matrix</strong> simply counts how many differences there are between sequences. It tells us how similar two sequences are overall, but <strong>not how they got that way</strong>.</li>
+<li>A <strong>phylogenetic tree</strong>, especially one built using a <strong>character-based method</strong> like Maximum Likelihood, goes deeper. It doesn’t just count mutations—it tries to reconstruct the <strong>most likely evolutionary history</strong> that could have produced the observed sequences. This includes modeling:
+<ul>
+<li>Shared ancestors</li>
+<li>Mutation probabilities</li>
+<li>Events like <strong>reversions</strong>, where a site mutates back to its original state</li>
+</ul></li>
+</ul>
+<p>In our example: - <strong>SeqE</strong> and <strong>Ref</strong> both have a <strong>T</strong> at a particular site (position 9), while several other sequences (like <strong>SeqD</strong>) have a <strong>C</strong> at that same position. - The model likely inferred that <strong>SeqE descended from a C-containing ancestor</strong> (like SeqD), and then <strong>mutated back to T</strong>—a reversion. - That means even though SeqE looks close to Ref, the tree <strong>accounts for two mutation events</strong> at that site: first <strong>T to C</strong>, then <strong>C back to T</strong>.</p>
+<p>So, the <strong>matrix shows similarity</strong>, while the <strong>tree shows inferred evolutionary change</strong>. Both are useful, but they answer different questions: - The matrix asks: <em>How different do these sequences look from each other?</em> - The tree asks: <em>What is the most likely way these sequences evolved from a shared ancestor?</em></p>
+<p>This is why SeqE can be <strong>one mutation away</strong> from Ref in the matrix, but <strong>farther away</strong> in the tree.</p>
+<hr>
+</section>
+<section id="caveats-and-limitations" class="level3" data-number="19.2.5">
+<h3 data-number="19.2.5" class="anchored" data-anchor-id="caveats-and-limitations"><span class="header-section-number">19.2.5</span> Caveats and Limitations</h3>
 <p>Phylogenetic trees are powerful tools, but they have limits.</p>
 <ul>
 <li>They <strong>do not tell us who infected whom</strong>, they show relationships, not direction.</li>
@@ -563,7 +583,8 @@ ul.task-list li input[type="checkbox"] {
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Character-based methods work better with full genomes and datasets that may include complex mutation patterns like <em>homoplasy</em> or <em>recurrent mutations</em>.</p></li>
 </ol>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <strong>Homoplasy</strong> is when the same mutation appears in different sequences independently—not due to shared ancestry.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This can happen through: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Convergent evolution</em> (same mutation arises in different lineages)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This can happen through:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Convergent evolution</em> (same mutation arises in different lineages)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Reversions</em> (mutation changes back to original state)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Parallel mutations</em> (same mutation arises multiple times)</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <strong>Recurrent mutations</strong> are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky.</p>
