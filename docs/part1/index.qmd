@@ -30,7 +30,7 @@ Upon arrival, each of the four muubats underwent a full physical examination and
 
 Swab samples, collected from oral and cloacal sites, were analyzed using a pathogen-agnostic sequencing panel, which is a specific application of WGS. Unlike shotgun metagenomics, which is used to analyze complex samples containing many organisms, such as wastewater or stool, a pathogen-agnostic panel is typically used for clinical or single-host samples where the goal is to sequence all microbial nucleic acids in the specimen without targeting a particular species. In this case, the panel was used to detect any known microbial genomes present in the bat swabs by comparing the sequencing output to reference databases.
 
-While this approach is broad in scope, it is limited to organisms that already have validated reference sequences. If a novel virus is present in the sample but not represented in the database, the test may return a negative result, even if the pathogen is there. This technical blind spot would later prove critical in understanding how the outbreak unfolded.
+While this approach is broad in scope, it is limited to organisms that already have validated reference sequences. If a novel virus is present in the sample but not represented in the database, the test may return a negative result, even if the pathogen is there. 
 
 Following nucleic acid extraction, the samples were prepped for sequencing, with a turnaround time of approximately ten days. During this time, the muubats remained in isolation and interacted only with their trainers. Swab extracts were also archived at minus 80 degrees Celsius in accordance with facility protocol.
 

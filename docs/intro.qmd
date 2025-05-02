@@ -26,7 +26,7 @@ By the end of this workshop, participants will be able to:
 
  &nbsp;&nbsp;&nbsp; - **Interpret genomic data** to identify and characterize viral pathogens involved in an outbreak scenario.
 
- &nbsp;&nbsp;&nbsp; - **Apply bioinformatics tools** to analyze sequencing data, including genome assembly and variant identification.
+ &nbsp;&nbsp;&nbsp; - **Apply bioinformatics concepts** to analyze sequencing data, including genome assembly and variant identification.
 
  &nbsp;&nbsp;&nbsp; - **Integrate epidemiological information** with genomic findings to trace transmission pathways and outbreak sources.
 
