@@ -31,14 +31,14 @@ By aligning all sequencing reads from the bat trainer samples to the newly ident
 
 **Example illustrating a consensus sequence**
 
-|         | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
-|---------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|
-| **Consensus** | A | T | G | C | T | G | A | T | C | G  | T  | A  | C  | G  | T  | T  | A  | C  | G  |
-| **Read 1**    | A | T | G | C | T | - | A | T | C | G  | -  | A  | C  | G  | T  | -  | A  | C  | G  |
-| **Read 2**    | - | T | G | C | - | G | A | T | - | G  | T  | A  | -  | G  | T  | T  | A  | -  | G  |
-| **Read 3**    | A | - | G | C | T | G | - | T | C | -  | T  | A  | C  | G  | -  | T  | A  | C  | -  |
-| **Read 4**    | A | T | - | - | T | G | A | - | C | G  | T  | -  | C  | -  | T  | T  | -  | C  | G  |
-| **Read 5**    | A | T | G | - | - | - | A | T | - | G  | T  | -  | -  | G  | T  | T  | A  | C  | -  |
+| Position        | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
+|-----------------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|
+| **Consensus**   | A | T | G | C | T | G | A | T | C | G  | T  | A  | C  | G  | T  | T  | A  | C  | G  |
+| **Read 1**      | A | T | G | C | T | - | A | T | C | G  | -  | A  | C  | G  | T  | -  | A  | C  | G  |
+| **Read 2**      | - | T | G | C | - | G | A | T | - | G  | T  | A  | -  | G  | T  | T  | A  | -  | G  |
+| **Read 3**      | A | - | G | C | T | G | - | T | C | -  | T  | A  | C  | G  | -  | T  | A  | C  | -  |
+| **Read 4**      | A | T | - | - | T | G | A | - | C | G  | T  | -  | C  | -  | T  | T  | -  | C  | G  |
+| **Read 5**      | A | T | G | - | - | - | A | T | - | G  | T  | -  | -  | G  | T  | T  | A  | C  | -  |
 
 
 
@@ -64,6 +64,6 @@ The figure shows the consensus genome pulled from the Public Genome Database and
 
 Now that sequencing had confirmed the presence of a novel virus, the team turned to its genome for answers. The structure and composition of the viral genome could provide crucial clues about how it spreads, mutates, and interacts with its host. What could its genomic features reveal about its transmission and evolution?
 
-## Discussion Seven
+## Discussion Seven: Understanding and Interpreting an Annotated Genome
 
 Given the information above, how would you interpret the genome? For example, what is the length of the genome? How many structural proteins does this genome appear to contain and what do the genes appear to code for? How many open reading frames do you notice? What are some examples of non-structural proteins that could be encoded within the open reading frames?

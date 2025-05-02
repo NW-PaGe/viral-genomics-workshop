@@ -30,7 +30,7 @@ Interviewing cases helped build exposure timelines and identify possible transmi
 
 At this stage, the investigation was still full of unknowns. But each interview added a piece to the puzzle and helped guide both field-based response efforts and downstream genomic comparisons.
 
-## Discussion Five:
+## Discussion Five: Developing Questionnaires and Surveys for Case Interviews and Contact Tracing
 
 Field epidemiology during outbreak investigations often relies on well-designed case interviews to uncover risk factors, transmission patterns, and possible sources of exposure.
 

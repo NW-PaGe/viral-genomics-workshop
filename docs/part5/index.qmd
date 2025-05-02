@@ -23,6 +23,6 @@ The Microbiologists sequenced everything that could be present in the samples us
 *Relative Abundance of Microorganisms in Swab Samples of Bat Trainers Collected 31-01-08.*
 The relative abundance chart shows the percent composition in terms of the proportions of species in the swab samples taken from the Bat Trainers. The relative abundance is plotted on the vertical axis, with the Bat Trainers on the horizontal axis. Species were identified using the Internal Sequencing Database maintained by the Regional Health Lab.
 
-## Discussion Six:
+## Discussion Six: Interpretation Metagenomics Sequencing Results and Visualizations
 
 Looking at the chart showing the relative abundance of microorganisms in the swab samples collected from the bat trainers, how would you interpret the figure? For example, how many primary species were identified? Were there any species that were found in the sample that did not show any match to the Internal Sequencing Database? What do you think that might mean?

@@ -39,7 +39,7 @@ Next, the Microbiologists checked for and **trimmed adapter sequences**, short a
 
 They also looked for **overrepresented sequences** and **duplicate reads**, which can suggest library preparation artifacts, contamination, or biased amplification. These patterns can distort coverage or make a dataset appear more robust than it actually is. Removing redundancy helps ensure that the reads truly reflect the diversity of genetic material in the original sample.
 
-Another important step involved assessing **GC content**, the proportion of guanine (G) and cytosine (C) bases in the sequences. Abnormal GC content compared to what’s expected for the target organism can suggest contamination or poor amplification. GC bonds typically require more heat to break than AT bonds because they contain more hydrogen bonds than AT. The Bioinformaticians also screened for reads that aligned to common laboratory contaminants or host genomes, excluding these from the dataset to focus on relevant microbial content.
+Another important step involved assessing **GC content**, the proportion of guanine (G) and cytosine (C) bases in the sequences. Abnormal GC content compared to what’s expected for the target organism can suggest contamination or poor amplification. GC bonds typically require more heat to break than AT bonds because they contain more hydrogen bonds than AT, which can further complicate wet lab methods. The Bioinformaticians also screened for reads that aligned to common laboratory contaminants or host genomes, excluding these from the dataset to focus on relevant microbial content.
 
 After passing all of these checks, the data was considered high quality. With confidence in their sequencing reads, the team proceeded to genome assembly — now working from a dataset that was clean, trimmed, and ready to be pieced together.
 
@@ -60,7 +60,10 @@ After passing all of these checks, the data was considered high quality. With co
 
 The team cheered — it felt like their first real win. Excitement rippled through the room, and the momentum was palpable. They had cleared the first major hurdle. But they all knew: the hardest questions were still ahead.
 
-## Discussion Nine:
+---
+
+## Discussion Nine: Understanding and Working with New Evidence
+
 A. What do you think this new piece of evidence could mean? 
 
 

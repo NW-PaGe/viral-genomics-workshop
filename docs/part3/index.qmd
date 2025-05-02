@@ -67,16 +67,14 @@ Most of the samples came from symptomatic individuals and visibly ill animals, t
 
 ---
 
-## Discussion:
-
 This stage of the investigation marks a critical shift in the outbreak response. Earlier phases focused on observing symptoms, collecting samples, and forming initial hypotheses. With the involvement of the Regional Health Lab, the investigation now moves into testing, sequencing, bioinformatics, and molecular epidemiology. These steps are foundational to understanding the genetic characteristics of the pathogen and informing a targeted public health response.
 
-## Discussion Three
+## Discussion Three: Choosing the Appropriate Sequencing Technology
 
 The Regional Health Lab has the ability to culture bacteria and viruses and perform several types of sequencing, including short-read sequencing, long-read sequencing, and shotgun metagenomics. In this investigation, standard diagnostics have failed to detect a known pathogen, and there is concern that a novel virus or bacterium may be responsible for the outbreak.
 
 Based on what you know about the lab’s capabilities and the types of samples collected, what sequencing platform or combination of platforms would you use for initial identification? How might your choice differ depending on whether the goal is to detect something completely unknown versus confirm the presence of a suspected agent? Be sure to explain the strengths and tradeoffs of your approach.
 
-## Discussion Four
+## Discussion Four: Deciding upon Bioinformatic Analyses
 
 Once sequencing is complete, the raw data must be processed and interpreted. This is where bioinformatics becomes essential. Using your proposed approach from Discussion Three, what types of bioinformatics methods or analyses would you apply to identify a novel pathogen? Consider how you would handle unknown organisms, what kinds of tools or reference data you might use, and how you would distinguish true findings from background noise or contamination.
