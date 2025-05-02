@@ -417,7 +417,8 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#interpreting-trees" id="toc-interpreting-trees" class="nav-link" data-scroll-target="#interpreting-trees"><span class="header-section-number">19.2.1</span> Interpreting Trees</a></li>
   <li><a href="#divergence" id="toc-divergence" class="nav-link" data-scroll-target="#divergence"><span class="header-section-number">19.2.2</span> Divergence</a></li>
-  <li><a href="#caveats-and-limitations" id="toc-caveats-and-limitations" class="nav-link" data-scroll-target="#caveats-and-limitations"><span class="header-section-number">19.2.3</span> Caveats and limitations</a></li>
+  <li><a href="#mutation-counts-vs-divergence" id="toc-mutation-counts-vs-divergence" class="nav-link" data-scroll-target="#mutation-counts-vs-divergence"><span class="header-section-number">19.2.3</span> Mutation Counts vs Divergence</a></li>
+  <li><a href="#caveats-and-limitations" id="toc-caveats-and-limitations" class="nav-link" data-scroll-target="#caveats-and-limitations"><span class="header-section-number">19.2.4</span> Caveats and limitations</a></li>
   </ul></li>
   <li><a href="#generating-phylogenetic-trees" id="toc-generating-phylogenetic-trees" class="nav-link" data-scroll-target="#generating-phylogenetic-trees"><span class="header-section-number">19.3</span> Generating Phylogenetic Trees</a>
   <ul class="collapse">
@@ -497,10 +498,22 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="divergence" class="level3" data-number="19.2.2">
 <h3 data-number="19.2.2" class="anchored" data-anchor-id="divergence"><span class="header-section-number">19.2.2</span> Divergence</h3>
-<p>In this tree, the horizontal axis represents <strong>divergence</strong>, or the degree of evolutionary difference from the root. Divergence reflects an estimate of total change across the genome based on a model of nucleotide substitution. While it generally correlates with mutation accumulation, it’s not a direct count of observed differences. Instead, it accounts for factors like multiple changes at the same site or underlying mutation probabilities. Because of this, divergence values help us compare relative relationships, but should not be interpreted as exact mutation counts.</p>
+<p>In a phylogenetic tree, the horizontal axis often represents <strong>divergence</strong>, or the estimated amount of evolutionary change that has occurred from the root of the tree to each sequence. Divergence helps us understand how much a sequence has changed relative to its ancestor.</p>
+<p>Divergence is typically measured as the <strong>number of substitutions per site</strong> across the genome. This is a <strong>model-based estimate</strong>, not a direct count of mutations. It accounts for several important factors: &nbsp;&nbsp;&nbsp; - That a single site might mutate more than once over time<br>
+&nbsp;&nbsp;&nbsp; - That certain types of mutations are more likely than others<br>
+&nbsp;&nbsp;&nbsp; - That base usage and mutation rates vary across the genome</p>
+<p>Because of this, divergence values reflect a <strong>probabilistic estimate of genetic change</strong>, not simply the observed number of differences in the alignment.</p>
 </section>
-<section id="caveats-and-limitations" class="level3" data-number="19.2.3">
-<h3 data-number="19.2.3" class="anchored" data-anchor-id="caveats-and-limitations"><span class="header-section-number">19.2.3</span> Caveats and limitations</h3>
+<section id="mutation-counts-vs-divergence" class="level3" data-number="19.2.3">
+<h3 data-number="19.2.3" class="anchored" data-anchor-id="mutation-counts-vs-divergence"><span class="header-section-number">19.2.3</span> Mutation Counts vs Divergence</h3>
+<p>In some visualizations, divergence may appear as a <strong>simple number of mutations</strong>—for example, showing values like 5, 10, or 25. This can be helpful for interpretation, but it’s important to understand that this is often the result of <strong>scaling</strong>. The underlying divergence is still a proportion (e.g., 0.001 substitutions per site), which may then be <strong>multiplied by the genome length</strong> to approximate a total number of substitutions.</p>
+<p>This means: &nbsp;&nbsp;&nbsp; - Divergence often correlates with mutation accumulation<br>
+&nbsp;&nbsp;&nbsp; - But it is <strong>not</strong> a literal count of observed mutations<br>
+&nbsp;&nbsp;&nbsp; - And it should not be interpreted as exact, especially when comparing across datasets or genome regions</p>
+<p>Understanding divergence as a <strong>model-based measure of evolutionary distance</strong> helps avoid over-interpreting branch lengths or assuming direct transmission links based on visual proximity alone.</p>
+</section>
+<section id="caveats-and-limitations" class="level3" data-number="19.2.4">
+<h3 data-number="19.2.4" class="anchored" data-anchor-id="caveats-and-limitations"><span class="header-section-number">19.2.4</span> Caveats and limitations</h3>
 <p>It’s important to keep in mind caveats and limitations when interpreting phylogenetic trees. For example, while this tree reflects the sequencing data and the underlying mutations observed in the sequence, its structure can offer insights into possible transmission relationships, particularly if sequences that are genetically similar were also sampled close together in time and space. However, because the Maximum Likelihood approach does not reconstruct mutation order or directionality, it cannot by itself establish who infected whom or infer precise chains of transmission without incorporating additional epidemiological data.</p>
 <hr>
 <p>“I see now” said the Local Health Jursidiction Epidemiologist. “Thank you so much for explaining! I imagine the process to generate the trees requires some form of computation?”</p>
@@ -517,22 +530,22 @@ ul.task-list li input[type="checkbox"] {
 <section id="choosing-the-most-appropriate-method" class="level3" data-number="19.3.1">
 <h3 data-number="19.3.1" class="anchored" data-anchor-id="choosing-the-most-appropriate-method"><span class="header-section-number">19.3.1</span> Choosing the most appropriate method:</h3>
 <p>Choosing between these methods depends on several factors:</p>
-<p>&nbsp;&nbsp;&nbsp; - <strong>Speed vs.&nbsp;accuracy</strong>: Distance-based trees are faster, while character-based methods are more accurate for closely related sequences.</p>
-<p>&nbsp;&nbsp;&nbsp; - <strong>Data quality and length</strong>: Character-based approaches perform better with full genomes and datasets that include homoplasy or recurrent mutations.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; <strong>Homoplasy</strong> is when the same genetic mutation appears in different samples, but not because those samples inherited it from a common ancestor. Instead, the mutation happened independently in separate lineages. This can occur when:</p>
+<p>&nbsp;&nbsp;&nbsp; 1. <strong>Speed vs.&nbsp;accuracy</strong>: Distance-based trees are faster, while character-based methods are more accurate for closely related sequences.</p>
+<p>&nbsp;&nbsp;&nbsp; 2. <strong>Data quality and length</strong>: Character-based approaches perform better with full genomes and datasets that include homoplasy or recurrent mutations.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <strong>Homoplasy</strong> is when the same genetic mutation appears in different samples, but not because those samples inherited it from a common ancestor. Instead, the mutation happened independently in separate lineages. This can occur when:</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Two viruses happen to develop the same mutation on their own (this is called <em>convergent evolution</em>)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A mutation changes a nucleotide but then changes back to its original state (this is called a <em>reversion</em>)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The same change happens multiple times in different parts of the tree (known as a <em>parallel mutation</em>)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Homoplasy can make unrelated sequences look more similar than they really are and may affect how we interpret the tree.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Recurrent mutations</strong> are specific changes in the genome that happen more than once, independently, at the same position in different sequences. These can occur if certain spots in the genome are more prone to mutation or are under pressure to change. Recurrent mutations can lead to homoplasy and make it harder to tell which sequences are truly related.</p>
-<p>&nbsp;&nbsp;&nbsp; - <strong>Evolutionary modeling</strong>: Character-based trees incorporate substitution models to estimate mutation rates and account for multiple changes at the same site.<br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <strong>Recurrent mutations</strong> are specific changes in the genome that happen more than once, independently, at the same position in different sequences. These can occur if certain spots in the genome are more prone to mutation or are under pressure to change. Recurrent mutations can lead to homoplasy and make it harder to tell which sequences are truly related.</p>
+<p>&nbsp;&nbsp;&nbsp; 3. <strong>Evolutionary modeling</strong>: Character-based trees incorporate substitution models to estimate mutation rates and account for multiple changes at the same site.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for:</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs.&nbsp;transversions [an exchange between A/G to T/C]),<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Unequal base frequencies,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The possibility of multiple substitutions at the same site,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - And reversible mutations (as modeled in the General Time Reversible, or GTR, model).<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree.</p>
-<p>&nbsp;&nbsp;&nbsp; - <strong>Time-resolved inference</strong>: Character-based methods integrate easily with molecular clocks, allowing estimates of divergence timing and outbreak dynamics.</p>
+<p>&nbsp;&nbsp;&nbsp; 4. <strong>Time-resolved inference</strong>: Character-based methods integrate easily with molecular clocks, allowing estimates of divergence timing and outbreak dynamics.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread.</p>
 <p>Regardless of the method, the final tree depicts the relationship between sequences. A distanced-based tree might reflect degree of genetic similarity, whereas a character-based tree might reflect evolutionary relationship between the sequences and evolutionary history.</p>
 <hr>
