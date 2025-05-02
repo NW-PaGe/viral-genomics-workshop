@@ -482,7 +482,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="phylogenetic-trees" class="level2" data-number="19.2">
 <h2 data-number="19.2" class="anchored" data-anchor-id="phylogenetic-trees"><span class="header-section-number">19.2</span> Phylogenetic Trees</h2>
 <p>A phylogenetic tree is a branching diagram that represents the evolutionary relationships between genome sequences, based on patterns observed in their genetic differences. In this outbreak investigation, a tree that reflects evolutionary history can help determine how closely related viral genomes are across different individuals and species. Think of it like a family tree for the virus.</p>
-<p>Using an evolutionary tree, each <em>tip (or leaf)</em> represents a genome sequence from a sampled virus. The branches connecting them indicate inferred evolutionary relationships—specifically, that the sequences share common ancestors. The branch lengths typically reflect the amount of genetic change—either as a direct count of differences or as a model-based estimate that accounts for the likelihood of different types of mutations.</p>
+<p>Using an evolutionary tree, each <em>tip (or leaf)</em> represents a genome sequence from a sampled virus. The branches connecting them indicate inferred evolutionary relationships, specifically, that the sequences share common ancestors. The branch lengths typically reflect the amount of genetic change, either as a direct count of differences or as a model-based estimate that accounts for the likelihood of different types of mutations.</p>
 <section id="interpreting-trees" class="level3" data-number="19.2.1">
 <h3 data-number="19.2.1" class="anchored" data-anchor-id="interpreting-trees"><span class="header-section-number">19.2.1</span> Interpreting Trees</h3>
 <p>When interpreting trees, there’s a lot to consider—but let’s keep it simple. Just like a family tree, sequences that are more closely related will share a more recent common ancestor.<br>
@@ -501,7 +501,7 @@ ul.task-list li input[type="checkbox"] {
 <p>This tree represents the evolutionary relationships between viral genome sequences of pathogen X, inferred using a character-based method such as Maximum Likelihood. Rather than just counting mutations, this method analyzes patterns of change across the entire alignment to infer the tree that best explains the data.</p>
 <p>The tree is <strong>rooted at the reference genome (Ref)</strong>, which gives direction to the branches and helps orient ancestral relationships. This means all other sequences are interpreted relative to it. <strong>SeqA</strong> is genetically identical to <strong>Ref</strong>, indicated by both appearing at a divergence of 0.00.</p>
 <p>From that shared point, <strong>SeqB</strong> branches off next, with a divergence of about 0.06, suggesting it has accumulated some genetic differences since splitting from the reference.</p>
-<p><strong>SeqC</strong> and <strong>SeqD</strong> form a small cluster—they share a common ancestor and branch from the same internal node. SeqC diverges to ~0.10, and SeqD slightly further to ~0.12, indicating it has acquired more mutations than SeqC.</p>
+<p><strong>SeqC</strong> and <strong>SeqD</strong> form a small cluster, they share a common ancestor and branch from the same internal node. SeqC diverges to ~0.10, and SeqD slightly further to ~0.12, indicating it has acquired more mutations than SeqC.</p>
 <p><strong>SeqE</strong> is the most divergent sequence, branching farthest to the right at ~0.16. This suggests it has accumulated the most genetic change from the reference and may represent an early offshoot or a more distinct lineage.</p>
 <section id="interpretation-summary" class="level4" data-number="19.2.2.1">
 <h4 data-number="19.2.2.1" class="anchored" data-anchor-id="interpretation-summary"><span class="header-section-number">19.2.2.1</span> Interpretation Summary</h4>
@@ -516,7 +516,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li><strong>SeqE</strong> is the most divergent, possibly indicating a separate introduction or faster mutation rate.</li>
 </ul>
-<p>The tree’s structure helps us visualize how the virus may have evolved and spread—and which sequences are more closely related in time and ancestry.</p>
+<p>The tree’s structure helps us visualize how the virus may have evolved and spread, and which sequences are more closely related in time and ancestry.</p>
 <hr>
 </section>
 </section>
@@ -547,7 +547,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Events like <strong>reversions</strong>, where a site mutates back to its original state</li>
 </ul></li>
 </ul>
-<p>In our example: - <strong>SeqE</strong> and <strong>Ref</strong> both have a <strong>T</strong> at a particular site (position 9), while several other sequences (like <strong>SeqD</strong>) have a <strong>C</strong> at that same position. - The model likely inferred that <strong>SeqE descended from a C-containing ancestor</strong> (like SeqD), and then <strong>mutated back to T</strong>—a reversion. - That means even though SeqE looks close to Ref, the tree <strong>accounts for two mutation events</strong> at that site: first <strong>T to C</strong>, then <strong>C back to T</strong>.</p>
+<p>In our example: - <strong>SeqE</strong> and <strong>Ref</strong> both have a <strong>T</strong> at a particular site (position 9), while several other sequences (like <strong>SeqD</strong>) have a <strong>C</strong> at that same position. - The model likely inferred that <strong>SeqE descended from a C-containing ancestor</strong> (like SeqD), and then <strong>mutated back to T</strong>, a reversion. - That means even though SeqE looks close to Ref, the tree <strong>accounts for two mutation events</strong> at that site: first <strong>T to C</strong>, then <strong>C back to T</strong>.</p>
 <p>So, the <strong>matrix shows similarity</strong>, while the <strong>tree shows inferred evolutionary change</strong>. Both are useful, but they answer different questions: - The matrix asks: <em>How different do these sequences look from each other?</em> - The tree asks: <em>What is the most likely way these sequences evolved from a shared ancestor?</em></p>
 <p>This is why SeqE can be <strong>one mutation away</strong> from Ref in the matrix, but <strong>farther away</strong> in the tree.</p>
 <hr>
@@ -577,31 +577,25 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-number="19.3.1" class="anchored" data-anchor-id="choosing-the-right-method"><span class="header-section-number">19.3.1</span> Choosing the Right Method</h3>
 <p>The method depends on your goals and data:</p>
 <ol type="1">
-<li><p><strong>Speed vs.&nbsp;accuracy</strong><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Distance-based trees are faster. Character-based methods are slower but more accurate for closely related sequences.</p></li>
-<li><p><strong>Data quality and complexity</strong><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Character-based methods work better with full genomes and datasets that may include complex mutation patterns like <em>homoplasy</em> or <em>recurrent mutations</em>.</p></li>
+<li><p><strong>Speed vs.&nbsp;accuracy</strong> <br> Distance-based trees are faster. Character-based methods are slower but more accurate for closely related sequences. <br></p></li>
+<li><p><strong>Data quality and complexity</strong> <br> Character-based methods work better with full genomes and datasets that may include complex mutation patterns like <em>homoplasy</em> or <em>recurrent mutations</em>. <br></p></li>
 </ol>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <strong>Homoplasy</strong> is when the same mutation appears in different sequences independently—not due to shared ancestry.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This can happen through:</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Convergent evolution</em> (same mutation arises in different lineages)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Reversions</em> (mutation changes back to original state)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Parallel mutations</em> (same mutation arises multiple times)</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <strong>Recurrent mutations</strong> are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;- <strong>Homoplasy</strong> is when the same mutation appears in different sequences independently—not due to shared ancestry. This can happen through: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Convergent evolution</em> (same mutation arises in different lineages) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Reversions</em> (mutation changes back to original state) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Parallel mutations</em> (same mutation arises multiple times) <br></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;- <strong>Recurrent mutations</strong> are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky. <br></p>
 <ol start="3" type="1">
 <li><strong>Evolutionary modeling</strong><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Character-based trees use substitution models to account for the likelihood and direction of changes between nucleotides. Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for:</li>
+Character-based trees use substitution models to account for the likelihood and direction of changes between nucleotides. Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for: <br></li>
 </ol>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs.&nbsp;transversions [an exchange between A/G to T/C]),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - And reversible mutations (as modeled in the General Time Reversible, or GTR, model).<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;- Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs.&nbsp;transversions [an exchange between A/G to T/C]) <br> &nbsp;&nbsp;&nbsp;&nbsp;- And reversible mutations (as modeled in the General Time Reversible, or GTR, model). <br></p>
+<p>These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree. <br></p>
 <ol start="4" type="1">
-<li><strong>Time-resolved analysis</strong><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Some character-based trees incorporate a <strong>molecular clock</strong>, which assumes that mutations accumulate at a steady rate over time. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - This allows you to estimate <strong>when</strong> key divergence or transmission events occurred.</li>
+<li><strong>Time-resolved analysis</strong> <br> Some character-based trees incorporate a <strong>molecular clock</strong>, which assumes that mutations accumulate at a steady rate over time. <br></li>
 </ol>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; - The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; - This allows you to estimate <strong>when</strong> key divergence or transmission events occurred.</p>
 <hr>
 <p>“That’s a lot of information!” exclaimed the Local Health Jurisdiction Epidemiologist. “It seems that the tree construction method we choose depends on both our sequencing data as well as what we want to learn from the outbreak?”</p>
-<p>“That’s exactly right,” smiled the Molecular Epidemiologist. “In this case, a character-based method like Maximum Likelihood is most appropriate. We’re especially interested in whether the viral sequences from the muubats and the infected trainers cluster together—which would suggest a <strong>zoonotic spillover</strong>—or if the human sequences branch off further, indicating <strong>ongoing human-to-human transmission</strong>.”</p>
+<p>“That’s exactly right,” smiled the Molecular Epidemiologist. “In this case, a character-based method like Maximum Likelihood is most appropriate. We’re especially interested in whether the viral sequences from the muubats and the infected trainers cluster together, which would suggest a <strong>zoonotic spillover</strong>, or if the human sequences branch off further, indicating <strong>ongoing human-to-human transmission</strong>.”</p>
 <p>Now that the team was on the same page, they turned their attention to the data.</p>
 <p>“Shall we get started?” one of the Molecular Epidemiologists nudged. “We’ve got a lot of results to dig into.”</p>
 <hr>
