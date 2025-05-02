@@ -20,7 +20,7 @@ Amid the discussion, someone asked, “isn’t it protocol when testing new anim
 
 With the whole team in agreement, the lab pushed forth on running a PCR test on the initial swab samples taken from the muubats. The PCR results came back positive for the S and N genes. The samples proceeded to RNA extraction and preparation for sequencing, and the samples were sequenced.
 
-After a week, the results finally came back indicating that the novel virus was identified in the muubat samples taken from December of the previous year. The discovery raised new questions. If traces of the virus had been present months earlier, why hadn't it been detected sooner? And more importantly, what had changed since then? The Genomics Specialists Team met once again to deliberate. 
+After a week, the results finally came back indicating that the novel virus was identified in the muubat samples taken from December of the previous year. The discovery raised new questions. If the virus was present in the muubats months earlier, why was it not detected or causing illness at the time? What may have changed between the original exposure and the emergence of symptomatic cases in humans and animals? The Genomics Specialists Team met once again to deliberate. 
 
 ## Testing and Sequencing of Human and Animal Samples
 "Now that we have a suspect pathogen," a microbiologist stood up to speak, "We should run the same PCR assay on the human and animal samples. If the results return positive for the S and N genes of the novel virus, then we should sequence them for further analyses."
@@ -53,6 +53,7 @@ After passing all of these checks, the data was considered high quality. With co
 | Duplicate Read Removal        | Reduces artificial inflation of coverage caused by PCR duplicates.             | Identical or highly similar reads are collapsed into single representative instances.       |
 | GC Content Assessment         | Flags contamination or poor amplification based on sequence composition.       | GC content is compared to expected profiles for the target organism.                       |
 | Contaminant Screening         | Ensures non-target DNA (e.g., human or lab contaminants) is excluded.          | Reads are mapped against reference genomes to filter out known contaminant sequences.       |
+
 
 
 “This is it! We got our sequencing data!” one of the Bioinformaticians exclaimed.

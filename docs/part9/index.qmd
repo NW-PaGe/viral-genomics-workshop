@@ -50,7 +50,7 @@ That question led them back to the multiple sequence alignment (MSA), where they
 
 ## Ensuring the Data is Ready for Phylogenetics
 
-Before moving forward with phylogenetic analysis, the team conducted a quality control check on the alignment. Any low-quality sequences, ambiguous regions, or problematic reads had to be identified and removed. "It's good that we are doing QC on the alignment" one of the Bioinformatician mentioned. "If the alignment isn't clean, the entire phylogenetic tree could be misleading".
+Before moving forward with phylogenetic analysis, the team conducted a quality control check on the alignment. Any low-quality sequences, ambiguous regions, or problematic reads had to be identified and removed. "It's good that we are doing QC on the sequences and removing the poor quality and incomplete genomes" one of the Bioinformatician mentioned. "If the alignment isn't clean, the entire phylogenetic tree could be misleading".
 
 As they carefully reviewed the alignment, they specifically looked for high levels of ambiguity, specifically the amount of ambiguous or "N" bases, which could suggest potential sequencing errors. Sequences with high amounts of ambiguity, generally if greater than 10% of the whole genome, could require the samples to be re-examined and re-sequenced before being included in downstream analyses.
 
