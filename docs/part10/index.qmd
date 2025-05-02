@@ -47,7 +47,7 @@ A phylogenetic tree is a hierarchical clustering or branching diagram that, depe
 
 Using an evolutionary tree, each *tip (or leaf)* represents a genome sequence from a sampled virus. The branches connecting them indicate inferred evolutionary relationships, specifically, that the sequences share common ancestors. The branch lengths typically reflect the amount of genetic change, which may be measured either as the number of observed mutations or as model-based estimates of evolutionary divergence, depending on how the tree was constructed.
 
-### Interpretating Trees
+### Interpreting Trees
 
 When interpreting trees, there's so much to consider! Yet, let's keep it simple and expand on the concept of a "family tree" with sequences being "closely related". Samples that share a more recent common ancestor are considered more closely related. Shorter branches between tips imply fewer genetic differences, for example, fewer mutations. Longer branches indicate a greater degree of divergence. If two sequences are identical, they are typically shown along the same horizontal position (x-axis), but vertically separated for visibility.
 
@@ -95,6 +95,15 @@ Choosing between these methods depends on several factors:
 
 &nbsp;&nbsp;&nbsp; - **Data quality and length**: Character-based approaches perform better with full genomes and datasets that include homoplasy or recurrent mutations.  
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; **Homoplasy** is when the same genetic mutation appears in different samples, but not because those samples inherited it from a common ancestor. Instead, the mutation happened independently in separate lineages. This can occur when: 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Two viruses happen to develop the same mutation on their own (this is called *convergent evolution*)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - A mutation changes a nucleotide but then changes back to its original state (this is called a *reversion*)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The same change happens multiple times in different parts of the tree (known as a *parallel mutation*)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Homoplasy can make unrelated sequences look more similar than they really are and may affect how we interpret the tree.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Recurrent mutations** are specific changes in the genome that happen more than once, independently, at the same position in different sequences. These can occur if certain spots in the genome are more prone to mutation or are under pressure to change. Recurrent mutations can lead to homoplasy and make it harder to tell which sequences are truly related.
+
 &nbsp;&nbsp;&nbsp; - **Evolutionary modeling**: Character-based trees incorporate substitution models to estimate mutation rates and account for multiple changes at the same site.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for:
 
@@ -105,6 +114,7 @@ Choosing between these methods depends on several factors:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree.
 
 &nbsp;&nbsp;&nbsp; - **Time-resolved inference**: Character-based methods integrate easily with molecular clocks, allowing estimates of divergence timing and outbreak dynamics.  
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread.
 
 Regardless of the method, the final tree depicts the relationship between sequences. A distanced-based tree might reflect degree of genetic similarity, whereas a character-based tree might reflect evolutionary relationship between the sequences and evolutionary history. 
