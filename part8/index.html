@@ -409,7 +409,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#testing-the-muubats" id="toc-testing-the-muubats" class="nav-link active" data-scroll-target="#testing-the-muubats"><span class="header-section-number">16.1</span> Testing the muubats</a></li>
   <li><a href="#testing-and-sequencing-of-human-and-animal-samples" id="toc-testing-and-sequencing-of-human-and-animal-samples" class="nav-link" data-scroll-target="#testing-and-sequencing-of-human-and-animal-samples"><span class="header-section-number">16.2</span> Testing and Sequencing of Human and Animal Samples</a></li>
   <li><a href="#pre-genome-assembly-qc" id="toc-pre-genome-assembly-qc" class="nav-link" data-scroll-target="#pre-genome-assembly-qc"><span class="header-section-number">16.3</span> Pre-Genome Assembly QC</a></li>
-  <li><a href="#discussion-nine" id="toc-discussion-nine" class="nav-link" data-scroll-target="#discussion-nine"><span class="header-section-number">16.4</span> Discussion Nine:</a></li>
+  <li><a href="#discussion-nine-understanding-and-working-with-new-evidence" id="toc-discussion-nine-understanding-and-working-with-new-evidence" class="nav-link" data-scroll-target="#discussion-nine-understanding-and-working-with-new-evidence"><span class="header-section-number">16.4</span> Discussion Nine: Understanding and Working with New Evidence</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/NW-PaGe/viral-genomics-workshop/edit/main/part8/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/NW-PaGe/viral-genomics-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -457,7 +457,7 @@ ul.task-list li input[type="checkbox"] {
 <p>One of the first things they examined was the read quality score for each base in the sequence. These scores, often referred to as <strong>Phred scores</strong>, indicate the probability that a particular base call is incorrect. A higher score means higher confidence. Reads with many low-quality bases (i.e.typically at the ends) are prone to errors and can introduce false variants during genome assembly. To mitigate this, the team removed or trimmed low-quality bases from the reads to retain only high-confidence data.</p>
 <p>Next, the Microbiologists checked for and <strong>trimmed adapter sequences</strong>, short artificial DNA fragments that are added during the library preparation process so the sequencer can recognize and read the sample. If these adapters aren’t trimmed out, they can contaminate the data and interfere with downstream analyses, especially alignment and assembly. Specialized tools scan for known adapter sequences and remove them from the raw reads.</p>
 <p>They also looked for <strong>overrepresented sequences</strong> and <strong>duplicate reads</strong>, which can suggest library preparation artifacts, contamination, or biased amplification. These patterns can distort coverage or make a dataset appear more robust than it actually is. Removing redundancy helps ensure that the reads truly reflect the diversity of genetic material in the original sample.</p>
-<p>Another important step involved assessing <strong>GC content</strong>, the proportion of guanine (G) and cytosine (C) bases in the sequences. Abnormal GC content compared to what’s expected for the target organism can suggest contamination or poor amplification. GC bonds typically require more heat to break than AT bonds because they contain more hydrogen bonds than AT. The Bioinformaticians also screened for reads that aligned to common laboratory contaminants or host genomes, excluding these from the dataset to focus on relevant microbial content.</p>
+<p>Another important step involved assessing <strong>GC content</strong>, the proportion of guanine (G) and cytosine (C) bases in the sequences. Abnormal GC content compared to what’s expected for the target organism can suggest contamination or poor amplification. GC bonds typically require more heat to break than AT bonds because they contain more hydrogen bonds than AT, which can further complicate wet lab methods. The Bioinformaticians also screened for reads that aligned to common laboratory contaminants or host genomes, excluding these from the dataset to focus on relevant microbial content.</p>
 <p>After passing all of these checks, the data was considered high quality. With confidence in their sequencing reads, the team proceeded to genome assembly — now working from a dataset that was clean, trimmed, and ready to be pieced together.</p>
 <p><strong>Summary of Bioinformatics Pre-Genome Assembly QC</strong></p>
 <table class="table">
@@ -509,9 +509,10 @@ ul.task-list li input[type="checkbox"] {
 <p>“This is it! We got our sequencing data!” one of the Bioinformaticians exclaimed.</p>
 <p>“Great work you guys! I can’t believe how smoothly everything went, it’s almost unnatural!” applauded the Molecular Epidemiologist.</p>
 <p>The team cheered — it felt like their first real win. Excitement rippled through the room, and the momentum was palpable. They had cleared the first major hurdle. But they all knew: the hardest questions were still ahead.</p>
+<hr>
 </section>
-<section id="discussion-nine" class="level2" data-number="16.4">
-<h2 data-number="16.4" class="anchored" data-anchor-id="discussion-nine"><span class="header-section-number">16.4</span> Discussion Nine:</h2>
+<section id="discussion-nine-understanding-and-working-with-new-evidence" class="level2" data-number="16.4">
+<h2 data-number="16.4" class="anchored" data-anchor-id="discussion-nine-understanding-and-working-with-new-evidence"><span class="header-section-number">16.4</span> Discussion Nine: Understanding and Working with New Evidence</h2>
 <p>A. What do you think this new piece of evidence could mean?</p>
 <p>B. With the information presented before you, what would be a valid hypothesis regarding the source of the novel virus?</p>
 <p>C. What type of genomic analyses do you think would be helpful in testing your hypothesis?</p>
