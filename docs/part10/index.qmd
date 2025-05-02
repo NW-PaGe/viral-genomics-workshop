@@ -47,31 +47,35 @@ A phylogenetic tree is a hierarchical clustering or branching diagram that, depe
 
 Using an evolutionary tree, each *tip (or leaf)* represents a genome sequence from a sampled virus. The branches connecting them indicate inferred evolutionary relationships, specifically, that the sequences share common ancestors. The branch lengths typically reflect the amount of genetic change, which may be measured either as the number of observed mutations or as model-based estimates of evolutionary divergence, depending on how the tree was constructed.
 
+### Interpretating Trees
+
 When interpreting trees, there's so much to consider! Yet, let's keep it simple and expand on the concept of a "family tree" with sequences being "closely related". Samples that share a more recent common ancestor are considered more closely related. Shorter branches between tips imply fewer genetic differences, for example, fewer mutations. Longer branches indicate a greater degree of divergence. If two sequences are identical, they are typically shown along the same horizontal position (x-axis), but vertically separated for visibility.
 
 **Example illustrating phylogenetic tree based on sequence alignment**
+
+![Example illustrating a phylogenetic tree](../images/ex_tree2.jpeg)
+
 Imagine this tree to represent an evolutionary tree of viral sequences of pathogen X, using a character-based method called Maximum Likelihood. Rather than simply counting differences between sequences, this approach infers the tree that best explains the observed pattern of mutations across the entire alignment. 
 
 In this tree, the reference genome (Ref) is used to root the tree, which gives direction to the branches and helps orient ancestral relationships. The Ref and SeqA are genetically identical, and both appear stacked on the same branch, indicating no differences between them.
 
 From that **basal position**, SeqE is the first to branch off and forms an **outgroup** relative to Seqs B through D. This suggests that SeqE diverged earlier in the outbreak or represents a more distinct lineage. Further up the tree, SeqD branches from an **internal node** that also gives rise to Seqs B and C. Within that cluster, SeqB remains on the internal node, while SeqC is on a longer branch, indicating it has acquired additional mutations. It appears that SeqB and SeqC are genetically similar, with SeqC possessing more mutations that SeqB does not share. When we look at the sequence alignment above and the heatmap of the pairwise distance matrix, we see that SeqC possess one extra mutation than SeqB. Additional epidemiologic information could be helpful to determine if these two cases are epidemiologically related in space and time, with SeqC indicating possible onward transmission.
 
-## Divergence
+### Divergence
 
 In this tree, the horizontal axis represents **divergence**, or the degree of evolutionary difference from the root. Divergence reflects an estimate of total change across the genome based on a model of nucleotide substitution. While it generally correlates with mutation accumulation, it's not a direct count of observed differences. Instead, it accounts for factors like multiple changes at the same site or underlying mutation probabilities. Because of this, divergence values help us compare relative relationships, but should not be interpreted as exact mutation counts.
 
-## Caveats and limitations
+### Caveats and limitations
 
 It's important to keep in mind caveats and limitations when interpreting phylogenetic trees. For example, while this tree reflects the sequencing data and the underlying mutations observed in the sequence, its structure can offer insights into possible transmission relationships, particularly if sequences that are genetically similar were also sampled close together in time and space. However, because the Maximum Likelihood approach does not reconstruct mutation order or directionality, it cannot by itself establish who infected whom or infer precise chains of transmission without incorporating additional epidemiological data.
 
-**Example illustrating a phylogenetic tree**
-![Example illustrating a phylogenetic tree](../images/ex_tree2.jpeg)
+---
 
 "I see now" said the Local Health Jursidiction Epidemiologist. "Thank you so much for explaining! I imagine the process to generate the trees requires some form of computation?"
 
 "Absolutely!" cheered the Molecular Epidemiologist. I'm happy to explain that as well.
 
-### Generating Phylogenetic Trees
+## Generating Phylogenetic Trees
 
 Once genome sequences are aligned and mutations are identified, the next step is to construct a phylogenetic tree, a visual representation of their evolutionary relationships.
 
@@ -82,6 +86,8 @@ Phylogenetic trees can be constructed using two broad approaches: **distance-bas
 &nbsp;&nbsp;&nbsp; - **Character-based methods** (such as Maximum Parsimony or Maximum Likelihood) work directly from the multiple sequence alignment. These methods examine each nucleotide position across all sequences to infer the tree that best explains the observed mutations. They are typically more accurate, as they consider evolutionary models and the likelihood of different mutation events, but are also more computationally intensive.
 
 In general, the process begins by generating a multiple sequence alignment, where all sequences are compared nucleotide by nucleotide to identify mutations. For distance-based methods, a distance matrix is derived from this alignment and used to construct the tree. For character-based methods, the alignment itself is analyzed directly using statistical models of sequence evolution.
+
+### Choosing the most appropriate method:
 
 Choosing between these methods depends on several factors:
 
