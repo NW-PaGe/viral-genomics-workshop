@@ -60,7 +60,7 @@ When interpreting trees, there's a lot to consider—but let's keep it simple. J
 
 This tree represents the evolutionary relationships between viral genome sequences of pathogen X, inferred using a character-based method such as Maximum Likelihood. Rather than just counting mutations, this method analyzes patterns of change across the entire alignment to infer the tree that best explains the data.
 
-The tree is **rooted at the reference genome (Ref)**, meaning all other sequences are interpreted relative to it. **SeqA** is genetically identical to **Ref**, indicated by both appearing at a divergence of 0.00.
+The tree is **rooted at the reference genome (Ref)**, which gives direction to the branches and helps orient ancestral relationships. This means all other sequences are interpreted relative to it. **SeqA** is genetically identical to **Ref**, indicated by both appearing at a divergence of 0.00.
 
 From that shared point, **SeqB** branches off next, with a divergence of about 0.06, suggesting it has accumulated some genetic differences since splitting from the reference.
 
@@ -103,7 +103,7 @@ So while divergence isn't a raw count of mutations, it **closely approximates** 
 
 ### Comparing the Tree and the Distance Matrix
 
-Looking at the phylogenetic tree alone, it might be surprising to see **SeqE** placed as the most divergent sequence—especially because the **pairwise distance matrix** shows that **SeqE differs from the reference by only one mutation**. In fact, the matrix shows that **SeqE is just as similar to Ref as SeqB is**.
+Looking at the phylogenetic tree alone, it might be surprising to see **SeqE** placed as the most divergent sequence, especially because the **pairwise distance matrix** shows that **SeqE differs from the reference by only one mutation**. In fact, the matrix shows that **SeqE is just as similar to Ref as SeqB is**.
 
 So why does the tree show **SeqE farther away**?
 
@@ -194,6 +194,8 @@ The method depends on your goals and data:
 Now that the team was on the same page, they turned their attention to the data.
 
 "Shall we get started?" one of the Molecular Epidemiologists nudged. "We've got a lot of results to dig into."
+
+---
 
 
 > ** Side Note: Why Tree Interpretation Can Be Tricky**
