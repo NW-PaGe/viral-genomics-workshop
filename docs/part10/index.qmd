@@ -45,7 +45,7 @@ Another Molecular Epidemiologist chimed in, "I am happy to explain phylogenetic 
 
 A phylogenetic tree is a branching diagram that represents the evolutionary relationships between genome sequences, based on patterns observed in their genetic differences. In this outbreak investigation, a tree that reflects evolutionary history can help determine how closely related viral genomes are across different individuals and species. Think of it like a family tree for the virus.
 
-Using an evolutionary tree, each *tip (or leaf)* represents a genome sequence from a sampled virus. The branches connecting them indicate inferred evolutionary relationships—specifically, that the sequences share common ancestors. The branch lengths typically reflect the amount of genetic change—either as a direct count of differences or as a model-based estimate that accounts for the likelihood of different types of mutations.
+Using an evolutionary tree, each *tip (or leaf)* represents a genome sequence from a sampled virus. The branches connecting them indicate inferred evolutionary relationships, specifically, that the sequences share common ancestors. The branch lengths typically reflect the amount of genetic change, either as a direct count of differences or as a model-based estimate that accounts for the likelihood of different types of mutations.
 
 ### Interpreting Trees
 
@@ -64,7 +64,7 @@ The tree is **rooted at the reference genome (Ref)**, which gives direction to t
 
 From that shared point, **SeqB** branches off next, with a divergence of about 0.06, suggesting it has accumulated some genetic differences since splitting from the reference.
 
-**SeqC** and **SeqD** form a small cluster—they share a common ancestor and branch from the same internal node. SeqC diverges to ~0.10, and SeqD slightly further to ~0.12, indicating it has acquired more mutations than SeqC.
+**SeqC** and **SeqD** form a small cluster, they share a common ancestor and branch from the same internal node. SeqC diverges to ~0.10, and SeqD slightly further to ~0.12, indicating it has acquired more mutations than SeqC.
 
 **SeqE** is the most divergent sequence, branching farthest to the right at ~0.16. This suggests it has accumulated the most genetic change from the reference and may represent an early offshoot or a more distinct lineage.
 
@@ -76,7 +76,7 @@ From that shared point, **SeqB** branches off next, with a divergence of about 0
 - **SeqD** has more mutations than SeqC, despite sharing a recent ancestor.  
 - **SeqE** is the most divergent, possibly indicating a separate introduction or faster mutation rate.
 
-The tree’s structure helps us visualize how the virus may have evolved and spread—and which sequences are more closely related in time and ancestry.
+The tree’s structure helps us visualize how the virus may have evolved and spread, and which sequences are more closely related in time and ancestry.
 
 ---
 
@@ -117,7 +117,7 @@ This highlights an important difference between **distance matrices** and **evol
 
 In our example:
 - **SeqE** and **Ref** both have a **T** at a particular site (position 9), while several other sequences (like **SeqD**) have a **C** at that same position.
-- The model likely inferred that **SeqE descended from a C-containing ancestor** (like SeqD), and then **mutated back to T**—a reversion.
+- The model likely inferred that **SeqE descended from a C-containing ancestor** (like SeqD), and then **mutated back to T**, a reversion.
 - That means even though SeqE looks close to Ref, the tree **accounts for two mutation events** at that site: first **T to C**, then **C back to T**.
 
 So, the **matrix shows similarity**, while the **tree shows inferred evolutionary change**. Both are useful, but they answer different questions:
@@ -158,38 +158,39 @@ There are two main approaches:
 
 The method depends on your goals and data:
 
-1. **Speed vs. accuracy**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Distance-based trees are faster. Character-based methods are slower but more accurate for closely related sequences.
+1. **Speed vs. accuracy**  <br>
+Distance-based trees are faster. Character-based methods are slower but more accurate for closely related sequences. <br>
 
-2. **Data quality and complexity**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Character-based methods work better with full genomes and datasets that may include complex mutation patterns like *homoplasy* or *recurrent mutations*.
+2. **Data quality and complexity**  <br>
+Character-based methods work better with full genomes and datasets that may include complex mutation patterns like *homoplasy* or *recurrent mutations*. <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Homoplasy** is when the same mutation appears in different sequences independently—not due to shared ancestry.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This can happen through:
+&nbsp;&nbsp;&nbsp;&nbsp;- **Homoplasy** is when the same mutation appears in different sequences independently—not due to shared ancestry. This can happen through: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Convergent evolution* (same mutation arises in different lineages) <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Reversions* (mutation changes back to original state) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Parallel mutations* (same mutation arises multiple times) <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Convergent evolution* (same mutation arises in different lineages)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Reversions* (mutation changes back to original state)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - *Parallel mutations* (same mutation arises multiple times)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Recurrent mutations** are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky.
+&nbsp;&nbsp;&nbsp;&nbsp;- **Recurrent mutations** are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky. <br>
 
 3. **Evolutionary modeling**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Character-based trees use substitution models to account for the likelihood and direction of changes between nucleotides. Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for:
+Character-based trees use substitution models to account for the likelihood and direction of changes between nucleotides. Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for: <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs. transversions [an exchange between A/G to T/C]),  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - And reversible mutations (as modeled in the General Time Reversible, or GTR, model).  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree.
+&nbsp;&nbsp;&nbsp;&nbsp;- Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs. transversions [an exchange between A/G to T/C]) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;- And reversible mutations (as modeled in the General Time Reversible, or GTR, model). <br>  
 
-4. **Time-resolved analysis**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Some character-based trees incorporate a **molecular clock**, which assumes that mutations accumulate at a steady rate over time. 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread. 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - This allows you to estimate **when** key divergence or transmission events occurred.
+These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree. <br>
+
+4. **Time-resolved analysis**  <br>
+Some character-based trees incorporate a **molecular clock**, which assumes that mutations accumulate at a steady rate over time. <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp; - The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread. 
+
+&nbsp;&nbsp;&nbsp;&nbsp; - This allows you to estimate **when** key divergence or transmission events occurred.
 
 ---
 
 "That's a lot of information!" exclaimed the Local Health Jurisdiction Epidemiologist. "It seems that the tree construction method we choose depends on both our sequencing data as well as what we want to learn from the outbreak?"
 
-"That's exactly right," smiled the Molecular Epidemiologist. "In this case, a character-based method like Maximum Likelihood is most appropriate. We're especially interested in whether the viral sequences from the muubats and the infected trainers cluster together—which would suggest a **zoonotic spillover**—or if the human sequences branch off further, indicating **ongoing human-to-human transmission**."
+"That's exactly right," smiled the Molecular Epidemiologist. "In this case, a character-based method like Maximum Likelihood is most appropriate. We're especially interested in whether the viral sequences from the muubats and the infected trainers cluster together, which would suggest a **zoonotic spillover**, or if the human sequences branch off further, indicating **ongoing human-to-human transmission**."
 
 Now that the team was on the same page, they turned their attention to the data.
 
