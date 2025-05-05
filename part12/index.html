@@ -458,6 +458,60 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<div class="timeline-sidebar">
+  <h3>Outbreak Timeline</h3>
+  <ul>
+    {{#each timeline}}
+    <li>
+      <strong>{{date}}</strong>: {{event}}
+    </li>
+    {{/each}}
+  </ul>
+</div>
+
+<style>
+/* CSS goes HERE, not in the YAML file */
+.timeline-sidebar {
+  position: fixed;
+  right: 20px;
+  top: 100px;
+  width: 220px;
+  background: rgba(248, 249, 250, 0.95);
+  padding: 15px;
+  border-left: 3px solid #6c757d;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  z-index: 1000;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.timeline-sidebar h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 5px;
+}
+
+.timeline-sidebar ul {
+  padding-left: 15px;
+  list-style-type: none;
+}
+
+.timeline-sidebar li {
+  margin-bottom: 10px;
+  line-height: 1.4;
+  position: relative;
+  padding-left: 15px;
+}
+
+.timeline-sidebar li:before {
+  content: "•";
+  color: #6c757d;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+</style>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
