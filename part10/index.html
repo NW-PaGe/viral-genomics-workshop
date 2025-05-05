@@ -468,7 +468,7 @@ ul.task-list li input[type="checkbox"] {
 <p>A pairwise distance matrix is a table that quantifies the <em>genetic differences between sequences</em> by counting single nucleotide polymorphisms (SNPs). SNPS are individual base differences at specific nucleotide posititions in the genome. It helps to determine how closely related two samples are and whether genetic clustering aligns with known epidemiological links.</p>
 <p>Each cell in the matrix represents the <em>number of SNP differences</em> between a pair of genome sequences. The smaller the number, the more similar the sequences are. A value of 0 means the sequences are identical.</p>
 <p>Computing pairwise distance matrices is a relatively straightfoward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where <em>row = column</em> (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme.</p>
-<p><strong>Example illustrating a Pairwise Distance Matrix</strong> This pairwise distance compares the number of mutation differences between two sequences. For example, the number of mutation difference, also known as the genetic distance, between Sequence A and the reference sequence is 0, meaning that the sequences are identical and possess no differences in mutations. However, Sequence D has a genetic distance of 2 when compared to the reference sequence, meaning that there are 2 mutations not shared between the two sequences. As such, Sequence A is more closely related to the reference than Sequence D. In terms of tracing how the virus spreads or its transmission, it is likely that the reference and Sequence A belong to the same transmission chain than that of the reference and Sequence D.</p>
+<p><strong>Example illustrating a Pairwise Distance Matrix</strong> This pairwise distance compares the number of mutation differences between two sequences in the 19-base example sequence alignment above. For example, the number of mutation difference, also known as the genetic distance, between Sequence A and the reference sequence is 0, meaning that the sequences are identical and possess no differences in mutations. However, Sequence D has a genetic distance of 2 when compared to the reference sequence, meaning that there are 2 mutations not shared between the two sequences. As such, Sequence A is more closely related to the reference than Sequence D. In terms of tracing how the virus spreads or its transmission, it is likely that the reference and Sequence A belong to the same transmission chain than that of the reference and Sequence D.</p>
 <p><strong>Example illustrating a heatmap of a pairwise distance matrix</strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -481,14 +481,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="phylogenetic-trees" class="level2" data-number="19.2">
 <h2 data-number="19.2" class="anchored" data-anchor-id="phylogenetic-trees"><span class="header-section-number">19.2</span> Phylogenetic Trees</h2>
-<p>A phylogenetic tree is a branching diagram that represents the evolutionary relationships between genome sequences, based on patterns observed in their genetic differences. In this outbreak investigation, a tree that reflects evolutionary history can help determine how closely related viral genomes are across different individuals and species. Think of it like a family tree for the virus.</p>
+<p>A phylogenetic tree is a branching diagram that represents the evolutionary relationships between genome sequences. In outbreak investigations, these trees help determine: - Whether cases cluster by <strong>lineage</strong> (groups of sequences with shared ancestry) <br> - If the outbreak stems from a <strong>monophyletic group</strong>, a single ancestor and all its descendants (e.g., a zoonotic spillover) <br> - How <strong>clades</strong> (distinct branches representing major evolutionary splits) relate to transmission patterns <br></p>
+<p>In this outbreak investigation, a tree that reflects evolutionary history can help determine how closely related viral genomes are across different individuals and species. Think of it like a family tree for the virus.</p>
 <p>Using an evolutionary tree, each <em>tip (or leaf)</em> represents a genome sequence from a sampled virus. The branches connecting them indicate inferred evolutionary relationships, specifically, that the sequences share common ancestors. The branch lengths typically reflect the amount of genetic change, either as a direct count of differences or as a model-based estimate that accounts for the likelihood of different types of mutations.</p>
 <section id="interpreting-trees" class="level3" data-number="19.2.1">
 <h3 data-number="19.2.1" class="anchored" data-anchor-id="interpreting-trees"><span class="header-section-number">19.2.1</span> Interpreting Trees</h3>
+<section id="clades-and-monophyletic-groups" class="level4" data-number="19.2.1.1">
+<h4 data-number="19.2.1.1" class="anchored" data-anchor-id="clades-and-monophyletic-groups"><span class="header-section-number">19.2.1.1</span> Clades and Monophyletic Groups</h4>
+<p>When interpreting phylogenetic trees there are a few terminology that we use.</p>
+<p>A <strong>clade</strong> is a branch of the tree that includes a common ancestor and all its descendants. If all human cases fall within a clade that also includes muubat sequences, this suggests a spillover event.</p>
+<p><strong>Monophyletic groups</strong> are clades where sequences share exclusive common ancestry (e.g., all sequences from a single geographic region).</p>
+<p><strong>Lineages</strong> are subsets of sequences with recent shared mutations, often indicating local transmission chains.</p>
+<p>Lastly, some trees may contain <strong>polytomies</strong>. A polytomy is a branching point where more than two lineages descend from a single ancestral lineage. Often sequences that are genetically identical, located at the sam horizontal position and stacked vertically on a tree may represent a polytomy.</p>
+<hr>
 <p>When interpreting trees, there’s a lot to consider—but let’s keep it simple. Just like a family tree, sequences that are more closely related will share a more recent common ancestor.<br>
 &nbsp;&nbsp;&nbsp; - <strong>Shorter branches</strong> between tips usually mean fewer genetic differences (e.g., fewer mutations).<br>
 &nbsp;&nbsp;&nbsp; - <strong>Longer branches</strong> indicate a greater amount of change and more time since divergence.<br>
 &nbsp;&nbsp;&nbsp; - <strong>Identical sequences</strong> are shown along the same horizontal position but stacked vertically for visibility.</p>
+</section>
 </section>
 <section id="example-interpreting-a-phylogenetic-tree" class="level3" data-number="19.2.2">
 <h3 data-number="19.2.2" class="anchored" data-anchor-id="example-interpreting-a-phylogenetic-tree"><span class="header-section-number">19.2.2</span> Example: Interpreting a Phylogenetic Tree</h3>
@@ -498,11 +508,18 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Example illustrating a phylogenetic tree of sequence alignment</figcaption>
 </figure>
 </div>
-<p>This tree represents the evolutionary relationships between viral genome sequences of pathogen X, inferred using a character-based method such as Maximum Likelihood. Rather than just counting mutations, this method analyzes patterns of change across the entire alignment to infer the tree that best explains the data.</p>
-<p>The tree is <strong>rooted at the reference genome (Ref)</strong>, which gives direction to the branches and helps orient ancestral relationships. This means all other sequences are interpreted relative to it. <strong>SeqA</strong> is genetically identical to <strong>Ref</strong>, indicated by both appearing at a divergence of 0.00.</p>
-<p>From that shared point, <strong>SeqB</strong> branches off next, with a divergence of about 0.06, suggesting it has accumulated some genetic differences since splitting from the reference.</p>
-<p><strong>SeqC</strong> and <strong>SeqD</strong> form a small cluster, they share a common ancestor and branch from the same internal node. SeqC diverges to ~0.10, and SeqD slightly further to ~0.12, indicating it has acquired more mutations than SeqC.</p>
-<p><strong>SeqE</strong> is the most divergent sequence, branching farthest to the right at ~0.16. This suggests it has accumulated the most genetic change from the reference and may represent an early offshoot or a more distinct lineage.</p>
+<p>This tree reconstructs the evolutionary relationships between viral sequences of Pathogen X using the 19-basepair sequence alignment above in a simplified example for illustrative purposes. The thing to note with using this example is that in practice, viral phylogenetics typically uses genomes thousands of bases long. Therefore, knowing the sequence length of the sequences in your tree is important for interpretation. For this example tree, the tree was inferred using a character-based method called Maximum Likelihood, which evaluates mutation patterns across all sites to infer the most probable evolutionary history.</p>
+<p>Oftentimes trees are <strong>rooted</strong> to give direction to the branches and help orient ancestral relationship. The tree is <strong>rooted at the reference genome (Ref)</strong>, which means all other sequences are interpreted relative to the ref. <strong>SeqA</strong> is genetically identical to <strong>Ref</strong>, indicated by both appearing at a divergence of 0.00. Since these two sequences are located at the same horizontal position and stacked vertically, we would say that these two sequences form a <strong>polytomy</strong>.</p>
+<p>From that shared point,<strong>SeqB</strong> branches off next. The horizontal axis or x-axis represents divergence, which will be explained in a mom. For now, SeqB demonstrates a divergence of about 0.06 subsitutions per site, suggesting it has accumulated some genetic differences since splitting from the reference.</p>
+<p><strong>SeqC</strong> branches off from the same internal node where <strong>SeqB</strong> is located. See how SeqC’s branch connects to the same node as SeqB without forming a clear split? This ‘flat’ connection (rather than a Y-shaped fork) is a polytomy; the tree’s way of showing uncertainty about whether SeqC is: <br></p>
+<ul>
+<li>A sibling of SeqB (both splitting simultaneously from their ancestor), <br></li>
+<li>A direct descendant of SeqB (but mutations are too similar to resolve the branch), <br></li>
+<li>A separate lineage that just happens to branch from the same point.</li>
+</ul>
+<p>In real trees, there are different types of polytomies and they can have different meanings. Without getting into the different types, when you see polytomies on the tree it could mean that the data is too limited (e.g., short 19bp sequence) to split branches clearly, or that multiple variants diverged so rapidly that their order gets blurred.</p>
+<p>SeqD and SeqE share a common ancestor with SeqB and SeqC, and branch from the same internal node. SeqC diverges to ~0.10 substitutions per site, and SeqD slightly further to ~0.12 substitutions per site, indicating it has acquired more mutations than SeqC.</p>
+<p><strong>SeqE</strong> is the most divergent sequence, branching farthest to the right at ~0.16. This suggests it has accumulated the most genetic change from the reference and may represent an early offshoot or a more distinct lineage. For this sequence, keep in mind that SeqE, like the other sequences, is 19 bases long, so a divergence of ~0.16 would mean a fair portion of this sequence is different from the reference.</p>
 <section id="interpretation-summary" class="level4" data-number="19.2.2.1">
 <h4 data-number="19.2.2.1" class="anchored" data-anchor-id="interpretation-summary"><span class="header-section-number">19.2.2.1</span> Interpretation Summary</h4>
 <ul>
@@ -510,8 +527,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li><strong>SeqB</strong> diverged early and moderately from the reference.<br>
 </li>
-<li><strong>SeqC and SeqD</strong> are closely related, forming a cluster.<br>
-</li>
+<li><strong>SeqC</strong> may share a common ancestor with <strong>SeqB</strong> but more sequencing data would be needed to clarify.</li>
 <li><strong>SeqD</strong> has more mutations than SeqC, despite sharing a recent ancestor.<br>
 </li>
 <li><strong>SeqE</strong> is the most divergent, possibly indicating a separate introduction or faster mutation rate.</li>
@@ -522,7 +538,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="divergence" class="level3" data-number="19.2.3">
 <h3 data-number="19.2.3" class="anchored" data-anchor-id="divergence"><span class="header-section-number">19.2.3</span> Divergence</h3>
-<p>In this tree, the horizontal axis represents <strong>divergence</strong>, the estimated amount of genetic change that has occurred from the root (ancestral sequence) to each sample. This tells us how much each sequence has evolved over time.</p>
+<p>As mentioned previously, the horizontal axis or x-axis represents <strong>divergence</strong>, which is the estimated amount of genetic change that has occurred from the root (ancestral sequence) to each sample. This tells us how much each sequence has evolved over time.</p>
 <p>Divergence is measured as the <strong>number of substitutions per site</strong>, a model-based estimate that accounts for: <br> &nbsp;&nbsp;&nbsp; - The chance that a single site may mutate more than once<br>
 &nbsp;&nbsp;&nbsp; - The likelihood of different types of mutations<br>
 &nbsp;&nbsp;&nbsp; - Unequal mutation rates across the genome</p>
