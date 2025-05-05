@@ -31,7 +31,7 @@ Each cell in the matrix represents the *number of SNP differences* between a pai
 Computing pairwise distance matrices is a relatively straightfoward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where *row = column* (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme. 
 
 **Example illustrating a Pairwise Distance Matrix** 
-This pairwise distance compares the number of mutation differences between two sequences. For example, the number of mutation difference, also known as the genetic distance, between Sequence A and the reference sequence is 0, meaning that the sequences are identical and possess no differences in mutations. However, Sequence D has a genetic distance of 2 when compared to the reference sequence, meaning that there are 2 mutations not shared between the two sequences. As such, Sequence A is more closely related to the reference than Sequence D. In terms of tracing how the virus spreads or its transmission, it is likely that the reference and Sequence A belong to the same transmission chain than that of the reference and Sequence D.
+This pairwise distance compares the number of mutation differences between two sequences in the 19-base example sequence alignment above. For example, the number of mutation difference, also known as the genetic distance, between Sequence A and the reference sequence is 0, meaning that the sequences are identical and possess no differences in mutations. However, Sequence D has a genetic distance of 2 when compared to the reference sequence, meaning that there are 2 mutations not shared between the two sequences. As such, Sequence A is more closely related to the reference than Sequence D. In terms of tracing how the virus spreads or its transmission, it is likely that the reference and Sequence A belong to the same transmission chain than that of the reference and Sequence D.
 
 **Example illustrating a heatmap of a pairwise distance matrix**
 
@@ -43,11 +43,30 @@ Another Molecular Epidemiologist chimed in, "I am happy to explain phylogenetic 
 
 ## Phylogenetic Trees
 
-A phylogenetic tree is a branching diagram that represents the evolutionary relationships between genome sequences, based on patterns observed in their genetic differences. In this outbreak investigation, a tree that reflects evolutionary history can help determine how closely related viral genomes are across different individuals and species. Think of it like a family tree for the virus.
+A phylogenetic tree is a branching diagram that represents the evolutionary relationships between genome sequences. In outbreak investigations, these trees help determine:
+- Whether cases cluster by **lineage** (groups of sequences with shared ancestry) <br>
+- If the outbreak stems from a **monophyletic group**, a single ancestor and all its descendants (e.g., a zoonotic spillover) <br>
+- How **clades** (distinct branches representing major evolutionary splits) relate to transmission patterns <br>
+
+In this outbreak investigation, a tree that reflects evolutionary history can help determine how closely related viral genomes are across different individuals and species. Think of it like a family tree for the virus.
 
 Using an evolutionary tree, each *tip (or leaf)* represents a genome sequence from a sampled virus. The branches connecting them indicate inferred evolutionary relationships, specifically, that the sequences share common ancestors. The branch lengths typically reflect the amount of genetic change, either as a direct count of differences or as a model-based estimate that accounts for the likelihood of different types of mutations.
 
 ### Interpreting Trees
+
+#### Clades and Monophyletic Groups
+
+When interpreting phylogenetic trees there are a few terminology that we use. 
+
+A **clade** is a branch of the tree that includes a common ancestor and all its descendants. If all human cases fall within a clade that also includes muubat sequences, this suggests a spillover event.
+
+**Monophyletic groups** are clades where sequences share exclusive common ancestry (e.g., all sequences from a single geographic region).
+
+**Lineages** are subsets of sequences with recent shared mutations, often indicating local transmission chains.
+
+Lastly, some trees may contain **polytomies**. A polytomy is a branching point where more than two lineages descend from a single ancestral lineage. Often sequences that are genetically identical, located at the sam horizontal position and stacked vertically on a tree may represent a polytomy. 
+
+---
 
 When interpreting trees, there's a lot to consider—but let's keep it simple. Just like a family tree, sequences that are more closely related will share a more recent common ancestor.  
 &nbsp;&nbsp;&nbsp; - **Shorter branches** between tips usually mean fewer genetic differences (e.g., fewer mutations).  
@@ -58,21 +77,29 @@ When interpreting trees, there's a lot to consider—but let's keep it simple. J
 
 ![Example illustrating a phylogenetic tree of sequence alignment](../images/ex_tree_1.jpeg)
 
-This tree represents the evolutionary relationships between viral genome sequences of pathogen X, inferred using a character-based method such as Maximum Likelihood. Rather than just counting mutations, this method analyzes patterns of change across the entire alignment to infer the tree that best explains the data.
+This tree reconstructs the evolutionary relationships between viral sequences of Pathogen X using the 19-basepair sequence alignment above in a simplified example for illustrative purposes. The thing to note with using this example is that in practice, viral phylogenetics typically uses genomes thousands of bases long. Therefore, knowing the sequence length of the sequences in your tree is important for interpretation. For this example tree, the tree was inferred using a character-based method called Maximum Likelihood, which evaluates mutation patterns across all sites to infer the most probable evolutionary history.
 
-The tree is **rooted at the reference genome (Ref)**, which gives direction to the branches and helps orient ancestral relationships. This means all other sequences are interpreted relative to it. **SeqA** is genetically identical to **Ref**, indicated by both appearing at a divergence of 0.00.
+Oftentimes trees are **rooted** to give direction to the branches and help orient ancestral relationship. The tree is **rooted at the reference genome (Ref)**, which means all other sequences are interpreted relative to the ref. **SeqA** is genetically identical to **Ref**, indicated by both appearing at a divergence of 0.00. Since these two sequences are located at the same horizontal position and stacked vertically, we would say that these two sequences form a **polytomy**.
 
-From that shared point, **SeqB** branches off next, with a divergence of about 0.06, suggesting it has accumulated some genetic differences since splitting from the reference.
+From that shared point,**SeqB** branches off next. The horizontal axis or x-axis represents divergence, which will be explained in a mom. For now, SeqB demonstrates a divergence of about 0.06 subsitutions per site, suggesting it has accumulated some genetic differences since splitting from the reference.
 
-**SeqC** and **SeqD** form a small cluster, they share a common ancestor and branch from the same internal node. SeqC diverges to ~0.10, and SeqD slightly further to ~0.12, indicating it has acquired more mutations than SeqC.
+**SeqC** branches off from the same internal node where **SeqB** is located. See how SeqC's branch connects to the same node as SeqB without forming a clear split? This 'flat' connection (rather than a Y-shaped fork) is a polytomy; the tree's way of showing uncertainty about whether SeqC is: <br>
 
-**SeqE** is the most divergent sequence, branching farthest to the right at ~0.16. This suggests it has accumulated the most genetic change from the reference and may represent an early offshoot or a more distinct lineage.
+- A sibling of SeqB (both splitting simultaneously from their ancestor), <br>
+- A direct descendant of SeqB (but mutations are too similar to resolve the branch), <br>
+- A separate lineage that just happens to branch from the same point.
+
+In real trees, there are different types of polytomies and they can have different meanings. Without getting into the different types, when you see polytomies on the tree it could mean that the data is too limited (e.g., short 19bp sequence) to split branches clearly, or that multiple variants diverged so rapidly that their order gets blurred.
+
+SeqD and SeqE share a common ancestor with SeqB and SeqC, and branch from the same internal node. SeqC diverges to ~0.10 substitutions per site, and SeqD slightly further to ~0.12 substitutions per site, indicating it has acquired more mutations than SeqC.
+
+**SeqE** is the most divergent sequence, branching farthest to the right at ~0.16. This suggests it has accumulated the most genetic change from the reference and may represent an early offshoot or a more distinct lineage. For this sequence, keep in mind that SeqE, like the other sequences, is 19 bases long, so a divergence of ~0.16 would mean a fair portion of this sequence is different from the reference.
 
 #### Interpretation Summary
 
 - **Ref and SeqA** are genetically identical.  
 - **SeqB** diverged early and moderately from the reference.  
-- **SeqC and SeqD** are closely related, forming a cluster.  
+- **SeqC** may share a common ancestor with **SeqB** but more sequencing data would be needed to clarify.
 - **SeqD** has more mutations than SeqC, despite sharing a recent ancestor.  
 - **SeqE** is the most divergent, possibly indicating a separate introduction or faster mutation rate.
 
@@ -82,7 +109,7 @@ The tree’s structure helps us visualize how the virus may have evolved and spr
 
 ### Divergence
 
-In this tree, the horizontal axis represents **divergence**, the estimated amount of genetic change that has occurred from the root (ancestral sequence) to each sample. This tells us how much each sequence has evolved over time.
+As mentioned previously, the horizontal axis or x-axis represents **divergence**, which is the estimated amount of genetic change that has occurred from the root (ancestral sequence) to each sample. This tells us how much each sequence has evolved over time.
 
 Divergence is measured as the **number of substitutions per site**, a model-based estimate that accounts for: <br>
 &nbsp;&nbsp;&nbsp; - The chance that a single site may mutate more than once  
