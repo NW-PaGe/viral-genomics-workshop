@@ -458,7 +458,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../images/sequences_alignment.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Example illustrating a sequence alignment</figcaption>
+<figcaption>Note that this 19-base example simplifies real-world genomics. Typical viral genomes are thousands of bases long, providing more resolution</figcaption>
 </figure>
 </div>
 <p>“Uhm”, raised the hand of one of the Local Health Jurisdiction Epidemiologists. “I understand alignments after looking at the sequence alignment results the Bioinformaticians generated. But I am a bit rusty when it comes to pairwise distance matries and phylogenetic trees. Perhaps one of you could explain it to me?”</p>
@@ -524,6 +524,27 @@ ul.task-list li input[type="checkbox"] {
 <p>“In other words, we’re using a method that asks: Given this tree, how likely is it that we’d see the mutations we actually observed? The tree that makes the observed data most likely is the one we keep.”</p>
 <p>An idea struck the LHJ Epidemiologist as they thought out loud, “so we want a tree that offers the most likely explanation for the mutation patterns found in the aligned sequences?”</p>
 <p>“You’re catching on fast!” cheered the Molecular Epidemiologist. “Bear with me as I try to explain the nuances of phylogenetics while using our example tree.”</p>
+<div style="background:#E3F2FD; padding:12px; border-left:4px solid #2196F3; margin:16px 0;">
+<p><strong>FOR LAB AND EPI GURUS:</strong><br>
+<em>Why we trust character-based trees for outbreaks:</em></p>
+<ol type="1">
+<li><strong>Models Homoplasy Better</strong>
+<ul>
+<li>Accounts for reversions (T→C→T) that distance matrices miss</li>
+</ul></li>
+<li><strong>Handles Missing Data</strong>
+<ul>
+<li>Still works if some genomes are 90% complete (common in outbreaks)</li>
+</ul></li>
+<li><strong>Branch Support Matters</strong>
+<ul>
+<li>Bootstrap values &gt;70% = confident splits<br>
+</li>
+<li>&lt;50%? Treat as polytomy (like our SeqB/SeqC)<br>
+</li>
+</ul></li>
+</ol>
+</div>
 <p>Oftentimes trees are <strong>rooted</strong> to give direction to the branches and help orient ancestral relationship. The tree is <strong>rooted at the reference genome (Ref)</strong>, which means all other sequences are interpreted relative to the ref. <strong>SeqA</strong> is genetically identical to <strong>Ref</strong>, indicated by both appearing at a divergence of 0.00. Since these two sequences are located at the same horizontal position and stacked vertically, we would say that these two sequences form a <strong>polytomy</strong>.</p>
 <p>From that shared point,<strong>SeqB</strong> branches off next. The horizontal axis or x-axis represents divergence, which will be explained in a moment. For now, SeqB demonstrates a divergence of about 0.06 substitutions per site, suggesting it has accumulated some genetic differences since splitting from the reference.</p>
 <p><strong>SeqC</strong> branches off from the same internal node where <strong>SeqB</strong> is located. See how SeqC’s branch connects to the same node as SeqB without forming a clear split? This ‘flat’ connection (rather than a Y-shaped fork) is a polytomy; the tree’s way of showing uncertainty about whether SeqC is: <br></p>
@@ -535,6 +556,7 @@ ul.task-list li input[type="checkbox"] {
 <p>In real trees, there are different types of polytomies and they can have different meanings. Without getting into the different types, when you see polytomies on the tree it could mean that the data is too limited (e.g., short 19-base sequence) to split branches clearly, or that multiple variants diverged so rapidly that their order gets blurred.</p>
 <p>SeqD and SeqE share a common ancestor with SeqB and SeqC, and branch from the same internal node. SeqC diverges to ~0.10 substitutions per site, and SeqD slightly further to ~0.12 substitutions per site, indicating it has acquired more mutations than SeqC.</p>
 <p><strong>SeqE</strong> is the most divergent sequence, branching farthest to the right at ~0.16. This suggests it has accumulated the most genetic change from the reference and may represent an early offshoot or a more distinct lineage. For this sequence, keep in mind that SeqE, like the other sequences, is 19 bases long, so a divergence of ~0.16 would mean a fair portion of this sequence is different from the reference.</p>
+<p>The Molecular Epidemiologist paused for a moment. “This is challenging material”, they started “even experienced researchers debate tree interpretations!”</p>
 <section id="interpretation-summary" class="level4" data-number="19.2.2.1">
 <h4 data-number="19.2.2.1" class="anchored" data-anchor-id="interpretation-summary"><span class="header-section-number">19.2.2.1</span> Interpretation Summary</h4>
 <p>“Okay, I wrote some of that down, but I just want to summarize so that I am understanding you clearly” spoke the LHJ Epidemiologist. “In summary:</p>
@@ -637,7 +659,7 @@ Character-based trees use substitution models to account for the likelihood and 
 <li><strong>Time-resolved analysis</strong> <br> Some character-based trees incorporate a <strong>molecular clock</strong>, which assumes that mutations accumulate at a steady rate over time. <br></li>
 </ol>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - This allows you to estimate <strong>when</strong> key divergence or transmission events occurred.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - This allows you to estimate <strong>when</strong> key divergence or transmission events occurred. For example and using our example tree, if we know this virus accumulates ~2 mutations/month then SeqE’s 3 extra mutations versus the Ref suggest ~1.5 months of evolution, and can provide an estimate of when a transmission event has occurred.</p>
 <hr>
 <p>“That’s a lot of information!” exclaimed the Local Health Jurisdiction Epidemiologist. “It seems that the tree construction method we choose depends on both our sequencing data as well as what we want to learn from the outbreak?”</p>
 <p>“That’s exactly right,” smiled the Molecular Epidemiologist. “In this case, a character-based method like Maximum Likelihood is most appropriate. We’re especially interested in whether the viral sequences from the muubats and the infected trainers cluster together, which would suggest a <strong>zoonotic spillover</strong>, or if the human sequences branch off further, indicating <strong>ongoing human-to-human transmission</strong>.”</p>
