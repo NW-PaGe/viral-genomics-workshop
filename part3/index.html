@@ -458,6 +458,37 @@ ul.task-list li input[type="checkbox"] {
 <p>&nbsp;&nbsp;&nbsp; - <strong>Short-read sequencing</strong>, which offers high accuracy for detecting single nucleotide variants.</p>
 <p>&nbsp;&nbsp;&nbsp; - <strong>Long-read sequencing</strong>, which is used for assembling entire genomes and identifying larger structural changes.</p>
 <p>&nbsp;&nbsp;&nbsp; - <strong>Shotgun metagenomics</strong>, which sequences all the genetic material in a sample and is especially useful when the pathogen is unknown or difficult to culture.</p>
+<div style="background:#E8F5E9; padding:12px; border-left:4px solid #4CAF50; margin:16px 0;">
+<p><strong>FOR DETECTIVES WHO WANT MORE:</strong><br>
+<em>How sequencing technologies actually work:</em></p>
+<ul>
+<li><strong>Short-read (Illumina)</strong>
+<ul>
+<li><u>How it works</u>: Fragments DNA into 300bp pieces, attaches fluorescent tags, and reads bases via camera as they’re added strand-by-strand.<br>
+</li>
+<li><u>Outbreak use</u>: Gold standard for SNP detection (e.g., tracking hospital transmission chains).<br>
+</li>
+<li><u>Trade-off</u>: Can’t resolve large structural changes (&gt;50bp).</li>
+</ul></li>
+<li><strong>Long-read (Oxford Nanopore/PacBio)</strong>
+<ul>
+<li><u>How it works</u>: DNA threads through nanopores or polymerase enzymes, detecting electrical signals (Nanopore) or fluorescent pulses (PacBio) for continuous reads up to 1Mbp.<br>
+</li>
+<li><u>Outbreak use</u>: Captures recombination events in novel viruses (critical for muubat spillover investigation).<br>
+</li>
+<li><u>Trade-off</u>: Higher error rate (~5-15% vs Illumina’s 0.1%).</li>
+</ul></li>
+<li><strong>Shotgun Metagenomics</strong>
+<ul>
+<li><u>How it works</u>: Sequences ALL DNA/RNA in a sample (host, pathogen, microbes), then computationally filters to find viral fragments.<br>
+</li>
+<li><u>Outbreak use</u>: When PCR fails (unknown pathogen) or culture isn’t possible (like with muubat viruses).<br>
+</li>
+<li><u>Pro tip</u>: Viral enrichment (e.g., rRNA depletion) boosts pathogen signal 1000x.<br>
+</li>
+</ul></li>
+</ul>
+</div>
 <p>In addition to sequencing platforms, the lab maintained a suite of <strong>bioinformatics pipelines</strong> designed to transform raw data into usable insights. These pipelines typically include:</p>
 <p>&nbsp;&nbsp;&nbsp; - <strong>Quality control</strong>, to filter out poor-quality reads and contaminants.<br>
 &nbsp;&nbsp;&nbsp; - <strong>Read alignment or de novo assembly</strong>, to reconstruct genomes by either mapping reads to a known reference or assembling them from scratch.<br>
