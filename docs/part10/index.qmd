@@ -16,7 +16,7 @@ The team met to discuss what kind of genomic analyses could be performed to help
 
 **Example illustating a sequence alignment**
 
-![Example illustrating a sequence alignment](../images/sequences_alignment.jpeg)
+![Note that this 19-base example simplifies real-world genomics. Typical viral genomes are thousands of bases long, providing more resolution](../images/sequences_alignment.jpeg)
 
 "Uhm", raised the hand of one of the Local Health Jurisdiction Epidemiologists. "I understand alignments after looking at the sequence alignment results the Bioinformaticians generated. But I am a bit rusty when it comes to pairwise distance matries and phylogenetic trees. Perhaps one of you could explain it to me?"
 
@@ -109,6 +109,22 @@ An idea struck the LHJ Epidemiologist as they thought out loud, "so we want a tr
 
 "You're catching on fast!" cheered the Molecular Epidemiologist. "Bear with me as I try to explain the nuances of phylogenetics while using our example tree."
 
+```{=html}
+<div style="background:#E3F2FD; padding:12px; border-left:4px solid #2196F3; margin:16px 0;">
+<strong>FOR LAB AND EPI GURUS:</strong>  
+<em>Why we trust character-based trees for outbreaks:</em>  
+
+1. **Models Homoplasy Better**  
+   - Accounts for reversions (T→C→T) that distance matrices miss  
+
+2. **Handles Missing Data**  
+   - Still works if some genomes are 90% complete (common in outbreaks)  
+
+3. **Branch Support Matters**  
+   - Bootstrap values >70% = confident splits  
+   - <50%? Treat as polytomy (like our SeqB/SeqC)  
+</div>
+
 Oftentimes trees are **rooted** to give direction to the branches and help orient ancestral relationship. The tree is **rooted at the reference genome (Ref)**, which means all other sequences are interpreted relative to the ref. **SeqA** is genetically identical to **Ref**, indicated by both appearing at a divergence of 0.00. Since these two sequences are located at the same horizontal position and stacked vertically, we would say that these two sequences form a **polytomy**.
 
 From that shared point,**SeqB** branches off next. The horizontal axis or x-axis represents divergence, which will be explained in a moment. For now, SeqB demonstrates a divergence of about 0.06 substitutions per site, suggesting it has accumulated some genetic differences since splitting from the reference.
@@ -124,6 +140,8 @@ In real trees, there are different types of polytomies and they can have differe
 SeqD and SeqE share a common ancestor with SeqB and SeqC, and branch from the same internal node. SeqC diverges to ~0.10 substitutions per site, and SeqD slightly further to ~0.12 substitutions per site, indicating it has acquired more mutations than SeqC.
 
 **SeqE** is the most divergent sequence, branching farthest to the right at ~0.16. This suggests it has accumulated the most genetic change from the reference and may represent an early offshoot or a more distinct lineage. For this sequence, keep in mind that SeqE, like the other sequences, is 19 bases long, so a divergence of ~0.16 would mean a fair portion of this sequence is different from the reference.
+
+The Molecular Epidemiologist paused for a moment. "This is challenging material", they started "even experienced researchers debate tree interpretations!"
 
 #### Interpretation Summary
 
@@ -257,7 +275,7 @@ Some character-based trees incorporate a **molecular clock**, which assumes that
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - This allows you to estimate **when** key divergence or transmission events occurred.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  - This allows you to estimate **when** key divergence or transmission events occurred. For example and using our example tree, if we know this virus accumulates ~2 mutations/month then SeqE's 3 extra mutations versus the Ref suggest ~1.5 months of evolution, and can provide an estimate of when a transmission event has occurred.
 
 ---
 
