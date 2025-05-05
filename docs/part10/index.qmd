@@ -110,7 +110,7 @@ An idea struck the LHJ Epidemiologist as they thought out loud, "so we want a tr
 "You're catching on fast!" cheered the Molecular Epidemiologist. "Bear with me as I try to explain the nuances of phylogenetics while using our example tree."
 
 ```{=html}
-<div style="background:#E3F2FD; padding:12px; border-left:4px solid #2196F3; margin:16px 0;">
+<div style="background:#E8F5E9; padding:12px; border-left:4px solid #4CAF50; margin:16px 0;">
 <strong>FOR LAB AND EPI GURUS:</strong>  
 <em>Why we trust character-based trees for outbreaks:</em>  
 
