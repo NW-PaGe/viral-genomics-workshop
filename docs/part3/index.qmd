@@ -41,6 +41,27 @@ The Regional Health Lab was equipped to perform a range of sequencing strategies
 
 &nbsp;&nbsp;&nbsp; - **Shotgun metagenomics**, which sequences all the genetic material in a sample and is especially useful when the pathogen is unknown or difficult to culture.
 
+```{=html}
+<div style="background:#E8F5E9; padding:12px; border-left:4px solid #4CAF50; margin:16px 0;">
+<strong>FOR DETECTIVES WHO WANT MORE:</strong>  
+<em>How sequencing technologies actually work:</em>  
+
+- **Short-read (Illumina)**  
+  - <u>How it works</u>: Fragments DNA into 300bp pieces, attaches fluorescent tags, and reads bases via camera as they're added strand-by-strand.  
+  - <u>Outbreak use</u>: Gold standard for SNP detection (e.g., tracking hospital transmission chains).  
+  - <u>Trade-off</u>: Can't resolve large structural changes (>50bp).  
+
+- **Long-read (Oxford Nanopore/PacBio)**  
+  - <u>How it works</u>: DNA threads through nanopores or polymerase enzymes, detecting electrical signals (Nanopore) or fluorescent pulses (PacBio) for continuous reads up to 1Mbp.  
+  - <u>Outbreak use</u>: Captures recombination events in novel viruses (critical for muubat spillover investigation).  
+  - <u>Trade-off</u>: Higher error rate (~5-15% vs Illumina's 0.1%).  
+
+- **Shotgun Metagenomics**  
+  - <u>How it works</u>: Sequences ALL DNA/RNA in a sample (host, pathogen, microbes), then computationally filters to find viral fragments.  
+  - <u>Outbreak use</u>: When PCR fails (unknown pathogen) or culture isn't possible (like with muubat viruses).  
+  - <u>Pro tip</u>: Viral enrichment (e.g., rRNA depletion) boosts pathogen signal 1000x.  
+</div>
+
 In addition to sequencing platforms, the lab maintained a suite of **bioinformatics pipelines** designed to transform raw data into usable insights. These pipelines typically include:
 
 &nbsp;&nbsp;&nbsp; - **Quality control**, to filter out poor-quality reads and contaminants.  
