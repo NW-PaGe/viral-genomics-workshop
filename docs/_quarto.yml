@@ -66,4 +66,5 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
-
+    include-after-body: _timeline.qmd
+    css: style.css

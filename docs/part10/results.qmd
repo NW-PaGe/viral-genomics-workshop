@@ -66,7 +66,7 @@ The exposure map uses information from the case interview to piece together how 
 *Heatmap.*
 The heatmap shows the pairwise distance between two sequences. The pairwise distance is given by the number of single nucleotide polymorphisms (SNPs), or single base difference between two sequences. The range of SNP differences for the sequenced cases in the outbreak is 0 to 9. A SNP distnace of 0 (darkest color) means that two sequences are identical, while a higher SNP count (lighter color) indicates greater genetic divergence. Comparing this heatmap with the phylogenetic tree helps confirm whether clusters of closely related sequences correspond to expected epidemiological links. Sequences that are darker in color indicate fewer SNP differences between the two sequences, whereas lighter color indicates more SNP differences between the two cases. 
 
-## Interpretating the Results
+## Interpreting the Results
 "Let's take some time to review the results. We should each try to come up with our own interpretations and then compare to see what seems to be best explained by the data." 
 
 The phylogenetic tree revealed patterns in the genetic relationship between the sequences generated from each sample. Some sequences clustered more closely together whereas others showed greated divergence. Meanwhile, the SNP heatmap highlighted key genetic differences, with certain sequences appearing more similar while others displayed increasing variation over time. The team deliberated: what might these patterns suggest about how the virus spread and changed throughout the outbreak?
