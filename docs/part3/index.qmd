@@ -58,7 +58,7 @@ The Regional Health Lab was equipped to perform a range of sequencing strategies
 
 - **Shotgun Metagenomics**  
   - <u>How it works</u>: Sequences ALL DNA/RNA in a sample (host, pathogen, microbes), then computationally filters to find viral fragments.  
-  - <u>Outbreak use</u>: When PCR fails (unknown pathogen) or culture isn't possible (like with muubat viruses).  
+  - <u>Outbreak use</u>: When PCR fails (unknown pathogen) or culture isn't possible.
   - <u>Pro tip</u>: Viral enrichment (e.g., rRNA depletion) boosts pathogen signal 1000x.  
 </div>
 
