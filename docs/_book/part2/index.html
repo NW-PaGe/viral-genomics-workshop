@@ -485,7 +485,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const base = window.location.pathname.split('/part')[0];
   fetch(`${base}/timeline.yml`);
-  #fetch('/viral-genomics-workshop/docs/_resources/timeline.yml')
     .then(response => {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.text();
