@@ -989,70 +989,62 @@ ul.task-list li input[type="checkbox"] {
 <div class="timeline-sidebar">
   <h3>Outbreak Timeline</h3>
   <div id="timeline-entries">
-    <p class="timeline-loading">Loading events...</p>
+    <p class="timeline-loading">Loading timeline...</p>
   </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', async function() {
+document.addEventListener('DOMContentLoaded', function() {
   const container = document.getElementById('timeline-entries');
   
-  try {
-    // Debugging: Verify file path
-    console.log("Attempting to load timeline.yml...");
-    
-    const response = await fetch('timeline.yml');
-    if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-    
-    const yamlText = await response.text();
-    console.log("YAML content received:", yamlText);
-    
-    // Debugging: Test YAML parsing
-    const data = jsyaml.load(yamlText);
-    console.log("Parsed YAML data:", data);
-    
-    if (!data?.events) throw new Error("YAML missing 'events' array");
-    
-    // Get current page identifier
-    const currentPage = window.location.pathname
-      .split('/')
-      .pop()
-      ?.replace('.html', '')
-      ?.replace('index', '') || 'intro';
-    
-    console.log("Current page:", currentPage);
-    
-    // Filter and display events
-    const visibleEvents = data.events.filter(event => 
-      currentPage.includes(event.showAfter.toLowerCase())
-    );
-    
-    console.log("Events to display:", visibleEvents);
-    
-    if (visibleEvents.length > 0) {
-      let html = '<ul class="timeline-list">';
-      visibleEvents.forEach(event => {
-        html += `
-          <li class="timeline-item">
-            <span class="timeline-date">${event.date}:</span>
-            <span class="timeline-text">${event.text}</span>
-          </li>`;
-      });
-      container.innerHTML = html + '</ul>';
-    } else {
-      container.innerHTML = '<p class="timeline-empty">More events coming soon...</p>';
-    }
-    
-  } catch (error) {
-    console.error("Timeline failed:", error);
-    container.innerHTML = `
-      <div class="timeline-error">
-        <p>Timeline unavailable</p>
-        <button onclick="location.reload()">Retry</button>
-        <div class="debug-hint">${error.message}</div>
-      </div>`;
-  }
+  // 1. Get current part (e.g. "part4" from "/part4/index.html")
+  const currentPath = window.location.pathname;
+  const currentPart = currentPath.split('/').find(segment => segment.startsWith('part')) || 'part1';
+  
+  // 2. Load timeline data
+  fetch('timeline.yml')
+    .then(response => {
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.text();
+    })
+    .then(yamlText => {
+      const data = jsyaml.load(yamlText);
+      if (!data?.events) throw new Error("Invalid YAML format");
+      
+      // 3. Filter & sort events
+      const visibleEvents = data.events
+        .filter(event => {
+          const showAfterNum = parseInt(event.showAfter.replace('part', ''));
+          const currentNum = parseInt(currentPart.replace('part', ''));
+          return currentNum >= showAfterNum;
+        })
+        .sort((a, b) => new Date(a.date) - new Date(b.date));
+      
+      // 4. Render timeline
+      if (visibleEvents.length > 0) {
+        let html = '<ul>';
+        visibleEvents.forEach(event => {
+          html += `
+            <li>
+              <strong>${event.date}</strong>
+              <div class="timeline-event">${event.event}</div>
+            </li>`;
+        });
+        container.innerHTML = html + '</ul>';
+      } else {
+        container.innerHTML = '<p class="timeline-empty">No events yet. Check back later.</p>';
+      }
+    })
+    .catch(error => {
+      console.error("Timeline error:", error);
+      container.innerHTML = `
+        <div class="timeline-error">
+          <p>Timeline unavailable</p>
+          <button onclick="window.location.reload()">Retry</button>
+          <small>${error.message}</small>
+        </div>`;
+    });
 });
 </script>
 
@@ -1060,49 +1052,47 @@ document.addEventListener('DOMContentLoaded', async function() {
 .timeline-sidebar {
   position: fixed;
   right: 20px;
-  top: 200px;
+  top: 220px;
   width: 200px;
   background: white;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  z-index: 100;
+  z-index: 1000;
+  max-height: 70vh;
+  overflow-y: auto;
+  font-family: sans-serif;
 }
 
-.timeline-list {
+.timeline-sidebar h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.timeline-sidebar ul {
   padding-left: 5px;
   list-style: none;
 }
 
-.timeline-item {
-  margin-bottom: 12px;
-  padding-left: 10px;
+.timeline-sidebar li {
+  margin-bottom: 15px;
+  padding-left: 15px;
   border-left: 3px solid #4CAF50;
 }
 
-.timeline-date {
-  font-weight: bold;
-  display: block;
-  color: #2c3e50;
-}
-
-.timeline-text {
-  display: block;
-  margin-top: 2px;
-}
-
-.timeline-error {
-  color: #d32f2f;
-  font-size: 0.9em;
-}
-
-.debug-hint {
-  font-size: 0.8em;
-  color: #666;
+.timeline-event {
+  font-size: 0.95em;
+  line-height: 1.4;
   margin-top: 5px;
 }
 
-button {
+.timeline-error {
+  color: #e74c3c;
+}
+
+.timeline-error button {
   background: #4CAF50;
   color: white;
   border: none;
@@ -1110,6 +1100,11 @@ button {
   border-radius: 4px;
   margin-top: 8px;
   cursor: pointer;
+}
+
+.timeline-loading, .timeline-empty {
+  color: #7f8c8d;
+  font-style: italic;
 }
 </style>
 <script id="quarto-html-after-body" type="application/javascript">
