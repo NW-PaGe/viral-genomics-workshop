@@ -8,20 +8,20 @@
   showAfter: "part2/index.qmd"
 
 # OUTBREAK BEGINS
-- date: "early January 2031"
+- date: "January 2031"
   event: "Trainers attend conference; first flu-like cases emerge"
   showAfter: "part2/index.qmd"
 
-- date: "early January 2031"
+- date: "January 2031"
   event: "Trainers return to Fuchsia City; human cases test negative for flu"
   showAfter: "part2/index.qmd"
 
-- date: "late January 2031"
+- date: "January 2031"
   event: "Safari Zone workers report symptoms; animals (canines/felines) fall ill"
   showAfter: "part2/index.qmd"
 
 # INVESTIGATION ESCALATES
-- date: "end of January 2031"
+- date: "January 2031"
   event: "Safari Zone closes to tourists; PCR testing expands"
   showAfter: "part2/index.qmd"
 
@@ -29,34 +29,34 @@
   event: "Regional Health Lab assembles genomic team"
   showAfter: "part3/index.qmd"
 
-- date: "late March 2031"
+- date: "March 2031"
   event: "Shotgun metagenomics detects unknown microbe in bat trainers"
   showAfter: "part5/index.qmd"
 
 # PATHOGEN IDENTIFIED
-- date: "2031-05-05"
+- date: "May 2031"
   event: "Novel virus (Muutuvirus) isolated; linked to mumbats"
-  page: 22-23
+  showAfter: "part6/index.qmd"
 
-- date: "2031-05-25"
+- date: "May 2031"
   event: "Archived mumbat samples test positive (spillover confirmed)"
-  page: 25
+  showAfter: "part7/index.qmd"
 
 # GENOMIC ANALYSIS
-- date: "2031-06-09"
+- date: "June 2031"
   event: "Phylogenetic tree reveals single spillover event"
-  page: 48-49
+  showAfter: "part11/index.qmd"
 
 # PUBLIC HEALTH ACTION
-- date: "2031-06-10"
+- date: "June 2031"
   event: "Fuchsia City mandates masking/distancing"
-  page: 51
+  showAfter: "part11/index.qmd"
 
-- date: "2031-12-01"
+- date: "December 2031"
   event: "Regional genomic surveillance system established"
-  page: 51
+  showAfter: "part11/index.qmd"
 
 # RESOLUTION
-- date: "2032-06-01"
+- date: "June 2031"
   event: "Safari Zone reopens; Muutuvirus becomes seasonal"
-  page: 52
+  showAfter: "part12/index.qmd"
