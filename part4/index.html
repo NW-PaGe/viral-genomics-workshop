@@ -465,42 +465,105 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <div class="timeline-sidebar">
   <h3>Outbreak Timeline</h3>
-  <div id="timeline-entries">
-    <p>No events yet...</p>
-  </div>
+  <div id="timeline-entries"></div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Get current chapter from URL
-  const currentChapter = window.location.pathname.split('/').pop().replace('.html', '') || 'index';
-  
+  // 1. Get current page path (works with Quarto's output structure)
+  const currentPage = window.location.pathname
+    .split('/')
+    .filter(p => p.endsWith('.html'))[0] || 'index.html';
+
+  // 2. Load and filter timeline events
   fetch('timeline.yml')
     .then(response => response.text())
     .then(yamlText => {
-      const allEvents = jsyaml.load(yamlText);
+      const allEvents = jsyaml.load(yamlText) || [];
       const container = document.getElementById('timeline-entries');
       
-      // Filter events that should be visible by now
+      // Filter events that should be visible now
       const visibleEvents = allEvents.filter(event => {
-        return event.chapter && event.chapter <= currentChapter;
+        return currentPage.endsWith(event.showAfter) || 
+               document.querySelector(`[data-show-after="${event.showAfter}"]`);
       });
 
+      // 3. Render events (cumulative)
       if (visibleEvents.length > 0) {
-        let html = '<ul>';
+        let html = '<ul class="timeline-events">';
         visibleEvents.forEach(item => {
-          html += `<li>
-            <strong>${item.date}</strong>: ${item.event}
-            ${item.page ? `<span class="page-num">(p. ${item.page})</span>` : ''}
-          </li>`;
+          html += `
+            <li class="timeline-event">
+              <div class="timeline-date">${item.date}</div>
+              <div class="timeline-text">${item.event}</div>
+            </li>`;
         });
         html += '</ul>';
         container.innerHTML = html;
+      } else {
+        container.innerHTML = '<p class="timeline-empty">Timeline will appear as events unfold...</p>';
       }
+    })
+    .catch(error => {
+      console.error("Timeline error:", error);
+      document.getElementById('timeline-entries').innerHTML = 
+        '<p class="timeline-error">Error loading timeline</p>';
     });
 });
 </script>
+
+<style>
+/* Improved Timeline Styles */
+.timeline-sidebar {
+  position: fixed;
+  right: 20px;
+  top: 200px;
+  width: 280px;
+  background: rgba(255,255,255,0.96);
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  z-index: 1000;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.timeline-events {
+  padding-left: 5px;
+  list-style: none;
+}
+
+.timeline-event {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  border-left: 3px solid #6c757d;
+  transition: all 0.3s ease;
+}
+
+.timeline-event:hover {
+  border-left-color: #0d6efd;
+}
+
+.timeline-date {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 0.9em;
+}
+
+.timeline-text {
+  font-size: 0.95em;
+  line-height: 1.4;
+  margin-top: 3px;
+}
+
+.timeline-empty, .timeline-error {
+  font-style: italic;
+  color: #6c757d;
+  font-size: 0.9em;
+}
+</style>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
