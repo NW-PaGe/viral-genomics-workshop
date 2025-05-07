@@ -529,103 +529,128 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <div class="timeline-sidebar">
   <h3>Outbreak Timeline</h3>
-  <div id="timeline-entries"></div>
+  <div id="timeline-entries">
+    <p class="timeline-loading">Loading events...</p>
+  </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // 1. Get current page path (works with Quarto's output structure)
-  const currentPage = window.location.pathname
-    .split('/')
-    .filter(p => p.endsWith('.html'))[0] || 'index.html';
-
-  // 2. Load and filter timeline events
-  fetch('~/viral-genomics-workshop/docs/timeline.yml')
-    .then(response => response.text())
-    .then(yamlText => {
-      const allEvents = jsyaml.load(yamlText) || [];
-      const container = document.getElementById('timeline-entries');
-      
-      // Filter events that should be visible now
-      const visibleEvents = allEvents.filter(event => {
-        return currentPage.endsWith(event.showAfter) || 
-               document.querySelector(`[data-show-after="${event.showAfter}"]`);
+document.addEventListener('DOMContentLoaded', async function() {
+  const container = document.getElementById('timeline-entries');
+  
+  try {
+    // Debugging: Verify file path
+    console.log("Attempting to load timeline.yml...");
+    
+    const response = await fetch('timeline.yml');
+    if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+    
+    const yamlText = await response.text();
+    console.log("YAML content received:", yamlText);
+    
+    // Debugging: Test YAML parsing
+    const data = jsyaml.load(yamlText);
+    console.log("Parsed YAML data:", data);
+    
+    if (!data?.events) throw new Error("YAML missing 'events' array");
+    
+    // Get current page identifier
+    const currentPage = window.location.pathname
+      .split('/')
+      .pop()
+      ?.replace('.html', '')
+      ?.replace('index', '') || 'intro';
+    
+    console.log("Current page:", currentPage);
+    
+    // Filter and display events
+    const visibleEvents = data.events.filter(event => 
+      currentPage.includes(event.showAfter.toLowerCase())
+    );
+    
+    console.log("Events to display:", visibleEvents);
+    
+    if (visibleEvents.length > 0) {
+      let html = '<ul class="timeline-list">';
+      visibleEvents.forEach(event => {
+        html += `
+          <li class="timeline-item">
+            <span class="timeline-date">${event.date}:</span>
+            <span class="timeline-text">${event.text}</span>
+          </li>`;
       });
-
-      // 3. Render events (cumulative)
-      if (visibleEvents.length > 0) {
-        let html = '<ul class="timeline-events">';
-        visibleEvents.forEach(item => {
-          html += `
-            <li class="timeline-event">
-              <div class="timeline-date">${item.date}</div>
-              <div class="timeline-text">${item.event}</div>
-            </li>`;
-        });
-        html += '</ul>';
-        container.innerHTML = html;
-      } else {
-        container.innerHTML = '<p class="timeline-empty">Timeline will appear as events unfold...</p>';
-      }
-    })
-    .catch(error => {
-      console.error("Timeline error:", error);
-      document.getElementById('timeline-entries').innerHTML = 
-        '<p class="timeline-error">Error loading timeline</p>';
-    });
+      container.innerHTML = html + '</ul>';
+    } else {
+      container.innerHTML = '<p class="timeline-empty">More events coming soon...</p>';
+    }
+    
+  } catch (error) {
+    console.error("Timeline failed:", error);
+    container.innerHTML = `
+      <div class="timeline-error">
+        <p>Timeline unavailable</p>
+        <button onclick="location.reload()">Retry</button>
+        <div class="debug-hint">${error.message}</div>
+      </div>`;
+  }
 });
 </script>
 
 <style>
-/* Improved Timeline Styles */
 .timeline-sidebar {
   position: fixed;
   right: 20px;
   top: 200px;
-  width: 280px;
-  background: rgba(255,255,255,0.96);
-  border: 1px solid #e1e1e1;
-  border-radius: 8px;
+  width: 200px;
+  background: white;
   padding: 15px;
-  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-  z-index: 1000;
-  max-height: 70vh;
-  overflow-y: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 100;
 }
 
-.timeline-events {
+.timeline-list {
   padding-left: 5px;
   list-style: none;
 }
 
-.timeline-event {
-  margin-bottom: 15px;
-  padding-left: 15px;
-  border-left: 3px solid #6c757d;
-  transition: all 0.3s ease;
-}
-
-.timeline-event:hover {
-  border-left-color: #0d6efd;
+.timeline-item {
+  margin-bottom: 12px;
+  padding-left: 10px;
+  border-left: 3px solid #4CAF50;
 }
 
 .timeline-date {
-  font-weight: 600;
+  font-weight: bold;
+  display: block;
   color: #2c3e50;
-  font-size: 0.9em;
 }
 
 .timeline-text {
-  font-size: 0.95em;
-  line-height: 1.4;
-  margin-top: 3px;
+  display: block;
+  margin-top: 2px;
 }
 
-.timeline-empty, .timeline-error {
-  font-style: italic;
-  color: #6c757d;
+.timeline-error {
+  color: #d32f2f;
   font-size: 0.9em;
+}
+
+.debug-hint {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 5px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 8px;
+  cursor: pointer;
 }
 </style>
 <script id="quarto-html-after-body" type="application/javascript">
