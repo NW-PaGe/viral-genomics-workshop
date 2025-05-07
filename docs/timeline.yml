@@ -1,37 +1,37 @@
 # PRE-OUTBREAK
-- date: "2030-12-15"
+- date: "December 2030"
   event: "4 mumbats arrive in Fuchsia City; intake testing negative"
-  chapters: "part2"
+  showAfter: "part2/index.qmd"
 
-- date: "2030-12-20"
+- date: "December 2030"
   event: "Mumbats moved to Safari Zone training facility"
-  chapters: "page2"
+  showAfter: "part2/index.qmd"
 
 # OUTBREAK BEGINS
-- date: "2031-01-05"
+- date: "early January 2031"
   event: "Trainers attend conference; first flu-like cases emerge"
-  chapters: "page2"
+  showAfter: "part2/index.qmd"
 
-- date: "2031-01-10"
+- date: "early January 2031"
   event: "Trainers return to Fuchsia City; human cases test negative for flu"
-  chapters: "page2"
+  showAfter: "part2/index.qmd"
 
-- date: "2031-01-25"
+- date: "late January 2031"
   event: "Safari Zone workers report symptoms; animals (canines/felines) fall ill"
-  chapters: "page2"
+  showAfter: "part2/index.qmd"
 
 # INVESTIGATION ESCALATES
-- date: "2031-01-30"
+- date: "end of January 2031"
   event: "Safari Zone closes to tourists; PCR testing expands"
-  chapters: "page2"
+  showAfter: "part2/index.qmd"
 
-- date: "2031-02-05"
+- date: "February 2031"
   event: "Regional Health Lab assembles genomic team"
-  chapters: "page3"
+  showAfter: "part3/index.qmd"
 
-- date: "2031-03-20"
+- date: "late March 2031"
   event: "Shotgun metagenomics detects unknown microbe in bat trainers"
-  chapters: "part5"
+  showAfter: "part5/index.qmd"
 
 # PATHOGEN IDENTIFIED
 - date: "2031-05-05"
