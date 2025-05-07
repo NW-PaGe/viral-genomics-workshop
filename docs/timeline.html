@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     .filter(p => p.endsWith('.html'))[0] || 'index.html';
 
   // 2. Load and filter timeline events
-  fetch('../timeline.yml')
+  fetch('~/viral-genomics-workshop/docs/timeline.yml')
     .then(response => response.text())
     .then(yamlText => {
       const allEvents = jsyaml.load(yamlText) || [];
