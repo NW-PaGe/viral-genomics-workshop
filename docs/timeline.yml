@@ -1,40 +1,40 @@
 # PRE-OUTBREAK
 - date: "2030-12-15"
   event: "4 mumbats arrive in Fuchsia City; intake testing negative"
-  chapter: "part2"
+  chapters: "part2"
 
 - date: "2030-12-20"
   event: "Mumbats moved to Safari Zone training facility"
-  chapter: "page2"
+  chapters: "page2"
 
 # OUTBREAK BEGINS
 - date: "2031-01-05"
   event: "Trainers attend conference; first flu-like cases emerge"
-  chapter: "page2"
+  chapters: "page2"
 
 - date: "2031-01-10"
   event: "Trainers return to Fuchsia City; human cases test negative for flu"
-  chapter: "page2"
+  chapters: "page2"
 
 - date: "2031-01-25"
   event: "Safari Zone workers report symptoms; animals (canines/felines) fall ill"
-  chapter: "page2"
+  chapters: "page2"
 
 # INVESTIGATION ESCALATES
 - date: "2031-01-30"
   event: "Safari Zone closes to tourists; PCR testing expands"
-  chapter: "page2"
+  chapters: "page2"
 
 - date: "2031-02-05"
   event: "Regional Health Lab assembles genomic team"
-  chapter: "page3"
+  chapters: "page3"
 
-- date: "2031-02-15"
+- date: "2031-03-20"
   event: "Shotgun metagenomics detects unknown microbe in bat trainers"
-  chapter: "part5"
+  chapters: "part5"
 
 # PATHOGEN IDENTIFIED
-- date: "2031-05-20"
+- date: "2031-05-05"
   event: "Novel virus (Muutuvirus) isolated; linked to mumbats"
   page: 22-23
 
@@ -43,7 +43,7 @@
   page: 25
 
 # GENOMIC ANALYSIS
-- date: "2031-06-01"
+- date: "2031-06-09"
   event: "Phylogenetic tree reveals single spillover event"
   page: 48-49
 
