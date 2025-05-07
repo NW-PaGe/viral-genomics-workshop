@@ -12,8 +12,8 @@ fetch('timeline.yml')
     const container = document.getElementById('timeline-entries');
     
     let html = '<ul>';
-    data.events.forEach(item => {
-      html += `<li><strong>${item.date}</strong>: ${item.event}</li>`;
+    data.forEach(item => {  // Changed from data.events to just data
+      html += `<li><strong>${item.date}</strong>: ${item.event} <span class="page-num">(p. ${item.page})</span></li>`;
     });
     html += '</ul>';
     
@@ -25,8 +25,8 @@ fetch('timeline.yml')
 .timeline-sidebar {
   position: fixed;
   right: 20px;
-  top: 150px;
-  width: 220px;
+  top: 200px;  
+  width: 200px;
   background: white;
   padding: 15px;
   border: 1px solid #ddd;
@@ -44,10 +44,17 @@ fetch('timeline.yml')
 
 .timeline-sidebar ul {
   padding-left: 15px;
+  list-style-type: none; /* Remove bullets */
 }
 
 .timeline-sidebar li {
   margin-bottom: 10px;
   line-height: 1.4;
+}
+
+.page-num {
+  font-size: 0.8em;
+  color: #666;
+  font-style: italic;
 }
 </style>
