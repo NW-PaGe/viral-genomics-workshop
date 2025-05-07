@@ -490,7 +490,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const currentPart = currentPath.split('/').find(segment => segment.startsWith('part')) || 'part1';
   
   // 2. Load timeline data
-  fetch('/timeline.yml')
+  fetch('/data/timeline.yml')
     .then(response => {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.text();
