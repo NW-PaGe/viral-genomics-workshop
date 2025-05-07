@@ -462,64 +462,42 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <div class="timeline-sidebar">
   <h3>Outbreak Timeline</h3>
-  <div id="timeline-entries"></div>
+  <div id="timeline-entries">
+    <p>No events yet...</p>
+  </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
 <script>
-// Load YAML data
-fetch('timeline.yml')
-  .then(response => response.text())
-  .then(yamlText => {
-    const data = jsyaml.load(yamlText);
-    const container = document.getElementById('timeline-entries');
-    
-    let html = '<ul>';
-    data.forEach(item => {  // Changed from data.events to just data
-      html += `<li><strong>${item.date}</strong>: ${item.event} <span class="page-num">(p. ${item.page})</span></li>`;
+document.addEventListener('DOMContentLoaded', function() {
+  // Get current chapter from URL
+  const currentChapter = window.location.pathname.split('/').pop().replace('.html', '') || 'index';
+  
+  fetch('timeline.yml')
+    .then(response => response.text())
+    .then(yamlText => {
+      const allEvents = jsyaml.load(yamlText);
+      const container = document.getElementById('timeline-entries');
+      
+      // Filter events that should be visible by now
+      const visibleEvents = allEvents.filter(event => {
+        return event.chapter && event.chapter <= currentChapter;
+      });
+
+      if (visibleEvents.length > 0) {
+        let html = '<ul>';
+        visibleEvents.forEach(item => {
+          html += `<li>
+            <strong>${item.date}</strong>: ${item.event}
+            ${item.page ? `<span class="page-num">(p. ${item.page})</span>` : ''}
+          </li>`;
+        });
+        html += '</ul>';
+        container.innerHTML = html;
+      }
     });
-    html += '</ul>';
-    
-    container.innerHTML = html;
-  });
+});
 </script>
-
-<style>
-.timeline-sidebar {
-  position: fixed;
-  right: 20px;
-  top: 200px;  
-  width: 200px;
-  background: white;
-  padding: 15px;
-  border: 1px solid #ddd;
-  z-index: 1000;
-  max-height: 70vh;
-  overflow-y: auto;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.timeline-sidebar h3 {
-  margin-top: 0;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 8px;
-}
-
-.timeline-sidebar ul {
-  padding-left: 15px;
-  list-style-type: none; /* Remove bullets */
-}
-
-.timeline-sidebar li {
-  margin-bottom: 10px;
-  line-height: 1.4;
-}
-
-.page-num {
-  font-size: 0.8em;
-  color: #666;
-  font-style: italic;
-}
-</style>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
