@@ -7,19 +7,17 @@
 
 <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   const container = document.getElementById('timeline-entries');
   const timelineBox = document.getElementById('timeline-box');
 
-  // Determine which part we're on (e.g., "part5" from /part5/index.html)
   const currentPath = window.location.pathname;
   const currentPart = currentPath.split('/').find(segment => segment.startsWith('part')) || 'part1';
 
-  // Determine base path for repo (e.g., "/viral-genomics-workshop")
+  // Dynamically determine base path (e.g., /viral-genomics-workshop)
   const basePath = window.location.pathname.split('/part')[0] || '';
   const timelinePath = `${basePath}/timeline.yml`;
 
-  // Load and render the timeline
   fetch(timelinePath)
     .then(response => {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -27,11 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     .then(yamlText => {
       const data = jsyaml.load(yamlText);
-      if (!data?.events) throw new Error("Invalid YAML format");
+      if (!data?.events || !Array.isArray(data.events)) throw new Error("Invalid YAML format");
 
       const visibleEvents = data.events
         .filter(event => {
-          const showAfterNum = parseInt(event.showAfter.replace('part', ''));
+          const showAfterNum = parseInt(event.showAfter?.replace('part', '') || '0');
           const currentNum = parseInt(currentPart.replace('part', ''));
           return currentNum >= showAfterNum;
         })
@@ -48,8 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         container.innerHTML = html + '</ul>';
       } else {
-        // No visible events: hide the whole box
-        timelineBox.style.display = "none";
+        timelineBox.style.display = "none"; // Hide entire sidebar
       }
     })
     .catch(error => {
