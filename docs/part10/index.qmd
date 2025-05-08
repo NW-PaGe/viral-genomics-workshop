@@ -94,7 +94,7 @@ When interpreting trees, there's a lot to consider—but let's keep it simple. J
 ### Example: Interpreting a Phylogenetic Tree
 
 ![Example illustrating a phylogenetic tree of sequence alignment](../images/example_tree_nextstrain.jpg)
-[Click to view annotations for the example tree!](../images/example_tree_nextstrain.jpg)
+[Click to view annotations for the example tree!](../images/example_tree_nextstrain_annotated.JPEG)
 
 "Using the example 25-base sequence alignment that we used in the pairwise distance matrix, let's look at an example tree generated from that alignment." Explained the Molecular Epidemiologist, pointing at the tree.
 
@@ -128,7 +128,7 @@ An idea struck the LHJ Epidemiologist as they thought out loud, "so we want a tr
    - <50%? Treat as polytomy (like our SeqB/SeqC)  
 </div>
 
-Oftentimes trees are **rooted** to give direction to the branches and help orient ancestral relationship. The tree is **rooted with the reference genome (Ref) as the outgroup**, which means all other sequences are interpreted relative to the ref. **Seqs A through F** branches off from the Ref, forming a monophyletic clade. The Ref serves as the ancestral root, but is not itself part of the clade it roots.
+Oftentimes trees are **rooted** to give direction to the branches and help orient ancestral relationship. The tree is **rooted with the reference genome (Ref) as the outgroup**, which means all other sequences are interpreted relative to the ref. **Seqs A through F** appear to belong to the same clade of which the Ref serves as the ancestral root, but the Ref is not itself part of the clade it roots.
 
 **SeqA** and **SeqB** are located on the same internal node, at the same horizontal position and are stacked vertically. It appears that these sequences are genetically identical, and share a common ancestor. 
 
@@ -140,9 +140,9 @@ If you include the branch on the same node as **SeqA** and **SeqB** leading to *
 
 In real trees, there are different types of polytomies and they can have different meanings. Without getting into the different types, when you see polytomies on the tree it could mean that the data is too limited (e.g., short 25-base sequence) to split branches clearly, or that multiple variants diverged so rapidly that their order gets blurred.
 
-As mentioned, **SeqC** and **SeqD** share a common ancestory and form a monophyletic clade. SeqC diverges to ~0.13 substitutions per site, and SeqD slightly further to ~0.175 substitutions per site, indicating that SeqD has acquired more mutations than SeqC.
+As mentioned, **SeqC** and **SeqD** share a common ancestor. SeqC diverges to ~0.13 substitutions per site, and SeqD slightly further to ~0.175 substitutions per site, indicating that SeqD has acquired more mutations than SeqC.
 
-**SeqE** and **SeqF** can be interpreted similarly to how SeqC and SeqD are interpreted; with SeqE and SeqF sharing a common ancestor, and also forming their own monophyletic clade. 
+**SeqE** and **SeqF** also share their own common ancestor.
 
 Among the sequences, **SeqE** appears to be the most divergent from the reference, followed closely by **SeqD**. This suggests that these two sequences have accumulated the most genetic change from the reference and may each represent a more distinct lineages.
 
