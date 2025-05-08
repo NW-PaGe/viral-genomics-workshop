@@ -14,6 +14,9 @@
 
 **Fuchsia City begins collecting swab samples from the animals, workers, and residents:**
 
+![Timeline of Outbreak Events](../images/IMG_0289.JPEG)
+
+
 By the end of January, as the Safari Zone closed to outside visitors, hospitals across Fuchsia City were reporting a sharp rise in residents experiencing flu-like symptoms. The surge quickly overwhelmed local clinics, and demand for testing exceeded what the city could provide. Most symptomatic individuals were screened for influenza, but many of those tests came back negative. Doctors could offer only supportive care unless a patient's condition became severe.
 
 To broaden coverage, the city established temporary testing stations throughout Fuchsia City. These community-based sites primarily relied on antigen-based rapid tests, which detect specific proteins produced by viruses and can deliver results in minutes. However, these tests are less sensitive than molecular methods and do not retain any genetic material for further analysis. In contrast, clinical sites inside the Safari Zone had access to PCR testing, which detects the genetic material of pathogens and can preserve samples suitable for sequencing if handled properly. Still, even with PCR testing, many samples from symptomatic individuals tested negative for all known respiratory pathogens.

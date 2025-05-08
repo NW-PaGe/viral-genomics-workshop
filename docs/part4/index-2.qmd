@@ -23,3 +23,5 @@ Each team collected data methodically, ensuring consistency in how information w
 With dozens of interviews completed and sample metadata flowing into the shared outbreak database, the teams prepared to regroup with the Genomics Specialists to share their findings. While the sequencing and bioinformatics work continued in parallel, the insights gathered in the field would soon provide critical context for interpreting the genomic data. The results of the field investigation wouldn’t be fully realized until later, when they could be integrated with the Molecular Epidemiologists’ analysis of the viral genomes.
 
 For now, attention shifted to the lab, where scientists began working to identify the pathogen hidden within the samples collected from human cases.
+
+[View Timeline of Outbreak Events](../images/IMG_0291.JPEG)

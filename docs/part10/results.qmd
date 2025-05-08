@@ -12,6 +12,10 @@
 </div>
 
 
+![Timeline of Outbreak Events](../images/IMG_0295.JPEG)
+
+
+
 **Line list of cases likely linked to outbreak**
 
 | Sample ID         | Collection Date | Notes                                                                                  |

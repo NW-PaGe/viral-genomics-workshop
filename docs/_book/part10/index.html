@@ -419,14 +419,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#example-interpreting-a-phylogenetic-tree" id="toc-example-interpreting-a-phylogenetic-tree" class="nav-link" data-scroll-target="#example-interpreting-a-phylogenetic-tree"><span class="header-section-number">19.2.2</span> Example: Interpreting a Phylogenetic Tree</a></li>
   <li><a href="#divergence" id="toc-divergence" class="nav-link" data-scroll-target="#divergence"><span class="header-section-number">19.2.3</span> Divergence</a></li>
   <li><a href="#comparing-the-tree-and-the-distance-matrix" id="toc-comparing-the-tree-and-the-distance-matrix" class="nav-link" data-scroll-target="#comparing-the-tree-and-the-distance-matrix"><span class="header-section-number">19.2.4</span> Comparing the Tree and the Distance Matrix</a></li>
+  <li><a href="#caveats-and-limitations" id="toc-caveats-and-limitations" class="nav-link" data-scroll-target="#caveats-and-limitations"><span class="header-section-number">19.2.5</span> Caveats and Limitations</a></li>
   </ul></li>
-  <li><a href="#wow-that-makes-a-ton-of-sense-i-think-i-am-understanding-most-of-this-but-the-one-thing-i-think-i-want-to-know-are-the-caveats-and-limitations-spoke-the-lhj-epidemiologist.-the-molecular-epidemiologist-agreed.-absolutely-it-is-very-important-to-understand-the-caveats-and-limitations." id="toc-wow-that-makes-a-ton-of-sense-i-think-i-am-understanding-most-of-this-but-the-one-thing-i-think-i-want-to-know-are-the-caveats-and-limitations-spoke-the-lhj-epidemiologist.-the-molecular-epidemiologist-agreed.-absolutely-it-is-very-important-to-understand-the-caveats-and-limitations." class="nav-link" data-scroll-target="#wow-that-makes-a-ton-of-sense-i-think-i-am-understanding-most-of-this-but-the-one-thing-i-think-i-want-to-know-are-the-caveats-and-limitations-spoke-the-lhj-epidemiologist.-the-molecular-epidemiologist-agreed.-absolutely-it-is-very-important-to-understand-the-caveats-and-limitations."><span class="header-section-number">19.3</span> “Wow that makes a ton of sense! I think I am understanding most of this, but the one thing I think I want to know are the caveats and limitations” spoke the LHJ Epidemiologist. The Molecular Epidemiologist agreed. “Absolutely, it is very important to understand the caveats and limitations.”</a>
+  <li><a href="#generating-phylogenetic-trees" id="toc-generating-phylogenetic-trees" class="nav-link" data-scroll-target="#generating-phylogenetic-trees"><span class="header-section-number">19.3</span> Generating Phylogenetic Trees</a>
   <ul class="collapse">
-  <li><a href="#caveats-and-limitations" id="toc-caveats-and-limitations" class="nav-link" data-scroll-target="#caveats-and-limitations"><span class="header-section-number">19.3.1</span> Caveats and Limitations</a></li>
-  </ul></li>
-  <li><a href="#generating-phylogenetic-trees" id="toc-generating-phylogenetic-trees" class="nav-link" data-scroll-target="#generating-phylogenetic-trees"><span class="header-section-number">19.4</span> Generating Phylogenetic Trees</a>
-  <ul class="collapse">
-  <li><a href="#choosing-the-right-method" id="toc-choosing-the-right-method" class="nav-link" data-scroll-target="#choosing-the-right-method"><span class="header-section-number">19.4.1</span> Choosing the Right Method</a></li>
+  <li><a href="#choosing-the-right-method" id="toc-choosing-the-right-method" class="nav-link" data-scroll-target="#choosing-the-right-method"><span class="header-section-number">19.3.1</span> Choosing the Right Method</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/NW-PaGe/viral-genomics-workshop/edit/main/part10/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/NW-PaGe/viral-genomics-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -619,12 +616,11 @@ ul.task-list li input[type="checkbox"] {
 <p>In our example: <br> - <strong>SeqE</strong> and <strong>Ref</strong> both have a <strong>T</strong> at a particular site (position 9), while several other sequences (like <strong>SeqD</strong>) have a <strong>C</strong> at that same position. <br> - The model likely inferred that <strong>SeqE descended from a C-containing ancestor</strong> (like SeqD), and then <strong>mutated back to T</strong>, a reversion. <br> - That means even though SeqE looks close to Ref, the tree <strong>accounts for two mutation events</strong> at that site: first <strong>T to C</strong>, then <strong>C back to T</strong>. <br></p>
 <p>So, the <strong>matrix shows similarity</strong>, while the <strong>tree shows inferred evolutionary change</strong>. Both are useful, but they answer different questions: <br> - The matrix asks: <em>How different do these sequences look from each other?</em> <br> - The tree asks: <em>What is the most likely way these sequences evolved from a shared ancestor?</em> <br></p>
 <p>This is why SeqE can be <strong>one mutation away</strong> from Ref in the matrix, but <strong>farther away</strong> in the tree.</p>
+<p>“Wow that makes a ton of sense! I think I am understanding most of this, but the one thing I think I want to know are the caveats and limitations” spoke the LHJ Epidemiologist. The Molecular Epidemiologist agreed. “Absolutely, it is very important to understand the caveats and limitations.”</p>
+<hr>
 </section>
-</section>
-<section id="wow-that-makes-a-ton-of-sense-i-think-i-am-understanding-most-of-this-but-the-one-thing-i-think-i-want-to-know-are-the-caveats-and-limitations-spoke-the-lhj-epidemiologist.-the-molecular-epidemiologist-agreed.-absolutely-it-is-very-important-to-understand-the-caveats-and-limitations." class="level2" data-number="19.3">
-<h2 data-number="19.3" class="anchored" data-anchor-id="wow-that-makes-a-ton-of-sense-i-think-i-am-understanding-most-of-this-but-the-one-thing-i-think-i-want-to-know-are-the-caveats-and-limitations-spoke-the-lhj-epidemiologist.-the-molecular-epidemiologist-agreed.-absolutely-it-is-very-important-to-understand-the-caveats-and-limitations."><span class="header-section-number">19.3</span> “Wow that makes a ton of sense! I think I am understanding most of this, but the one thing I think I want to know are the caveats and limitations” spoke the LHJ Epidemiologist. The Molecular Epidemiologist agreed. “Absolutely, it is very important to understand the caveats and limitations.”</h2>
-<section id="caveats-and-limitations" class="level3" data-number="19.3.1">
-<h3 data-number="19.3.1" class="anchored" data-anchor-id="caveats-and-limitations"><span class="header-section-number">19.3.1</span> Caveats and Limitations</h3>
+<section id="caveats-and-limitations" class="level3" data-number="19.2.5">
+<h3 data-number="19.2.5" class="anchored" data-anchor-id="caveats-and-limitations"><span class="header-section-number">19.2.5</span> Caveats and Limitations</h3>
 <p>Phylogenetic trees are powerful tools, but they have limits.</p>
 <ul>
 <li>They <strong>do not tell us who infected whom</strong>, they show relationships, not direction.</li>
@@ -638,14 +634,14 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 </section>
 </section>
-<section id="generating-phylogenetic-trees" class="level2" data-number="19.4">
-<h2 data-number="19.4" class="anchored" data-anchor-id="generating-phylogenetic-trees"><span class="header-section-number">19.4</span> Generating Phylogenetic Trees</h2>
+<section id="generating-phylogenetic-trees" class="level2" data-number="19.3">
+<h2 data-number="19.3" class="anchored" data-anchor-id="generating-phylogenetic-trees"><span class="header-section-number">19.3</span> Generating Phylogenetic Trees</h2>
 <p>Once genome sequences are aligned and mutations are identified, the next step is to construct a phylogenetic tree—a visual summary of how the sequences are evolutionarily related.</p>
 <p>There are two main approaches:</p>
 <p>&nbsp;&nbsp;&nbsp; - <strong>Distance-based methods</strong> (like Neighbor-Joining) use a matrix of genetic differences between sequences and build trees based on overall similarity. These are fast but don’t model how mutations actually happen.<br>
 &nbsp;&nbsp;&nbsp; - <strong>Character-based methods</strong> (like Maximum Parsimony or Maximum Likelihood) examine each site in the alignment and apply models of mutation to infer the most likely tree. These are more accurate but computationally intensive.</p>
-<section id="choosing-the-right-method" class="level3" data-number="19.4.1">
-<h3 data-number="19.4.1" class="anchored" data-anchor-id="choosing-the-right-method"><span class="header-section-number">19.4.1</span> Choosing the Right Method</h3>
+<section id="choosing-the-right-method" class="level3" data-number="19.3.1">
+<h3 data-number="19.3.1" class="anchored" data-anchor-id="choosing-the-right-method"><span class="header-section-number">19.3.1</span> Choosing the Right Method</h3>
 <p>The method depends on your goals and data:</p>
 <ol type="1">
 <li><p><strong>Speed vs.&nbsp;accuracy</strong> <br> Distance-based trees are faster. Character-based methods are slower but more accurate for closely related sequences. <br></p></li>
@@ -683,127 +679,6 @@ Character-based trees use substitution models to account for the likelihood and 
 </section>
 
 </main> <!-- /main -->
-<div class="timeline-sidebar">
-  <h3>Outbreak Timeline</h3>
-  <div id="timeline-entries">
-    <p class="timeline-loading">Loading timeline...</p>
-  </div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const container = document.getElementById('timeline-entries');
-  
-  // 1. Get current part (e.g. "part4" from "/part4/index.html")
-  const currentPath = window.location.pathname;
-  const currentPart = currentPath.split('/').find(segment => segment.startsWith('part')) || 'part1';
-  
-  // 2. Load timeline data
-  fetch('/timeline.yml')
-    .then(response => {
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      return response.text();
-    })
-    .then(yamlText => {
-      const data = jsyaml.load(yamlText);
-      if (!data?.events) throw new Error("Invalid YAML format");
-      
-      // 3. Filter & sort events
-      const visibleEvents = data.events
-        .filter(event => {
-          const showAfterNum = parseInt(event.showAfter.replace('part', ''));
-          const currentNum = parseInt(currentPart.replace('part', ''));
-          return currentNum >= showAfterNum;
-        })
-        .sort((a, b) => new Date(a.date) - new Date(b.date));
-      
-      // 4. Render timeline
-      if (visibleEvents.length > 0) {
-        let html = '<ul>';
-        visibleEvents.forEach(event => {
-          html += `
-            <li>
-              <strong>${event.date}</strong>
-              <div class="timeline-event">${event.event}</div>
-            </li>`;
-        });
-        container.innerHTML = html + '</ul>';
-      } else {
-        container.innerHTML = '<p class="timeline-empty">No events yet. Check back later.</p>';
-      }
-    })
-    .catch(error => {
-      console.error("Timeline error:", error);
-      container.innerHTML = `
-        <div class="timeline-error">
-          <p>Timeline unavailable</p>
-          <button onclick="window.location.reload()">Retry</button>
-          <small>${error.message}</small>
-        </div>`;
-    });
-});
-</script>
-
-<style>
-.timeline-sidebar {
-  position: fixed;
-  right: 20px;
-  top: 220px;
-  width: 200px;
-  background: white;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  z-index: 1000;
-  max-height: 70vh;
-  overflow-y: auto;
-  font-family: sans-serif;
-}
-
-.timeline-sidebar h3 {
-  margin-top: 0;
-  color: #2c3e50;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 8px;
-}
-
-.timeline-sidebar ul {
-  padding-left: 5px;
-  list-style: none;
-}
-
-.timeline-sidebar li {
-  margin-bottom: 15px;
-  padding-left: 15px;
-  border-left: 3px solid #4CAF50;
-}
-
-.timeline-event {
-  font-size: 0.95em;
-  line-height: 1.4;
-  margin-top: 5px;
-}
-
-.timeline-error {
-  color: #e74c3c;
-}
-
-.timeline-error button {
-  background: #4CAF50;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
-  margin-top: 8px;
-  cursor: pointer;
-}
-
-.timeline-loading, .timeline-empty {
-  color: #7f8c8d;
-  font-style: italic;
-}
-</style>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

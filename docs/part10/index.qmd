@@ -217,6 +217,7 @@ So, the **matrix shows similarity**, while the **tree shows inferred evolutionar
 This is why SeqE can be **one mutation away** from Ref in the matrix, but **farther away** in the tree.
 
 "Wow that makes a ton of sense! I think I am understanding most of this, but the one thing I think I want to know are the caveats and limitations" spoke the LHJ Epidemiologist. The Molecular Epidemiologist agreed. "Absolutely, it is very important to understand the caveats and limitations."
+
 ---
 
 ### Caveats and Limitations

@@ -26,3 +26,8 @@ The relative abundance chart shows the percent composition in terms of the propo
 ## Discussion Six: Interpretation Metagenomics Sequencing Results and Visualizations
 
 Looking at the chart showing the relative abundance of microorganisms in the swab samples collected from the bat trainers, how would you interpret the figure? For example, how many primary species were identified? Were there any species that were found in the sample that did not show any match to the Internal Sequencing Database? What do you think that might mean?
+
+
+---
+
+[View Timeline of Outbreak Events](../images/IMG_0292.JPEG)

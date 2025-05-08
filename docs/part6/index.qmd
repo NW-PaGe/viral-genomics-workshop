@@ -67,3 +67,7 @@ Now that sequencing had confirmed the presence of a novel virus, the team turned
 ## Discussion Seven: Understanding and Interpreting an Annotated Genome
 
 Given the information above, how would you interpret the genome? For example, what is the length of the genome? How many structural proteins does this genome appear to contain and what do the genes appear to code for? How many open reading frames do you notice? What are some examples of non-structural proteins that could be encoded within the open reading frames?
+
+
+---
+[View Timeline of Outbreak Events](../images/IMG_0293.JPEG)
