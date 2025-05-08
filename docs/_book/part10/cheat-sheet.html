@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>A Viral Genomics Outbreak Mystery - 19&nbsp; Understanding the Technical Concepts Underlying Genomic Analysis</title>
+<title>A Viral Genomics Outbreak Mystery - 20&nbsp; Phylogenetic Tree Interpretation Cheat Sheet</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../part10/cheat-sheet.html" rel="next">
-<link href="../part9/quiz-test.html" rel="prev">
+<link href="../part10/results.html" rel="next">
+<link href="../part10/index.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../part10/index.html">Genomic Epidemiology</a></li><li class="breadcrumb-item"><a href="../part10/index.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Understanding the Technical Concepts Underlying Genomic Analysis</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../part10/index.html">Genomic Epidemiology</a></li><li class="breadcrumb-item"><a href="../part10/cheat-sheet.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Phylogenetic Tree Interpretation Cheat Sheet</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -327,13 +327,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../part10/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../part10/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Understanding the Technical Concepts Underlying Genomic Analysis</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../part10/cheat-sheet.html" class="sidebar-item-text sidebar-link">
+  <a href="../part10/cheat-sheet.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Phylogenetic Tree Interpretation Cheat Sheet</span></span></a>
   </div>
 </li>
@@ -414,32 +414,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#pairwise-distance-matrices" id="toc-pairwise-distance-matrices" class="nav-link active" data-scroll-target="#pairwise-distance-matrices"><span class="header-section-number">19.1</span> Pairwise Distance Matrices</a></li>
-  <li><a href="#phylogenetic-trees" id="toc-phylogenetic-trees" class="nav-link" data-scroll-target="#phylogenetic-trees"><span class="header-section-number">19.2</span> Phylogenetic Trees</a>
-  <ul class="collapse">
-  <li><a href="#interpreting-trees" id="toc-interpreting-trees" class="nav-link" data-scroll-target="#interpreting-trees"><span class="header-section-number">19.2.1</span> Interpreting Trees</a></li>
-  <li><a href="#example-interpreting-a-phylogenetic-tree" id="toc-example-interpreting-a-phylogenetic-tree" class="nav-link" data-scroll-target="#example-interpreting-a-phylogenetic-tree"><span class="header-section-number">19.2.2</span> Example: Interpreting a Phylogenetic Tree</a></li>
-  <li><a href="#divergence" id="toc-divergence" class="nav-link" data-scroll-target="#divergence"><span class="header-section-number">19.2.3</span> Divergence</a></li>
-  <li><a href="#comparing-the-tree-and-the-distance-matrix" id="toc-comparing-the-tree-and-the-distance-matrix" class="nav-link" data-scroll-target="#comparing-the-tree-and-the-distance-matrix"><span class="header-section-number">19.2.4</span> Comparing the Tree and the Distance Matrix</a></li>
-  <li><a href="#caveats-and-limitations" id="toc-caveats-and-limitations" class="nav-link" data-scroll-target="#caveats-and-limitations"><span class="header-section-number">19.2.5</span> Caveats and Limitations</a></li>
-  </ul></li>
-  <li><a href="#generating-phylogenetic-trees" id="toc-generating-phylogenetic-trees" class="nav-link" data-scroll-target="#generating-phylogenetic-trees"><span class="header-section-number">19.3</span> Generating Phylogenetic Trees</a>
-  <ul class="collapse">
-  <li><a href="#choosing-the-right-method" id="toc-choosing-the-right-method" class="nav-link" data-scroll-target="#choosing-the-right-method"><span class="header-section-number">19.3.1</span> Choosing the Right Method</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/NW-PaGe/viral-genomics-workshop/edit/main/part10/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/NW-PaGe/viral-genomics-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../part10/index.html">Genomic Epidemiology</a></li><li class="breadcrumb-item"><a href="../part10/index.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Understanding the Technical Concepts Underlying Genomic Analysis</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../part10/index.html">Genomic Epidemiology</a></li><li class="breadcrumb-item"><a href="../part10/cheat-sheet.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Phylogenetic Tree Interpretation Cheat Sheet</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Understanding the Technical Concepts Underlying Genomic Analysis</span></h1>
+<h1 class="title"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Phylogenetic Tree Interpretation Cheat Sheet</span></h1>
 </div>
 
 
@@ -459,214 +441,104 @@ ul.task-list li input[type="checkbox"] {
 <div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
 <p>⬜ Developing Hypotheses<br> ⬜ Sample Collection<br> ⬜ Outbreak Investigation<br> ⬜ Sequencing<br> ⬜ Bioinformatics<br> 🟩 <strong>Molecular Epidemiology</strong><br> ⬜ Public Health Implementation</p>
 </div>
-<p>The team met to discuss what kind of genomic analyses could be performed to help visualize the sequencing data of the outbreak. While the MSA shows us exactly where genetic differences occur in the sequences, a phylogenetic tree summarizes those differences into a branching diagram that helps us trace the virus’s evolutionary history and how it may have spread from host to host. They decided to construct a pairwise distance matrix and a phylogenetic tree using the sequencing alignment. The pairwise distance matrix and phylogenetic tree are examples of two essential tools in genomic and molecular epidemiology. These analyses would allow them to determine how closely related viral genomes were, whether the outbreak originated from an animal spillover event, and how the virus was evolving over time.</p>
-<p><strong>Example illustating a sequence alignment</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/example_sequences_alignment.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Note that this 25-base example simplifies real-world genomics. Typical viral genomes are thousands of bases long, providing more resolution</figcaption>
-</figure>
-</div>
-<p>“Uhm”, raised the hand of one of the Local Health Jurisdiction Epidemiologists. “I understand alignments after looking at the sequence alignment results the Bioinformaticians generated. But I am a bit rusty when it comes to pairwise distance matries and phylogenetic trees. Perhaps one of you could explain it to me?”</p>
-<p>“Sure thing”, exclaimed one of the Molecular Epidemiologists. Let’s start with pairwise distance matrices.</p>
-<section id="pairwise-distance-matrices" class="level2" data-number="19.1">
-<h2 data-number="19.1" class="anchored" data-anchor-id="pairwise-distance-matrices"><span class="header-section-number">19.1</span> Pairwise Distance Matrices</h2>
-<p>A pairwise distance matrix is a table that quantifies the <em>genetic differences between sequences</em> by counting single nucleotide polymorphisms (SNPs). SNPS are individual base differences at specific nucleotide posititions in the genome. It helps to determine how closely related two samples are and whether genetic clustering aligns with known epidemiological links.</p>
-<p>Each cell in the matrix represents the <em>number of SNP differences</em> between a pair of genome sequences. The smaller the number, the more similar the sequences are. A value of 0 means the sequences are identical.</p>
-<p>Computing pairwise distance matrices is a relatively straightforward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where <em>row = column</em> (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme.</p>
-<p><strong>Example illustrating a Pairwise Distance Matrix</strong> This pairwise distance compares the differences in the number of mutations between two sequences in the 25-base example sequence alignment above. For example, the differences in the number of mutations, also known as the genetic distance, between Sequence A and the reference sequence is 2, meaning that there are two mutations not shared between the Ref and SeqA. However, Sequence D has a genetic distance of 4 when compared to the reference sequence, meaning that there are four mutations not shared between the two sequences. As such, Sequence A is more genetically similar to the reference than Sequence D.</p>
-<p>If you compare SeqA with SeqB, the heatmap visualization of the pairwise distance matrix shows that the genetic distance between the two sequences is 0, indicating that the sequences are genetically identical.</p>
-<p><strong>Example illustrating a heatmap of a pairwise distance matrix</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/example_sequences_heatmap_fin.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Example illustrating a heatmap of a pairwise distance matrix of sequence alignment</figcaption>
-</figure>
-</div>
-<p>“I see now, thank you so much! That makes sense.” Smiled the Local Health Jurisdiction Epidemiologist. “Just to summarize it to myself, when I’m looking at heatmaps of pairwise distance matrices I should first pay attention to the legend, as the colors will indicate whether a sequence is identical, similar, or different. For our example heatmap, the darker colors indicate that the sequences are identical, and the lighter colors indicate dissimilarity.”</p>
-<p>“Furthermore, when reading the heatmap or pairwise distance matrix, I just follow the axes to determine what’s being compared. In our example tree on the x-axis the Ref seq is first, and on the y-axis the SeqF is first. The 3 represents that both sequences differ by 3 mutations.”</p>
-<p>“Right on!” cheered one of the Molecular Epidemiologists.</p>
-<p>Another Molecular Epidemiologist chimed in, “I am happy to explain phylogenetic trees!”</p>
-</section>
-<section id="phylogenetic-trees" class="level2" data-number="19.2">
-<h2 data-number="19.2" class="anchored" data-anchor-id="phylogenetic-trees"><span class="header-section-number">19.2</span> Phylogenetic Trees</h2>
-<p>A phylogenetic tree is a branching diagram that represents the evolutionary relationships between genome sequences. In outbreak investigations, these trees help determine: <br> - Whether cases cluster by <strong>lineage</strong> (groups of sequences with shared ancestry) <br> - If the outbreak stems from a <strong>monophyletic group</strong>, a single ancestor and all its descendants (e.g., a zoonotic spillover) <br> - How <strong>clades</strong> (distinct branches representing major evolutionary splits) relate to transmission patterns <br></p>
-<p>In this outbreak investigation, a tree that reflects evolutionary history can help determine how closely related viral genomes are across different individuals and species. Think of it like a family tree for the virus.</p>
-<p>Using an evolutionary tree, each <em>tip (or leaf)</em> represents a genome sequence from a sampled virus. The branches connecting them indicate inferred evolutionary relationships, specifically, that the sequences share common ancestors. The branch lengths typically reflect the amount of genetic change, either as a direct count of differences or as a model-based estimate that accounts for the likelihood of different types of mutations.</p>
-<p>“Okay let me see if I can wrap my head around this”, said the Local Health Jurisdiction (LHJ) Epidemiologist.</p>
-<p>“When we use phylogenetic trees in an outbreak, it’s like tracing the virus’ family. The trees use genome sequences, and each sequence represents a virus, even though it was taken from a human, correct?” Asked the LHJ Epidemiologist. The Molecular Epidemiologist nodded their head in agreement.</p>
-<p>The LHJ Epidemiologist continued, “So when I’m looking at a phylogenetic tree, the branches connecting the viral sequences indicate whether they share a common ancestor and if they are related. The differences in branch lengths suggest how much change has occurred.”</p>
-<p>“That sounds about right!” Exclaimed the Molecular Epidemiologist. “Let’s talk about interpreting trees.”</p>
-<section id="interpreting-trees" class="level3" data-number="19.2.1">
-<h3 data-number="19.2.1" class="anchored" data-anchor-id="interpreting-trees"><span class="header-section-number">19.2.1</span> Interpreting Trees</h3>
-<section id="clades-and-phylogenetic-groups" class="level4" data-number="19.2.1.1">
-<h4 data-number="19.2.1.1" class="anchored" data-anchor-id="clades-and-phylogenetic-groups"><span class="header-section-number">19.2.1.1</span> Clades and Phylogenetic Groups</h4>
-<p>The Molecular Epidemiologist began, “when interpreting phylogenetic trees there are a few terminology that we use: clade, monophyletic groups, lineages, and polytomies. It may sound overwhelming technical at first but think of it as how we describe the relationships we see on a tree.”</p>
-<p><strong>Clades</strong> are branches that include a common ancestor and all its descendants. When these clades contain only sequences from a defined group (e.g., human samples from the same location), we refer to them as <strong>monophyletic</strong> groups.</p>
-<p><strong>Lineages</strong> are subsets of sequences with recent shared mutations, often indicating local transmission chains.</p>
-<p>Lastly, some trees may contain <strong>polytomies</strong>. A polytomy is an unresolved branching point where more than two lineages descend from a single ancestral lineage.</p>
-<hr>
-<p>When interpreting trees, there’s a lot to consider—but let’s keep it simple. Just like a family tree, sequences that are more closely related will share a more recent common ancestor.<br>
-&nbsp;&nbsp;&nbsp; - <strong>Shorter branches</strong> between tips usually mean fewer genetic differences (e.g., fewer mutations).<br>
-&nbsp;&nbsp;&nbsp; - <strong>Longer branches</strong> indicate a greater amount of change and more time since divergence.<br>
-&nbsp;&nbsp;&nbsp; - <strong>Identical sequences</strong> are shown along the same horizontal position but stacked vertically for visibility.</p>
-<p>“Okay I think I am following along”, the LHJ Epidemiologist shook their head with a mild sense of confidence. “Can we use an example tree to demonstrate how we would interpret a tree?”</p>
-<p>“Absolutely!” smiled the Molecular Epidemiologist.</p>
-</section>
-</section>
-<section id="example-interpreting-a-phylogenetic-tree" class="level3" data-number="19.2.2">
-<h3 data-number="19.2.2" class="anchored" data-anchor-id="example-interpreting-a-phylogenetic-tree"><span class="header-section-number">19.2.2</span> Example: Interpreting a Phylogenetic Tree</h3>
-<p><img src="../images/example_tree_nextstrain.jpg" class="img-fluid" alt="Example illustrating a phylogenetic tree of sequence alignment"> <a href="../images/example_tree_nextstrain_annotated.JPEG">Click to view annotations for the example tree!</a></p>
-<p>“Using the example 25-base sequence alignment that we used in the pairwise distance matrix, let’s look at an example tree generated from that alignment.” Explained the Molecular Epidemiologist, pointing at the tree.</p>
-<p>“Let’s say that this tree reconstructs the evolutionary relationships between viral sequences of Pathogen X. The first thing I want to note with using this example is that in practice, viral phylogenetics typically uses genomes thousands of bases long.”</p>
-<p>“That makes me think that I should know the general length of the sequences that I’m working with”, the LHJ Epidemiologist thought out loud.</p>
-<p>“You got it!” exclaimed the Molecular Epidemiologist. “I’ll explain more of this in a moment, but for now, let’s just say that there are different methods we can use to generate phylogenetic trees, but for this example we’ll use the method commonly used to evaluate mutation patterns across all sites to infer the most probable evolutionary history. This method is called Maximum Likelihood.”</p>
-<p>The LHJ Epidemiologist’s face began to show a confused expression as they tried to follow along. “A method commonly used to evaluate mutation patterns…” they started to ponder on. The Molecular Epidemiologist noticed that they were a bit too technical, so they clarified.</p>
-<p>“In other words, we’re using a method that asks: Given this tree, how likely is it that we’d see the mutations we actually observed? The tree that explains the observed data most likely is the one we keep.”</p>
-<p>An idea struck the LHJ Epidemiologist as they thought out loud, “so we want a tree that offers the most likely explanation for the mutation patterns found in the aligned sequences?”</p>
-<p>“You’re catching on fast!” cheered the Molecular Epidemiologist. “Bear with me as I try to explain the nuances of phylogenetics while using our example tree.”</p>
-<div style="background:#E8F5E9; padding:12px; border-left:4px solid #4CAF50; margin:16px 0;">
-<p><strong>FOR LAB AND EPI GURUS:</strong><br>
-<em>Why we trust character-based trees for outbreaks:</em></p>
-<ol type="1">
-<li><strong>Models Homoplasy Better</strong>
-<ul>
-<li>Accounts for reversions (T→C→T) that distance matrices miss</li>
-</ul></li>
-<li><strong>Handles Missing Data</strong>
-<ul>
-<li>Still works if some genomes are 90% complete (common in outbreaks)</li>
-</ul></li>
-<li><strong>Branch Support Matters</strong>
-<ul>
-<li>Bootstrap values &gt;70% = confident splits<br>
-</li>
-<li>&lt;50%? Treat as polytomy</li>
-</ul></li>
-</ol>
-</div>
-<p>Oftentimes trees are <strong>rooted</strong> to give direction to the branches and help orient ancestral relationship. The tree is <strong>rooted with the reference genome (Ref) as the outgroup</strong>, which means all other sequences are interpreted relative to the ref. <strong>Seqs A through F</strong> appear to belong to the same clade of which the Ref serves as the ancestral root, but the Ref is not itself part of the clade it roots.</p>
-<p><strong>SeqA</strong> and <strong>SeqB</strong> are located on the same internal node, at the same horizontal position and are stacked vertically. It appears that these sequences are genetically identical, and share a common ancestor.</p>
-<p>If you include the branch on the same node as <strong>SeqA</strong> and <strong>SeqB</strong> leading to <strong>SeqC</strong> and <strong>SeqD</strong>, this branch forms a <strong>polytomy</strong>, an unresolved branching pattern that reflects uncertainty about the exact evolutionary order. This branch is on the same internal node where <strong>SeqA</strong> and <strong>SeqB</strong> are located, but there is no clear “split” from these sequences. This “flat” connection (rather than a Y-shaped fork) is a polytomy; the tree’s way of showing uncertainty about whether the common ancestor of <strong>SeqC</strong> and <strong>SeqD</strong> is: <br></p>
-<ul>
-<li>A sibling of SeqA and SeqB (both splitting simultaneously from their ancestor), <br></li>
-<li>A direct descendant of SeqA or SeqB (but mutations are too similar to resolve the branch), <br></li>
-<li>A separate lineage that just happens to branch from the same point.</li>
-</ul>
-<p>In real trees, there are different types of polytomies and they can have different meanings. Without getting into the different types, when you see polytomies on the tree it could mean that the data is too limited (e.g., short 25-base sequence) to split branches clearly, or that multiple variants diverged so rapidly that their order gets blurred.</p>
-<p>As mentioned, <strong>SeqC</strong> and <strong>SeqD</strong> share a common ancestor. SeqC diverges to ~0.13 substitutions per site, and SeqD slightly further to ~0.175 substitutions per site, indicating that SeqD has acquired more mutations than SeqC.</p>
-<p><strong>SeqE</strong> and <strong>SeqF</strong> also share their own common ancestor.</p>
-<p>Among the sequences, <strong>SeqE</strong> appears to be the most divergent from the reference, followed closely by <strong>SeqD</strong>. This suggests that these two sequences have accumulated the most genetic change from the reference and may each represent a more distinct lineages.</p>
-<p>The Molecular Epidemiologist paused for a moment. “This is challenging material”, they started “even experienced researchers debate tree interpretations!”</p>
-<section id="interpretation-summary" class="level4" data-number="19.2.2.1">
-<h4 data-number="19.2.2.1" class="anchored" data-anchor-id="interpretation-summary"><span class="header-section-number">19.2.2.1</span> Interpretation Summary</h4>
-<p>“Okay, I wrote some of that down, but I just want to summarize so that I am understanding you clearly” spoke the LHJ Epidemiologist. “In summary:</p>
-<ul>
-<li>The tree is rooted with the <strong>Ref</strong> to form the outgroup of the sequences and give directionality to the tree.</li>
-<li><strong>SeqA</strong> and <strong>SeqB</strong> are genetically identical.</li>
-<li>The tree contains a polytomy with <strong>SeqA</strong> and <strong>SeqB</strong> on the internal node, and two additional branches leading to the four other sequences, which suggests ambiguity in evolutionary relationships.</li>
-<li><strong>SeqD</strong> has more mutations than <strong>SeqC</strong>, despite sharing a recent ancestor.<br>
-</li>
-<li><strong>SeqE</strong> has more mutations than <strong>SeqF</strong>, also despite sharing a recent common ancestor.</li>
-<li><strong>SeqD</strong> is the most divergent and may represent a distinct lineage.</li>
-</ul>
-<p>The Bioinformatician that was sitting next to the LHJ Epidemiologist smiled and cheered them on. “We know it’s very technical stuff, but it sounds like you’re understanding it fairly well.”</p>
-<p>“Thanks! I appreciate that” smiled the LHJ Epidemiologist. “I think the key takeaway here is that the tree’s structure helps us visualize how the virus may have evolved and spread, and which sequences are more closely related in time and ancestry.”</p>
-<p>Everyone nodded.</p>
-<p>“I don’t think I understand divergence very well and I see that is what is being measured on the x-axis.” The LHJ Epidemiologist was getting the hang of it and was beginning to pick up on the things they didn’t understand.”</p>
-<p>“Oh yes! I mentioned divergence” said the Molecular Epidemiologist. “Let’s talk about that, it’s very important.”</p>
-</section>
-</section>
-<section id="divergence" class="level3" data-number="19.2.3">
-<h3 data-number="19.2.3" class="anchored" data-anchor-id="divergence"><span class="header-section-number">19.2.3</span> Divergence</h3>
-<p>As mentioned previously, the horizontal axis or x-axis represents <strong>divergence</strong>, which is the estimated amount of genetic change that has occurred from the root (ancestral sequence) to each sample. This tells us how much each sequence has evolved over time.</p>
-<p>Divergence is measured as the <strong>number of substitutions per site</strong>, a model-based estimate that accounts for: <br> &nbsp;&nbsp;&nbsp; - The chance that a single site may mutate more than once<br>
-&nbsp;&nbsp;&nbsp; - The likelihood of different types of mutations<br>
-&nbsp;&nbsp;&nbsp; - Unequal mutation rates across the genome</p>
-<p>Although divergence is technically a proportion (like 0.06 substitutions per site), the values on the tree are often <strong>scaled</strong> by genome length to approximate <strong>mutation counts</strong>, making them easier to interpret.</p>
-<p>For example: <br> - SeqC = 0.13 → about 13% of positions differ from the reference (roughly 3 mutation out of 25 bases)<br>
-- SeqD = 0.175 → the most divergent sequence, meaning about 17.5% of its genome differs from the reference in this simplified example (around 4 mutations out of 25 bases)</p>
-<p>As the LHJ Epidemiologist was taking note, they asked “So while divergence isn’t a raw count of mutations, it <strong>closely approximates</strong> mutation accumulation when scaled and can help us compare sequences in terms of evolutionary distance, is that right?”</p>
-<p>“You got it!” cheered the group.</p>
-<hr>
-<p>“There’s one thing that isn’t adding up to me” the LHJ Epidemiologist began. “I understand how to read pairwise distance matrices, and I get the gist of phylogenetic trees. The thing that stands out to me the most is that even though SeqD and SeqE are both four mutations apart from the reference sequence, the phylogenetic tree shows that SeqD is <em>slightly</em> more divergent than SeqE.</p>
-<p>The Molecular Epidemiologist displayed a warm smile. Phylogenetics is pretty tricky to pick up on at first because of all of the nuances, assumptions, and limitations, but the LHJ Epidemiologist was asking all the right questions. “We should absolutely talk about that”, nodded the Molecular Epidemiologist.</p>
-</section>
-<section id="comparing-the-tree-and-the-distance-matrix" class="level3" data-number="19.2.4">
-<h3 data-number="19.2.4" class="anchored" data-anchor-id="comparing-the-tree-and-the-distance-matrix"><span class="header-section-number">19.2.4</span> Comparing the Tree and the Distance Matrix</h3>
-<p>Looking at the phylogenetic tree it might be surprising to see that SeqD is slightly more divergent than SeqE when the pairwise distance matrix shows that they both differ from the reference by 4 mutations.</p>
-<p>This highlights an important difference between <strong>distance matrices</strong> and <strong>evolutionary trees</strong>.</p>
-<ul>
-<li>A <strong>distance matrix</strong> simply counts how many differences there are between sequences. It tells us how similar two sequences are overall, but <strong>not how they got that way</strong>.</li>
-<li>A <strong>phylogenetic tree</strong>, especially one built using a <strong>character-based method</strong> like Maximum Likelihood, goes deeper. It doesn’t just count mutations, it tries to reconstruct the <strong>most likely evolutionary history</strong> that could have produced the observed sequences. This includes modeling:
-<ul>
-<li>Shared ancestors</li>
-<li>Mutation probabilities</li>
-<li>Events like <strong>reversions</strong>, where a site mutates back to its original state</li>
-</ul></li>
-</ul>
-<p>So, the <strong>matrix shows similarity</strong>, while the <strong>tree shows inferred evolutionary change</strong>. Both are useful, but they answer different questions: <br> - The matrix asks: <em>How different do these sequences look from each other?</em> <br> - The tree asks: <em>What is the most likely way these sequences evolved from a shared ancestor?</em> <br></p>
-<p>“Wow that makes a ton of sense! I think I am understanding most of this, but the one thing I think I want to know are the caveats and limitations” spoke the LHJ Epidemiologist. The Molecular Epidemiologist agreed. “Absolutely, it is very important to understand the caveats and limitations.”</p>
-<hr>
-</section>
-<section id="caveats-and-limitations" class="level3" data-number="19.2.5">
-<h3 data-number="19.2.5" class="anchored" data-anchor-id="caveats-and-limitations"><span class="header-section-number">19.2.5</span> Caveats and Limitations</h3>
-<p>Phylogenetic trees are powerful tools, but they have limits.</p>
-<ul>
-<li>They <strong>do not tell us who infected whom</strong>, they show relationships, not direction.</li>
-<li>They require <strong>high-quality sequence data</strong> and <strong>accurate alignments</strong>.</li>
-<li>Genetic similarity does <strong>not always mean epidemiological linkage</strong>; additional data like sampling dates and contact tracing are needed.</li>
-<li>Methods like Maximum Likelihood do not reconstruct mutation order or timing unless a molecular clock is used.</li>
-</ul>
-<p>“Remember, a phylogenetic tree is a hypothesis of relationships, not a definitive history”, stressed the Molecular Epidemiologist.</p>
-<p>“I see now,” said the Local Health Jurisdiction Epidemiologist. “Thank you so much for explaining! I imagine the process to generate the trees requires some form of computation?”</p>
-<p>“Absolutely!” replied the Molecular Epidemiologist. “I’m happy to explain that as well.”</p>
-<hr>
-</section>
-</section>
-<section id="generating-phylogenetic-trees" class="level2" data-number="19.3">
-<h2 data-number="19.3" class="anchored" data-anchor-id="generating-phylogenetic-trees"><span class="header-section-number">19.3</span> Generating Phylogenetic Trees</h2>
-<p>Once genome sequences are aligned and mutations are identified, the next step is to construct a phylogenetic tree—a visual summary of how the sequences are evolutionarily related.</p>
-<p>There are two main approaches:</p>
-<p>&nbsp;&nbsp;&nbsp; - <strong>Distance-based methods</strong> (like Neighbor-Joining) use a matrix of genetic differences between sequences and build trees based on overall similarity. These are fast but don’t model how mutations actually happen.<br>
-&nbsp;&nbsp;&nbsp; - <strong>Character-based methods</strong> (like Maximum Parsimony or Maximum Likelihood) examine each site in the alignment and apply models of mutation to infer the most likely tree. These are more accurate but computationally intensive.</p>
-<section id="choosing-the-right-method" class="level3" data-number="19.3.1">
-<h3 data-number="19.3.1" class="anchored" data-anchor-id="choosing-the-right-method"><span class="header-section-number">19.3.1</span> Choosing the Right Method</h3>
-<p>The method depends on your goals and data:</p>
-<ol type="1">
-<li><p><strong>Speed vs.&nbsp;accuracy</strong> <br> Distance-based trees are faster. Character-based methods are slower but more accurate for closely related sequences. <br></p></li>
-<li><p><strong>Data quality and complexity</strong> <br> Character-based methods work better with full genomes and datasets that may include complex mutation patterns like <em>homoplasy</em> or <em>recurrent mutations</em>. <br></p></li>
-</ol>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Homoplasy</strong> is when the same mutation appears in different sequences independently—not due to shared ancestry. This can happen through: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Convergent evolution</em> (same mutation arises in different lineages) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Reversions</em> (mutation changes back to original state) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <em>Parallel mutations</em> (same mutation arises multiple times) <br></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Recurrent mutations</strong> are changes at the same site that happen independently more than once. These often reflect mutation hotspots or selective pressures and can make interpretation tricky. <br></p>
-<ol start="3" type="1">
-<li><strong>Evolutionary modeling</strong><br>
-Character-based trees use substitution models to account for the likelihood and direction of changes between nucleotides. Substitution models are mathematical frameworks that describe how nucleotides change over time. These models account for: <br></li>
-</ol>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Different rates of change between nucleotide types (e.g., transitions [an exchange between A and G] vs.&nbsp;transversions [an exchange between A/G to T/C]) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - And reversible mutations (as modeled in the General Time Reversible, or GTR, model). <br></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; These features allow the algorithm to make realistic assumptions about how sequences evolve, improving the accuracy of the inferred tree. <br></p>
-<ol start="4" type="1">
-<li><strong>Time-resolved analysis</strong> <br> Some character-based trees incorporate a <strong>molecular clock</strong>, which assumes that mutations accumulate at a steady rate over time. <br></li>
-</ol>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The molecular clock hypothesis assumes that mutations accumulate at a roughly constant rate over time. When sampling dates are available, this rate can be used to estimate the timing of internal nodes on the tree, helping to reconstruct when particular divergence or transmission events likely occurred. This is particularly valuable in outbreak investigations for estimating introduction dates and the pace of spread.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - This allows you to estimate <strong>when</strong> key divergence or transmission events occurred. For example and using our example tree, if we know this virus accumulates ~2 mutations/month then SeqE’s 3 extra mutations versus the Ref suggest ~1.5 months of evolution, and can provide an estimate of when a transmission event has occurred.</p>
-<hr>
-<p>“That’s a lot of information!” exclaimed the Local Health Jurisdiction Epidemiologist. “It seems that the tree construction method we choose depends on both our sequencing data as well as what we want to learn from the outbreak?”</p>
-<p>“That’s exactly right,” smiled the Molecular Epidemiologist. “In this case, a character-based method like Maximum Likelihood is most appropriate. We’re especially interested in whether the viral sequences from the muubats and the infected trainers cluster together, which would suggest a <strong>zoonotic spillover</strong>, or if the human sequences branch off further, indicating <strong>ongoing human-to-human transmission</strong>.”</p>
-<p>Now that the team was on the same page, they turned their attention to the data.</p>
-<p>“Shall we get started?” one of the Molecular Epidemiologists nudged. “We’ve got a lot of results to dig into.”</p>
-<hr>
-<blockquote class="blockquote">
-<p>** Side Note: Why Tree Interpretation Can Be Tricky**</p>
-<p>If you found any of this confusing, you’re not alone. Phylogenetic trees may look simple, but they carry a lot of meaning packed into a single diagram. Branches show ancestry, distances reflect genetic change, and the whole tree is built using models that estimate, rather than directly count, mutations.</p>
-<p>One of the first things that can trip people up is the difference between <strong>distance-based</strong> and <strong>character-based</strong> tree-building methods. Distance-based methods cluster sequences based on overall similarity, such as how many mutations differ between them. Character-based methods use substitution models to infer the most likely evolutionary relationships by analyzing changes at each site in the genome alignment. The trees might look similar, but they are built differently and convey different types of information.</p>
-<p>On top of that, trees can be <strong>scaled</strong> differently depending on the analysis. Sometimes the x-axis shows estimated mutation counts, sometimes it shows divergence as a proportion of the genome, and sometimes it is adjusted simply to improve readability.</p>
-<p>If this feels hard to grasp at first, that is completely normal. Even experienced researchers revisit the basics when interpreting new trees. Asking how a tree was constructed is a great first step toward understanding what it really shows.</p>
-</blockquote>
+<table class="table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 28%">
+<col style="width: 30%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Term</strong></th>
+<th><strong>What It Means</strong></th>
+<th><strong>Simple Explanation</strong></th>
+<th><strong>Use When…</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Tip (Leaf)</strong></td>
+<td>A sampled sequence; the end of a branch</td>
+<td>“A viral genome we sequenced”</td>
+<td>You’re describing the outer points on the tree</td>
+</tr>
+<tr class="even">
+<td><strong>Internal Node</strong></td>
+<td>A common ancestor between sequences (not sampled)</td>
+<td>“A point where the virus split into different lineages”</td>
+<td>Talking about relationships or ancestry</td>
+</tr>
+<tr class="odd">
+<td><strong>Clade</strong></td>
+<td>A branch that includes one ancestor and <em>all</em> its descendants</td>
+<td>“A group of viruses that all came from the same source”</td>
+<td>Pointing out related sequences or transmission clusters</td>
+</tr>
+<tr class="even">
+<td><strong>Monophyletic Group</strong></td>
+<td>A clade where all members share a unique ancestor</td>
+<td>“Everyone in this group is more related to each other than to anyone else”</td>
+<td>Emphasizing shared ancestry or outbreak origins</td>
+</tr>
+<tr class="odd">
+<td><strong>Polytomy</strong></td>
+<td>An unresolved split with more than two branches</td>
+<td>“The data couldn’t tell us the exact branching order”</td>
+<td>Explaining uncertainty in relationships</td>
+</tr>
+<tr class="even">
+<td><strong>Branch</strong></td>
+<td>A line that represents genetic change</td>
+<td>“The amount of evolution that’s happened”</td>
+<td>Interpreting divergence</td>
+</tr>
+<tr class="odd">
+<td><strong>Branch Length</strong></td>
+<td>Genetic change (or time, if time-scaled)</td>
+<td>“Longer branches = more mutations or more time”</td>
+<td>Comparing how far sequences have evolved</td>
+</tr>
+<tr class="even">
+<td><strong>Root</strong></td>
+<td>The starting point or most recent common ancestor</td>
+<td>“Where we believe the outbreak started, based on the reference”</td>
+<td>Orienting the tree</td>
+</tr>
+<tr class="odd">
+<td><strong>Outgroup</strong></td>
+<td>A sequence (or set of sequences) known to fall outside the main group of interest. Outgroups are used to root trees and to provide evolutionary context.</td>
+<td>““A virus that’s related but not part of the outbreak — we use it to figure out where the tree should start and how the others evolved”</td>
+<td>YYou want to orient the tree’s root, or distinguish between ingroup and outgroup sequences for comparative analysis</td>
+</tr>
+<tr class="even">
+<td><strong>Divergence</strong></td>
+<td>Genetic distance from the root</td>
+<td>“How far a virus has evolved from the original”</td>
+<td>Reading the x-axis</td>
+</tr>
+<tr class="odd">
+<td><strong>Lineage</strong></td>
+<td>A set of sequences with shared mutations or recent common origin</td>
+<td>“A group of related viruses from the same wave or region”</td>
+<td>Discussing clusters, variants, or introductions</td>
+</tr>
+<tr class="even">
+<td><strong>Reversion</strong></td>
+<td>When a mutation returns to its original state</td>
+<td>“A mutation flipped back, which can confuse distance-based methods”</td>
+<td>Explaining model-based tree advantages</td>
+</tr>
+<tr class="odd">
+<td><strong>Homoplasy</strong></td>
+<td>A mutation that appears in different sequences independently</td>
+<td>“Looks the same, but evolved separately — not due to shared ancestry”</td>
+<td>Justifying use of character-based trees</td>
+</tr>
+</tbody>
+</table>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1080,13 +952,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../part9/quiz-test.html" class="pagination-link" aria-label="Quality Control and Sequence Alignments">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Quality Control and Sequence Alignments</span></span>
+      <a href="../part10/index.html" class="pagination-link" aria-label="Understanding the Technical Concepts Underlying Genomic Analysis">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Understanding the Technical Concepts Underlying Genomic Analysis</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../part10/cheat-sheet.html" class="pagination-link" aria-label="Phylogenetic Tree Interpretation Cheat Sheet">
-        <span class="nav-page-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Phylogenetic Tree Interpretation Cheat Sheet</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../part10/results.html" class="pagination-link" aria-label="Results of Genomic Analysis">
+        <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Results of Genomic Analysis</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1095,4 +967,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/NW-PaGe/viral-genomics-workshop/edit/main/part10/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/NW-PaGe/viral-genomics-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/NW-PaGe/viral-genomics-workshop/edit/main/part10/cheat-sheet.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/NW-PaGe/viral-genomics-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

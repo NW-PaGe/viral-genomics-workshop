@@ -1,0 +1,30 @@
+# Phylogenetic Tree Interpretation Cheat Sheet
+
+```{=html}
+<div style="font-family:monospace; font-size: 0.9em; background:#f0f0f0; border-left: 5px solid #4CAF50; padding: 0.75em 1em; margin-top: 1em; border-radius: 6px; width: fit-content;">
+⬜ Developing Hypotheses<br>
+⬜ Sample Collection<br>
+⬜ Outbreak Investigation<br>
+⬜ Sequencing<br>
+⬜ Bioinformatics<br>
+🟩 <strong>Molecular Epidemiology</strong><br>
+⬜ Public Health Implementation
+</div>
+
+
+
+| **Term**            | **What It Means**                                           | **Simple Explanation**                                           | **Use When...**                                                  |
+|---------------------|-------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------|
+| **Tip (Leaf)**      | A sampled sequence; the end of a branch                     | “A viral genome we sequenced”                                    | You're describing the outer points on the tree                  |
+| **Internal Node**   | A common ancestor between sequences (not sampled)           | “A point where the virus split into different lineages”          | Talking about relationships or ancestry                         |
+| **Clade**           | A branch that includes one ancestor and *all* its descendants| “A group of viruses that all came from the same source”          | Pointing out related sequences or transmission clusters         |
+| **Monophyletic Group** | A clade where all members share a unique ancestor       | “Everyone in this group is more related to each other than to anyone else” | Emphasizing shared ancestry or outbreak origins         |
+| **Polytomy**        | An unresolved split with more than two branches             | “The data couldn’t tell us the exact branching order”            | Explaining uncertainty in relationships                         |
+| **Branch**          | A line that represents genetic change                        | “The amount of evolution that’s happened”                        | Interpreting divergence                                         |
+| **Branch Length**   | Genetic change (or time, if time-scaled)                    | “Longer branches = more mutations or more time”                  | Comparing how far sequences have evolved                        |
+| **Root**            | The starting point or most recent common ancestor           | “Where we believe the outbreak started, based on the reference”  | Orienting the tree                                              |
+| **Outgroup**        | A sequence (or set of sequences) known to fall outside the main group of interest. Outgroups are used to root trees and to provide evolutionary context.    | ““A virus that’s related but not part of the outbreak — we use it to figure out where the tree should start and how the others evolved”             | YYou want to orient the tree's root, or distinguish between ingroup and outgroup sequences for comparative analysis            |
+| **Divergence**      | Genetic distance from the root                              | “How far a virus has evolved from the original”                  | Reading the x-axis                                              |
+| **Lineage**         | A set of sequences with shared mutations or recent common origin | “A group of related viruses from the same wave or region”   | Discussing clusters, variants, or introductions                |
+| **Reversion**       | When a mutation returns to its original state               | “A mutation flipped back, which can confuse distance-based methods” | Explaining model-based tree advantages                    |
+| **Homoplasy**       | A mutation that appears in different sequences independently| “Looks the same, but evolved separately — not due to shared ancestry” | Justifying use of character-based trees               |

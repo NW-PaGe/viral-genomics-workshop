@@ -48,6 +48,7 @@ book:
   - part: "Genomic Epidemiology"
     chapters:
       - part10/index.qmd
+      - part10/cheat-sheet.qmd
       - part10/results.qmd
       - part10/quiz-test.qmd
   - part: "Public Health Implementation"
