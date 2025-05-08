@@ -28,10 +28,10 @@ A pairwise distance matrix is a table that quantifies the *genetic differences b
 
 Each cell in the matrix represents the *number of SNP differences* between a pair of genome sequences. The smaller the number, the more similar the sequences are. A value of 0 means the sequences are identical.
 
-Computing pairwise distance matrices is a relatively straightfoward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where *row = column* (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme. 
+Computing pairwise distance matrices is a relatively straightforward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where *row = column* (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme. 
 
 **Example illustrating a Pairwise Distance Matrix** 
-This pairwise distance compares the differences in the number of mutations between two sequences in the 25-base example sequence alignment above. For example, the differences in the number of mutations, also known as the genetic distance, between Sequence A and the reference sequence is 2, meaning that there are two mutations not shared between the Ref and SeqA. However, Sequence D has a genetic distance of 4 when compared to the reference sequence, meaning that there are four mutations not shared between the two sequences. As such, Sequence A is more genetical similar to the reference than Sequence D. 
+This pairwise distance compares the differences in the number of mutations between two sequences in the 25-base example sequence alignment above. For example, the differences in the number of mutations, also known as the genetic distance, between Sequence A and the reference sequence is 2, meaning that there are two mutations not shared between the Ref and SeqA. However, Sequence D has a genetic distance of 4 when compared to the reference sequence, meaning that there are four mutations not shared between the two sequences. As such, Sequence A is more genetically similar to the reference than Sequence D. 
 
 If you compare SeqA with SeqB, the heatmap visualization of the pairwise distance matrix shows that the genetic distance between the two sequences is 0, indicating that the sequences are genetically identical.
 
@@ -39,7 +39,7 @@ If you compare SeqA with SeqB, the heatmap visualization of the pairwise distanc
 
 ![Example illustrating a heatmap of a pairwise distance matrix of sequence alignment](../images/example_sequences_heatmap_fin.jpeg)
 
-"I see now, thank you so much! That makes sense." Smiled the Local Health Jurisdiction Epidemiologist. "Just to summarize it to myself, when I'm looking at heatmaps of pairwise distance matrices I should first pay attention to the legend, as the colors will indicate whether a sequence is identical, similar, or different. For our example heatmap, the darker colors indicate that the sequences are identical, and the lighter colors indicate disimilarity."
+"I see now, thank you so much! That makes sense." Smiled the Local Health Jurisdiction Epidemiologist. "Just to summarize it to myself, when I'm looking at heatmaps of pairwise distance matrices I should first pay attention to the legend, as the colors will indicate whether a sequence is identical, similar, or different. For our example heatmap, the darker colors indicate that the sequences are identical, and the lighter colors indicate dissimilarity."
 
 "Furthermore, when reading the heatmap or pairwise distance matrix, I just follow the axes to determine what's being compared. In our example tree on the x-axis the Ref seq is first, and on the y-axis the SeqF is first. The 3 represents that both sequences differ by 3 mutations."
 
@@ -68,17 +68,15 @@ The LHJ Epidemiologist continued, "So when I'm looking at a phylogenetic tree, t
 
 ### Interpreting Trees
 
-#### Clades and Monophyletic Groups
+#### Clades and Phylogenetic Groups
 
 The Molecular Epidemiologist began, "when interpreting phylogenetic trees there are a few terminology that we use: clade, monophyletic groups, lineages, and polytomies. It may sound overwhelming technical at first but think of it as how we describe the relationships we see on a tree."
 
-A **clade** is a branch of the tree that includes a common ancestor and all its descendants. If all human cases fall within a clade that also includes muubat sequences, this suggests a spillover event.
-
-**Monophyletic groups** are clades where sequences share exclusive common ancestry (e.g., all sequences from a single geographic region).
+**Clades** are branches that include a common ancestor and all its descendants. When these clades contain only sequences from a defined group (e.g., human samples from the same location), we refer to them as **monophyletic** groups.
 
 **Lineages** are subsets of sequences with recent shared mutations, often indicating local transmission chains.
 
-Lastly, some trees may contain **polytomies**. A polytomy is a branching point where more than two lineages descend from a single ancestral lineage.
+Lastly, some trees may contain **polytomies**. A polytomy is an unresolved branching point where more than two lineages descend from a single ancestral lineage.
 
 ---
 
@@ -125,14 +123,14 @@ An idea struck the LHJ Epidemiologist as they thought out loud, "so we want a tr
 
 3. **Branch Support Matters**  
    - Bootstrap values >70% = confident splits  
-   - <50%? Treat as polytomy (like our SeqB/SeqC)  
+   - <50%? Treat as polytomy 
 </div>
 
 Oftentimes trees are **rooted** to give direction to the branches and help orient ancestral relationship. The tree is **rooted with the reference genome (Ref) as the outgroup**, which means all other sequences are interpreted relative to the ref. **Seqs A through F** appear to belong to the same clade of which the Ref serves as the ancestral root, but the Ref is not itself part of the clade it roots.
 
 **SeqA** and **SeqB** are located on the same internal node, at the same horizontal position and are stacked vertically. It appears that these sequences are genetically identical, and share a common ancestor. 
 
-If you include the branch on the same node as **SeqA** and **SeqB** leading to **SeqC** and **SeqD**, this branch forms a **polytomy**, a branching pattern that reflects uncertainty about the exact evolutionary order. This branch is on the same internal node where **SeqA** and **SeqB** are located, but there is no clear "split" from these sequences. This "flat" connection (rather than a Y-shaped fork) is a polytomy; the tree's way of showing uncertainty about whether the common ancestor of **SeqC** and **SeqD** is: <br>
+If you include the branch on the same node as **SeqA** and **SeqB** leading to **SeqC** and **SeqD**, this branch forms a **polytomy**, an unresolved branching pattern that reflects uncertainty about the exact evolutionary order. This branch is on the same internal node where **SeqA** and **SeqB** are located, but there is no clear "split" from these sequences. This "flat" connection (rather than a Y-shaped fork) is a polytomy; the tree's way of showing uncertainty about whether the common ancestor of **SeqC** and **SeqD** is: <br>
 
 - A sibling of SeqA and SeqB (both splitting simultaneously from their ancestor), <br>
 - A direct descendant of SeqA or SeqB (but mutations are too similar to resolve the branch), <br>
@@ -152,11 +150,11 @@ The Molecular Epidemiologist paused for a moment. "This is challenging material"
 
 "Okay, I wrote some of that down, but I just want to summarize so that I am understanding you clearly" spoke the LHJ Epidemiologist. "In summary:
 
-- The tree is rooted with the **Req** to form the outgroup of the sequences and give directionality to the tree.
+- The tree is rooted with the **Ref** to form the outgroup of the sequences and give directionality to the tree.
 - **SeqA** and **SeqB** are genetically identical.
 - The tree contains a polytomy with **SeqA** and **SeqB** on the internal node, and two additional branches leading to the four other sequences, which suggests ambiguity in evolutionary relationships.
 - **SeqD** has more mutations than **SeqC**, despite sharing a recent ancestor.  
-- **SeqE** has more mutations that **SeqF**, also despite sharing a recent common ancestor.
+- **SeqE** has more mutations than **SeqF**, also despite sharing a recent common ancestor.
 - **SeqD** is the most divergent and may represent a distinct lineage.
 
 The Bioinformatician that was sitting next to the LHJ Epidemiologist smiled and cheered them on. "We know it's very technical stuff, but it sounds like you're understanding it fairly well."
@@ -181,7 +179,6 @@ Divergence is measured as the **number of substitutions per site**, a model-base
 Although divergence is technically a proportion (like 0.06 substitutions per site), the values on the tree are often **scaled** by genome length to approximate **mutation counts**, making them easier to interpret.
 
 For example: <br>
-- SeqA and SeqB = ~0.088 → no differences  
 - SeqC = 0.13 → about 13% of positions differ from the reference (roughly 3 mutation out of 25 bases)  
 - SeqD = 0.175 → the most divergent sequence, meaning about 17.5% of its genome differs from the reference in this simplified example (around 4 mutations out of 25 bases)
 
@@ -224,7 +221,7 @@ Phylogenetic trees are powerful tools, but they have limits.
 - Genetic similarity does **not always mean epidemiological linkage**; additional data like sampling dates and contact tracing are needed.
 - Methods like Maximum Likelihood do not reconstruct mutation order or timing unless a molecular clock is used.
 
----
+“Remember, a phylogenetic tree is a hypothesis of relationships, not a definitive history", stressed the Molecular Epidemiologist.
 
 "I see now," said the Local Health Jurisdiction Epidemiologist. "Thank you so much for explaining! I imagine the process to generate the trees requires some form of computation?"
 
