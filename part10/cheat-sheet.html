@@ -460,18 +460,18 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td><strong>Tip (Leaf)</strong></td>
 <td>A sampled sequence; the end of a branch</td>
-<td>“A viral genome we sequenced”</td>
+<td>“A genome sequence from an organism, like a virus or bacteria”</td>
 <td>You’re describing the outer points on the tree</td>
 </tr>
 <tr class="even">
 <td><strong>Internal Node</strong></td>
-<td>A common ancestor between sequences (not sampled)</td>
+<td>A common ancestor between sequences (not sampled, but inferred during phylogenetic construction)</td>
 <td>“A point where the virus split into different lineages”</td>
 <td>Talking about relationships or ancestry</td>
 </tr>
 <tr class="odd">
 <td><strong>Clade</strong></td>
-<td>A branch that includes one ancestor and <em>all</em> its descendants</td>
+<td>A branch that includes one ancestor and <em>all</em> of its descendants</td>
 <td>“A group of viruses that all came from the same source”</td>
 <td>Pointing out related sequences or transmission clusters</td>
 </tr>
@@ -483,7 +483,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td><strong>Polytomy</strong></td>
-<td>An unresolved split with more than two branches</td>
+<td>An unresolved split with more than two branches; could be due to lack of sampling; may indicate either that we don’t know how the descendent lineages are related or that we think that the descendent lineages diverged simultaneously</td>
 <td>“The data couldn’t tell us the exact branching order”</td>
 <td>Explaining uncertainty in relationships</td>
 </tr>
@@ -496,7 +496,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td><strong>Branch Length</strong></td>
 <td>Genetic change (or time, if time-scaled)</td>
-<td>“Longer branches = more mutations or more time”</td>
+<td>“Longer branches indicate more mutations have accumulated over time”</td>
 <td>Comparing how far sequences have evolved</td>
 </tr>
 <tr class="even">
@@ -507,29 +507,35 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td><strong>Outgroup</strong></td>
-<td>A sequence (or set of sequences) known to fall outside the main group of interest. Outgroups are used to root trees and to provide evolutionary context.</td>
-<td>““A virus that’s related but not part of the outbreak. We use it to figure out where the tree should start and how the others evolved”</td>
-<td>You want to orient the tree’s root, or distinguish between ingroup and outgroup sequences for comparative analysis</td>
+<td>A sequence (or set of sequences) known to fall outside the main group of interest. Outgroups can also be used to root trees, providing directionality in the topology of the trees or evolutionary context</td>
+<td>“A virus that’s related but not part of the outbreak. <em>OR</em> We use it to figure out where the tree should start and how the others evolved”</td>
+<td>You want to orient the tree’s root, or distinguish between ingroup and outgroup sequences during tree interpretation</td>
 </tr>
 <tr class="even">
 <td><strong>Divergence</strong></td>
-<td>Genetic distance from the root</td>
+<td>Observed genetic distance from the root, can be a proportion representing number of substitutions per site, or a whole number when scaled by the genome length to represent number of mutational differences from the root</td>
 <td>“How far a virus has evolved from the original”</td>
 <td>Reading the x-axis</td>
 </tr>
 <tr class="odd">
 <td><strong>Lineage</strong></td>
 <td>A set of sequences with shared mutations or recent common origin</td>
-<td>“A group of related viruses from the same wave or region”</td>
+<td>“A group of related viruses that possess a set of specific mutations”</td>
 <td>Discussing clusters, variants, or introductions</td>
 </tr>
 <tr class="even">
+<td><strong>Cluster</strong></td>
+<td>A set of sequences that are genetically similar</td>
+<td>“A group of genetically related sequences that may be part of the same outbreak or the same transmission event”</td>
+<td>Discussing sequences that might be linked due to grouping closely together on a tree</td>
+</tr>
+<tr class="odd">
 <td><strong>Reversion</strong></td>
 <td>When a mutation returns to its original state</td>
 <td>“When a site mutates, then mutates back to its original base. It’ll look as if a change hadn’t occurred when it has”</td>
 <td>Suspect a lineage is underestimating divergence due to hidden mutation history, especially in fast-evolving viruses or distance-based trees</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Homoplasy</strong></td>
 <td>A mutation that appears in different sequences independently</td>
 <td>“The same mutation happened in different viruses on their own, like evolution repeating itself”</td>
