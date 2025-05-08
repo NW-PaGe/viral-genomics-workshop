@@ -457,8 +457,8 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Example illustating a sequence alignment</strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../images/sequences_alignment.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Note that this 19-base example simplifies real-world genomics. Typical viral genomes are thousands of bases long, providing more resolution</figcaption>
+<p><img src="../images/example_sequences_alignment.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Note that this 25-base example simplifies real-world genomics. Typical viral genomes are thousands of bases long, providing more resolution</figcaption>
 </figure>
 </div>
 <p>“Uhm”, raised the hand of one of the Local Health Jurisdiction Epidemiologists. “I understand alignments after looking at the sequence alignment results the Bioinformaticians generated. But I am a bit rusty when it comes to pairwise distance matries and phylogenetic trees. Perhaps one of you could explain it to me?”</p>
@@ -468,11 +468,11 @@ ul.task-list li input[type="checkbox"] {
 <p>A pairwise distance matrix is a table that quantifies the <em>genetic differences between sequences</em> by counting single nucleotide polymorphisms (SNPs). SNPS are individual base differences at specific nucleotide posititions in the genome. It helps to determine how closely related two samples are and whether genetic clustering aligns with known epidemiological links.</p>
 <p>Each cell in the matrix represents the <em>number of SNP differences</em> between a pair of genome sequences. The smaller the number, the more similar the sequences are. A value of 0 means the sequences are identical.</p>
 <p>Computing pairwise distance matrices is a relatively straightfoward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where <em>row = column</em> (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme.</p>
-<p><strong>Example illustrating a Pairwise Distance Matrix</strong> This pairwise distance compares the number of mutation differences between two sequences in the 19-base example sequence alignment above. For example, the number of mutation difference, also known as the genetic distance, between Sequence A and the reference sequence is 0, meaning that the sequences are identical and possess no differences in mutations. However, Sequence D has a genetic distance of 2 when compared to the reference sequence, meaning that there are 2 mutations not shared between the two sequences. As such, Sequence A is more closely related to the reference than Sequence D. In terms of tracing how the virus spreads or its transmission, it is likely that the reference and Sequence A belong to the same transmission chain than that of the reference and Sequence D.</p>
+<p><strong>Example illustrating a Pairwise Distance Matrix</strong> This pairwise distance compares the number of mutation differences between two sequences in the 25-base example sequence alignment above. For example, the number of mutation difference, also known as the genetic distance, between Sequence A and the reference sequence is 0, meaning that the sequences are identical and possess no differences in mutations. However, Sequence D has a genetic distance of 2 when compared to the reference sequence, meaning that there are 2 mutations not shared between the two sequences. As such, Sequence A is more closely related to the reference than Sequence D. In terms of tracing how the virus spreads or its transmission, it is likely that the reference and Sequence A belong to the same transmission chain than that of the reference and Sequence D.</p>
 <p><strong>Example illustrating a heatmap of a pairwise distance matrix</strong></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../images/sequences_heatmap.jpeg" class="img-fluid figure-img"></p>
+<p><img src="../images/example_sequences_heatmap.jpeg" class="img-fluid figure-img"></p>
 <figcaption>Example illustrating a heatmap of a pairwise distane matrix of sequence alignment</figcaption>
 </figure>
 </div>
@@ -510,7 +510,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="example-interpreting-a-phylogenetic-tree" class="level3" data-number="19.2.2">
 <h3 data-number="19.2.2" class="anchored" data-anchor-id="example-interpreting-a-phylogenetic-tree"><span class="header-section-number">19.2.2</span> Example: Interpreting a Phylogenetic Tree</h3>
-<p><img src="../images/ex_tree_1.jpeg" class="img-fluid" alt="Example illustrating a phylogenetic tree of sequence alignment"> <a href="../images/example_tree_annotated.JPEG">Click to view annotations for the example tree!</a></p>
+<p><img src="../images/ex_tree_1.jpeg" class="img-fluid" alt="Example illustrating a phylogenetic tree of sequence alignment"> <a href="../images/example_tree_nextstrain.jpg">Click to view annotations for the example tree!</a></p>
 <p>“Using the example 19-base sequence alignment that we used in the pairwise distance matrix, let’s look at an example tree generated from that alignment.” Explained the Molecular Epidemiologist, pointing at the tree.</p>
 <p>“Let’s say that this tree reconstructs the evolutionary relationships between viral sequences of Pathogen X. The first thing I want to note with using this example is that in practice, viral phylogenetics typically uses genomes thousands of bases long.”</p>
 <p>“That makes me think that I should know the general length of the sequences that I’m working with”, the LHJ Epidemiologist thought out loud.</p>
