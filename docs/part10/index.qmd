@@ -16,7 +16,7 @@ The team met to discuss what kind of genomic analyses could be performed to help
 
 **Example illustating a sequence alignment**
 
-![Note that this 19-base example simplifies real-world genomics. Typical viral genomes are thousands of bases long, providing more resolution](../images/sequences_alignment.jpeg)
+![Note that this 25-base example simplifies real-world genomics. Typical viral genomes are thousands of bases long, providing more resolution](../images/example_sequences_alignment.jpeg)
 
 "Uhm", raised the hand of one of the Local Health Jurisdiction Epidemiologists. "I understand alignments after looking at the sequence alignment results the Bioinformaticians generated. But I am a bit rusty when it comes to pairwise distance matries and phylogenetic trees. Perhaps one of you could explain it to me?"
 
@@ -31,11 +31,11 @@ Each cell in the matrix represents the *number of SNP differences* between a pai
 Computing pairwise distance matrices is a relatively straightfoward process with several steps. First the sequence are aligned (or arranged to where the sequences line up together). In this case, each viral genome would be aligned to the reference genome to detect differences in nucleotide positions. Next, one would count the SNP differences. Each genome is compared and the number of nucleotide differences are counted. This produces a matrix where *row = column* (since sequence A vs B is the same as B vs A). Lastly, heatmaps can be generated from the matrices to give a visual representation using a color scheme. 
 
 **Example illustrating a Pairwise Distance Matrix** 
-This pairwise distance compares the number of mutation differences between two sequences in the 19-base example sequence alignment above. For example, the number of mutation difference, also known as the genetic distance, between Sequence A and the reference sequence is 0, meaning that the sequences are identical and possess no differences in mutations. However, Sequence D has a genetic distance of 2 when compared to the reference sequence, meaning that there are 2 mutations not shared between the two sequences. As such, Sequence A is more closely related to the reference than Sequence D. In terms of tracing how the virus spreads or its transmission, it is likely that the reference and Sequence A belong to the same transmission chain than that of the reference and Sequence D.
+This pairwise distance compares the number of mutation differences between two sequences in the 25-base example sequence alignment above. For example, the number of mutation difference, also known as the genetic distance, between Sequence A and the reference sequence is 0, meaning that the sequences are identical and possess no differences in mutations. However, Sequence D has a genetic distance of 2 when compared to the reference sequence, meaning that there are 2 mutations not shared between the two sequences. As such, Sequence A is more closely related to the reference than Sequence D. In terms of tracing how the virus spreads or its transmission, it is likely that the reference and Sequence A belong to the same transmission chain than that of the reference and Sequence D.
 
 **Example illustrating a heatmap of a pairwise distance matrix**
 
-![Example illustrating a heatmap of a pairwise distane matrix of sequence alignment](../images/sequences_heatmap.jpeg)
+![Example illustrating a heatmap of a pairwise distane matrix of sequence alignment](../images/example_sequences_heatmap.jpeg)
 
 "I see now, thank you so much! That makes sense." Smiled the Local Health Jurisdiction Epidemiologist. "Just to summarize it to myself, when I'm looking at heatmaps of pairwise distance matrices I should first pay attention to the legend, as the colors will indicate whether a sequence is identical, similar, or different. For our example heatmap, the darker colors indicate that the sequences are identical, and the lighter colors indicate disimilarity."
 
@@ -92,7 +92,7 @@ When interpreting trees, there's a lot to consider—but let's keep it simple. J
 ### Example: Interpreting a Phylogenetic Tree
 
 ![Example illustrating a phylogenetic tree of sequence alignment](../images/ex_tree_1.jpeg)
-[Click to view annotations for the example tree!](../images/example_tree_annotated.JPEG)
+[Click to view annotations for the example tree!](../images/example_tree_nextstrain.jpg)
 
 "Using the example 19-base sequence alignment that we used in the pairwise distance matrix, let's look at an example tree generated from that alignment." Explained the Molecular Epidemiologist, pointing at the tree.
 

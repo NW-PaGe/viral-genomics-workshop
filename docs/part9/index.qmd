@@ -22,7 +22,7 @@ The team gathered around their screens as the alignment results came in. This wa
 **Example illustrating a sequence alignment**
 *Mutations are called against the reference sequence. For example sequence A has no mutations when compared to the reference, however sequence B has one mutation at base position 16 that changes a thymine to a cytosine.*
 
-![Example illustrating a sequence alignment](../images/sequences_alignment.jpeg)
+![Example illustrating a sequence alignment](../images/example_sequences_alignment.jpeg)
 
 One of the most powerful tools in genomics is a sequence alignment, a process that allows scientists to compare genomic sequences and look for patterns that could provide clues about the outbreak. There are many different specialized software that can generate a sequence alignment as well as genome browsers that can provide an overview of an alignment. Using an in-house specialized alignment software, the team aligned the viral sequences from infected humans, animals, and archived samples to look for similarities, differences, and possible mutations.
 
