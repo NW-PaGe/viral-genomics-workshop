@@ -92,6 +92,7 @@ When interpreting trees, there's a lot to consider—but let's keep it simple. J
 ### Example: Interpreting a Phylogenetic Tree
 
 ![Example illustrating a phylogenetic tree of sequence alignment](../images/ex_tree_1.jpeg)
+[Click to view annotations for the example tree!](../images/example_tree_annotated.JPEG)
 
 "Using the example 19-base sequence alignment that we used in the pairwise distance matrix, let's look at an example tree generated from that alignment." Explained the Molecular Epidemiologist, pointing at the tree.
 
