@@ -30,4 +30,4 @@ Looking at the chart showing the relative abundance of microorganisms in the swa
 
 ---
 
-[View Timeline of Outbreak Events](../images/IMG_0292.JPEG)
+[View Timeline of Outbreak Events](../images/timeline_metagenomics.JPEG)

@@ -70,4 +70,4 @@ Given the information above, how would you interpret the genome? For example, wh
 
 
 ---
-[View Timeline of Outbreak Events](../images/IMG_0293.JPEG)
+[View Timeline of Outbreak Events](../images/timeline_pathogen_identified.JPEG)
