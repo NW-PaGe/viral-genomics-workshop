@@ -78,7 +78,7 @@ A **clade** is a branch of the tree that includes a common ancestor and all its 
 
 **Lineages** are subsets of sequences with recent shared mutations, often indicating local transmission chains.
 
-Lastly, some trees may contain **polytomies**. A polytomy is a branching point where more than two lineages descend from a single ancestral lineage. Often sequences that are genetically identical, located at the same horizontal position and stacked vertically on a tree may represent a polytomy. 
+Lastly, some trees may contain **polytomies**. A polytomy is a branching point where more than two lineages descend from a single ancestral lineage.
 
 ---
 
@@ -106,7 +106,7 @@ When interpreting trees, there's a lot to consider—but let's keep it simple. J
 
 The LHJ Epidemiologist's face began to show a confused expression as they tried to follow along. "A method commonly used to evaluate mutation patterns..." they started to ponder on. The Molecular Epidemiologist noticed that they were a bit too technical, so they clarified. 
 
-“In other words, we’re using a method that asks: Given this tree, how likely is it that we’d see the mutations we actually observed? The tree that makes the observed data most likely is the one we keep.”
+“In other words, we’re using a method that asks: Given this tree, how likely is it that we’d see the mutations we actually observed? The tree that explains the observed data most likely is the one we keep.”
 
 An idea struck the LHJ Epidemiologist as they thought out loud, "so we want a tree that offers the most likely explanation for the mutation patterns found in the aligned sequences?"
 
