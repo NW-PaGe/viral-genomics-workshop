@@ -44,7 +44,17 @@
     "href": "intro.html#how-to-get-the-most-out-of-this-workshop",
     "title": "2  Welcome to the Mystery Outbreak Workshop!",
     "section": "2.4 How to Get the Most Out of This Workshop",
-    "text": "2.4 How to Get the Most Out of This Workshop\nEngage with the material as if you are part of the outbreak investigation team. There are no trick questions; your insights, creativity, and logic are what matter most. Don’t hesitate to propose alternative solutions or discuss real-world limitations you’ve experienced in your own work. We encourage discussion and debate, as these are the hallmarks of strong outbreak response teams.\nLet’s begin the investigation!\n       - Steph M. Lunn",
+    "text": "2.4 How to Get the Most Out of This Workshop\nEngage with the material as if you are part of the outbreak investigation team. There are no trick questions; your insights, creativity, and logic are what matter most. Don’t hesitate to propose alternative solutions or discuss real-world limitations you’ve experienced in your own work. We encourage discussion and debate, as these are the hallmarks of strong outbreak response teams.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to the Mystery Outbreak Workshop!</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#lecture-resources",
+    "href": "intro.html#lecture-resources",
+    "title": "2  Welcome to the Mystery Outbreak Workshop!",
+    "section": "2.5 Lecture Resources",
+    "text": "2.5 Lecture Resources\nThis mystery outbreak story focuses on practical applications of viral genomics during an outbreak investigation. If you would like to learn more about the technical and theoretical foundations of viral genomics before digging into the story, feel free to check out these lectures:\nLecture I: Molecular Biology of Viral Genomics Introduce why molecule biology concepts are relevant to understanding viral genomics and review the processes of replication, transcription, and translation. Prerequisite for the Viral Genomics Fundamental Lectures Recording Slides\nLecture II: Viral Genomics Fundamentals I: Genome Overview Viral genome overview and assumptions underlying viral genomes; what do viral genomes look like, what are viral replication strategies, and what information is encoded in a viral genome? Recording Slides\nLecture III: Viral Genomics Fundamentals II: Genome Evolution Viral genome evolution: assumptions of viral genomes, reassortment, recombination, mutation, selection, and evolution Recording Slides\nLecture IV: Viral Genomics Fundamentals III: Genome Diversity Viral genome diversity: the diversity of viral genomes, sense of viral genomes, and the reproductive life cycle of a virus and how it can impact the genomic epidemiology, surveillance, and sequencing Recording Slides\n\nNote: these lectures assume the audience has a basic background in biology, and understands at the bare minimum, the structure and function of DNA.\n\nLet’s begin the investigation!\n       - Steph M. Lunn",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to the Mystery Outbreak Workshop!</span>"
     ]
