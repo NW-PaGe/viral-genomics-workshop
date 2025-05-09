@@ -69,12 +69,8 @@ The team cheered — it felt like their first real win. Excitement rippled throu
 
 ## Discussion Nine: Understanding and Working with New Evidence
 
-A. What do you think this new piece of evidence could mean? 
+A. What are the possible implications of this new piece of evidence? How might it change your understanding of the outbreak timeline or transmission dynamics?
 
+B. Based on all the information gathered so far, what is a plausible hypothesis about the origin or source of the novel virus?
 
-
-B. With the information presented before you, what would be a valid hypothesis regarding the source of the novel virus?
-
-
-
-C. What type of genomic analyses do you think would be helpful in testing your hypothesis?
+C. What genomic analyses would you propose to test your hypothesis? Consider what types of comparisons or visualizations would strengthen your conclusions.

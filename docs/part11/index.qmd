@@ -24,4 +24,12 @@ As the city began implementing public health action, news began to spread that a
 
 ## Discussion Thirteen: Constructing a Genomic Surveillance System
 
-How would you construct a genomic surveillance system? Include in your discussion how you would obtain samples from laboratories. Would you use the sampling scheme discussed in Discussion One? 
+Imagine you are tasked with building a genomic surveillance system for ongoing monitoring of the novel virus.
+
+- How would you design the sampling strategy? Would you use the approach discussed in Discussion One, or modify it for broader surveillance goals? <br>
+- How would you coordinate with clinical and public health laboratories to obtain timely, high-quality samples? <br>
+- What considerations would guide your decisions around sequencing frequency, geographic coverage, and sample prioritization? <br>
+- How would you ensure that genomic data are linked to relevant metadata (e.g., exposure history, clinical severity, location)? <br>
+- What challenges might arise in implementing or sustaining this system, and how would you address them? <br>
+
+> Effective genomic surveillance isn’t just about sequencing—it’s about building systems that generate reliable, actionable data across space and time.

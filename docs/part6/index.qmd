@@ -15,17 +15,18 @@
 **Isolating and identifying the novel pathogen:**
 
 In mid-May after the team identified an unknown microorganism in the sample, the Microbiologists began working with the specimens collected from the bat trainers to isolate the suspect pathogen. After several weeks of meticulous labor, the Microbiologists were successfully able to isolate the unknown pathogen from both samples. 
+
 Using the raw sequencing data, the Bioinformaticians were able to utilize their pipelines to piece together a genome from the samples taken from one of the bat trainers. 
 
-Since the pathogen was unknown and did not immediately match any existing organisms in the database, the team first performed de novo genome assembly, a process that constructs a genome without relying on a reference sequence. This involves stitching together overlapping sequencing reads to form a longer contiguous sequences (contigs). Contigs help us reconstruct longer sequences from smaller fragments, so that it is possible to construct a draft genome.
+Since the pathogen was unknown and did not immediately match any existing organisms in the database, the team first performed de novo genome assembly, a process that constructs a genome without relying on a reference sequence. This involves stitching together overlapping sequencing reads to form a longer **contiguous sequences (contigs)**. Contigs help us reconstruct longer sequences from smaller fragments, so that it is possible to construct a draft genome.
 
-One assembled, the draft genome was analyzed against the Public Genome Database, a public repository of known microbial sequences. This process, known as *taxonomic identification*, compares the newly assembled genome against existing reference sequences to determine whether it shares homology or evolutionary similarity, with any known organisms. A match in the database suggests that the unknown pathogen may be related to a previously documented virus, providing clues about its classification and potential function. 
+One assembled, the draft genome was analyzed against the Public Genome Database, a public repository of known microbial sequences. This process, known as **taxonomic identification**, compares the newly assembled genome against existing reference sequences to determine whether it shares homology or evolutionary similarity, with any known organisms. A match in the database suggests that the unknown pathogen may be related to a previously documented virus, providing clues about its classification and potential function. 
 
 Fortunately, the results came back with a hit, demonstrating that the genome belongs to a family of positive-sense RNA viruses called Pokeviridae. 
 
 The Bioinformaticians were able to identify a sequence in the Public Genome Database that appeared relatively similar to the genome they’ve assembled. Unfortunately, the metadata regarding this reference sequence is incomplete, as it is the only genome of its kind, and was assembled from genetic material taken from muutubats on June 14th of 2029. The muutubats are a species of fruit bats that shared a very recent common ancestor with the muubats and even live within the same geographic region. The Bioinformaticians decided to use the consensus genome of the virus taken from the muutubat as a reference genome.
 
-With this reference in hand, the team needed to refine the assembled genome to ensure accuracy and reduce sequencing errors. To do this, they constructed a *consensus genome*, which uses a reference genome to provide mapping of the sequence. A consensus genome represents the most common nucleotide at each position across multiple sequencing reads. This approach is particularly useful in viral genomics, where individual sequencing reads may contain minor variations or technical errors.    
+With this reference in hand, the team needed to refine the assembled genome to ensure accuracy and reduce sequencing errors. To do this, they constructed a **consensus genome**, which uses a reference genome to provide mapping of the sequence. A consensus genome represents the most common nucleotide at each position across multiple sequencing reads. This approach is particularly useful in viral genomics, where individual sequencing reads may contain minor variations or technical errors.    
 
 By aligning all sequencing reads from the bat trainer samples to the newly identified reference genome, the Bioinformaticians were able to reconstruct a high-confidence sequence. This consensus genome provided a cleaner, more reliable representation of the viral genome, which would be crucial for downstream analyses, such as identifying mutations, inferring transmission patterns, and understanding functional differences in viral proteins.
 
@@ -44,7 +45,7 @@ By aligning all sequencing reads from the bat trainer samples to the newly ident
 
 The Bioinformaticians continued to work tirelessly to annotate the genome of the unknown virus, and fortunately were successful in mapping out most of the structural genes of the virus. Genome annotation is the process of identifying functional elements within the genomic sequencing, including protein-coding genes, regulatory regions, and other functional motifs. In viral genomics, this step is essential for understanding how the virus interacts with its hosts, replicates, and evades the immune system. Think of it as mapping out the information that is encoded in a genome; each chapter could represent a gene or open reading frame that codes for a protein. 
 
-To annotate the genome, the team used *comparative genomics tools* that compare the newly assembled viral genome to known sequences in public databases. By analyzing sequencing homology, they identified genes encoding four key structural proteins:
+To annotate the genome, the team used **comparative genomics tools** that compare the newly assembled viral genome to known sequences in public databases. By analyzing sequencing homology, they identified genes encoding four key **structural proteins**:
 
 1. Nucleocapsid (N): responsible for packaging the viral RNA genome.
 
@@ -55,7 +56,7 @@ To annotate the genome, the team used *comparative genomics tools* that compare 
 4. Matrix (M): maintains the structural integrity of the virus. 
 
 
-However, structural genes only make up a fraction of the viral genome. The team also needed to identify *non-structural proteins (NSPs)* encoded within the open reading frames, or regions of the genomes that code for multiple proteins. These NSPs often play crucial roles in viral replication, immune evasion, and host manipulation, but their exact functions require further investigations. Additional computational analyses would be needed to fully annotate these regions, such as *functional domain prediction*, which identifies specific regions within a protein that have known biological functions (e.g. enzyme activity or host interactions), and *protein structure modeling*, which predicts the three-dimensional shape of a protein, helping scientists to understand how its function interacts with other molecules.   
+However, structural genes only make up a fraction of the viral genome. The team also needed to identify **non-structural proteins (NSPs)** encoded within the open reading frames, or regions of the genomes that code for multiple proteins. These NSPs often play crucial roles in viral replication, immune evasion, and host manipulation, but their exact functions require further investigations. Additional computational analyses would be needed to fully annotate these regions, such as *functional domain prediction*, which identifies specific regions within a protein that have known biological functions (e.g. enzyme activity or host interactions), and *protein structure modeling*, which predicts the three-dimensional shape of a protein, helping scientists to understand how its function interacts with other molecules.   
 
 ![Consensus Genome of Novel Virus](../images/virus_genome.jpg)
 
@@ -66,8 +67,15 @@ Now that sequencing had confirmed the presence of a novel virus, the team turned
 
 ## Discussion Seven: Understanding and Interpreting an Annotated Genome
 
-Given the information above, how would you interpret the genome? For example, what is the length of the genome? How many structural proteins does this genome appear to contain and what do the genes appear to code for? How many open reading frames do you notice? What are some examples of non-structural proteins that could be encoded within the open reading frames?
+Review the annotated genome provided above. Based on the figure and accompanying information:
 
+- What is the approximate length of the genome? How does this compare to other RNA viruses you may be familiar with?
+- How many structural proteins are annotated, and what functional roles do they appear to serve?
+- How many open reading frames (ORFs) can you identify, and what does their organization suggest about how this virus encodes and expresses its proteins?
+- What types of non-structural proteins might be encoded within the ORFs? How could these contribute to viral replication, immune evasion, or host manipulation?
+- If you encountered additional unannotated regions, what steps would you take to predict their potential function?
+
+> Genome annotation isn’t just about naming genes; it’s about uncovering how a virus works, evolves, and interacts with its host. Your interpretation can help shape downstream hypotheses about transmissibility, pathogenicity, or surveillance targets.
 
 ---
 [View Timeline of Outbreak Events](../images/timeline_pathogen_identified.JPEG)

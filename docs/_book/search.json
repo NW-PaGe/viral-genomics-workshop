@@ -113,7 +113,7 @@
     "href": "part5/index.html",
     "title": "13  Who’s that pathogen?!",
     "section": "",
-    "text": "13.1 Discussion Six: Interpretation Metagenomics Sequencing Results and Visualizations\nLooking at the chart showing the relative abundance of microorganisms in the swab samples collected from the bat trainers, how would you interpret the figure? For example, how many primary species were identified? Were there any species that were found in the sample that did not show any match to the Internal Sequencing Database? What do you think that might mean?\nView Timeline of Outbreak Events",
+    "text": "13.1 Discussion Six: Interpretation Metagenomics Sequencing Results and Visualizations\nThe figure above shows the relative abundance of microbial species detected in swab samples from the bat trainers, based on metagenomic sequencing data.\nView Timeline of Outbreak Events",
     "crumbs": [
       "Pathogen Identification",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Who’s that pathogen?!</span>"
@@ -168,7 +168,7 @@
     "href": "part6/index.html",
     "title": "14  The Novel Pathogen",
     "section": "",
-    "text": "14.1 Discussion Seven: Understanding and Interpreting an Annotated Genome\nGiven the information above, how would you interpret the genome? For example, what is the length of the genome? How many structural proteins does this genome appear to contain and what do the genes appear to code for? How many open reading frames do you notice? What are some examples of non-structural proteins that could be encoded within the open reading frames?\nView Timeline of Outbreak Events",
+    "text": "14.1 Discussion Seven: Understanding and Interpreting an Annotated Genome\nReview the annotated genome provided above. Based on the figure and accompanying information:\nView Timeline of Outbreak Events",
     "crumbs": [
       "Pathogen Isolation",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>The Novel Pathogen</span>"
@@ -243,12 +243,12 @@
   {
     "objectID": "part11/index.html",
     "href": "part11/index.html",
-    "title": "22  Public Health Action",
+    "title": "23  Public Health Action",
     "section": "",
-    "text": "22.1 Discussion Thirteen: Constructing a Genomic Surveillance System\nHow would you construct a genomic surveillance system? Include in your discussion how you would obtain samples from laboratories. Would you use the sampling scheme discussed in Discussion One?",
+    "text": "23.1 Discussion Thirteen: Constructing a Genomic Surveillance System\nImagine you are tasked with building a genomic surveillance system for ongoing monitoring of the novel virus.",
     "crumbs": [
       "Public Health Implementation",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Public Health Action</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Public Health Action</span>"
     ]
   },
   {
@@ -265,12 +265,12 @@
   {
     "objectID": "part13/index.html",
     "href": "part13/index.html",
-    "title": "22  Author’s Notes",
+    "title": "26  Author’s Notes",
     "section": "",
     "text": "Pathogen Genomics is a new and revolutionary field in Public Health and it represents a new direction of infectious disease intelligence and surveillance. What we have accomplished during the COVID-19 pandemic reflects this.\nThe sequencing of SARS-CoV-2 during the COVID-19 pandemic has transformed surveillance and epidemiologic analyses. This learning experience has ushered us in a new direction of infectious disease intelligence and surveillance, where pathogen genomes can be used for more insightful analyses like phylodynamics, transmission dynamics, variant detection, estimating disease severity, among other things. From this experience, there’s ample opportunity and room to expand sequencing and genomics to other pathogens of notifiable conditions.\nIn the future, once we are more established in this field, we can begin to build a global warning system for future pandemics of emerging pathogens. In a sense, we do a lot of this kind of work right now with SARS-CoV-2. Therefore, all that we do now and the work that we invest in will serve as a model for the ways in which we can monitor, prevent, and control infectious diseases and it’s looking to be a very optimistic future direction.\nThis story is meant to help build capacity in Pathogen Genomics, whether you are a laboratorian, epidemiologist, bioinformatician, infectious disease specialist, and the like. Furthermore, this mystery outbreak story is an ode to all of the public health professionals, researchers, scientists, and healthcare workers that worked tirelessly on the frontlines of the COVID-19 pandemic, and for the newcomers who are interested in this area. We seek to revolutionize our surveillance systems and infrastructure, and you too, can be a part of this undertaking.\n\nSteph M Lunn\n\nHave questions? Feel free to reach out!\nContact WA DOH Molecular Epidemiology Program\nThis story was inspired by Pokemon, but not affiliated with or sponsored by Pokemon, GameFreaks, or Nintendo.",
     "crumbs": [
-      "Part 13",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Author's Notes</span>"
+      "To the readers",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Author's Notes</span>"
     ]
   },
   {
@@ -375,23 +375,23 @@
   {
     "objectID": "part10/quiz-test.html",
     "href": "part10/quiz-test.html",
-    "title": "21  What Can the Phylogenetic Tree Tell Us?",
+    "title": "22  What Can the Phylogenetic Tree Tell Us?",
     "section": "",
-    "text": "21.1 Quiz",
+    "text": "22.1 Quiz",
     "crumbs": [
       "Genomic Epidemiology",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
     ]
   },
   {
     "objectID": "part10/quiz-test.html#quiz",
     "href": "part10/quiz-test.html#quiz",
-    "title": "21  What Can the Phylogenetic Tree Tell Us?",
+    "title": "22  What Can the Phylogenetic Tree Tell Us?",
     "section": "",
     "text": "⬜ Developing Hypotheses ⬜ Sample Collection ⬜ Outbreak Investigation ⬜ Sequencing ⬜ Bioinformatics 🟩 Molecular Epidemiology ⬜ Public Health Implementation\n\n\nLooking at the phylogenetic tree, what would you expect to see if the virus originated from a single introduction into humans?  A. All human sequences would be identical.  B. Human sequences would cluster closely together (or group closely together) but differ slightly.  C. Human sequences would be widely dispersed (or scattered) throughout the tree.  D. Human sequences would be more similar to environmental microbes than to each other.",
     "crumbs": [
       "Genomic Epidemiology",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>What Can the Phylogenetic Tree Tell Us?</span>"
     ]
   },
   {
@@ -495,7 +495,7 @@
     "href": "intro.html#how-to-get-the-most-out-of-this-workshop",
     "title": "2  Welcome to the Mystery Outbreak Workshop!",
     "section": "2.4 How to Get the Most Out of This Workshop",
-    "text": "2.4 How to Get the Most Out of This Workshop\nEngage with the material as if you are part of the outbreak investigation team. There are no trick questions; your insights, creativity, and logic are what matter most. Don’t hesitate to propose alternative solutions or discuss real-world limitations you’ve experienced in your own work. We encourage discussion and debate, as these are the hallmarks of strong outbreak response teams.\nLet’s begin the investigation!\n       - Steph M. Lunn",
+    "text": "2.4 How to Get the Most Out of This Workshop\nEngage with the material as if you are part of the outbreak investigation team. There are no trick questions; your insights, creativity, and logic are what matter most. Don’t hesitate to propose alternative solutions or discuss real-world limitations you’ve experienced in your own work. We encourage discussion and debate, as these are the hallmarks of strong outbreak response teams.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to the Mystery Outbreak Workshop!</span>"
     ]
@@ -637,7 +637,7 @@
     "href": "part8/index.html#discussion-nine-understanding-and-working-with-new-evidence",
     "title": "16  Uncovering the Source",
     "section": "16.4 Discussion Nine: Understanding and Working with New Evidence",
-    "text": "16.4 Discussion Nine: Understanding and Working with New Evidence\nA. What do you think this new piece of evidence could mean?\nB. With the information presented before you, what would be a valid hypothesis regarding the source of the novel virus?\nC. What type of genomic analyses do you think would be helpful in testing your hypothesis?",
+    "text": "16.4 Discussion Nine: Understanding and Working with New Evidence\nA. What are the possible implications of this new piece of evidence? How might it change your understanding of the outbreak timeline or transmission dynamics?\nB. Based on all the information gathered so far, what is a plausible hypothesis about the origin or source of the novel virus?\nC. What genomic analyses would you propose to test your hypothesis? Consider what types of comparisons or visualizations would strengthen your conclusions.",
     "crumbs": [
       "Sequencing and Bioinformatics",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Uncovering the Source</span>"
@@ -690,23 +690,23 @@
   {
     "objectID": "part10/results.html",
     "href": "part10/results.html",
-    "title": "20  Results of Genomic Analysis",
+    "title": "21  Results of Genomic Analysis",
     "section": "",
-    "text": "20.1 Interpreting the Results\n“Let’s take some time to review the results. We should each try to come up with our own interpretations and then compare to see what seems to be best explained by the data.”\nThe phylogenetic tree revealed patterns in the genetic relationship between the sequences generated from each sample. Some sequences clustered more closely together whereas others showed greated divergence. Meanwhile, the SNP heatmap highlighted key genetic differences, with certain sequences appearing more similar while others displayed increasing variation over time. The team deliberated: what might these patterns suggest about how the virus spread and changed throughout the outbreak?",
+    "text": "21.1 Interpreting the Results\n“Let’s take some time to review the results. We should each try to come up with our own interpretations and then compare to see what seems to be best explained by the data.”\nThe phylogenetic tree revealed patterns in the genetic relationship between the sequences generated from each sample. Some sequences clustered more closely together whereas others showed greated divergence. Meanwhile, the SNP heatmap highlighted key genetic differences, with certain sequences appearing more similar while others displayed increasing variation over time. The team deliberated: what might these patterns suggest about how the virus spread and changed throughout the outbreak?",
     "crumbs": [
       "Genomic Epidemiology",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Results of Genomic Analysis</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Results of Genomic Analysis</span>"
     ]
   },
   {
     "objectID": "part10/results.html#discussion-twelve-interpreting-phylogenetic-trees",
     "href": "part10/results.html#discussion-twelve-interpreting-phylogenetic-trees",
-    "title": "20  Results of Genomic Analysis",
-    "section": "20.2 Discussion Twelve: Interpreting Phylogenetic Trees",
-    "text": "20.2 Discussion Twelve: Interpreting Phylogenetic Trees\nA. Looking at the phylogenetic tree, what inferences would you make regarding the placement of the samples on the tree?\nB. Is the phylogenetic tree in congruence with the exposure map?\nC. Looking at the heatmap, do you notice any clusters or patterns that match how the sequences are placed on the tree?\nD. What would you conclude from this analysis? Does this analysis support your hypothesis?",
+    "title": "21  Results of Genomic Analysis",
+    "section": "21.2 Discussion Twelve: Interpreting Phylogenetic Trees",
+    "text": "21.2 Discussion Twelve: Interpreting Phylogenetic Trees\nA. Based on the phylogenetic tree, what can you infer about the relationships between the samples? Are there any distinct clusters or outliers?\nB. Does the tree structure align with the exposure map? Are the spatial and genomic patterns consistent with one another, or do you notice any discrepancies?\nC. When comparing the heatmap (pairwise SNP distances) to the tree, do any clusters or distance patterns reinforce the phylogenetic relationships you observed?\nD. Taking all three data sources into account, what conclusions can you draw about transmission dynamics or potential sources? Does this analysis support or challenge your earlier hypothesis?",
     "crumbs": [
       "Genomic Epidemiology",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Results of Genomic Analysis</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Results of Genomic Analysis</span>"
     ]
   },
   {
@@ -740,6 +740,49 @@
     "crumbs": [
       "Genomic Epidemiology",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>Phylogenetic Tree Interpretation Cheat Sheet</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#lecture-resources",
+    "href": "intro.html#lecture-resources",
+    "title": "2  Welcome to the Mystery Outbreak Workshop!",
+    "section": "2.5 Lecture Resources",
+    "text": "2.5 Lecture Resources\nThis mystery outbreak story focuses on practical applications of viral genomics during an outbreak investigation. If you would like to learn more about the technical and theoretical foundations of viral genomics before digging into the story, feel free to check out these lectures:\nLecture I: Molecular Biology of Viral Genomics Introduce why molecule biology concepts are relevant to understanding viral genomics and review the processes of replication, transcription, and translation. Prerequisite for the Viral Genomics Fundamental Lectures Recording Slides\nLecture II: Viral Genomics Fundamentals I: Genome Overview Viral genome overview and assumptions underlying viral genomes; what do viral genomes look like, what are viral replication strategies, and what information is encoded in a viral genome? Recording Slides\nLecture III: Viral Genomics Fundamentals II: Genome Evolution Viral genome evolution: assumptions of viral genomes, reassortment, recombination, mutation, selection, and evolution Recording Slides\nLecture IV: Viral Genomics Fundamentals III: Genome Diversity Viral genome diversity: the diversity of viral genomes, sense of viral genomes, and the reproductive life cycle of a virus and how it can impact the genomic epidemiology, surveillance, and sequencing Recording Slides\n\nNote: these lectures assume the audience has a basic background in biology, and understands at the bare minimum, the structure and function of DNA.\n\nLet’s begin the investigation!\n       - Steph M. Lunn",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Welcome to the Mystery Outbreak Workshop!</span>"
+    ]
+  },
+  {
+    "objectID": "part5/index.html#discussion-six-interpretation-metagenomics-sequencing-results-and-visualizations",
+    "href": "part5/index.html#discussion-six-interpretation-metagenomics-sequencing-results-and-visualizations",
+    "title": "13  Who’s that pathogen?!",
+    "section": "",
+    "text": "How many dominant species can you identify, and what might their relative abundance suggest about the microbial community composition?\nWere any reads unassigned or classified as “unknown” because they did not match any organisms in the Internal Sequencing Database?\nIf so, what are some possible explanations for these unclassified sequences (e.g., novel organisms, incomplete reference data, contamination)?\nHow would you distinguish between a truly novel pathogen and background microbial noise in a complex sample like this?\nWhat additional analyses or data would help you validate your interpretation?\n\n\nMetagenomic data often contain a mix of informative signals and environmental noise. The challenge is not just identifying what’s present, but deciding what’s relevant.",
+    "crumbs": [
+      "Pathogen Identification",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Who’s that pathogen?!</span>"
+    ]
+  },
+  {
+    "objectID": "part6/index.html#discussion-seven-understanding-and-interpreting-an-annotated-genome",
+    "href": "part6/index.html#discussion-seven-understanding-and-interpreting-an-annotated-genome",
+    "title": "14  The Novel Pathogen",
+    "section": "",
+    "text": "What is the approximate length of the genome? How does this compare to other RNA viruses you may be familiar with?\nHow many structural proteins are annotated, and what functional roles do they appear to serve?\nHow many open reading frames (ORFs) can you identify, and what does their organization suggest about how this virus encodes and expresses its proteins?\nWhat types of non-structural proteins might be encoded within the ORFs? How could these contribute to viral replication, immune evasion, or host manipulation?\nIf you encountered additional unannotated regions, what steps would you take to predict their potential function?\n\n\nGenome annotation isn’t just about naming genes; it’s about uncovering how a virus works, evolves, and interacts with its host. Your interpretation can help shape downstream hypotheses about transmissibility, pathogenicity, or surveillance targets.",
+    "crumbs": [
+      "Pathogen Isolation",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>The Novel Pathogen</span>"
+    ]
+  },
+  {
+    "objectID": "part11/index.html#discussion-thirteen-constructing-a-genomic-surveillance-system",
+    "href": "part11/index.html#discussion-thirteen-constructing-a-genomic-surveillance-system",
+    "title": "23  Public Health Action",
+    "section": "",
+    "text": "How would you design the sampling strategy? Would you use the approach discussed in Discussion One, or modify it for broader surveillance goals? \nHow would you coordinate with clinical and public health laboratories to obtain timely, high-quality samples? \nWhat considerations would guide your decisions around sequencing frequency, geographic coverage, and sample prioritization? \nHow would you ensure that genomic data are linked to relevant metadata (e.g., exposure history, clinical severity, location)? \nWhat challenges might arise in implementing or sustaining this system, and how would you address them? \n\n\nEffective genomic surveillance isn’t just about sequencing—it’s about building systems that generate reliable, actionable data across space and time.",
+    "crumbs": [
+      "Public Health Implementation",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Public Health Action</span>"
     ]
   }
 ]

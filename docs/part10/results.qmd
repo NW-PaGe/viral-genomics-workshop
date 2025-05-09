@@ -76,16 +76,11 @@ The phylogenetic tree revealed patterns in the genetic relationship between the 
 
 ## Discussion Twelve: Interpreting Phylogenetic Trees
 
-A. Looking at the phylogenetic tree, what inferences would you make regarding the placement of the samples on the tree?
+A. Based on the phylogenetic tree, what can you infer about the relationships between the samples? Are there any distinct clusters or outliers?
 
+B. Does the tree structure align with the exposure map? Are the spatial and genomic patterns consistent with one another, or do you notice any discrepancies?
 
-B. Is the phylogenetic tree in congruence with the exposure map?
+C. When comparing the heatmap (pairwise SNP distances) to the tree, do any clusters or distance patterns reinforce the phylogenetic relationships you observed?
 
-
-
-C. Looking at the heatmap, do you notice any clusters or patterns that match how the sequences are placed on the tree?
-
-
-
-D. What would you conclude from this analysis? Does this analysis support your hypothesis?
+D. Taking all three data sources into account, what conclusions can you draw about transmission dynamics or potential sources? Does this analysis support or challenge your earlier hypothesis?
 
