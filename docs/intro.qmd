@@ -9,14 +9,14 @@ This module is designed for public health professionals, laboratorians, bioinfor
 
 ## Workshop Format
 
-You will explore a fictional scenario that unfolds like a detective story. As you progress, you will encounter:
+You will explore a fictional scenario that unfolds like a detective story. It is set in an *idealized world* -- one where the importance of genomics has already been recognized; and the infrastructure is in place. The tools are available, the workforce is trained, and the systems are ready; the only task that remains is to *respond*. 
 
-&nbsp;&nbsp;&nbsp; - Multiple choice questions to test your understanding of key concepts.
+This simplification is intentional; it allows us to focus on the logic, decision points, and workflows that shape effective outbreak response using next-generation sequencing technology and genomic surveillance. As you progress, you will encounter:
 
-&nbsp;&nbsp;&nbsp; - Discussion prompts designed to be open-ended, mirroring real-world ambiguity and complexity.
-
-&nbsp;&nbsp;&nbsp; - Opportunities for creative thinking — often, there is no single “right” answer in genomic epidemiology, only more or less appropriate approaches depending on circumstances.
-
+&nbsp;&nbsp;&nbsp; - Multiple choice questions to test your understanding of key concepts. <br>
+&nbsp;&nbsp;&nbsp; - Discussion prompts designed to be open-ended, mirroring real-world ambiguity and complexity. <br>
+&nbsp;&nbsp;&nbsp; - Opportunities for creative thinking — often, there is no single “right” answer in genomic epidemiology, only more or less appropriate approaches depending on circumstances. <br>
+<br>
 Points and feedback in this workshop emphasize thoughtful reasoning and creative problem-solving rather than strict accuracy. In practice, effective outbreak response is about adapting to uncertainty and making the best possible decisions with incomplete information.
 
 
@@ -24,15 +24,11 @@ Points and feedback in this workshop emphasize thoughtful reasoning and creative
 
 By the end of this workshop, participants will be able to:
 
- &nbsp;&nbsp;&nbsp; - **Interpret genomic data** to identify and characterize viral pathogens involved in an outbreak scenario.
-
- &nbsp;&nbsp;&nbsp; - **Apply bioinformatics concepts** to analyze sequencing data, including genome assembly and variant identification.
-
- &nbsp;&nbsp;&nbsp; - **Integrate epidemiological information** with genomic findings to trace transmission pathways and outbreak sources.
-
- &nbsp;&nbsp;&nbsp; - **Evaluate the effectiveness** of different public health interventions based on genomic and epidemiological evidence.
-
- &nbsp;&nbsp;&nbsp; - **Communicate findings** effectively to stakeholders, considering the uncertainties and limitations inherent in outbreak investigations.
+ &nbsp;&nbsp;&nbsp; - **Interpret genomic data** to identify and characterize viral pathogens involved in an outbreak scenario. <br>
+ &nbsp;&nbsp;&nbsp; - **Apply bioinformatics concepts** to analyze sequencing data, including genome assembly and variant identification. <br>
+ &nbsp;&nbsp;&nbsp; - **Integrate epidemiological information** with genomic findings to trace transmission pathways and outbreak sources. <br>
+ &nbsp;&nbsp;&nbsp; - **Evaluate the effectiveness** of different public health interventions based on genomic and epidemiological evidence. <br>
+ &nbsp;&nbsp;&nbsp; - **Communicate findings** effectively to stakeholders, considering the uncertainties and limitations inherent in outbreak investigations. <br>
 
 ##  How to Get the Most Out of This Workshop
 
@@ -44,19 +40,19 @@ This mystery outbreak story focuses on practical applications of viral genomics 
 
 **Lecture I: Molecular Biology of Viral Genomics**
 Introduce why molecule biology concepts are relevant to understanding viral genomics and review the processes of replication, transcription, and translation. Prerequisite for the Viral Genomics Fundamental Lectures
-[Recording](https://youtu.be/tnjMMmyWf5o)  	[Slides](https://docs.google.com/presentation/d/1gdGy4r0_g37ZNwcCmoHy_gNJ4-y17xev/edit?usp=sharing&ouid=114176181829055781199&rtpof=true&sd=true) 
+[Recording](https://youtu.be/tnjMMmyWf5o)  	    [Slides](https://docs.google.com/presentation/d/1gdGy4r0_g37ZNwcCmoHy_gNJ4-y17xev/edit?usp=sharing&ouid=114176181829055781199&rtpof=true&sd=true) 
 
 **Lecture II: Viral Genomics Fundamentals I: Genome Overview**
 Viral genome overview and assumptions underlying viral genomes; what do viral genomes look like, what are viral replication strategies, and what information is encoded in a viral genome?
-[Recording](https://youtu.be/9ICKkqFktVk)	[Slides](https://docs.google.com/presentation/d/11867KbNAAnDEfpYJIuXJJnIqVjRw_pCO2lRAzqlqEHw/edit?usp=sharing)
+[Recording](https://youtu.be/9ICKkqFktVk)	    [Slides](https://docs.google.com/presentation/d/11867KbNAAnDEfpYJIuXJJnIqVjRw_pCO2lRAzqlqEHw/edit?usp=sharing)
 
 **Lecture III: Viral Genomics Fundamentals II: Genome Evolution**
 Viral genome evolution: assumptions of viral genomes, reassortment, recombination, mutation, selection, and evolution
-[Recording](https://youtu.be/AEAs9h3-atk)	[Slides](https://docs.google.com/presentation/d/1ltMLPx_JEohNRGuXEBsefILhT0PeKRj4rUWzn9BXepw/edit?usp=sharing)
+[Recording](https://youtu.be/AEAs9h3-atk)	    [Slides](https://docs.google.com/presentation/d/1ltMLPx_JEohNRGuXEBsefILhT0PeKRj4rUWzn9BXepw/edit?usp=sharing)
 
 **Lecture IV: Viral Genomics Fundamentals III: Genome Diversity**
 Viral genome diversity: the diversity of viral genomes, sense of viral genomes, and the reproductive life cycle of a virus and how it can impact the genomic epidemiology, surveillance, and sequencing
-[Recording](https://youtu.be/aroqE72N7y0)	[Slides](https://docs.google.com/presentation/d/1ispklNxq2-ugJZkQJwdDAC9c322tQP53YVK-8v4FuQM/edit?usp=sharing) 		
+[Recording](https://youtu.be/aroqE72N7y0)	    [Slides](https://docs.google.com/presentation/d/1ispklNxq2-ugJZkQJwdDAC9c322tQP53YVK-8v4FuQM/edit?usp=sharing) 		
 
 
 * *Note: these lectures assume the audience has a basic background in biology, and understands at the bare minimum, the structure and function of DNA.*
