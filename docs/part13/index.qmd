@@ -20,3 +20,7 @@ This story is meant to help build capacity in Pathogen Genomics, whether you are
 
 
 *This story was inspired by Pokemon, but not affiliated with or sponsored by Pokemon, GameFreaks, or Nintendo.*
+
+> **A Note on Realism**
+>
+> While the scenario itself is fictional, the investigative steps, analytic logic, and genomic results are grounded in reality. Each decision point, from sample prioritization to sequencing method selection, mirrors what practitioners face during actual outbreak investigations. The phylogenetic trees, SNP matrices, and mutation patterns are not arbitrary; instead, they reflect how real-world data might behave under similar circumstances. In that sense, this is more than a story; it’s an example of guided simulation of what genomic epidemiology can look like when applied with clarity, coordination, and purpose.
