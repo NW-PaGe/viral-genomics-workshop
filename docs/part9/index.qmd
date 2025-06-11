@@ -20,7 +20,7 @@ The team gathered around their screens as the alignment results came in. This wa
 
 ## What is Sequencing Alignment and Why Does it Matter?
 **Example illustrating a sequence alignment**
-*Mutations are called against the reference sequence. For example sequence A has no mutations when compared to the reference, however sequence B has one mutation at base position 16 that changes a thymine to a cytosine.*
+*Mutations are called against the reference sequence. For example sequence A has two mutations when compared to the reference, a cytosine instead of a thymine at site positions 21 and 22. Additionally, SeqB is identical to SeqA.
 
 ![Example illustrating a sequence alignment](../images/example_sequences_alignment.jpeg)
 
@@ -44,15 +44,13 @@ The team examined the alignment more thoroughly. They looked to see if the earli
 
 That question led them back to the multiple sequence alignment (MSA), where they could visually inspect how each genome differed. The team noticed another critical detail: it appeared that there were some mutations concentrated in a specific region. What protein that gene region could code for could have implications for viral infectivity. Additionally, they noticed that some sequences shared a very high degree of similarity with the muubat samples. 
 
-"Are you all seeing this?" One of the Molecular Epidemiologists asked, pointing to the mutations and the similar sequences. "It's possible to infer a single spillover event followed by onward transmission in humans," one of the Zoonotic Epidemiologists noted.
-
 "We should generate a pairwise distance matrix and a phylogenetic tree to see if this confirms what we are seeing in the alignment."
 
 ## Ensuring the Data is Ready for Phylogenetics
 
 Before moving forward with phylogenetic analysis, the team conducted a quality control check on the alignment. Any low-quality sequences, ambiguous regions, or problematic reads had to be identified and removed. "It's good that we are doing QC on the sequences and removing the poor quality and incomplete genomes" one of the Bioinformatician mentioned. "If the alignment isn't clean, the entire phylogenetic tree could be misleading".
 
-As they carefully reviewed the alignment, they specifically looked for high levels of ambiguity, specifically the amount of ambiguous or "N" bases, which could suggest potential sequencing errors. Sequences with high amounts of ambiguity, generally if greater than 10% of the whole genome, could require the samples to be re-examined and re-sequenced before being included in downstream analyses.
+As they carefully reviewed the alignment, they specifically looked for high levels of ambiguity, specifically the amount of ambiguous or "N" bases, which reflects missing data. Sequences with high amounts of ambiguity, generally if greater than 10% of the whole genome, could require the samples to be re-examined and re-sequenced before being included in downstream analyses.
 
 ---
 

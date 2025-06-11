@@ -57,12 +57,13 @@ The Regional Health Lab was equipped to perform a range of sequencing strategies
 
 - **Long-read (Oxford Nanopore/PacBio)**  
   - <u>How it works</u>: DNA threads through nanopores or polymerase enzymes, detecting electrical signals (Nanopore) or fluorescent pulses (PacBio) for continuous reads up to 1Mbp.  
-  - <u>Outbreak use</u>: Captures recombination events in novel viruses (critical for muubat spillover investigation).  
+  - <u>Outbreak use</u>: While possible in short-read sequencing, in long-read sequencing it is easier to capture recombination events in novel viruses (critical for muubat spillover investigation).  
   - <u>Trade-off</u>: Higher error rate (~5-15% vs Illumina's 0.1%).  
 
 - **Shotgun Metagenomics**  
   - <u>How it works</u>: Sequences ALL DNA/RNA in a sample (host, pathogen, microbes), then computationally filters to find viral fragments.  
   - <u>Outbreak use</u>: When PCR fails (unknown pathogen) or culture isn't possible.
+  - <u>Trade-off</u>:  Often will not get full length genome sequences; therefore the data are great for pathogen detection, but may not be readily useable for investigating relationships between cases
   - <u>Pro tip</u>: Viral enrichment (e.g., rRNA depletion) boosts pathogen signal 1000x.  
 </div>
 

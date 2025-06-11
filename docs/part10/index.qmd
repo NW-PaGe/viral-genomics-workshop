@@ -115,7 +115,7 @@ An idea struck the LHJ Epidemiologist as they thought out loud, "so we want a tr
 <strong>FOR LAB AND EPI GURUS:</strong>  
 <em>Why we trust character-based trees for outbreaks:</em>  
 
-1. **Models Homoplasy Better**  
+1. **Accounts for Back Mutations**  
    - Accounts for reversions (T→C→T) that distance matrices miss  
 
 2. **Handles Missing Data**  
