@@ -9,9 +9,11 @@ This module is designed for public health professionals, laboratorians, bioinfor
 
 ## Workshop Format
 
-You will explore a fictional scenario that unfolds like a detective story. It is set in an *idealized world* -- one where the importance of genomics has already been recognized; and the infrastructure is in place. The tools are available, the workforce is trained, and the systems are ready; the only task that remains is to *respond*. 
+You will explore a fictional scenario that unfolds like a detective story. It is set in an *idealized world* -- a world where the value of genomics has already been realized, and the infrastructure is firmly in place. The toolsexists, the workforce is trained, and the systems function as intended. The only task left is to  *respond*. 
 
-This simplification is intentional; it allows us to focus on the logic, decision points, and workflows that shape effective outbreak response using next-generation sequencing technology and genomic surveillance. As you progress, you will encounter:
+The deliberate design choice allows us to focus on *how* to investigate outbreaks using sequencing and genomics, not whether we can. In this setting, we bypass the real-world limitations of funding, staffing, politics, and bureaucracy so that we can map out the **ideal progress** from sample collection to genomic analysis to public health response. This clarity is essential for understanding the logic, reasoning, and decisions that underpin effectie outbreak response.
+
+As you progress, you will encounter:
 
 &nbsp;&nbsp;&nbsp; - Multiple choice questions to test your understanding of key concepts. <br>
 &nbsp;&nbsp;&nbsp; - Discussion prompts designed to be open-ended, mirroring real-world ambiguity and complexity. <br>

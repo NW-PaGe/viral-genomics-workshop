@@ -71,9 +71,6 @@ Review the annotated genome provided above. Based on the figure and accompanying
 
 - What is the approximate length of the genome? How does this compare to other RNA viruses you may be familiar with?
 - How many structural proteins are annotated, and what functional roles do they appear to serve?
-- How many open reading frames (ORFs) can you identify, and what does their organization suggest about how this virus encodes and expresses its proteins?
-- What types of non-structural proteins might be encoded within the ORFs? How could these contribute to viral replication, immune evasion, or host manipulation?
-- If you encountered additional unannotated regions, what steps would you take to predict their potential function?
 
 > Genome annotation isn’t just about naming genes; it’s about uncovering how a virus works, evolves, and interacts with its host. Your interpretation can help shape downstream hypotheses about transmissibility, pathogenicity, or surveillance targets.
 
