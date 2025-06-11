@@ -20,7 +20,7 @@ Amid the discussion, someone asked, “isn’t it protocol when testing new anim
 
 With the whole team in agreement, the lab pushed forth on running a PCR test on the initial swab samples taken from the muubats. The PCR results came back positive for the S and N genes. The samples proceeded to RNA extraction and preparation for sequencing, and the samples were sequenced.
 
-After a week, the results finally came back indicating that the novel virus was identified in the muubat samples taken from December of the previous year. The discovery raised new questions. If the virus was present in the muubats months earlier, why was it not detected or causing illness at the time? What may have changed between the original exposure and the emergence of symptomatic cases in humans and animals? The Genomics Specialists Team met once again to deliberate. 
+After a week, the results finally came back indicating that the novel virus was identified in the muubat samples taken from December of the previous year. The discovery raised new questions. If the virus was present in the muubats months earlier, why was it not detected or causing illness at the time? What may have changed between the original exposure and the emergence of symptomatic cases in humans and animals? The multidisciplinary team met once again to deliberate. 
 
 
 ![Timeline of Outbreak Events](../images/timeline_host_identified.JPEG)

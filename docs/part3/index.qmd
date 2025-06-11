@@ -12,7 +12,7 @@
 </div>
 
 
-**A team of Genomic Specialists were assigned to investigate the mystery flu-like outbreak in Fuchsia City/Safari Zone:**
+**A Multidisciplinary team of Genomic Specialists and Disease Inestigators were assigned to investigate the mystery flu-like outbreak in Fuchsia City/Safari Zone:**
 
 ![Timeline of Outbreak Events](../images/timeline_genomic_specialists.JPEG)
 
@@ -26,6 +26,8 @@ In response, a multidisciplinary team of Genomic Specialists was assigned to the
 &nbsp;&nbsp;&nbsp; - **Bioinformaticians**, who process and analyze the raw sequencing data. They use computational pipelines to assemble genomes, identify mutations, classify organisms, and generate outputs that can be interpreted by downstream analysts.
 
 &nbsp;&nbsp;&nbsp; - **Molecular Epidemiologists**, who interpret those outputs in a public health context. They perform sequence alignments, construct pairwise distance matrices to compare how genetically similar cases are, and build phylogenetic trees to visualize relationships between cases over time and space.
+
+The multidisciplinary team included expert Disease Investigators as well:
 
 &nbsp;&nbsp;&nbsp; - **Zoonotic Epidemiologists** and **Local Health Jurisdiction Epidemiologists**, who provide field-level insights and help link genetic data from humans to animals observed in the Safari Zone.
 
